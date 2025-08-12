@@ -1,0 +1,97 @@
+{
+  "inicial": {
+    "pagina": "PORTFÓLIO",
+    "titulo": "Olá, me chamo Caio Fochetto.",
+    "subtitulo": "Sou um profissional de comunicação, com foco em conteúdo digital e marketing de influência.",
+    "links": [
+      { "id": "carreira", "label": "CARREIRA" },
+      { "id": "cases", "label": "CASES" },
+      { "id": "socials", "label": "SOCIALS" }
+    ]
+  },
+  "carreira": {
+    "pagina": "CARREIRA",
+    "experiencias": [
+      {
+        "empresa": "OCTAGON",
+        "cargo": "Diretor de Conteúdo Digital, Marketing de Influência e Talentos",
+        "periodo": "Abr 2023 - Atual",
+        "total": "2 anos e 5 meses",
+        "atividades": "Responsável pelas marcas Betfair, Ambev e mais",
+        "competencias": "Creator Economy * Gestão de Projetos * Brand Experience * Digital Media * Brand Marketing * Influencer Marketing * Content Marketing"
+      },
+      {
+        "empresa": "JELLYSMACK",
+        "cargo": "Líder de Operações LATAM",
+        "periodo": "Nov 2021 - Abr 2023",
+        "total": "1 ano e 6 meses",
+        "atividades": "Lider de Operações da empresa na América Latina.",
+        "competencias": "Creator Economy * Liderança * Brand Marketing * Estratégia Digital * Estratégia de Conteúdo * Social Media Marketing"
+      },
+      {
+        "empresa": "PLAYGROUND",
+        "cargo": "Content and Product Manager",
+        "periodo": "Jan 2020 - Nov 2021",
+        "total": "1 ano e 11 meses",
+        "atividades": "Gerenciamento de conteúdo e projetos editoriais e de marca. Planejamento de conteúdo, estratégias de comunicação e liderança de equipes.",
+        "competencias": "Creator Economy * Liderança * Gestão de Projetos * Estratégia Digital * Social Media Marketing * Brand Marketing"
+      },
+      {
+        "empresa": "A+E NETWORKS",
+        "cargo": "Digital Platforms Manager",
+        "periodo": "Fev 2012 - Out 2019",
+        "total": "7 anos e 9 meses",
+        "atividades": "Programação de conteúdo para plataformas On Demand, desenvolvimento de novos negócios, Branded Content e estratégia de conteúdo.",
+        "competencias": "Creator Economy * Liderança * Gestão de Projetos * Estratégia Digital * Social Media Marketing * Brand Marketing."
+      },
+      {
+        "empresa": "PORTAL R7",
+        "cargo": "Digital Content Producer",
+        "periodo": "Set 2010 - Fev 2012",
+        "total": "1 ano e 6 meses",
+        "atividades": "Produtor de conteúdo online para blogs, sites do portal e programas da Rede Record (A Fazenda, O Aprendiz, O Melhor do Brasil, Ídolos, etc).",
+        "competencias": "Gestão de Projetos * Estratégia Digital * Social Media Marketing * Mobile Content * Blogging * Análise de Dados"
+      },
+      {
+        "empresa": "TV CULTURA",
+        "cargo": "Digital Content Producer",
+        "periodo": "Aug 2009 - Set 2010",
+        "total": "1 ano e 2 meses",
+        "atividades": "Geração de Conteúdo para programas de TV em ambiente digital, como Programa Novo e Login. Gerenciamento de Perfis e conteúdo em redes sociais.",
+        "competencias": "Gestão de Projetos * Estratégia Digital * Content Strategy * Social Media Marketing * Mobile Content * Video Production"
+      },
+      {
+        "empresa": "RÁDIO BOA NOVA",
+        "cargo": "Web Content Producer",
+        "periodo": "Jul 2009 - Ago 2010",
+        "total": "1 ano e 2 meses",
+        "atividades": "Produção para a internet, gerenciamento e desenvolvimento de rede de blogs.",
+        "competencias": "Gestão de Projetos * Liderança * Estratégia Digital * Content Strategy * Gerenciamento de Comunidades * Mobile Content"
+      },
+      {
+        "empresa": "TV MUNDO MAIOR",
+        "cargo": "TV Producer Coordinator",
+        "periodo": "Nov 2005 - Nov 2008",
+        "total": "3 anos e 1 mes",
+        "atividades": "Coordenação e reformulação de projetos, organização de equipe e gestão de agendas de gravação.",
+        "competencias": "Gestão de Projetos * Liderança * Estratégia Digital * Content Strategy * Social Media Marketing * Mobile Content"
+      },
+      {
+        "empresa": "RÁDIO BOA NOVA",
+        "cargo": "Executive Producer",
+        "periodo": "Jun 2002 - Nov 2005",
+        "total": "3 anos e 6 meses",
+        "atividades": "Produção de conteúdo hard news para rádio e plataformas online.",
+        "competencias": "Gestão de Projetos * Liderança * Estratégia Digital * Social Media Marketing * Digital Media * Streaming * Mobile Content"
+      }
+    ]
+  },
+  "cases": {
+    "pagina": "CASES"
+  },
+  "socials": {
+    "pagina": "SOCIALS",
+    "linkedin": "LINKEDIN",
+    "youtube": "YOUTUBE"
+  }
+}

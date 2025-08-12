@@ -1,0 +1,10 @@
+:root {
+    --background: #e9e3df;
+    --black: #000000;
+    --white: #ffffff;
+    --pink: #e30169;
+
+    --color-svg-20: rgba(70, 92, 136, 0.2);
+    --color-svg-30: rgba(70, 92, 136, 0.3);
+    --color-svg-40: rgba(70, 92, 136, 0.4);
+}
