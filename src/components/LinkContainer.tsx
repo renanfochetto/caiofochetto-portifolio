@@ -14,7 +14,7 @@ const links = [
   },
   {
     name: 'linkedin',
-    icon: 'src/assets/icons/linkedin.svg',
+    icon: '/linkedin.svg',
     href: 'https://www.linkedin.com/in/caiofochetto/'
   }
 ]
