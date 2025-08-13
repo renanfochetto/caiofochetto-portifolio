@@ -5,12 +5,3 @@
 @import './config/fonts.css';
 @import './config/media.css';
 
-body {
-    max-width: 1440px;
-    width: 100%;
-    margin: 0 auto;
-    font-family: var(--font-sans), sans-serif;
-    font-weight: var(--font-weight-bold);
-    background-color: var(--background);
-    color: var(--black);
-}

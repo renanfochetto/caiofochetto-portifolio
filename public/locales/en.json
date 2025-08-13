@@ -1,8 +1,14 @@
 {
   "inicial": {
     "pagina": "PORTFOLIO",
-    "titulo": "Hi, my name is Caio Fochetto.",
-    "subtitulo": "I'm a communication professional focused on digital content and influencer marketing.",
+    "titulo": [
+      "Hi,",
+      "My name is Caio Fochetto."
+    ],
+    "subtitulo": [
+      "I'm a communication professional focused on digital content",
+      "and influencer marketing."
+    ],
     "links": [
       { "id": "carreira", "label": "CAREER" },
       { "id": "cases", "label": "CASES" },

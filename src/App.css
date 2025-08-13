@@ -1,0 +1,14 @@
+    body {
+        max-width: 1800px;
+        width: 100%;
+        height: 100vh;
+        margin: 0 auto;
+        font-family: var(--font-sans), sans-serif;
+        font-weight: var(--font-weight-bold);
+        background-color: var(--background);
+        color: var(--black);
+        background-image: url('../src/assets/svgs/background.svg');
+        background-repeat: no-repeat;
+        background-size: auto;
+        background-position: top left;
+    }

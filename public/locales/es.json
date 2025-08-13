@@ -1,8 +1,14 @@
 {
   "inicial": {
     "pagina": "PORTAFOLIO",
-    "titulo": "Hola, me llamo Caio Fochetto.",
-    "subtitulo": "Soy un profesional de la comunicación enfocado en contenido digital y marketing de influencia.",
+    "titulo": [
+      "Hola,",
+      "me llamo Caio Fochetto."
+    ],
+    "subtitulo": [
+      "Soy un profesional de la comunicación, con enfoque en contenido",
+      "digital y marketing de influencia."
+    ],
     "links": [
       { "id": "carreira", "label": "CARRERA" },
       { "id": "cases", "label": "CASES" },

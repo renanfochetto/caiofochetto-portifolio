@@ -1,0 +1,11 @@
+.linkContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 1.5rem;
+    margin-inline: 1.5rem;
+}
+
+.linkContainer a:hover {
+    outline: 2px solid var(--black);
+    outline-offset: 0.4rem;
+}
