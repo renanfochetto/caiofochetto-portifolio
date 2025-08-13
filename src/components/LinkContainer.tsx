@@ -4,17 +4,17 @@ import styles from './LinkContainer.module.css';
 const links = [
   {
     name: 'youtube',
-    icon: 'src/assets/icons/youtube.svg',
+    icon: '/icons/youtube.svg',
     href: 'https://www.youtube.com/@caiofochetto/playlists'
   },
   {
     name: 'email',
-    icon: 'src/assets/icons/email3.svg',
+    icon: '/icons/email.svg',
     href: 'mailto:caiofochetto@gmail.com'
   },
   {
     name: 'linkedin',
-    icon: '/linkedin.svg',
+    icon: '/icons/linkedin.svg',
     href: 'https://www.linkedin.com/in/caiofochetto/'
   }
 ]

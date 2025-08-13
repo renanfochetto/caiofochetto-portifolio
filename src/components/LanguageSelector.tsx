@@ -24,7 +24,7 @@ const LanguageSelector = () => {
       <div className={styles.selected} onClick={toggleDropdown}>
         {languages.find((l) => l.code === language)?.label}
         <img
-          src={isOpen ? 'src/assets/icons/closeicon.svg' : 'src/assets/icons/openicon.svg'}
+          src={isOpen ? '/icons/closeicon.svg' : '/icons/openicon.svg'}
           alt="Toggle menu"
         />
       </div>
