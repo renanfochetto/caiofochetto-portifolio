@@ -20,7 +20,7 @@
 }
 
 .intro {
-    padding: 2rem 12.5rem 0;
+    padding: 3rem 15rem 0;
     font-family: var(--font-mono), monospace;
     border-radius: var(--border-radius-large);
     text-align: left;
@@ -54,7 +54,7 @@
     display: grid;
     grid-template-columns: 1fr auto 12.5rem;
     width: 100%;
-    margin-top: 5rem;
+    margin-top: 6rem;
 }
 
 .lineBig, .lineSmall {

@@ -55,6 +55,7 @@
 }
 
 .timelineYear {
+    font-size: var(--font-size-sm);
     position: relative;
     text-align: center;
     text-shadow: var(--shadow-regular);

@@ -2,6 +2,7 @@
     perspective: 2000px;
     border-radius: var(--border-radius-medium);
     z-index: 100;
+    cursor: pointer;
 }
 
 .badgeInner {
