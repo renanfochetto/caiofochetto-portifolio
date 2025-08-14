@@ -1,6 +1,10 @@
 import Link from "../Link/Link.tsx";
 import styles from './LinkContainer.module.css';
 
+type LinkContainerProps = {
+  className?: string;
+}
+
 const links = [
   {
     name: 'youtube',
@@ -19,9 +23,9 @@ const links = [
   }
 ]
 
-const LinkContainer = () => {
+const LinkContainer = ( { className }: LinkContainerProps ) => {
   return (
-    <div className={styles.linkContainer}>
+    <div className={`${styles.linkContainer} ${className || ''}`}>
       {
         links.map(link => (
           <Link
