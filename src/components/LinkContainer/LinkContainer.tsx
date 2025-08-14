@@ -1,4 +1,4 @@
-import Link from "./Link.tsx";
+import Link from "../Link/Link.tsx";
 import styles from './LinkContainer.module.css';
 
 const links = [

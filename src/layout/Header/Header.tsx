@@ -1,6 +1,6 @@
 import styles from './Header.module.css';
-import LanguageSelector from '../components/LanguageSelector';
-import { useLocalizedContent } from '../hooks/useLocalizedContent';
+import LanguageSelector from '../../components/LanguageSelector/LanguageSelector.tsx';
+import { useLocalizedContent } from '../../hooks/useLocalizedContent.ts';
 
 const Header = () => {
   const content = useLocalizedContent();

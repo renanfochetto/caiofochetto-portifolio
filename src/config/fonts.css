@@ -95,6 +95,7 @@
     --font-sans: 'IBM Plex Sans', sans-serif;
     --font-mono: 'IBM Plex Mono', monospace;
 
+    --font-size-xxs: 0.80rem;
     --font-size-base: 1rem;
     --font-size-xs: 1.25rem;
     --font-size-sm: 1.5rem;

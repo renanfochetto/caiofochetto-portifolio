@@ -17,9 +17,18 @@
   },
   "carreira": {
     "pagina": "CARREIRA",
+    "badge": {
+      "periodo": "Período",
+      "total": "Total",
+      "atividades": "Atividades",
+      "competencias": "Competências"
+    },
     "experiencias": [
       {
         "empresa": "OCTAGON",
+        "logo": "/logos/octagon.avif",
+        "corFundo": "#f07003",
+        "corTexto": "#ffffff",
         "cargo": "Diretor de Conteúdo Digital, Marketing de Influência e Talentos",
         "periodo": "Abr 2023 - Atual",
         "total": "2 anos e 5 meses",
@@ -28,6 +37,9 @@
       },
       {
         "empresa": "JELLYSMACK",
+        "logo": "/logos/jellysmack.avif",
+        "corFundo": "#01adde",
+        "corTexto": "#ffffff",
         "cargo": "Líder de Operações LATAM",
         "periodo": "Nov 2021 - Abr 2023",
         "total": "1 ano e 6 meses",
@@ -36,14 +48,20 @@
       },
       {
         "empresa": "PLAYGROUND",
+        "logo": "/logos/playground.avif",
+        "corFundo": "#000000",
+        "corTexto": "#ffffff",
         "cargo": "Content and Product Manager",
         "periodo": "Jan 2020 - Nov 2021",
         "total": "1 ano e 11 meses",
-        "atividades": "Gerenciamento de conteúdo e projetos editoriais e de marca. Planejamento de conteúdo, estratégias de comunicação e liderança de equipes.",
+        "atividades": "Gerenciamento de conteúdo e projetos editoriais. Planejamento de conteúdo, estratégias de comunicação e liderança de equipes.",
         "competencias": "Creator Economy * Liderança * Gestão de Projetos * Estratégia Digital * Social Media Marketing * Brand Marketing"
       },
       {
         "empresa": "A+E NETWORKS",
+        "logo": "/logos/aenetworks.avif",
+        "corFundo": "#ffffff",
+        "corTexto": "#000000",
         "cargo": "Digital Platforms Manager",
         "periodo": "Fev 2012 - Out 2019",
         "total": "7 anos e 9 meses",
@@ -52,6 +70,9 @@
       },
       {
         "empresa": "PORTAL R7",
+        "logo": "/logos/portalr7.avif",
+        "corFundo": "#0071bd",
+        "corTexto": "#ffffff",
         "cargo": "Digital Content Producer",
         "periodo": "Set 2010 - Fev 2012",
         "total": "1 ano e 6 meses",
@@ -60,6 +81,9 @@
       },
       {
         "empresa": "TV CULTURA",
+        "logo": "/logos/tvcultura.avif",
+        "corFundo": "#ff8500",
+        "corTexto": "#ffffff",
         "cargo": "Digital Content Producer",
         "periodo": "Aug 2009 - Set 2010",
         "total": "1 ano e 2 meses",
@@ -68,6 +92,9 @@
       },
       {
         "empresa": "RÁDIO BOA NOVA",
+        "logo": "/logos/radioboanova.avif",
+        "corFundo": "#0aa3c6",
+        "corTexto": "#ffffff",
         "cargo": "Web Content Producer",
         "periodo": "Jul 2009 - Ago 2010",
         "total": "1 ano e 2 meses",
@@ -76,6 +103,9 @@
       },
       {
         "empresa": "TV MUNDO MAIOR",
+        "logo": "/logos/tvmundomaior.avif",
+        "corFundo": "#ffffff",
+        "corTexto": "#000000",
         "cargo": "TV Producer Coordinator",
         "periodo": "Nov 2005 - Nov 2008",
         "total": "3 anos e 1 mes",
@@ -84,6 +114,9 @@
       },
       {
         "empresa": "RÁDIO BOA NOVA",
+        "logo": "/logos/radioboanova.avif",
+        "corFundo": "#0aa3c6",
+        "corTexto": "#ffffff",
         "cargo": "Executive Producer",
         "periodo": "Jun 2002 - Nov 2005",
         "total": "3 anos e 6 meses",

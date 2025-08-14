@@ -1,11 +1,16 @@
 header {
-    position: sticky;
+    position: fixed;
+    top: 0;
+    left: 0;
     width: 100%;
     display: grid;
-    max-height: 12.5rem;
     gap: 1rem;
+    background-image: url('/svgs/bannerheader.svg');
+    background-position: calc(0% - 6rem) top;
+    background-repeat: no-repeat;
+    background-size: cover;
     grid-template-columns: 1fr 1fr 1fr;
-    padding: 1.5rem 12.5rem;
+    padding: 1.5rem 12.5rem 0;
     z-index: 100;
     text-shadow: var(--shadow-regular);
 }

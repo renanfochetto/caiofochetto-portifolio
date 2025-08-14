@@ -1,0 +1,73 @@
+.container {
+    display: flex;
+    height: auto;
+    min-height: 100vh;
+    padding-top: 10rem;
+    background-image: url('/svgs/background.svg');
+    background-size: auto;
+    background-position: top left;
+    background-repeat: no-repeat;
+    transform: translateX(0);
+    will-change: transform;
+    z-index: 2;
+}
+
+.titleSection {
+    position: absolute;
+    transform: rotate(-90deg);
+    top: 32%;
+    left: 2%;
+    font-size: var(--font-size-sm);
+    text-shadow: var(--shadow-regular);
+    width: 10rem;
+}
+
+.scrollWrapper {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1;
+}
+
+.badgeGrid {
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    grid-column-gap: 10rem;
+    padding: 2rem 20rem;
+}
+
+.timeline {
+    grid-column: 1 / -1;
+    display: grid;
+    grid-template-columns: inherit;
+    position: relative;
+    margin-block: 1.5rem 0;
+}
+
+.timeline::before {
+    content: "";
+    position: absolute;
+    top: 0;        /* topo do wrapper */
+    left: 0;
+    right: 0;
+    height: 2px;
+    background: var(--black);
+}
+
+.timelineYear {
+    position: relative;
+    text-align: center;
+    text-shadow: var(--shadow-regular);
+}
+
+.timelineYear::before {
+    content: "";
+    position: absolute;
+    top: -6rem;                /* deve bater com o padding-top do wrapper */
+    left: 50%;
+    transform: translateX(-50%);
+    width: 2px;
+    height: 6rem;
+    z-index: 1;/* idem: mesmo valor do padding-top */
+    background: var(--black);
+}

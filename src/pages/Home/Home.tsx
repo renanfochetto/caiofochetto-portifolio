@@ -1,6 +1,6 @@
 import styles from './Home.module.css'
-import LinkContainer from "../components/LinkContainer.tsx";
-import {useLocalizedContent} from "../hooks/useLocalizedContent.ts";
+import LinkContainer from "../../components/LinkContainer/LinkContainer.tsx";
+import {useLocalizedContent} from "../../hooks/useLocalizedContent.ts";
 
 const Home = () => {
   const content = useLocalizedContent();
@@ -10,7 +10,7 @@ const Home = () => {
   const {pagina, titulo, subtitulo} = content.inicial;
 
   return (
-    <div className={styles.container}>
+    <section className={styles.container}>
       <div className={styles.titleSection}>
         <h3>{pagina}</h3>
       </div>
@@ -33,7 +33,7 @@ const Home = () => {
         </div>
         <div className={styles.lineSmall}></div>
       </div>
-    </div>
+    </section>
   )
 };
 

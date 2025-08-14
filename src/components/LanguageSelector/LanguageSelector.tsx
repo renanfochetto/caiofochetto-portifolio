@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { useLanguage } from '../context/useLanguage.ts';
+import { useLanguage } from '../../context/useLanguage.ts';
 import styles from './LanguageSelector.module.css';
 
 type Language = {
