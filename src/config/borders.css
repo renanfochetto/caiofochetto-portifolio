@@ -1,6 +1,7 @@
 :root {
     /*Borders*/
     --border-base: 1px solid var(--black);
+    --border-regular: 2px solid var(--black);
 
     /*Border Radius*/
     --border-radius-base: 0.5rem;
