@@ -9,6 +9,6 @@
     --border-radius-large: 2rem;
 
     /*Box-Shadow*/
-    --shadow-base: 4px 4px 6px rgba(0, 0, 0, 0.25);
-    --shadow-regular: 8px 8px 12px rgba(0, 0, 0, 0.25);
+    --shadow-base: 4px 4px 6px rgba(0, 0, 0, 0.3);
+    --shadow-regular: 8px 8px 12px rgba(0, 0, 0, 0.3);
 }
