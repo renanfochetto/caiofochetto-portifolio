@@ -85,8 +85,6 @@ const CaseGrid = () => {
         key={cases.id}
         alt={`Imagem do Case ${cases.nome}`}
         projeto={cases.nome}
-        empresa={cases.empresa}
-        ano={cases.ano}
         tags={cases.tags}
       />
       ))}
