@@ -26,7 +26,7 @@ const Socials = () => {
   const {pagina} = content.socials;
 
   return (
-    <section className={styles.container}>
+    <section id="socials" className={styles.container}>
       <div className={styles.titleSection}>
         <h3>{pagina}</h3>
       </div>

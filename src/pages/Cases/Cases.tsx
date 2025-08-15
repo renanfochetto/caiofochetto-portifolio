@@ -10,7 +10,7 @@ const Cases = () => {
   const {pagina} = content.cases;
 
   return (
-      <section className={styles.container}>
+      <section id="cases" className={styles.container}>
         <div className={styles.titleSection}>
           <h3>{pagina}</h3>
         </div>
