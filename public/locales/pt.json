@@ -11,9 +11,9 @@
       "digital e marketing de influência."
     ],
     "links": [
-      { "id": "carreira", "label": "CARREIRA" },
-      { "id": "cases", "label": "CASES" },
-      { "id": "socials", "label": "SOCIALS" }
+      { "id": "carreira", "label": "CARREIRA #" },
+      { "id": "cases", "label": "CASES #" },
+      { "id": "socials", "label": "SOCIALS #" }
     ]
   },
   "carreira": {

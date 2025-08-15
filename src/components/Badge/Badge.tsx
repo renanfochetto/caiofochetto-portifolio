@@ -1,4 +1,5 @@
 import styles from './Badge.module.css';
+import { useState } from 'react';
 
 interface Experiencia {
   empresa: string;
@@ -20,9 +21,15 @@ interface BadgeLabels {
 }
 
 const Badge = ({experiencia, labels}: { experiencia: Experiencia, labels: BadgeLabels }) => {
+  const [flipped, setFlipped] = useState(false);
+
+  const handleToggle = () => {
+    setFlipped(prev => !prev);
+  }
+
   return (
-    <div className={styles.badge}>
-      <div className={styles.badgeInner} style={{ backgroundColor: experiencia.corFundo, color: experiencia.corTexto, border: `2px solid ${experiencia.corTexto}` }}>
+    <div className={styles.badge} onClick={handleToggle}>
+      <div className={`${styles.badgeInner} ${flipped ? styles.flipped : ''}`} style={{ backgroundColor: experiencia.corFundo, color: experiencia.corTexto, border: `2px solid ${experiencia.corTexto}` }}>
         <div className={styles.badgeHole} style={{ border: `2px solid ${experiencia.corTexto}`}}></div>
         <div className={styles.badgeFront}>
           <img src={experiencia.logo} alt={experiencia.empresa} style={{ border: `2px solid ${experiencia.corTexto}`}}/>

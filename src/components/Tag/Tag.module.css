@@ -1,0 +1,19 @@
+.tag {
+    border-radius: var(--border-radius-base);
+    padding: 0.1rem 0.3rem;
+    font-size: var(--font-size-xxs);
+    color: var(--black);
+    font-weight: var(--font-weight-semibold);
+    font-family: var(--font-mono), monospace;
+    display: block;
+    width: auto;
+    border: 2px solid transparent;
+    white-space: nowrap;
+    max-width: max-content;
+}
+
+.tag:hover {
+    cursor: pointer;
+    border: 2px solid var(--black);
+    transition: transform 0.2s ease-in-out;
+}

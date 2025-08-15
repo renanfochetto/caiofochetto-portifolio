@@ -23,6 +23,10 @@
     transform: rotateY(180deg);
 }
 
+.badgeInner.flipped {
+    transform: rotateY(180deg);
+}
+
 .badgeFront, .badgeBack {
     position: absolute;
     width: 100%;

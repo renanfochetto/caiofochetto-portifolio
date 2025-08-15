@@ -1,0 +1,8 @@
+.caseGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(24rem, 1fr));
+    gap: 1.5rem;
+    width: 80%;
+    height: 70%;
+    margin: 0 auto;
+}
