@@ -1,9 +1,16 @@
 import styles from './Home.module.css'
 import LinkContainer from "../../components/LinkContainer/LinkContainer.tsx";
 import {useLocalizedContent} from "../../hooks/useLocalizedContent.ts";
+import {useEffect} from "react";
 
 const Home = () => {
   const content = useLocalizedContent();
+
+  useEffect(() => {
+    if (content?.pageTitle) {
+      document.title = content.pageTitle;
+    }
+  }, [content]);
 
   if (!content) return null;
 

@@ -54,7 +54,7 @@ const Socials = () => {
         ))}
       </div>
     </section>
-  )
+)
 }
 
 export default Socials;

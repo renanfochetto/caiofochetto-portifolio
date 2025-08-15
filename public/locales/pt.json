@@ -1,4 +1,5 @@
 {
+  "pageTitle": "Caio Fochetto - Portfólio",
   "inicial": {
     "pagina": "PORTFÓLIO",
     "titulo": [
@@ -132,5 +133,8 @@
     "pagina": "SOCIALS",
     "linkedin": "LINKEDIN",
     "youtube": "YOUTUBE"
+  },
+  "footer": {
+    "autor": "Desenvolvido por Renan Fochetto"
   }
 }
