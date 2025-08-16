@@ -1,23 +1,23 @@
 import styles from './Socials.module.css';
 import {useLocalizedContent} from '../../hooks/useLocalizedContent.ts';
-import Link from '../../components/Link/Link.tsx';
+// import Link from '../../components/Link/Link.tsx';
 import {useEffect} from 'react';
 
 
-const links = [
-  {
-    name: 'LINKEDIN',
-    icon: '/icons/linkedin.svg',
-    href: 'https://www.linkedin.com/in/caiofochetto/',
-    preview: '/socials/linkedin-mobile.avif'
-  },
-  {
-    name: 'YOUTUBE',
-    icon: '/icons/youtube.svg',
-    href: 'https://www.youtube.com/@caiofochetto/playlists',
-    preview: '/socials/youtube-desktop.avif'
-  }
-];
+// const links = [
+//   {
+//     name: 'LINKEDIN',
+//     icon: '/icons/linkedin.svg',
+//     href: 'https://www.linkedin.com/in/caiofochetto/',
+//     preview: '/socials/linkedin-mobile.avif'
+//   },
+//   {
+//     name: 'YOUTUBE',
+//     icon: '/icons/youtube.svg',
+//     href: 'https://www.youtube.com/@caiofochetto/playlists',
+//     preview: '/socials/youtube-desktop.avif'
+//   }
+// ];
 
 
 
