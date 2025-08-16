@@ -20,6 +20,7 @@ const links = [
 
 const Socials = () => {
   const content = useLocalizedContent();
+  console.log('Conteúdo carregado:', content);
 
   if (!content) return null;
 
