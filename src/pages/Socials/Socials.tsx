@@ -1,4 +1,4 @@
-import styles from './Socials.module.css';
+// import styles from './Socials.module.css';
 import {useLocalizedContent} from '../../hooks/useLocalizedContent.ts';
 // import Link from '../../components/Link/Link.tsx';
 import {useEffect} from 'react';
@@ -33,16 +33,10 @@ const Socials = () => {
   if (!content) return null;
 
   return (
-    <section id="socials" className={styles.container}>
-      <div className={styles.titleSection}>
-        <h3>{content?.socials?.pagina}</h3>
-      </div>
-      <div style={{ background: '#eee', padding: '2rem' }}>
-        <h2>Socials</h2>
-        <p>Conteúdo de teste visível</p>
-      </div>
-    </section>
-);
+    <section style={{ background: '#eee', padding: '2rem' }}>
+      <h2>Socials</h2>
+      <p>Conteúdo de teste visível</p>
+    </section>);
 };
 
 export default Socials;
