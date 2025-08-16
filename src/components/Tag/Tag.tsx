@@ -13,7 +13,7 @@ const Tag = ({ label, color }: TagProps) => {
     >
     {label}
     </span>
-  )
-}
+  );
+};
 
 export default Tag;

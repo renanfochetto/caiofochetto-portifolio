@@ -35,7 +35,7 @@ const LanguageSelector = () => {
               key={lang.code}
               className={styles.option}
               onClick={() => {
-                setLanguage(lang.code as any);
+                setLanguage(lang.code as 'pt' | 'en' | 'es');
                 setIsOpen(false);
               }}
             >

@@ -31,7 +31,7 @@ const TagFilter = ({ onFilterChange }: TagFilterProps) => {
 
     setSelectedTags(updatedTags);
     onFilterChange(updatedTags);
-  }
+  };
 
   return (
     <div className={styles.tagFilter}>
@@ -46,7 +46,7 @@ const TagFilter = ({ onFilterChange }: TagFilterProps) => {
       ))}
     </div>
 
-  )
-}
+  );
+};
 
 export default TagFilter;

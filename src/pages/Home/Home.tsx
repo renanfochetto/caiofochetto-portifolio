@@ -1,7 +1,7 @@
-import styles from './Home.module.css'
-import LinkContainer from "../../components/LinkContainer/LinkContainer.tsx";
-import {useLocalizedContent} from "../../hooks/useLocalizedContent.ts";
-import {useEffect} from "react";
+import styles from './Home.module.css';
+import LinkContainer from '../../components/LinkContainer/LinkContainer.tsx';
+import {useLocalizedContent} from '../../hooks/useLocalizedContent.ts';
+import {useEffect} from 'react';
 
 const Home = () => {
   const content = useLocalizedContent();
@@ -41,7 +41,7 @@ const Home = () => {
         <div className={styles.lineSmall}></div>
       </div>
     </section>
-  )
+  );
 };
 
 export default Home;

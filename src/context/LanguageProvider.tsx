@@ -1,14 +1,8 @@
-// LanguageProvider.tsx
-import { createContext, useState } from 'react';
+import { useState } from 'react';
+import { LanguageContext } from './LanguageContext';
+import * as React from 'react';
 
 export type LanguageCode = 'pt' | 'en' | 'es';
-
-interface LanguageContextType {
-  language: LanguageCode;
-  setLanguage: (lang: LanguageCode) => void;
-}
-
-export const LanguageContext = createContext<LanguageContextType | undefined>(undefined);
 
 export const LanguageProvider = ({ children }: { children: React.ReactNode }) => {
   const [language, setLanguage] = useState<LanguageCode>('pt');

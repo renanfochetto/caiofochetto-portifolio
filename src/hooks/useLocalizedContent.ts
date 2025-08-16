@@ -1,10 +1,12 @@
 // useLocalizedContent.ts
 import { useEffect, useState } from 'react';
 import { useLanguage } from '../context/useLanguage.ts';
+import type { LocalizedContent } from '../types';
+
 
 export const useLocalizedContent = () => {
   const { language } = useLanguage();
-  const [content, setContent] = useState<any>(null);
+  const [content, setContent] = useState<LocalizedContent | null>(null);
 
   useEffect(() => {
     const fetchContent = async () => {
@@ -15,10 +17,9 @@ export const useLocalizedContent = () => {
           throw new Error(`HTTP error! status: ${response.status}`);
         }
 
-        const data = await response.json();
+        const data: LocalizedContent = await response.json();
         setContent(data);
-      } catch (error) {
-        console.error('Erro ao carregar conteúdo:', error);
+      } catch {
       }
     };
 

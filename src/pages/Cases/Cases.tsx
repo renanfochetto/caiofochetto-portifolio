@@ -1,6 +1,6 @@
 import styles from './Cases.module.css';
-import {useLocalizedContent} from "../../hooks/useLocalizedContent.ts";
-import CaseGrid from "../../components/CaseGrid/CaseGrid.tsx";
+import {useLocalizedContent} from '../../hooks/useLocalizedContent.ts';
+import CaseGrid from '../../components/CaseGrid/CaseGrid.tsx';
 
 const Cases = () => {
   const content = useLocalizedContent();
@@ -18,7 +18,7 @@ const Cases = () => {
           <CaseGrid />
         </div>
       </section>
-  )
-}
+  );
+};
 
 export default Cases;

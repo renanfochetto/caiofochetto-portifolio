@@ -1,4 +1,4 @@
-import Link from "../Link/Link.tsx";
+import Link from '../Link/Link.tsx';
 import styles from './LinkContainer.module.css';
 
 type LinkContainerProps = {
@@ -21,7 +21,7 @@ const links = [
     icon: '/icons/linkedin.svg',
     href: 'https://www.linkedin.com/in/caiofochetto/'
   }
-]
+];
 
 const LinkContainer = ( { className }: LinkContainerProps ) => {
   return (
@@ -37,6 +37,6 @@ const LinkContainer = ( { className }: LinkContainerProps ) => {
         ))}
     </div>
   );
-}
+};
 
 export default LinkContainer;

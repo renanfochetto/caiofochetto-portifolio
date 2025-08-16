@@ -1,5 +1,5 @@
 import styles from './Link.module.css';
-import * as React from "react";
+import * as React from 'react';
 
 type PropsLink = {
   href: string;

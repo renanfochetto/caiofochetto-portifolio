@@ -1,15 +1,15 @@
 import styles from './CaseGrid.module.css';
-import CaseCard from "../CaseCard/CaseCard.tsx";
-import TagFilter from "../TagFilter/TagFilter.tsx";
-import {useState} from "react";
+import CaseCard from '../CaseCard/CaseCard.tsx';
+import TagFilter from '../TagFilter/TagFilter.tsx';
+import {useState} from 'react';
 
 const cases = [
   {
     case: 'giorgionoBrasil',
     id: 1,
-    nome: "#GiorgioNoBrasil",
-    empresa: "History Channel - A+E Networks",
-    src: "/cases/giorgionoBrasil.jpg",
+    nome: '#GiorgioNoBrasil',
+    empresa: 'History Channel - A+E Networks',
+    src: '/cases/giorgionoBrasil.jpg',
     ano: 2017,
     tags: [
       'digitalStrategy'
@@ -18,9 +18,9 @@ const cases = [
   {
     case: 'havaianas',
     id: 2,
-    nome: "Havaianas + NetFlix",
-    empresa: "Playground",
-    src: "/cases/havaianas.png",
+    nome: 'Havaianas + NetFlix',
+    empresa: 'Playground',
+    src: '/cases/havaianas.png',
     ano: 2021,
     tags: [
       'digitalContent', 'digitalStrategy'
@@ -29,9 +29,9 @@ const cases = [
   {
     case: 'history',
     id: 3,
-    nome: "ALONE / SOZINHOS",
-    empresa: "Playground",
-    src: "/cases/history.png",
+    nome: 'ALONE / SOZINHOS',
+    empresa: 'Playground',
+    src: '/cases/history.png',
     ano: 2021,
     tags: [
       'digitalContent', 'digitalStrategy'
@@ -40,9 +40,9 @@ const cases = [
   {
     case: 'natura',
     id: 4,
-    nome: "Natura",
-    empresa: "Playground",
-    src: "/cases/natura.png",
+    nome: 'Natura',
+    empresa: 'Playground',
+    src: '/cases/natura.png',
     ano: 2021,
     tags: [
       'branding', 'digitalContent'
@@ -51,9 +51,9 @@ const cases = [
   {
     case: 'p4jz',
     id: 5,
-    nome: "Podcast Passion 4 Jazz",
-    empresa: "Playground",
-    src: "/cases/p4jz.png",
+    nome: 'Podcast Passion 4 Jazz',
+    empresa: 'Playground',
+    src: '/cases/p4jz.png',
     ano: 2021,
     tags: [
       'graphicDesign'
@@ -62,22 +62,22 @@ const cases = [
   {
     case: 'playground',
     id: 6,
-    nome: "Branded Content",
-    empresa: "Playground",
-    src: "/cases/playground.png",
+    nome: 'Branded Content',
+    empresa: 'Playground',
+    src: '/cases/playground.png',
     ano: 2020,
     tags: [
       'branding'
     ]
   }
-]
+];
 
 const CaseGrid = () => {
   const [activeTags, setActiveTags] = useState<string[]>([]);
 
   const filteredCases = activeTags.length === 0
     ? cases
-    : cases.filter(c => c.tags.some(tag => activeTags.includes(tag)))
+    : cases.filter(c => c.tags.some(tag => activeTags.includes(tag)));
 
   return (
     <>
@@ -96,7 +96,7 @@ const CaseGrid = () => {
         ))}
       </div>
     </>
-  )
-}
+  );
+};
 
 export default CaseGrid;

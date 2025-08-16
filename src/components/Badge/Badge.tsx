@@ -25,7 +25,7 @@ const Badge = ({experiencia, labels}: { experiencia: Experiencia, labels: BadgeL
 
   const handleToggle = () => {
     setFlipped(prev => !prev);
-  }
+  };
 
   return (
     <div className={styles.badge} onClick={handleToggle}>
@@ -45,7 +45,7 @@ const Badge = ({experiencia, labels}: { experiencia: Experiencia, labels: BadgeL
         </div>
       </div>
     </div>
-  )
+  );
 };
 
 export default Badge;

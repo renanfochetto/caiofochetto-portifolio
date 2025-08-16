@@ -1,6 +1,6 @@
 import styles from './Socials.module.css';
 import {useLocalizedContent} from '../../hooks/useLocalizedContent.ts';
-import Link from "../../components/Link/Link.tsx";
+import Link from '../../components/Link/Link.tsx';
 
 
 const links = [
@@ -16,7 +16,7 @@ const links = [
     href: 'https://www.youtube.com/@caiofochetto/playlists',
     preview: '/socials/youtube-desktop.avif'
   }
-]
+];
 
 const Socials = () => {
   const content = useLocalizedContent();
@@ -54,7 +54,7 @@ const Socials = () => {
         ))}
       </div>
     </section>
-)
-}
+);
+};
 
 export default Socials;

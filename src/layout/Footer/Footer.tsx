@@ -1,6 +1,6 @@
 import styles from './Footer.module.css';
-import LinkContainer from "../../components/LinkContainer/LinkContainer.tsx";
-import { useLocalizedContent } from "../../hooks/useLocalizedContent.ts";
+import LinkContainer from '../../components/LinkContainer/LinkContainer.tsx';
+import { useLocalizedContent } from '../../hooks/useLocalizedContent.ts';
 
 export const Footer = () => {
   const content = useLocalizedContent();
@@ -21,7 +21,7 @@ export const Footer = () => {
         <LinkContainer className={styles.footerLinks}/>
       </footer>
     </section>
-  )
+  );
 };
 
 
