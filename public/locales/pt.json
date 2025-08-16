@@ -13,7 +13,7 @@
     "links": [
       { "id": "carreira", "label": "CARREIRA #" },
       { "id": "cases", "label": "CASES #" },
-      { "id": "socials", "label": "SOCIALS #" }
+      { "id": "social", "label": "SOCIALS #" }
     ]
   },
   "carreira": {

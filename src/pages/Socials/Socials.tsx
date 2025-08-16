@@ -23,7 +23,7 @@ const Socials = () => {
   if (!content) return null;
 
   return (
-    <section className={styles.container}>
+    <section id="social" className={styles.container}>
       <div className={styles.titleSection}>
         <h3>{content?.socials?.pagina}</h3>
       </div>
