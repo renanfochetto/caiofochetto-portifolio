@@ -34,7 +34,7 @@ const Socials = () => {
 
   return (
     <section id="socials" className={styles.container}>
-      <div className={styles.titleSection}>
+      <div>
         <h3>Socials</h3>
       </div>
       <div style={{ background: '#eee', padding: '2rem' }}>
