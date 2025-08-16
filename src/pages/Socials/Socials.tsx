@@ -1,7 +1,7 @@
 import styles from './Socials.module.css';
 import {useLocalizedContent} from '../../hooks/useLocalizedContent.ts';
 // import Link from '../../components/Link/Link.tsx';
-import {useEffect} from 'react';
+// import {useEffect} from 'react';
 
 
 // const links = [
@@ -23,17 +23,11 @@ import {useEffect} from 'react';
 
 const Socials = () => {
   const content = useLocalizedContent();
-  console.log('Conteúdo carregado:', content);
-
-  useEffect(() => {
-    console.log('Socials foi montado');
-  }, []);
-
 
   if (!content) return null;
 
   return (
-    <section id="socials">
+    <section>
       <div className={styles.titleSection}>
         <h3>Socials</h3>
       </div>
