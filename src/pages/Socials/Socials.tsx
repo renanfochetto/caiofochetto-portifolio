@@ -24,12 +24,10 @@ const Socials = () => {
 
   if (!content) return null;
 
-  const {pagina} = content.socials;
-
   return (
     <section id="socials" className={styles.container}>
       <div className={styles.titleSection}>
-        <h3>{pagina}</h3>
+        <h3>{content?.socials?.pagina}</h3>
       </div>
       <div className={styles.socialsGrid}>
         {links.map(link => (

@@ -12,9 +12,9 @@ function App() {
     <LanguageProvider>
       <Header/>
       <Home/>
+      <Socials />
       <Career/>
       <Cases/>
-      <Socials />
       <Footer />
     </LanguageProvider>
   );
