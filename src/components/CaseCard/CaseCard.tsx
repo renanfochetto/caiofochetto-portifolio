@@ -7,15 +7,16 @@ type CaseCardProps = {
   alt: string;
   id?: number;
   projeto: string;
-  tagKeys: string[]
+  tagKeys: string[];
+  onClick: () => void;
 }
 
-const CaseCard = ({image, alt, projeto, tagKeys}: CaseCardProps) => {
+const CaseCard = ({image, alt, projeto, tagKeys, onClick }: CaseCardProps) => {
   const content = useLocalizedContent();
   const tagData = content?.cases?.tags;
 
   return (
-    <div className={styles.caseCard}>
+    <div className={styles.caseCard} onClick={onClick}>
       <img src={image} alt={alt}/>
       <div className={styles.tagList}>
         {

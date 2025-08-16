@@ -3,6 +3,16 @@ export interface Link {
   label: string;
 }
 
+export type CaseData = {
+  case: string;
+  id: number;
+  nome: string;
+  empresa: string;
+  src: string;
+  ano: number;
+  tags: string[];
+};
+
 export interface Inicial {
   pagina: string;
   titulo: string[];

@@ -2,10 +2,12 @@ import styles from './CaseGrid.module.css';
 import CaseCard from '../CaseCard/CaseCard.tsx';
 import TagFilter from '../TagFilter/TagFilter.tsx';
 import {useState} from 'react';
+import CaseModal from '../CaseModal/CaseModal.tsx';
+import type {CaseData} from '../../types';
 
 const cases = [
   {
-    case: 'giorgionoBrasil',
+    case: 'giorgio-no-brasil',
     id: 1,
     nome: '#GiorgioNoBrasil',
     empresa: 'History Channel - A+E Networks',
@@ -75,6 +77,8 @@ const cases = [
 const CaseGrid = () => {
   const [activeTags, setActiveTags] = useState<string[]>([]);
 
+  const [selectedCase, setSelectedCase] = useState<CaseData | null>(null);
+
   const filteredCases = activeTags.length === 0
     ? cases
     : cases.filter(c => c.tags.some(tag => activeTags.includes(tag)));
@@ -89,11 +93,18 @@ const CaseGrid = () => {
           <CaseCard
             image={c.src}
             key={c.id}
+            onClick={() => setSelectedCase(c)}
             alt={`Imagem do Case ${c.nome}`}
             projeto={c.nome}
             tagKeys={c.tags}
           />
         ))}
+        {selectedCase && (
+          <CaseModal
+            caseData={selectedCase}
+            onClose={() => setSelectedCase(null)}
+          />
+        )}
       </div>
     </>
   );

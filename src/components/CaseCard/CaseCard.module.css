@@ -5,6 +5,7 @@
     border: 2px solid var(--black);
     border-radius: var(--border-radius-base);
     box-shadow: var(--shadow-regular);
+    cursor: pointer;
 }
 
 .caseCard:hover {
