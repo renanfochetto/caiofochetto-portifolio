@@ -2,31 +2,36 @@ import styles from './Socials.module.css';
 import {useLocalizedContent} from '../../hooks/useLocalizedContent.ts';
 import Link from "../../components/Link/Link.tsx";
 
-
-const links = [
+// Base links (keys map to translation keys under content.socials)
+const baseLinks = [
   {
-    name: 'LINKEDIN',
+    key: 'linkedin' as const,
+    defaultName: 'LINKEDIN',
     icon: '/icons/linkedin.svg',
     href: 'https://www.linkedin.com/in/caiofochetto/',
     preview: '/socials/linkedin-mobile.avif'
   },
   {
-    name: 'YOUTUBE',
+    key: 'youtube' as const,
+    defaultName: 'YOUTUBE',
     icon: '/icons/youtube.svg',
     href: 'https://www.youtube.com/@caiofochetto/playlists',
     preview: '/socials/youtube-desktop.avif'
   }
-]
+];
 
 const Socials = () => {
   const content = useLocalizedContent();
 
   if (!content) return null;
 
-  if (!content?.socials) {
-    console.warn('Conteúdo de "socials" não encontrado no arquivo de localização atual. Usando fallback.');
-  }
   const pagina = content?.socials?.pagina ?? 'SOCIALS';
+  const localizedLinks = baseLinks.map((l) => ({
+    name: content?.socials?.[l.key] ?? l.defaultName,
+    icon: l.icon,
+    href: l.href,
+    preview: l.preview
+  }));
 
   return (
     <section id="socials" className={styles.container}>
@@ -34,7 +39,7 @@ const Socials = () => {
         <h3>{pagina}</h3>
       </div>
       <div className={styles.socialsGrid}>
-        {links.map(link => (
+        {localizedLinks.map(link => (
           <div key={link.name} className={styles.card}>
             <div className={styles.header}>
               <Link
@@ -43,7 +48,7 @@ const Socials = () => {
                 icon={link.icon}
                 alt={`Ícone de ${link.name}`}
               >
-              <span>{link.name}</span>
+                <span>{link.name}</span>
               </Link>
             </div>
             <img
@@ -57,7 +62,7 @@ const Socials = () => {
         ))}
       </div>
     </section>
-)
+  )
 }
 
 export default Socials;
