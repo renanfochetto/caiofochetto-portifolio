@@ -1,6 +1,7 @@
 import styles from './Socials.module.css';
 import {useLocalizedContent} from '../../hooks/useLocalizedContent.ts';
 import Link from '../../components/Link/Link.tsx';
+import {useEffect} from "react";
 
 
 const links = [
@@ -18,9 +19,16 @@ const links = [
   }
 ];
 
+
+
 const Socials = () => {
   const content = useLocalizedContent();
   console.log('Conteúdo carregado:', content);
+
+  useEffect(() => {
+    console.log('Socials foi montado');
+  }, []);
+
 
   if (!content) return null;
 
