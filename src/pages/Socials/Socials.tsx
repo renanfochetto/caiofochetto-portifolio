@@ -33,7 +33,7 @@ const Socials = () => {
   if (!content) return null;
 
   return (
-    <section id="socials" className={styles.container}>
+    <section id="socials">
       <div>
         <h3>Socials</h3>
       </div>
