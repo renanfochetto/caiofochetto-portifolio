@@ -1,7 +1,7 @@
 import styles from './Socials.module.css';
 import {useLocalizedContent} from '../../hooks/useLocalizedContent.ts';
 import Link from '../../components/Link/Link.tsx';
-import {useEffect} from "react";
+import {useEffect} from 'react';
 
 
 const links = [
@@ -37,28 +37,9 @@ const Socials = () => {
       <div className={styles.titleSection}>
         <h3>{content?.socials?.pagina}</h3>
       </div>
-      <div className={styles.socialsGrid}>
-        {links.map(link => (
-          <div key={link.name} className={styles.card}>
-            <div className={styles.header}>
-              <Link
-                className={styles.linkSocial}
-                href={link.href}
-                icon={link.icon}
-                alt={`Ícone de ${link.name}`}
-              >
-              <span>{link.name}</span>
-              </Link>
-            </div>
-            <img
-              src={link.preview}
-              className={styles.previewImage}
-              alt={`Preview do perfil de Caio Fochetto no ${link.name}`}
-              onClick={() => window.open(link.href, '_blank')}
-              style={{ cursor: 'pointer' }}
-            />
-          </div>
-        ))}
+      <div style={{ background: '#eee', padding: '2rem' }}>
+        <h2>Socials</h2>
+        <p>Conteúdo de teste visível</p>
       </div>
     </section>
 );
