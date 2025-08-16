@@ -1,0 +1,167 @@
+{
+  "pageTitle": "Caio Fochetto - Portafolio",
+  "inicial": {
+    "pagina": "PORTAFOLIO",
+    "titulo": [
+      "Hola,",
+      "me llamo Caio Fochetto."
+    ],
+    "subtitulo": [
+      "Soy un profesional de la comunicación, con enfoque en contenido",
+      "digital y marketing de influencia."
+    ],
+    "links": [
+      {
+        "id": "carreira",
+        "label": "CARRERA #"
+      },
+      {
+        "id": "cases",
+        "label": "CASES #"
+      },
+      {
+        "id": "socials",
+        "label": "SOCIALS #"
+      }
+    ]
+  },
+  "carreira": {
+    "pagina": "CARRERA",
+    "badge": {
+      "periodo": "Período",
+      "total": "Total",
+      "atividades": "Actividades",
+      "competencias": "Competencias"
+    },
+    "experiencias": [
+      {
+        "empresa": "OCTAGON",
+        "logo": "/logos/octagon.avif",
+        "corFundo": "#f07003",
+        "corTexto": "#ffffff",
+        "cargo": "Director de Contenido Digital, Marketing de Influencia y Talento",
+        "periodo": "Abr 2023 - Actual",
+        "total": "2 años y 5 meses",
+        "atividades": "Responsable de marcas como Betfair, Ambev y otras",
+        "competencias": "Economía de Creadores * Gestión de Proyectos * Experiencia de Marca * Medios Digitales * Marketing de Marca * Marketing de Influencia * Marketing de Contenidos"
+      },
+      {
+        "empresa": "JELLYSMACK",
+        "logo": "/logos/jellysmack.avif",
+        "corFundo": "#01adde",
+        "corTexto": "#ffffff",
+        "cargo": "Líder de Operaciones LATAM",
+        "periodo": "Nov 2021 - Abr 2023",
+        "total": "1 año y 6 meses",
+        "atividades": "Líder de operaciones de la empresa en América Latina.",
+        "competencias": "Economía de Creadores * Liderazgo * Marketing de Marca * Estrategia Digital * Estrategia de Contenidos * Marketing en Redes Sociales"
+      },
+      {
+        "empresa": "PLAYGROUND",
+        "logo": "/logos/playground.avif",
+        "corFundo": "#000000",
+        "corTexto": "#ffffff",
+        "cargo": "Gerente de Contenido y Producto",
+        "periodo": "Ene 2020 - Nov 2021",
+        "total": "1 año y 11 meses",
+        "atividades": "Gestión de contenido y proyectos editoriales. Planificación de contenido, estrategias de comunicación y liderazgo de equipos.",
+        "competencias": "Economía de Creadores * Liderazgo * Gestión de Proyectos * Estrategia Digital * Marketing en Redes Sociales * Marketing de Marca"
+      },
+      {
+        "empresa": "A+E NETWORKS",
+        "logo": "/logos/aenetworks.avif",
+        "corFundo": "#ffffff",
+        "corTexto": "#000000",
+        "cargo": "Gerente de Plataformas Digitales",
+        "periodo": "Feb 2012 - Oct 2019",
+        "total": "7 años y 9 meses",
+        "atividades": "Programación de contenido para plataformas On Demand, desarrollo de nuevos negocios, contenido de marca y estrategia de contenido.",
+        "competencias": "Economía de Creadores * Liderazgo * Gestión de Proyectos * Estrategia Digital * Marketing en Redes Sociales * Marketing de Marca"
+      },
+      {
+        "empresa": "PORTAL R7",
+        "logo": "/logos/portalr7.avif",
+        "corFundo": "#0071bd",
+        "corTexto": "#ffffff",
+        "cargo": "Productor de Contenido Digital",
+        "periodo": "Sep 2010 - Feb 2012",
+        "total": "1 año y 6 meses",
+        "atividades": "Producción de contenido online para blogs, sitios del portal y programas de Record TV (A Fazenda, O Aprendiz, O Melhor do Brasil, Ídolos, etc).",
+        "competencias": "Gestión de Proyectos * Estrategia Digital * Marketing en Redes Sociales * Contenido Móvil * Blogging * Análisis de Datos"
+      },
+      {
+        "empresa": "TV CULTURA",
+        "logo": "/logos/tvcultura.avif",
+        "corFundo": "#ff8500",
+        "corTexto": "#ffffff",
+        "cargo": "Productor de Contenido Digital",
+        "periodo": "Ago 2009 - Sep 2010",
+        "total": "1 año y 2 meses",
+        "atividades": "Creación de contenido digital para programas de TV como Programa Novo y Login. Gestión de perfiles y contenido en redes sociales.",
+        "competencias": "Gestión de Proyectos * Estrategia Digital * Estrategia de Contenidos * Marketing en Redes Sociales * Contenido Móvil * Producción de Video"
+      },
+      {
+        "empresa": "RÁDIO BOA NOVA",
+        "logo": "/logos/radioboanova.avif",
+        "corFundo": "#0aa3c6",
+        "corTexto": "#ffffff",
+        "cargo": "Productor de Contenido Web",
+        "periodo": "Jul 2009 - Ago 2010",
+        "total": "1 año y 2 meses",
+        "atividades": "Producción para internet, gestión y desarrollo de red de blogs.",
+        "competencias": "Gestión de Proyectos * Liderazgo * Estrategia Digital * Estrategia de Contenidos * Gestión de Comunidades * Contenido Móvil"
+      },
+      {
+        "empresa": "TV MUNDO MAIOR",
+        "logo": "/logos/tvmundomaior.avif",
+        "corFundo": "#ffffff",
+        "corTexto": "#000000",
+        "cargo": "Coordinador de Producción de TV",
+        "periodo": "Nov 2005 - Nov 2008",
+        "total": "3 años y 1 mes",
+        "atividades": "Coordinación y reformulación de proyectos, organización de equipos y gestión de agendas de grabación.",
+        "competencias": "Gestión de Proyectos * Liderazgo * Estrategia Digital * Estrategia de Contenidos * Marketing en Redes Sociales * Contenido Móvil"
+      },
+      {
+        "empresa": "RÁDIO BOA NOVA",
+        "logo": "/logos/radioboanova.avif",
+        "corFundo": "#0aa3c6",
+        "corTexto": "#ffffff",
+        "cargo": "Productor Ejecutivo",
+        "periodo": "Jun 2002 - Nov 2005",
+        "total": "3 años y 6 meses",
+        "atividades": "Producción de contenido de noticias para radio y plataformas online.",
+        "competencias": "Gestión de Proyectos * Liderazgo * Estrategia Digital * Marketing en Redes Sociales * Medios Digitales * Streaming * Contenido Móvil"
+      }
+    ]
+  },
+  "cases": {
+    "pagina": "CASES",
+    "tags": {
+      "digitalStrategy": {
+        "label": "#EstrategiaDigital",
+        "color": "#00ff37"
+      },
+      "digitalContent": {
+        "label": "#ContenidoDigital",
+        "color": "#e30169"
+      },
+      "branding": {
+        "label": "#Branding",
+        "color": "#3fffff"
+      },
+      "graphicDesign": {
+        "label": "#DiseñoGráfico",
+        "color": "#ff7d20"
+      }
+    }
+  },
+  "socials": {
+    "pagina": "SOCIALS",
+    "linkedin": "LINKEDIN",
+    "youtube": "YOUTUBE"
+  },
+  "footer": {
+    "autor": "Desarrollado por Renan Fochetto"
+  }
+}

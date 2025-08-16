@@ -1,0 +1,167 @@
+{
+  "pageTitle": "Caio Fochetto - Portfolio",
+  "inicial": {
+    "pagina": "PORTFOLIO",
+    "titulo": [
+      "Hi,",
+      "My name is Caio Fochetto."
+    ],
+    "subtitulo": [
+      "I'm a communication professional focused on digital content",
+      "and influencer marketing."
+    ],
+    "links": [
+      {
+        "id": "carreira",
+        "label": "CAREER #"
+      },
+      {
+        "id": "cases",
+        "label": "CASES #"
+      },
+      {
+        "id": "socials",
+        "label": "SOCIALS #"
+      }
+    ]
+  },
+  "carreira": {
+    "pagina": "CAREER",
+    "badge": {
+      "periodo": "Period",
+      "total": "Total",
+      "atividades": "Activities",
+      "competencias": "Skills"
+    },
+    "experiencias": [
+      {
+        "empresa": "OCTAGON",
+        "logo": "/logos/octagon.avif",
+        "corFundo": "#f07003",
+        "corTexto": "#ffffff",
+        "cargo": "Director of Digital Content, Influencer Marketing and Talent",
+        "periodo": "Apr 2023 - Present",
+        "total": "2 years and 5 months",
+        "atividades": "Responsible for brands such as Betfair, Ambev and others",
+        "competencias": "Creator Economy * Project Management * Brand Experience * Digital Media * Brand Marketing * Influencer Marketing * Content Marketing"
+      },
+      {
+        "empresa": "JELLYSMACK",
+        "logo": "/logos/jellysmack.avif",
+        "corFundo": "#01adde",
+        "corTexto": "#ffffff",
+        "cargo": "LATAM Operations Lead",
+        "periodo": "Nov 2021 - Apr 2023",
+        "total": "1 year and 6 months",
+        "atividades": "Operations leader for the company in Latin America.",
+        "competencias": "Creator Economy * Leadership * Brand Marketing * Digital Strategy * Content Strategy * Social Media Marketing"
+      },
+      {
+        "empresa": "PLAYGROUND",
+        "logo": "/logos/playground.avif",
+        "corFundo": "#000000",
+        "corTexto": "#ffffff",
+        "cargo": "Content and Product Manager",
+        "periodo": "Jan 2020 - Nov 2021",
+        "total": "1 year and 11 months",
+        "atividades": "Content and editorial project management. Content planning, communication strategies and team leadership.",
+        "competencias": "Creator Economy * Leadership * Project Management * Digital Strategy * Social Media Marketing * Brand Marketing"
+      },
+      {
+        "empresa": "A+E NETWORKS",
+        "logo": "/logos/aenetworks.avif",
+        "corFundo": "#ffffff",
+        "corTexto": "#000000",
+        "cargo": "Digital Platforms Manager",
+        "periodo": "Feb 2012 - Oct 2019",
+        "total": "7 years and 9 months",
+        "atividades": "Content programming for On Demand platforms, new business development, branded content and content strategy.",
+        "competencias": "Creator Economy * Leadership * Project Management * Digital Strategy * Social Media Marketing * Brand Marketing"
+      },
+      {
+        "empresa": "PORTAL R7",
+        "logo": "/logos/portalr7.avif",
+        "corFundo": "#0071bd",
+        "corTexto": "#ffffff",
+        "cargo": "Digital Content Producer",
+        "periodo": "Sep 2010 - Feb 2012",
+        "total": "1 year and 6 months",
+        "atividades": "Online content production for blogs, portal sites and Record TV shows (A Fazenda, O Aprendiz, O Melhor do Brasil, Ídolos, etc).",
+        "competencias": "Project Management * Digital Strategy * Social Media Marketing * Mobile Content * Blogging * Data Analysis"
+      },
+      {
+        "empresa": "TV CULTURA",
+        "logo": "/logos/tvcultura.avif",
+        "corFundo": "#ff8500",
+        "corTexto": "#ffffff",
+        "cargo": "Digital Content Producer",
+        "periodo": "Aug 2009 - Sep 2010",
+        "total": "1 year and 2 months",
+        "atividades": "Digital content creation for TV shows such as Programa Novo and Login. Social media profile and content management.",
+        "competencias": "Project Management * Digital Strategy * Content Strategy * Social Media Marketing * Mobile Content * Video Production"
+      },
+      {
+        "empresa": "RÁDIO BOA NOVA",
+        "logo": "/logos/radioboanova.avif",
+        "corFundo": "#0aa3c6",
+        "corTexto": "#ffffff",
+        "cargo": "Web Content Producer",
+        "periodo": "Jul 2009 - Aug 2010",
+        "total": "1 year and 2 months",
+        "atividades": "Internet content production, blog network management and development.",
+        "competencias": "Project Management * Leadership * Digital Strategy * Content Strategy * Community Management * Mobile Content"
+      },
+      {
+        "empresa": "TV MUNDO MAIOR",
+        "logo": "/logos/tvmundomaior.avif",
+        "corFundo": "#ffffff",
+        "corTexto": "#000000",
+        "cargo": "TV Producer Coordinator",
+        "periodo": "Nov 2005 - Nov 2008",
+        "total": "3 years and 1 month",
+        "atividades": "Project coordination and restructuring, team organization and recording schedule management.",
+        "competencias": "Project Management * Leadership * Digital Strategy * Content Strategy * Social Media Marketing * Mobile Content"
+      },
+      {
+        "empresa": "RÁDIO BOA NOVA",
+        "logo": "/logos/radioboanova.avif",
+        "corFundo": "#0aa3c6",
+        "corTexto": "#ffffff",
+        "cargo": "Executive Producer",
+        "periodo": "Jun 2002 - Nov 2005",
+        "total": "3 years and 6 months",
+        "atividades": "Hard news content production for radio and online platforms.",
+        "competencias": "Project Management * Leadership * Digital Strategy * Social Media Marketing * Digital Media * Streaming * Mobile Content"
+      }
+    ]
+  },
+  "cases": {
+    "pagina": "CASES",
+    "tags": {
+      "digitalStrategy": {
+        "label": "#DigitalStrategy",
+        "color": "#00ff37"
+      },
+      "digitalContent": {
+        "label": "#DigitalContent",
+        "color": "#e30169"
+      },
+      "branding": {
+        "label": "#Branding",
+        "color": "#3fffff"
+      },
+      "graphicDesign": {
+        "label": "#GraphicDesign",
+        "color": "#ff7d20"
+      }
+    }
+  },
+  "socials": {
+    "pagina": "SOCIALS",
+    "linkedin": "LINKEDIN",
+    "youtube": "YOUTUBE"
+  },
+  "footer": {
+    "autor": "Developed by Renan Fochetto"
+  }
+}
