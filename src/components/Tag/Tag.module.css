@@ -5,11 +5,12 @@
     color: var(--black);
     font-weight: var(--font-weight-semibold);
     font-family: var(--font-mono), monospace;
-    display: block;
+    display: inline-block;
     width: auto;
     border: 2px solid transparent;
     white-space: nowrap;
     max-width: max-content;
+    box-shadow: var(--shadow-regular);
 }
 
 .tag:hover {

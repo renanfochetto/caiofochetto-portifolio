@@ -9,9 +9,6 @@ export const useLocalizedContent = () => {
   useEffect(() => {
     const fetchContent = async () => {
       try {
-        console.log('Idioma atual:', language);
-        console.log('Buscando:', `/locales/${language}.json`);
-
         const response = await fetch(`/locales/${language}.json`);
 
         if (!response.ok) {

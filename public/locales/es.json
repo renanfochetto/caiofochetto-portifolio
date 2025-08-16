@@ -11,9 +11,18 @@
       "digital y marketing de influencia."
     ],
     "links": [
-      { "id": "carreira", "label": "CARRERA" },
-      { "id": "cases", "label": "CASES" },
-      { "id": "socials", "label": "SOCIALS" }
+      {
+        "id": "carreira",
+        "label": "CARRERA #"
+      },
+      {
+        "id": "cases",
+        "label": "CASES #"
+      },
+      {
+        "id": "socials",
+        "label": "SOCIALS #"
+      }
     ]
   },
   "carreira": {
@@ -127,7 +136,25 @@
     ]
   },
   "cases": {
-    "pagina": "CASES"
+    "pagina": "CASES",
+    "tags": {
+      "digitalStrategy": {
+        "label": "#EstrategiaDigital",
+        "color": "#00ff37"
+      },
+      "digitalContent": {
+        "label": "#ContenidoDigital",
+        "color": "#e30169"
+      },
+      "branding": {
+        "label": "#Branding",
+        "color": "#3fffff"
+      },
+      "graphicDesign": {
+        "label": "#DiseñoGráfico",
+        "color": "#ff7d20"
+      }
+    }
   },
   "socials": {
     "pagina": "SOCIALS",

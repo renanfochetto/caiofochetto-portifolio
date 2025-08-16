@@ -1,0 +1,13 @@
+.tagFilter {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-left: 12.5rem;
+    margin-top: 0.5rem;
+}
+
+.active {
+    border: 2px solid var(--black);
+    border-radius: var(--border-radius-base);
+    transition: border 0.2s ease-in-out;
+}

@@ -127,7 +127,25 @@
     ]
   },
   "cases": {
-    "pagina": "CASES"
+    "pagina": "CASES",
+    "tags": {
+      "digitalStrategy": {
+        "label": "#EstratégiaDigital",
+        "color": "#00ff37"
+      },
+      "digitalContent": {
+        "label": "#ConteúdoDigital",
+        "color": "#e30169"
+      },
+      "branding": {
+        "label": "#Branding",
+        "color": "#3fffff"
+      },
+      "graphicDesign": {
+        "label": "#DesignGráfico",
+        "color": "#ff7d20"
+      }
+    }
   },
   "socials": {
     "pagina": "SOCIALS",

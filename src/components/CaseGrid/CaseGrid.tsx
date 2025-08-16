@@ -1,5 +1,7 @@
 import styles from './CaseGrid.module.css';
 import CaseCard from "../CaseCard/CaseCard.tsx";
+import TagFilter from "../TagFilter/TagFilter.tsx";
+import {useState} from "react";
 
 const cases = [
   {
@@ -9,10 +11,9 @@ const cases = [
     empresa: "History Channel - A+E Networks",
     src: "/cases/giorgionoBrasil.jpg",
     ano: 2017,
-    tags: {
-      label: ['#DigitalStrategy'],
-      cor: ["#00ff37"]
-    },
+    tags: [
+      'digitalStrategy'
+    ]
   },
   {
     case: 'havaianas',
@@ -21,10 +22,9 @@ const cases = [
     empresa: "Playground",
     src: "/cases/havaianas.png",
     ano: 2021,
-    tags: {
-      label: ['#DigitalContent', '#DigitalStrategy'],
-      cor: ['#e30169', '#00ff37']
-    }
+    tags: [
+      'digitalContent', 'digitalStrategy'
+    ]
   },
   {
     case: 'history',
@@ -33,10 +33,9 @@ const cases = [
     empresa: "Playground",
     src: "/cases/history.png",
     ano: 2021,
-    tags: {
-      label: ['#DigitalContent', '#DigitalStrategy'],
-      cor: ['#e30169', '#00ff37']
-    }
+    tags: [
+      'digitalContent', 'digitalStrategy'
+    ]
   },
   {
     case: 'natura',
@@ -45,10 +44,9 @@ const cases = [
     empresa: "Playground",
     src: "/cases/natura.png",
     ano: 2021,
-    tags: {
-      label: ['#Branding', "#DigitalContent"],
-      cor: ['#3fffff', '#e30169']
-    }
+    tags: [
+      'branding', 'digitalContent'
+    ]
   },
   {
     case: 'p4jz',
@@ -57,10 +55,9 @@ const cases = [
     empresa: "Playground",
     src: "/cases/p4jz.png",
     ano: 2021,
-    tags: {
-      label: ['#GraphicDesign'],
-      cor: ['#ff7d20']
-    }
+    tags: [
+      'graphicDesign'
+    ]
   },
   {
     case: 'playground',
@@ -69,26 +66,36 @@ const cases = [
     empresa: "Playground",
     src: "/cases/playground.png",
     ano: 2020,
-    tags: {
-      label: ['#Branding'],
-      cor: ['#3fffff']
-    }
+    tags: [
+      'branding'
+    ]
   }
 ]
 
 const CaseGrid = () => {
+  const [activeTags, setActiveTags] = useState<string[]>([]);
+
+  const filteredCases = activeTags.length === 0
+    ? cases
+    : cases.filter(c => c.tags.some(tag => activeTags.includes(tag)))
+
   return (
-    <div className={styles.caseGrid}>
-      {cases.map(cases => (
-      <CaseCard
-        image={cases.src}
-        key={cases.id}
-        alt={`Imagem do Case ${cases.nome}`}
-        projeto={cases.nome}
-        tags={cases.tags}
-      />
-      ))}
-    </div>
+    <>
+      <div className={styles.tagFilterContainer}>
+        <TagFilter onFilterChange={setActiveTags}/>
+      </div>
+      <div className={styles.caseGrid}>
+        {filteredCases.map(c => (
+          <CaseCard
+            image={c.src}
+            key={c.id}
+            alt={`Imagem do Case ${c.nome}`}
+            projeto={c.nome}
+            tagKeys={c.tags}
+          />
+        ))}
+      </div>
+    </>
   )
 }
 
