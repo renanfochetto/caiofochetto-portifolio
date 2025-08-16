@@ -23,7 +23,10 @@ const Socials = () => {
 
   if (!content) return null;
 
-  const {pagina} = content.socials;
+  if (!content?.socials) {
+    console.warn('Conteúdo de "socials" não encontrado no arquivo de localização atual. Usando fallback.');
+  }
+  const pagina = content?.socials?.pagina ?? 'SOCIALS';
 
   return (
     <section id="socials" className={styles.container}>
