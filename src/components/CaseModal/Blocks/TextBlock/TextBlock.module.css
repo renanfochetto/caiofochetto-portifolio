@@ -1,0 +1,19 @@
+.textBlock {
+    margin: 2rem 0;
+    padding: 1.5rem;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
+.textBlock h5 {
+    font-size: 1.2rem;
+    margin-bottom: 0.75rem;
+    color: #222;
+}
+
+.textBlock p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #444;
+}

@@ -1,12 +1,25 @@
-.container {
+.scrollWrapper {
     position: relative;
     width: 100vw;
     height: 100vh;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.container {
+    position: relative;
+    width: 100vw;
+    height: auto;
+    min-height: 100vh;
     padding-top: 12rem;
     background-image: url('/svgs/background.svg');
     background-size: auto;
     background-position: top left;
     background-repeat: no-repeat;
+    /* Prepare for GSAP horizontal translation */
+    transform: translateX(0);
+    will-change: transform;
+    z-index: 2;
 }
 
 .titleSection {
@@ -17,4 +30,10 @@
     font-size: var(--font-size-sm);
     text-shadow: var(--shadow-regular);
     width: 10rem;
+}
+
+.casesGrid {
+    /* Make the flex item expand to fit its grid contents horizontally */
+    width: max-content;
+    display: block;
 }

@@ -23,6 +23,7 @@ const Career = () => {
   const content = useLocalizedContent();
   const wrapperRef = useRef<HTMLElement | null>(null);
   const containerRef = useRef<HTMLDivElement | null>(null);
+  const triggerRef = useRef<ScrollTrigger | null>(null);
 
   useEffect(() => {
     const wrapper = wrapperRef.current;
@@ -30,17 +31,21 @@ const Career = () => {
     if (!wrapper || !container) return;
 
     const setup = () => {
-      // limpa triggers antigos
-      ScrollTrigger.getAll().forEach(t => t.kill());
+      // kill only this section's previous trigger
+      if (triggerRef.current) {
+        triggerRef.current.kill(true);
+        triggerRef.current = null;
+      }
       gsap.set(container, { x: 0 });
 
       const totalScroll = Math.max(0, container.scrollWidth - window.innerWidth);
 
       if (totalScroll > 0) {
-        gsap.to(container, {
+        const tween = gsap.to(container, {
           x: () => -totalScroll,
           ease: 'none',
           scrollTrigger: {
+            id: 'career-horizontal',
             trigger: wrapper,
             start: 'top top',
             end: () => `+=${totalScroll}`,
@@ -49,17 +54,21 @@ const Career = () => {
             anticipatePin: 1,
           },
         });
+        triggerRef.current = tween.scrollTrigger as ScrollTrigger;
       }
     };
 
-    // aguarda layout (itens carregados)
+    // wait for layout (items loaded)
     const id = requestAnimationFrame(setup);
     window.addEventListener('resize', setup);
 
     return () => {
       cancelAnimationFrame(id);
       window.removeEventListener('resize', setup);
-      ScrollTrigger.getAll().forEach(t => t.kill());
+      if (triggerRef.current) {
+        triggerRef.current.kill(true);
+        triggerRef.current = null;
+      }
     };
   }, [content]);
 

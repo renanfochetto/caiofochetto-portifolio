@@ -1,0 +1,59 @@
+nome: Podcast Passion 4 Jazz
+id: 1
+marca: Passion 4 Jazz
+logo: logo/p4jz.avif
+capa: cover/p4jzcover.avif
+empresa:
+cargo: 
+tags: DesignGráfico, Produção, EstratégiaDeConteúdo
+ano: 2021
+
+1 - PhotoGallery
+class: banner
+
+files: banner
+
+2 - TextBlock
+Title: Podcast Passion 4 Jazz
+	
+paragraph: Passion 4 Jazz é uma plataforma digital para interessados em Jazz, seja aquele que já possui vasto conhecimento, ou quem está começando a se interessar pelo gênero. Através de uma equipe diversa, desenvolvemos uma temporada completa de oito episódios focados nos principais nomes e ícones do Jazz, desde sua origem até os dias de hoje, contemplando todas as suas instâncias.
+
+A produção contou com desenvolvimento de conceito, pesquisa e roteiro, casting, produção de arte, cenografia e adereços, iluminação, captação, produção sonora, edição de áudio e vídeo. Faz parte ainda a estratégia de conteúdo e o pacote de divulgação.
+
+3 - Video Gallery
+class: single
+
+link: https://www.youtube.com/watch?v=8wbdIYeAc_0
+
+description: Pacote Sonoro e Gráfico
+
+4 - QuoteBlock
+paragraph: Desenvolvemos todas as trilhas e assinatura sonora junto a um profissional da música com ampla experiência em Jazz, Gustavo Bugni. Apesar de ser um projeto fortemente focado em áudio, sabemos que as artes gráficas complementam o projeto e aguçam os sentidos ainda mais. 
+
+Por tanto, elaboramos um pacote gráfico para traduzir o que é a plataforma Passion 4 Jazz.
+
+5 - Photo Gallery
+class: flexFluid
+
+files: p4jz1 to p4jz17
+
+description: Pacote de Divulgação
+
+6 - QuoteBlock
+paragraph: Além das entregas do podcast em mp3 e de seu pacote gráfico, também contemplamos um pacote de entregas em vídeo e imagem para promover o projeto. Assim, cada episódio é apoiado por vídeos de saudação para redes sociais, além de vídeos com compilações de melhores momentos e trechos memoráveis, e álbuns com fotos dos bastidores.
+
+7 - VideoGallery
+class: gridColumn
+
+links: https://www.youtube.com/watch?v=kU_S1oOr6D0
+https://www.youtube.com/watch?v=EGHo4iyACVU
+https://www.youtube.com/watch?v=DFO5Kcl3tZ8
+https://www.youtube.com/watch?v=UlWmrKwUzFg
+https://www.youtube.com/watch?v=-QgXpMqFRas
+	
+8 - PhotoGallery
+class: gridColumn(3)
+
+files: bastidores1 to bastidores68
+
+

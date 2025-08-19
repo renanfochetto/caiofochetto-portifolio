@@ -4,14 +4,37 @@ export interface Link {
 }
 
 export type CaseData = {
-  case: string;
   id: number;
   nome: string;
+  marca: string;
+  folder: string;
+  logos: string[];
+  capa: string;
   empresa: string;
-  src: string;
-  ano: number;
+  cargo: string;
   tags: string[];
+  ano: number;
+  blocks: CaseBlock[];
 };
+
+export type CaseBlock =
+  | {
+  type: 'text' | 'quote';
+  title: string;
+  paragraph: string;
+}
+  | {
+  type: 'photoGallery';
+  layout: string;
+  files: string[];
+  description?: string;
+}
+  | {
+  type: 'videoGallery';
+  layout: string;
+  links: string[];
+  description?: string;
+}
 
 export interface Inicial {
   pagina: string;
@@ -52,6 +75,7 @@ export interface Tag {
 
 export interface Cases {
   pagina: string;
+  projetos: CaseData[];
   tags: Record<string, Tag>;
 }
 
