@@ -14,8 +14,6 @@ const CaseGrid = () => {
   const [activeTags, setActiveTags] = useState<string[]>([]);
   const [selectedCase, setSelectedCase] = useState<CaseData | null>(null);
 
-  console.log('Conteúdo carregado:', content);
-
   if (!content?.cases) return null;
 
   const cases = content?.cases?.projetos || [];
@@ -44,6 +42,7 @@ const CaseGrid = () => {
         {selectedCase && (
           <CaseModal
             caseData={selectedCase}
+            tagData={content?.cases?.tags}
             onClose={() => setSelectedCase(null)}
           />
         )}

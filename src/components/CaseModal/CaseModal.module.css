@@ -1,16 +1,11 @@
 .modal {
-    position: relative;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     z-index: 1000;
-    background-color: white;
+    background-color: var(--background);
     padding: 2rem;
     border-radius: 8px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
-    max-width: 960px;
-    width: 90%;
-    max-height: 90vh;
+    width: 80%;
+    max-height: 80vh;
     overflow-y: auto;
 }
 
@@ -33,23 +28,19 @@
 .modalHeader {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     flex-wrap: wrap;
-    gap: 1rem;
-    margin-bottom: 2rem;
+}
+
+.modalHeader img {
+    width: 6rem;
+    height: 6rem;
 }
 
 .tagsSection {
-    flex: 1;
     display: flex;
+    gap: 1rem;
     flex-wrap: wrap;
-    gap: 0.5rem;
-}
-
-.tag {
-    background: #eee;
-    padding: 0.4rem 0.8rem;
-    border-radius: 4px;
-    font-size: 0.85rem;
 }
 
 .logosSection {

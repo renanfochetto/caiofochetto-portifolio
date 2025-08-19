@@ -143,7 +143,7 @@
         "nome": "Podcast Passion 4 Jazz",
         "marca": "Passion 4 Jazz",
         "folder": "p4jz",
-        "logo": ["p4jzlogo.avif"],
+        "logos": ["p4jzlogo.avif"],
         "capa": "p4jzcover.avif",
         "empresa": "",
         "cargo": "",
@@ -211,7 +211,7 @@
         "nome": "Natura",
         "marca": "Natura",
         "folder": "natura",
-        "logo": ["naturalogo.avif"],
+        "logos": ["naturalogo.avif"],
         "capa": "naturacover.avif",
         "empresa": "Playground",
         "cargo": "Content and Product Manager",
@@ -244,7 +244,7 @@
         "nome": "Netflix",
         "marca": "Netflix",
         "folder": "netflix",
-        "logo": ["netflixlogo.avif"],
+        "logos": ["netflixlogo.avif"],
         "capa": "netflixcover.avif",
         "empresa": "Playground",
         "cargo": "Content and Product Manager",
@@ -280,7 +280,7 @@
         "nome": "Netflix + Havaianas",
         "marca": "Netflix + Havaianas",
         "folder": "havaianas",
-        "logo": [
+        "logos": [
           "havaianaslogo.avif",
           "netflixlogo.avif"
         ],

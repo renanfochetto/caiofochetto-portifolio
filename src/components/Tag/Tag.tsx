@@ -3,6 +3,7 @@ import styles from './Tag.module.css';
 type TagProps = {
   label: string;
   color: string;
+  className?: string;
 }
 
 const Tag = ({ label, color }: TagProps) => {

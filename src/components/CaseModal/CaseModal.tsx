@@ -6,9 +6,18 @@ import QuoteBlock from './Blocks/QuoteBlock/QuoteBlock.tsx';
 import TextBlock from './Blocks/TextBlock/TextBlock.tsx';
 import VideoGallery from './Blocks/VideoGallery/VideoGallery.tsx';
 import PhotoGallery from './Blocks/PhotoGallery/PhotoGallery.tsx';
+import Tag from '../Tag/Tag.tsx';
 import type { CaseBlock } from '../../types';
+import { createPortal } from 'react-dom';
 
-const CaseModal = ({caseData, onClose}: { caseData: CaseData; onClose: () => void }) => {
+export type CaseModalProps = {
+  caseData: CaseData;
+  tagData: Record<string, { label: string; color: string}>;
+  onClose: () => void;
+}
+
+
+const CaseModal = ({caseData, tagData, onClose}: CaseModalProps) => {
 
 
   useEffect(() => {
@@ -21,6 +30,13 @@ const CaseModal = ({caseData, onClose}: { caseData: CaseData; onClose: () => voi
     window.addEventListener('keydown', handleKeyDown);
     return () => window.removeEventListener('keydown', handleKeyDown);
   }, [onClose]);
+
+  useEffect(() => {
+    document.body.style.overflow = 'hidden';
+    return () => {
+      document.body.style.overflow = '';
+    };
+  }, []);
 
   if (!caseData) return null;
 
@@ -49,17 +65,20 @@ const CaseModal = ({caseData, onClose}: { caseData: CaseData; onClose: () => voi
     }
   };
 
-  return (
+  return createPortal(
     <div className={styles.modalOverlay} onClick={onClose}>
       <div role="dialog" aria-modal="true" className={styles.modal}>
         <button className={styles.closeButton} onClick={onClose}>X</button>
 
-        //MODAL HEADER
         <div className={styles.modalHeader}>
-          <div className={styles.tagSection}>
-            {tags.map((tag, i) => (
-              <span key={i} className={styles.tag}>{tag}</span>
-            ))}
+          <div className={styles.tagsSection}>
+            {tags.map((key, i) => {
+              const tag = tagData?.[key];
+              if (!tag) return null;
+              return (
+                <Tag key={i} className={styles.tag} color={tag.color} label={tag.label} />
+              );
+            })}
           </div>
           <div className={styles.logoSection}>
             {logos.map((logo, i) => (
@@ -85,7 +104,7 @@ const CaseModal = ({caseData, onClose}: { caseData: CaseData; onClose: () => voi
           </div>
         </div>
       </div>
-    </div>
+    </div>, document.body
 
   );
 };
