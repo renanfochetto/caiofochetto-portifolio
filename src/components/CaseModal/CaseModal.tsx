@@ -106,10 +106,10 @@ const CaseModal = ({caseData, tagData, onClose}: CaseModalProps) => {
 
         <div className={styles.modalFooter}>
           <div className={styles.techSheet}>
-            <p><strong>Case:</strong> {nome}</p>
-            <p><strong>Empresa:</strong> {empresa}</p>
-            <p><strong>Cargo:</strong> {cargo}</p>
-            <p><strong>Ano:</strong> {ano}</p>
+            <span><strong>Case:</strong> {nome}</span>
+            <span><strong>Empresa:</strong> {empresa}</span>
+            <span><strong>Cargo:</strong> {cargo}</span>
+            <span><strong>Ano:</strong> {ano}</span>
           </div>
         </div>
       </div>

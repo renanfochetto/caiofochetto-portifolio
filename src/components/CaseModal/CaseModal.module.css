@@ -28,15 +28,18 @@
 
 .modalHeader {
     display: flex;
+    flex-direction: row-reverse;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    margin-bottom: 2rem;
+    margin-bottom: 4rem;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid var(--black);
 }
 
 .modalHeader img {
-    width: 5rem;
-    height: 5rem;
+    width: 8rem;
+    height: auto;
 }
 
 .tagsSection {
@@ -45,8 +48,9 @@
     flex-wrap: wrap;
 }
 
-.logosSection {
+.logoSection {
     display: flex;
+    flex-direction: row-reverse;
     gap: 1rem;
     align-items: center;
 }
@@ -60,9 +64,11 @@
     display: flex;
     flex-direction: column;
     margin-top: 4rem;
+    width: 27rem;
+    border: 1px solid var(--black);
 }
 
-.techSheet p {
+.techSheet span {
     font-family: var(--font-mono), monospace;
     font-weight: var(--font-weight-regular);
     background-color: var(--background);
@@ -70,6 +76,11 @@
     margin: 0;
     padding-block: 0.2rem;
     box-shadow: none;
+    border-radius: 0;
+    display: block;
+    width: 100%;
+    border: 1px solid var(--black);
+    padding: 0.5rem 1rem;
 }
 
 .modalOverlay {
