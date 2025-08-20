@@ -1,19 +1,19 @@
 .textBlock {
-    margin: 2rem 0;
-    padding: 1.5rem;
-    background-color: #fff;
-    border-radius: 8px;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+    margin: 4rem 0;
+    font-family: var(--font-sans), sans-serif;
+    box-shadow: none;
 }
 
 .textBlock h5 {
-    font-size: 1.2rem;
-    margin-bottom: 0.75rem;
-    color: #222;
+    font-size: var(--font-size-md);
+    font-weight: var(--font-weight-bold);
+    text-align: center;
 }
 
 .textBlock p {
-    font-size: 1rem;
-    line-height: 1.6;
-    color: #444;
+    font-family: var(--font-mono), monospace;
+    font-weight: var(--font-weight-regular);
+    background-color: var(--background);
+    font-size: var(--font-size-xs);
+    box-shadow: none;
 }

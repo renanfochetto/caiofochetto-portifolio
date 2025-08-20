@@ -151,7 +151,7 @@
         "ano": 2021,
         "blocks": [
           {
-            "type": "imageGallery",
+            "type": "photoGallery",
             "layout": "banner",
             "files": ["banner"]
           },
@@ -171,7 +171,7 @@
             "paragraph": "We developed all the soundtracks and sonic branding in collaboration with Gustavo Bugni, a seasoned music professional with extensive experience in jazz. Although this is a project with a strong focus on audio, we recognize that graphic design enhances the experience and stimulates the senses even further. Therefore, we created a visual package to express the essence of the Passion 4 Jazz platform."
           },
           {
-            "type": "imageGallery",
+            "type": "photoGallery",
             "layout": "flexFluid",
             "files": ["p4jz1", "p4jz2", "p4jz3", "p4jz4", "p4jz5", "p4jz6", "p4jz7", "p4jz8", "p4jz9", "p4jz10", "p4jz11", "p4jz12", "p4jz13", "p4jz14", "p4jz15", "p4jz16", "p4jz17"],
             "description": "Promotional Package"
@@ -192,16 +192,16 @@
             ]
           },
           {
-            "type": "imageGallery",
+            "type": "photoGallery",
             "layout": "gridColumn-3",
             "files": [
-              "bastidores1", "bastidores2", "bastidores3", "bastidores4", "bastidores5", "bastidores6", "bastidores7", "bastidores8", "bastidores9", "bastidores10",
-              "bastidores11", "bastidores12", "bastidores13", "bastidores14", "bastidores15", "bastidores16", "bastidores17", "bastidores18", "bastidores19", "bastidores20",
-              "bastidores21", "bastidores22", "bastidores23", "bastidores24", "bastidores25", "bastidores26", "bastidores27", "bastidores28", "bastidores29", "bastidores30",
-              "bastidores31", "bastidores32", "bastidores33", "bastidores34", "bastidores35", "bastidores36", "bastidores37", "bastidores38", "bastidores39", "bastidores40",
-              "bastidores41", "bastidores42", "bastidores43", "bastidores44", "bastidores45", "bastidores46", "bastidores47", "bastidores48", "bastidores49", "bastidores50",
-              "bastidores51", "bastidores52", "bastidores53", "bastidores54", "bastidores55", "bastidores56", "bastidores57", "bastidores58", "bastidores59", "bastidores60",
-              "bastidores61", "bastidores62", "bastidores63", "bastidores64", "bastidores65", "bastidores66", "bastidores67", "bastidores68"
+              "bastidor1", "bastidor2", "bastidor3", "bastidor4", "bastidor5", "bastidor6", "bastidor7", "bastidor8", "bastidor9", "bastidor10",
+              "bastidor11", "bastidor12", "bastidor13", "bastidor14", "bastidor15", "bastidor16", "bastidor17", "bastidor18", "bastidor19", "bastidor20",
+              "bastidor21", "bastidor22", "bastidor23", "bastidor24", "bastidor25", "bastidor26", "bastidor27", "bastidor28", "bastidor29", "bastidor30",
+              "bastidor31", "bastidor32", "bastidor33", "bastidor34", "bastidor35", "bastidor36", "bastidor37", "bastidor38", "bastidor39", "bastidor40",
+              "bastidor41", "bastidor43", "bastidor44", "bastidor45", "bastidor46", "bastidor47", "bastidor48", "bastidor49", "bastidor50",
+              "bastidor51", "bastidor52", "bastidor53", "bastidor54", "bastidor55", "bastidor56", "bastidor57", "bastidor58", "bastidor59", "bastidor60",
+              "bastidor61", "bastidor62", "bastidor63", "bastidor64", "bastidor65", "bastidor66", "bastidor67", "bastidor68"
             ]
           }
         ]
@@ -224,8 +224,8 @@
             "paragraph": "In 2021, we began a partnership with Africa agency to serve Natura as the creative agency, focusing on social media content. Month after month we delivered content packages for the Tododia line, highlighting the main characteristics of the fragrances most loved by consumers, with strong emphasis on texture, sensations, and emotions.\n\nContent production included casting with a three-model cast, plus wardrobe, art direction and props. The graphics package was an extension of the brand guidelines."
           },
           {
-            "type": "imageGallery",
-            "layout": "gridRow",
+            "type": "photoGallery",
+            "layout": "flexRow",
             "files": ["natura1", "natura2", "natura3", "natura4"]
           },
           {
@@ -306,8 +306,8 @@
             "paragraph": "The entire campaign was created in three languages, preserving the originality and Brazilian creativity that expresses what HAVAIANAS is around the world."
           },
           {
-            "type": "imageGallery",
-            "layout": "flexFluid",
+            "type": "photoGallery",
+            "layout": "gridFluid",
             "files": [
               "havaianas1", "havaianas2", "havaianas3", "havaianas4", "havaianas5",
               "havaianas6", "havaianas7", "havaianas8", "havaianas9", "havaianas10",
@@ -347,8 +347,8 @@
             "title": "Graphic Arts"
           },
           {
-            "type": "imageGallery",
-            "layout": "gridFluid",
+            "type": "photoGallery",
+            "layout": "gridFluid2",
             "files": [
               "bohemia1", "bohemia2", "bohemia3", "bohemia4", "bohemia5",
               "bohemia6", "bohemia7", "bohemia8", "bohemia9", "bohemia10",
@@ -416,7 +416,7 @@
             "paragraph": "We developed a branded content partnership with Intimus to bring a discussion about menstruation and its stigmas to our audience, aiming to better inform people about everyday prejudices and misinformation on the topic—humanizing it through the experiences of real people.\n\nWith an extensive content calendar, we explored various media formats and storytelling, starting with informational videos and social experiments in which women demystified the subject alongside men in their lives. We also included content created by the audience itself, who sent us their most controversial cases to be turned into animations.\n\nProduction took place at the beginning of the pandemic, which required adjustments to some pre-approved formats with the client, considering the new reality.\n\nThis production included: adapting the client’s concept into new and existing formats, casting and voiceover, script development, graphic arts and motion package, art direction, remote capture, animation, curation of user-generated content, and pre- and post-production."
           },
           {
-            "type": "imageGallery",
+            "type": "photoGallery",
             "layout": "gridRow",
             "files": ["intimus1", "intimus2", "intimus3", "intimus4"]
           }
@@ -522,8 +522,8 @@
             "paragraph": "In addition to special series, I was also responsible for producing videos and other special content for PlayGround Brasil’s Facebook, Instagram and TikTok feeds.\n\nThese tasks included budget management; pre-production, production and post-production schedules; talent, crew and equipment management; and script approval."
           },
           {
-            "type": "imageGallery",
-            "layout": "flexFluid",
+            "type": "photoGallery",
+            "layout": "gridFluid3",
             "files": [
               "playground1", "playground2", "playground3", "playground4", "playground5",
               "playground6", "playground7", "playground8", "playground9", "playground10",
@@ -546,8 +546,8 @@
         "ano": 2020,
         "blocks": [
           {
-            "type": "imageGallery",
-            "layout": "gridColumn(2)",
+            "type": "photoGallery",
+            "layout": "gridFluid4",
             "files": ["pgentrevista1", "pgentrevista2", "pgentrevista3", "pgentrevista4"]
           },
           {
@@ -582,7 +582,7 @@
         "ano": 2020,
         "blocks": [
           {
-            "type": "imageGallery",
+            "type": "photoGallery",
             "layout": "single",
             "files": ["ifotw1"]
           },
@@ -592,7 +592,7 @@
             "paragraph": "The In Front Of The Wall strategy for the A&E, History, History 2 and Lifetime brands consists of sharing with everyday users a sample of the brands’ power as content producers—without requiring a platform login or being a pay-TV customer.\n\nNew titles (full episodes) are added monthly to the brands’ VOD platforms, focusing on owned environments (brand sites), YouTube and Dailymotion. The strategy has driven growth across all platforms, but YouTube is where it thrives most—and where the experiment began."
           },
           {
-            "type": "imageGallery",
+            "type": "photoGallery",
             "layout": "single",
             "files": ["ifotw2"]
           },
@@ -601,7 +601,7 @@
             "paragraph": "A comparison between periods before and after the IFTW Strategy shows steep growth in the brand’s main YouTube KPIs:\n\nTotal hours watched: +896%\nAverage view duration: +213%\nVideo views: +419%\nRevenue: +634%\nNew channel subscribers: +517%"
           },
           {
-            "type": "imageGallery",
+            "type": "photoGallery",
             "layout": "single",
             "files": ["ifotw3"]
           },
@@ -760,7 +760,7 @@
           },
           {
             "type": "photoGallery",
-            "layout": "gridRow",
+            "layout": "gridRow2",
             "files": ["tm2-1", "tm2-2", "tm2-3", "tm2-4", "tm2-5", "tm2-6", "tm2-7", "tm2-8", "tm2-9", "tm2-10", "tm2-11"]
           },
           {
@@ -770,7 +770,7 @@
           },
           {
             "type": "photoGallery",
-            "layout": "gridRow",
+            "layout": "gridRow3",
             "files": ["tm3-1", "tm3-2", "tm3-3", "tm3-4", "tm3-5", "tm3-6", "tm3-7"]
           },
           {
@@ -950,8 +950,8 @@
           },
           {
             "type": "photoGallery",
-            "class": "flexFluid",
-            "files": ["giorgio1", "giorgio2", "giorgio3", "giorgio4", "giorgio5", "giorgio6", "giorgio7", "giorgio8", "giorgio9", "giorgio10", "giorgio11", "giorgio12"]
+            "class": "gridColumn3",
+            "files": ["giorgio1.avif", "giorgio2.avif", "giorgio4.avif", "giorgio5.avif", "giorgio6.avif", "giorgio7.avif", "giorgio8.avif", "giorgio9.avif", "giorgio10.avif", "giorgio11.avif", "giorgio12.avif", "giorgio13.avif"]
           },
           {
             "type": "quote",

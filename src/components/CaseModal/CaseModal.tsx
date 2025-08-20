@@ -56,6 +56,8 @@ const CaseModal = ({caseData, tagData, onClose}: CaseModalProps) => {
               src: buildAssetPath(folder, file),
               alt: `Imagem ${i + 1}`
             }))}
+            layout={block.layout}
+            description={block.description}
           />
         );
       case 'videoGallery':

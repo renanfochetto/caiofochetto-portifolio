@@ -9,6 +9,7 @@
     overflow-y: auto;
 }
 
+
 .modal img {
     max-width: 100%;
     height: auto;
@@ -30,11 +31,12 @@
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
+    margin-bottom: 2rem;
 }
 
 .modalHeader img {
-    width: 6rem;
-    height: 6rem;
+    width: 5rem;
+    height: 5rem;
 }
 
 .tagsSection {
@@ -55,18 +57,23 @@
 }
 
 .contentBlocks {
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
 }
 
-.modalFooter {
-    border-top: 1px solid #ddd;
-    padding-top: 1rem;
-    font-size: 0.9rem;
-    color: #555;
+.techSheet {
+    display: flex;
+    flex-direction: column;
+    margin-top: 4rem;
 }
 
 .techSheet p {
-    margin: 0.3rem 0;
+    font-family: var(--font-mono), monospace;
+    font-weight: var(--font-weight-regular);
+    background-color: var(--background);
+    font-size: var(--font-size-base);
+    margin: 0;
+    padding-block: 0.2rem;
+    box-shadow: none;
 }
 
 .modalOverlay {
@@ -82,3 +89,4 @@
     background: rgba(0, 0, 0, 0.6);
     z-index: 999;
 }
+

@@ -142,9 +142,9 @@
         "ano": 2021,
         "blocks": [
           {
-            "type": "imageGallery",
+            "type": "photoGallery",
             "layout": "banner",
-            "files": ["banner"]
+            "files": ["banner.avif"]
           },
           {
             "type": "text",
@@ -162,14 +162,14 @@
             "paragraph": "Desenvolvemos todas as trilhas e assinatura sonora junto a um profissional da música com ampla experiência em Jazz, Gustavo Bugni. Apesar de ser um projeto fortemente focado em áudio, sabemos que as artes gráficas complementam o projeto e aguçam os sentidos ainda mais. Por tanto, elaboramos um pacote gráfico para traduzir o que é a plataforma Passion 4 Jazz."
           },
           {
-            "type": "imageGallery",
+            "type": "photoGallery",
             "layout": "flexFluid",
-            "files": ["p4jz1", "p4jz2", "p4jz3", "p4jz4", "p4jz5", "p4jz6", "p4jz7", "p4jz8", "p4jz9", "p4jz10", "p4jz11", "p4jz12", "p4jz13", "p4jz14", "p4jz15", "p4jz16", "p4jz17"],
+            "files": ["p4jz1.avif", "p4jz2.avif", "p4jz3.avif", "p4jz4.avif", "p4jz5.avif", "p4jz6.avif", "p4jz7.avif", "p4jz8.avif", "p4jz9.avif", "p4jz10.avif", "p4jz11.avif", "p4jz12.avif", "p4jz13.avif", "p4jz14.avif", "p4jz15.avif", "p4jz16.avif", "p4jz17.avif"],
             "description": "Pacote de Divulgação"
           },
           {
             "type": "quote",
-            "paragraph": "Além das entregas do podcast em mp3 e de seu pacote gráfico, também contemplamos um pacote de entregas em vídeo e imagem para promover o projeto. Assim, cada episódio é apoiado por vídeos de saudação para redes sociais, além de vídeos com compilações de melhores momentos e trechos memoráveis, e álbuns com fotos dos bastidores."
+            "paragraph": "Além das entregas do podcast em mp3 e de seu pacote gráfico, também contemplamos um pacote de entregas em vídeo e imagem para promover o projeto. Assim, cada episódio é apoiado por vídeos de saudação para redes sociais, além de vídeos com compilações de melhores momentos e trechos memoráveis, e álbuns com fotos dos bastidor."
           },
           {
             "type": "videoGallery",
@@ -183,16 +183,16 @@
             ]
           },
           {
-            "type": "imageGallery",
+            "type": "photoGallery",
             "layout": "gridColumn-3",
             "files": [
-              "bastidores1", "bastidores2", "bastidores3", "bastidores4", "bastidores5", "bastidores6", "bastidores7", "bastidores8", "bastidores9", "bastidores10",
-              "bastidores11", "bastidores12", "bastidores13", "bastidores14", "bastidores15", "bastidores16", "bastidores17", "bastidores18", "bastidores19", "bastidores20",
-              "bastidores21", "bastidores22", "bastidores23", "bastidores24", "bastidores25", "bastidores26", "bastidores27", "bastidores28", "bastidores29", "bastidores30",
-              "bastidores31", "bastidores32", "bastidores33", "bastidores34", "bastidores35", "bastidores36", "bastidores37", "bastidores38", "bastidores39", "bastidores40",
-              "bastidores41", "bastidores42", "bastidores43", "bastidores44", "bastidores45", "bastidores46", "bastidores47", "bastidores48", "bastidores49", "bastidores50",
-              "bastidores51", "bastidores52", "bastidores53", "bastidores54", "bastidores55", "bastidores56", "bastidores57", "bastidores58", "bastidores59", "bastidores60",
-              "bastidores61", "bastidores62", "bastidores63", "bastidores64", "bastidores65", "bastidores66", "bastidores67", "bastidores68"
+              "bastidor1.avif", "bastidor2.avif", "bastidor3.avif", "bastidor4.avif", "bastidor5.avif", "bastidor6.avif", "bastidor7.avif", "bastidor8.avif", "bastidor9.avif", "bastidor10.avif",
+              "bastidor11.avif", "bastidor12.avif", "bastidor13.avif", "bastidor14.avif", "bastidor15.avif", "bastidor16.avif", "bastidor17.avif", "bastidor18.avif", "bastidor19.avif", "bastidor20.avif",
+              "bastidor21.avif", "bastidor22.avif", "bastidor23.avif", "bastidor24.avif", "bastidor25.avif", "bastidor26.avif", "bastidor27.avif", "bastidor28.avif", "bastidor29.avif", "bastidor30.avif",
+              "bastidor31.avif", "bastidor32.avif", "bastidor33.avif", "bastidor34.avif", "bastidor35.avif", "bastidor36.avif", "bastidor37.avif", "bastidor38.avif", "bastidor39.avif", "bastidor40.avif",
+              "bastidor41.avif", "bastidor43.avif", "bastidor44.avif", "bastidor45.avif", "bastidor46.avif", "bastidor47.avif", "bastidor48.avif", "bastidor49.avif", "bastidor50.avif",
+              "bastidor51.avif", "bastidor52.avif", "bastidor53.avif", "bastidor54.avif", "bastidor55.avif", "bastidor56.avif", "bastidor57.avif", "bastidor58.avif", "bastidor59.avif", "bastidor60.avif",
+              "bastidor61.avif", "bastidor62.avif", "bastidor63.avif", "bastidor64.avif", "bastidor65.avif", "bastidor66.avif", "bastidor67.avif", "bastidor68.avif"
             ]
           }
         ]
@@ -215,9 +215,9 @@
             "paragraph": "Em 2021 iniciamos parceria com a Agência Africa para atender a Natura enquanto agência criativa, com foco em conteúdo para redes sociais. Mês a mês entregamos pacotes de conteúdo para a linha Tododia, destacando as principais características das fragrâncias preferidas pelas consumidoras. Muito destaque para textura, sensações e emoções.\n\nA produção de conteúdo contou com casting, elenco de três modelos, além de figurino, direção de arte e objetos. O pacote gráfico é um desdobramento do manual da marca."
           },
           {
-            "type": "imageGallery",
-            "layout": "gridRow",
-            "files": ["natura1", "natura2", "natura3", "natura4"]
+            "type": "photoGallery",
+            "layout": "flexRow",
+            "files": ["natura1.avif", "natura2.avif", "natura3.avif", "natura4.avif"]
           },
           {
             "type": "videoGallery",
@@ -297,13 +297,13 @@
             "paragraph": "Toda a campanha foi criada em três idiomas, mantendo a originalidade e a criatividade brasileira, que traduz o que é HAVAIANAS em todo o mundo."
           },
           {
-            "type": "imageGallery",
-            "layout": "flexFluid",
+            "type": "photoGallery",
+            "layout": "gridFluid",
             "files": [
-              "havaianas1", "havaianas2", "havaianas3", "havaianas4", "havaianas5",
-              "havaianas6", "havaianas7", "havaianas8", "havaianas9", "havaianas10",
-              "havaianas11", "havaianas12", "havaianas13", "havaianas14", "havaianas15",
-              "havaianas16", "havaianas17", "havaianas18", "havaianas19", "havaianas20"
+              "havaianas1.avif", "havaianas2.avif", "havaianas3.avif", "havaianas4.avif", "havaianas5.avif",
+              "havaianas6.avif", "havaianas7.avif", "havaianas8.avif", "havaianas9.avif", "havaianas10.avif",
+              "havaianas11.avif", "havaianas12.avif", "havaianas13.avif", "havaianas14.avif", "havaianas15.avif",
+              "havaianas16.avif", "havaianas17.avif", "havaianas18.avif", "havaianas19.avif", "havaianas20.avif"
             ]
           }
         ]
@@ -338,14 +338,14 @@
             "title": "Artes Gráficas"
           },
           {
-            "type": "imageGallery",
-            "layout": "gridFluid",
+            "type": "photoGallery",
+            "layout": "gridFluid2",
             "files": [
-              "bohemia1", "bohemia2", "bohemia3", "bohemia4", "bohemia5",
-              "bohemia6", "bohemia7", "bohemia8", "bohemia9", "bohemia10",
-              "bohemia11", "bohemia12", "bohemia13", "bohemia14", "bohemia15",
-              "bohemia16", "bohemia17", "bohemia18", "bohemia19", "bohemia20",
-              "bohemia21", "bohemia22"
+              "bohemia1.avif", "bohemia2.avif", "bohemia3.avif", "bohemia4.avif", "bohemia5.avif",
+              "bohemia6.avif", "bohemia7.avif", "bohemia8.avif", "bohemia9.avif", "bohemia10.avif",
+              "bohemia11.avif", "bohemia12.avif", "bohemia13.avif", "bohemia14.avif", "bohemia15.avif",
+              "bohemia16.avif", "bohemia17.avif", "bohemia18.avif", "bohemia19.avif", "bohemia20.avif",
+              "bohemia21.avif", "bohemia22.avif"
             ]
           }
         ]
@@ -407,9 +407,9 @@
             "paragraph": "Desenvolvemos uma parceria de conteúdo de marca com Íntimus tendo como objetivo levar à nossa audiência uma discussão sobre menstruação e seus estigmas, com objetivo de melhor informar a população sobre pequenos preconceitos e desinformação sobre o tema, humanizando através da vivência de pessoas reais.\n\nCom um calendário de conteúdo extenso, exploramos diversos formatos de mídia e storytelling, começando com vídeos informativos, explorando ainda experimentos sociais nos quais mulheres desmistificam o assunto junto a homens presentes em suas vidas, incluindo ainda conteúdo criado pela própria audiência, que nos enviou seus casos mais controversos para serem transformados em animações.\n\nA produção foi realizada durante o início da pandemia, o que demandou ajustes de alguns formatos pré-aprovados com cliente, considerando a nova realidade.\n\nEsta produção incluiu: adaptação do conceito do cliente em formatos novos e já existentes, casting, casting de voz, desenvolvimento de roteiro, pacote de artes gráficas e motion, direção de arte, captação remota, animação, curadoria de conteúdo gerado pela audiência, pré-produção e pós-produção."
           },
           {
-            "type": "imageGallery",
-            "layout": "gridRow",
-            "files": ["intimus1", "intimus2", "intimus3", "intimus4"]
+            "type": "photoGallery",
+            "layout": "flexRow",
+            "files": ["intimus1.avif", "intimus2.avif", "intimus3.avif", "intimus4.avif"]
           }
         ]
       },
@@ -513,13 +513,13 @@
             "paragraph": "Além de séries especiais, também fui responsável por produzir vídeos e outros conteúdos especiais para os feeds da PlayGround Brasil no Facebook, Instagram e TikTok.\n\nEstas tarefas incluem gerenciamento de orçamento, cronograma de pré-produção, produção e pós-produção, gerenciamento de talentos, equipe e equipamentos, além da aprovação de roteiros."
           },
           {
-            "type": "imageGallery",
-            "layout": "flexFluid",
+            "type": "photoGallery",
+            "layout": "gridFluid3",
             "files": [
-              "playground1", "playground2", "playground3", "playground4", "playground5",
-              "playground6", "playground7", "playground8", "playground9", "playground10",
-              "playground11", "playground12", "playground13", "playground14", "playground15",
-              "playground16", "playground17", "playground18"
+              "playground1.avif", "playground2.avif", "playground3.avif", "playground4.avif", "playground5.avif",
+              "playground6.avif", "playground7.avif", "playground8.avif", "playground9.avif", "playground10.avif",
+              "playground11.avif", "playground12.avif", "playground13.avif", "playground14.avif", "playground15.avif",
+              "playground16.avif", "playground17.avif", "playground18.avif"
             ]
           }
         ]
@@ -537,9 +537,9 @@
         "ano": 2020,
         "blocks": [
           {
-            "type": "imageGallery",
-            "layout": "gridColumn(2)",
-            "files": ["pgentrevista1", "pgentrevista2", "pgentrevista3", "pgentrevista4"]
+            "type": "photoGallery",
+            "layout": "gridFluid4",
+            "files": ["pgentrevista1.avif", "pgentrevista2.avif", "pgentrevista3.avif", "pgentrevista4.avif"]
           },
           {
             "type": "text",
@@ -573,9 +573,9 @@
         "ano": 2020,
         "blocks": [
           {
-            "type": "imageGallery",
+            "type": "photoGallery",
             "layout": "single",
-            "files": ["ifotw1"]
+            "files": ["ifotw1.avif"]
           },
           {
             "type": "text",
@@ -583,18 +583,18 @@
             "paragraph": "A estratégia In Front Of The Wall para marcas A&E, History, History 2 e Lifetime consiste em compartilhar com o usuário comum uma amostra do poder das marcas enquanto produtores de conteúdo, sem a necessidade de realizar login em uma plataforma ou ser cliente de alguma operadora.\n\nMensalmente novos títulos (episódios completos) são adicionados às plataformas VOD das marcas, com foco no ambiente proprietário (sites da marca), Youtube e Dailymotion. A estratégia tem impulsionado o crescimento em todas as plataformas, porém é no Youtube que encontra seu terreno mais fértil. É também onde a experiência começou."
           },
           {
-            "type": "imageGallery",
+            "type": "photoGallery",
             "layout": "single",
-            "files": ["ifotw2"]
+            "files": ["ifotw2.avif"]
           },
           {
             "type": "quote",
             "paragraph": "Um comparativo entre distintos períodos, pré e pós Estratégia IFTW, apresenta crescimento vertiginoso nos principais KPIs da operação da marca no Youtube:\n\nTotal de horas assistidas: crescimento de 896%\nTempo médio de visualização: crescimento de 213%\nVisualização de vídeos: crescimento de 419%\nReceita: crescimento de 634%\nNovos assinantes do canal: crescimento de 517%"
           },
           {
-            "type": "imageGallery",
+            "type": "photoGallery",
             "layout": "single",
-            "files": ["ifotw3"]
+            "files": ["ifotw3.avif"]
           },
           {
             "type": "quote",
@@ -742,7 +742,7 @@
           {
             "type": "photoGallery",
             "layout": "gridRow",
-            "files": ["tm1-1", "tm1-2", "tm1-3", "tm1-4", "tm1-5", "tm1-6", "tm1-7", "tm1-8", "tm1-9"]
+            "files": ["tm1-1.avif", "tm1-2.avif", "tm1-3.avif", "tm1-4.avif", "tm1-5.avif", "tm1-6.avif", "tm1-7.avif", "tm1-8.avif", "tm1-9.avif"]
           },
           {
             "type": "text",
@@ -751,8 +751,8 @@
           },
           {
             "type": "photoGallery",
-            "layout": "gridRow",
-            "files": ["tm2-1", "tm2-2", "tm2-3", "tm2-4", "tm2-5", "tm2-6", "tm2-7", "tm2-8", "tm2-9", "tm2-10", "tm2-11"]
+            "layout": "gridRow2",
+            "files": ["tm2-1.avif", "tm2-2.avif", "tm2-3.avif", "tm2-4.avif", "tm2-5.avif", "tm2-6.avif", "tm2-7.avif", "tm2-8.avif", "tm2-9.avif", "tm2-10.avif", "tm2-11.avif"]
           },
           {
             "type": "text",
@@ -761,8 +761,8 @@
           },
           {
             "type": "photoGallery",
-            "layout": "gridRow",
-            "files": ["tm3-1", "tm3-2", "tm3-3", "tm3-4", "tm3-5", "tm3-6", "tm3-7"]
+            "layout": "gridRow3",
+            "files": ["tm3-1.avif", "tm3-2.avif", "tm3-3.avif", "tm3-4.avif", "tm3-5.avif", "tm3-6.avif", "tm3-7.avif"]
           },
           {
             "type": "text",
@@ -771,8 +771,8 @@
           },
           {
             "type": "photoGallery",
-            "layout": "flexFluid",
-            "files": ["tm4-1", "tm4-2", "tm4-3", "tm4-4", "tm4-5", "tm4-6"]
+            "layout": "gridFluid5",
+            "files": ["tm4-1.avif", "tm4-2.avif", "tm4-3.avif", "tm4-4.avif", "tm4-5.avif", "tm4-6.avif"]
           },
           {
             "type": "text",
@@ -786,8 +786,18 @@
           },
           {
             "type": "photoGallery",
-            "layout": "gridColumn",
-            "files": ["tm5-1", "tm5-2", "tm5-3"]
+            "layout": "single",
+            "files": ["tm5-1.avif"]
+          },
+          {
+            "type": "photoGallery",
+            "layout": "single",
+            "files": ["tm5-2.avif"]
+          },
+          {
+            "type": "photoGallery",
+            "layout": "single",
+            "files": ["tm5-3.avif"]
           },
           {
             "type": "quote",
@@ -809,11 +819,11 @@
         "blocks": [
           {
             "type": "photoGallery",
-            "layout": "flexFluid",
+            "layout": "gridFluid6",
             "files": [
-              "tvcultura1", "tvcultura2", "tvcultura3", "tvcultura4", "tvcultura5",
-              "tvcultura6", "tvcultura7", "tvcultura8", "tvcultura9", "tvcultura10",
-              "tvcultura11", "tvcultura12", "tvcultura13"
+              "tvcultura1.avif", "tvcultura2.avif", "tvcultura3.avif", "tvcultura4.avif", "tvcultura5.avif",
+              "tvcultura6.avif", "tvcultura7.avif", "tvcultura8.avif", "tvcultura9.avif", "tvcultura10.avif",
+              "tvcultura11.avif", "tvcultura12.avif", "tvcultura13.avif"
             ]
           },
           {
@@ -902,8 +912,8 @@
         "blocks": [
           {
             "type": "photoGallery",
-            "class": "single",
-            "files": ["sozinhos1"]
+            "layout": "single",
+            "files": ["sozinhos1.avif"]
           },
           {
             "type": "text",
@@ -917,8 +927,8 @@
           },
           {
             "type": "photoGallery",
-            "class": "flexFluid",
-            "files": ["sozinhos2", "sozinhos3", "sozinhos4", "sozinhos5", "sozinhos6", "sozinhos7"]
+            "layout": "flexRow",
+            "files": ["sozinhos2.avif", "sozinhos3.avif", "sozinhos4.avif", "sozinhos5.avif"]
           }
         ]
       },
@@ -941,8 +951,8 @@
           },
           {
             "type": "photoGallery",
-            "class": "flexFluid",
-            "files": ["giorgio1", "giorgio2", "giorgio3", "giorgio4", "giorgio5", "giorgio6", "giorgio7", "giorgio8", "giorgio9", "giorgio10", "giorgio11", "giorgio12"]
+            "layout": "gridColumn3",
+            "files": ["giorgio1.avif", "giorgio2.avif", "giorgio4.avif", "giorgio5.avif", "giorgio6.avif", "giorgio7.avif", "giorgio8.avif", "giorgio9.avif", "giorgio10.avif", "giorgio11.avif", "giorgio12.avif", "giorgio13.avif"]
           },
           {
             "type": "quote",
@@ -979,8 +989,8 @@
         "blocks": [
           {
             "type": "photoGallery",
-            "class": "flexFluid",
-            "files": ["alien1", "alien2", "alien3", "alien4", "alien5", "alien6"]
+            "layout": "gridColumn3",
+            "files": ["alien1.avif", "alien2.avif", "alien3.avif", "alien4.avif", "alien5.avif", "alien6.avif"]
           },
           {
             "type": "text",
@@ -1033,10 +1043,10 @@
           },
           {
             "type": "photoGallery",
-            "class": "flexFluid",
+            "layout": "gridColumn4",
             "files": [
-              "alien7", "alien8", "alien9", "alien10", "alien11", "alien12",
-              "alien13", "alien14", "alien15", "alien16", "alien17", "alien18"
+              "alien7.avif", "alien8.avif", "alien9.avif", "alien10.avif", "alien11.avif", "alien12.avif",
+              "alien13.avif", "alien14.avif", "alien15.avif", "alien16.avif", "alien17.avif", "alien18.avif"
             ]
           }
         ]

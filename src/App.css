@@ -15,16 +15,16 @@ body {
     font-weight: var(--font-weight-bold);
 }
 
-body::-webkit-scrollbar {
+*::-webkit-scrollbar {
     height: 0.75rem;
     width: 0.75rem;
 }
 
-body::-webkit-scrollbar-track {
+*::-webkit-scrollbar-track {
     background: transparent;
 }
 
-body::-webkit-scrollbar-thumb {
+*::-webkit-scrollbar-thumb {
     background-color: rgba(0, 0, 0, 0.3);
     border-radius: 1rem;
     border: 2px solid transparent;

@@ -40,7 +40,7 @@ files: p4jz1 to p4jz17
 description: Pacote de Divulgação
 
 6 - QuoteBlock
-paragraph: Além das entregas do podcast em mp3 e de seu pacote gráfico, também contemplamos um pacote de entregas em vídeo e imagem para promover o projeto. Assim, cada episódio é apoiado por vídeos de saudação para redes sociais, além de vídeos com compilações de melhores momentos e trechos memoráveis, e álbuns com fotos dos bastidores.
+paragraph: Além das entregas do podcast em mp3 e de seu pacote gráfico, também contemplamos um pacote de entregas em vídeo e imagem para promover o projeto. Assim, cada episódio é apoiado por vídeos de saudação para redes sociais, além de vídeos com compilações de melhores momentos e trechos memoráveis, e álbuns com fotos dos bastidor.
 
 7 - VideoGallery
 class: gridColumn
@@ -54,6 +54,6 @@ https://www.youtube.com/watch?v=-QgXpMqFRas
 8 - PhotoGallery
 class: gridColumn(3)
 
-files: bastidores1 to bastidores68
+files: bastidor1 to bastidor68
 
 
