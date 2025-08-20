@@ -61,7 +61,14 @@ const CaseModal = ({caseData, tagData, onClose}: CaseModalProps) => {
           />
         );
       case 'videoGallery':
-        return <VideoGallery key={index} videos={block.links}/>;
+        return (
+          <VideoGallery
+            key={index}
+            videos={block.links}
+            layout={block.layout}
+            description={block.description}
+          />
+        );
       default:
         return null;
     }

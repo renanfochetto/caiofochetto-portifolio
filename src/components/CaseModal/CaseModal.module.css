@@ -56,10 +56,6 @@
     object-fit: contain;
 }
 
-.contentBlocks {
-    margin-bottom: 1rem;
-}
-
 .techSheet {
     display: flex;
     flex-direction: column;

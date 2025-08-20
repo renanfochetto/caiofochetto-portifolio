@@ -462,7 +462,7 @@
           {
             "type": "videoGallery",
             "layout": "single",
-            "links": ["https://www.youtube.com/watch?list=PLy16HvZ-E18KWPnwycEGhNKunh1nkHI-N&v=6esUUjc8GjI"]
+            "links": ["https://www.youtube.com/watch?v=6esUUjc8GjI"]
           },
           {
             "type": "text",
@@ -486,7 +486,7 @@
           {
             "type": "videoGallery",
             "layout": "single",
-            "links": ["https://www.youtube.com/watch?list=PLy16HvZE18I5rr5PLMoypiIR432ZIScL&v=qF0mCKT0nkc"]
+            "links": ["https://www.youtube.com/watch?v=qF0mCKT0nkc"]
           },
           {
             "type": "text",
