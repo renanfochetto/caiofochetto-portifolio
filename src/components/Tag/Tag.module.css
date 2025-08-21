@@ -7,9 +7,10 @@
     font-family: var(--font-mono), monospace;
     display: inline-block;
     width: auto;
-    border: 2px solid var(--pink);
+    border: 1px solid var(--pink);
     white-space: nowrap;
     max-width: max-content;
+    box-shadow: var(--shadow-base);
 }
 
 .tag:hover {

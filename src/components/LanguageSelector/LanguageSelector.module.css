@@ -8,6 +8,7 @@
     cursor: pointer;
     text-decoration: underline;
     text-underline-offset: 0.3rem;
+    text-decoration-thickness: 0.15rem;
 }
 
 .selected {

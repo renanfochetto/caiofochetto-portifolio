@@ -6,6 +6,6 @@
 }
 
 .linkContainer a:hover {
-    outline: 2px solid var(--black);
+    outline: 3px solid var(--black);
     outline-offset: 0.4rem;
 }
