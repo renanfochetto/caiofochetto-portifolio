@@ -131,7 +131,7 @@
     "projetos" : [
       {
         "id": 1,
-        "nome": "Podcast Passion 4 Jazz",
+        "nome": "Passion 4 Jazz",
         "marca": "Passion 4 Jazz",
         "folder": "p4jz",
         "logos": ["p4jzlogo.avif"],
@@ -175,7 +175,8 @@
           },
           {
             "type": "quote",
-            "paragraph": ["Além das entregas do podcast em mp3 e de seu pacote gráfico, também contemplamos um pacote de entregas em vídeo e imagem para promover o projeto.",
+            "paragraph": [
+              "Além das entregas do podcast em mp3 e de seu pacote gráfico, também contemplamos um pacote de entregas em vídeo e imagem para promover o projeto.",
               "Assim, cada episódio é apoiado por vídeos de saudação para redes sociais, além de vídeos com compilações de melhores momentos e trechos memoráveis, e álbuns com fotos dos bastidor."
               ]
           },
@@ -219,7 +220,7 @@
         "blocks": [
           {
             "type": "text",
-            "title": "Playground | NATURA",
+            "title": "Playground - Agência Criativa | NATURA",
             "paragraph": [
               "Em 2021 iniciamos parceria com a Agência Africa para atender a Natura enquanto agência criativa, com foco em conteúdo para redes sociais.",
               "Mês a mês entregamos pacotes de conteúdo para a linha Tododia, destacando as principais características das fragrâncias preferidas pelas consumidoras. Muito destaque para textura, sensações e emoções.",
@@ -251,12 +252,12 @@
         "capa": "netflixcover.avif",
         "empresa": "Playground",
         "cargo": "Content and Product Manager",
-        "tags": ["contentStrategy", "socialMedia", "digitalContent", "digitalStrategy"],
+        "tags": ["contentStrategy", "digitalContent", "digitalStrategy"],
         "ano": 2021,
         "blocks": [
           {
             "type": "text",
-            "title": "Playground | NETFLIX",
+            "title": "Playground - Agência Criativa | NETFLIX",
             "paragraph": [
               "Como gerente de produção e conteúdo, liderei o time criativo no desenvolvimento de formatos para as redes de Netflix.",
               "A produção incluiu o desenvolvimento de conteúdo digital desde seu conceito, até desenvolvimento de roteiro, pacote gráfico, edição de som e vídeo, a pacote de promoção.",
@@ -344,7 +345,7 @@
         "capa": "bohemiacover.avif",
         "empresa": "Playground",
         "cargo": "Content and Product Manager",
-        "tags": ["contentStrategy", "digitalContent", "digitalStrategy", "socialMedia"],
+        "tags": ["contentStrategy", "digitalContent", "socialMedia"],
         "ano": 2022,
         "blocks": [
           {
@@ -446,7 +447,7 @@
         "capa": "intimuscover.avif",
         "empresa": "Playground",
         "cargo": "Content and Product Manager",
-        "tags": ["contentStrategy", "branding", "socialMedia", "digitalStrategy"],
+        "tags": ["contentStrategy", "branding", "socialMedia"],
         "ano": 2022,
         "blocks": [
           {
@@ -475,7 +476,7 @@
         "capa": "nevecover.avif",
         "empresa": "Playground",
         "cargo": "Content and Product Manager",
-        "tags": ["contentStrategy", "branding", "digitalStrategy", "digitalContent"],
+        "tags": ["contentStrategy", "branding", "digitalStrategy"],
         "ano": 2022,
         "blocks": [
           {
@@ -551,7 +552,7 @@
         "capa": "grandesdebatescover.avif",
         "empresa": "Playground",
         "cargo": "Content and Product Manager",
-        "tags": ["contentStrategy", "digitalStrategy", "editorialContent", "production"],
+        "tags": ["contentStrategy", "editorialContent", "production"],
         "ano": 2022,
         "blocks": [
           {
@@ -579,7 +580,7 @@
         "capa": "playgroundcover.avif",
         "empresa": "Playground",
         "cargo": "Content and Product Manager",
-        "tags": ["contentStrategy", "socialMedia", "digitalStrategy", "digitalContent"],
+        "tags": ["socialMedia", "digitalStrategy", "digitalContent"],
         "ano": 2022,
         "blocks": [
           {
@@ -611,7 +612,7 @@
         "capa": "pgentrevistacover.avif",
         "empresa": "Playground",
         "cargo": "Content and Product Manager",
-        "tags": ["socialMedia", "digitalStrategy", "digitalContent", "production"],
+        "tags": ["socialMedia", "digitalContent", "production"],
         "ano": 2020,
         "blocks": [
           {
@@ -655,7 +656,7 @@
         "capa": "ifotwcover.avif",
         "empresa": "A+E Networks",
         "cargo": "Digital Platforms Manager",
-        "tags": ["socialMedia", "digitalStrategy", "digitalContent", "contentStrategy"],
+        "tags": ["socialMedia", "digitalStrategy", "contentStrategy"],
         "ano": 2020,
         "blocks": [
           {
@@ -712,7 +713,7 @@
         "capa": "desafiosobfogocover.avif",
         "empresa": "A+E Networks",
         "cargo": "Digital Platforms Manager",
-        "tags": ["socialMedia", "digitalStrategy", "digitalContent", "contentStrategy"],
+        "tags": ["socialMedia", "digitalStrategy", "digitalContent"],
         "ano": 2018,
         "blocks": [
           {
@@ -865,7 +866,7 @@
         "capa": "twittermomentscover.avif",
         "empresa": "A+ENetworks",
         "cargo": "Digital Platforms Manager",
-        "tags": ["socialMedia", "digitalStrategy", "editorialContent", "production"],
+        "tags": ["digitalStrategy", "editorialContent", "production"],
         "ano": 2012,
         "blocks": [
           {
@@ -997,7 +998,7 @@
         "capa": "programanovocover.avif",
         "empresa": "Tv Cultura",
         "cargo": "Digital Content Producer",
-        "tags": ["socialMedia", "presentation", "digitalContent", "production"],
+        "tags": ["socialMedia", "presentation", "production"],
         "ano": 2010,
         "blocks": [
           {
@@ -1072,7 +1073,7 @@
         "capa": "sozinhoscover.avif",
         "empresa": "A+E Networks",
         "cargo": "Digital Platforms Manager",
-        "tags": ["contentStrategy", "editorialContent", "production", "socialMedia"],
+        "tags": ["editorialContent", "production", "socialMedia"],
         "ano": 2017,
         "blocks": [
           {
@@ -1117,7 +1118,7 @@
         "capa": "giorgionobrasilcover.avif",
         "empresa": "A+E Networks",
         "cargo": "Digital Platforms Manager",
-        "tags": ["socialMedia", "digitalStrategy", "digitalContent", "contentStrategy"],
+        "tags": ["socialMedia", "digitalStrategy", "contentStrategy"],
         "ano": 2017,
         "blocks": [
           {
@@ -1177,7 +1178,7 @@
         "capa": "alienigenascover.avif",
         "empresa": "A+E Networks",
         "cargo": "Digital Platforms Manager",
-        "tags": ["socialMedia", "digitalStrategy", "digitalContent", "contentStrategy"],
+        "tags": ["socialMedia", "digitalStrategy", "digitalContent"],
         "ano": 2018,
         "blocks": [
           {
@@ -1262,39 +1263,39 @@
     "tags": {
       "digitalStrategy": {
         "label": "#EstratégiaDigital",
-        "color": "#00ff37"
+        "color": "#000000"
       },
       "digitalContent": {
         "label": "#ConteúdoDigital",
-        "color": "#e30169"
+        "color": "#000000"
       },
       "branding": {
         "label": "#Branding",
-        "color": "#3fffff"
+        "color": "#000000"
       },
       "graphicDesign": {
         "label": "#DesignGráfico",
-        "color": "#ff7d20"
+        "color": "#000000"
       },
       "socialMedia": {
         "label": "#SocialMedia",
-        "color": "#b700ff"
+        "color": "#000000"
       },
       "contentStrategy": {
         "label": "#EstratégiaDeConteúdo",
-        "color": "#f6ff00"
+        "color": "#000000"
       },
       "editorialContent": {
         "label": "#ConteúdoEditorial",
-        "color": "#4f9aef"
+        "color": "#000000"
       },
       "production": {
         "label": "#Produção",
-        "color": "#ff9ef2"
+        "color": "#000000"
       },
       "presentation": {
         "label": "#Apresentação",
-        "color": "#9aff91"
+        "color": "#000000"
       }
     }
   },

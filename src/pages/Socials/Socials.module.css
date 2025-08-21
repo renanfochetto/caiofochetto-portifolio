@@ -76,7 +76,8 @@
 
 .previewImage:hover {
     transform: scale(1.03);
-    transition: transform 0.4s;
+    transition: transform 0.3s;
+    box-shadow: var(--shadow-regular-hover);
 }
 
 .previewImage:nth-child(1) {

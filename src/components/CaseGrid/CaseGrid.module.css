@@ -4,7 +4,7 @@
     grid-template-columns: repeat(12, 1fr);
     /* Each column matches the card width for consistent spacing */
     grid-auto-columns: 23rem;
-    gap: 1rem;
+    gap: 1.5rem;
     height: auto;
     padding: 1rem 12.5rem 0;
 }

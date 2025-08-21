@@ -1,16 +1,15 @@
 .tag {
     border-radius: var(--border-radius-base);
-    padding: 0.1rem 0.3rem;
+    padding: 0.01rem 0.25rem;
     font-size: var(--font-size-xxs);
-    color: var(--black);
+    color: var(--white);
     font-weight: var(--font-weight-semibold);
     font-family: var(--font-mono), monospace;
     display: inline-block;
     width: auto;
-    border: 2px solid transparent;
+    border: 2px solid var(--pink);
     white-space: nowrap;
     max-width: max-content;
-    box-shadow: var(--shadow-regular);
 }
 
 .tag:hover {

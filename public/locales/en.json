@@ -101,8 +101,8 @@
         "competencias": "Project Management * Digital Strategy * Content Strategy * Social Media Marketing * Mobile Content * Video Production"
       },
       {
-        "empresa": "RÁDIO BOA NOVA",
-        "logo": "/logos/radioboanova.avif",
+        "empresa": "REDE BOA NOVA",
+        "logo": "/logos/redeboanova.avif",
         "corFundo": "#0aa3c6",
         "corTexto": "#ffffff",
         "cargo": "Web Content Producer",
@@ -123,8 +123,8 @@
         "competencias": "Project Management * Leadership * Digital Strategy * Content Strategy * Social Media Marketing * Mobile Content"
       },
       {
-        "empresa": "RÁDIO BOA NOVA",
-        "logo": "/logos/radioboanova.avif",
+        "empresa": "REDE BOA NOVA",
+        "logo": "/logos/redeboanova.avif",
         "corFundo": "#0aa3c6",
         "corTexto": "#ffffff",
         "cargo": "Executive Producer",
@@ -140,7 +140,7 @@
     "projetos" : [
       {
         "id": 1,
-        "nome": "Podcast Passion 4 Jazz",
+        "nome": "Passion 4 Jazz",
         "marca": "Passion 4 Jazz",
         "folder": "p4jz",
         "logos": ["p4jzlogo.avif"],
@@ -153,32 +153,44 @@
           {
             "type": "photoGallery",
             "layout": "banner",
-            "files": ["banner"]
+            "files": ["banner.avif"]
           },
           {
             "type": "text",
-            "title": "Podcast Passion 4 Jazz",
-            "paragraph": "Passion 4 Jazz is a digital platform for jazz enthusiasts, whether they already have extensive knowledge or are just beginning to explore the genre. With a diverse team, we developed a full season of eight episodes focused on the most important names and icons in jazz—from its origins to the present day—covering all its facets.\n\nThe production included concept development, research and scripting, casting, art direction, set design and props, lighting, filming, sound production, and audio/video editing. It also encompassed a content strategy and a promotional package."
+            "title": "Passion 4 Jazz | Podcast",
+            "paragraph": [
+              "Passion 4 Jazz is a digital platform for jazz enthusiasts—whether they already have deep knowledge or are just beginning to explore the genre.",
+              "With a diverse team, we developed a full season of eight episodes focused on the most iconic names in jazz, from its origins to the present day, covering all its facets.",
+              "The production included concept development, research and scripting, casting, art direction, set design and props, lighting, filming, sound production, and audio/video editing. It also encompassed content strategy and a promotional package."
+            ]
           },
           {
             "type": "videoGallery",
             "layout": "single",
-            "links": ["https://www.youtube.com/watch?v=8wbdIYeAc_0"],
-            "description": "Sound and Graphic Package"
+            "links": ["https://www.youtube.com/watch?v=8wbdIYeAc_0"]
           },
           {
             "type": "quote",
-            "paragraph": "We developed all the soundtracks and sonic branding in collaboration with Gustavo Bugni, a seasoned music professional with extensive experience in jazz. Although this is a project with a strong focus on audio, we recognize that graphic design enhances the experience and stimulates the senses even further. Therefore, we created a visual package to express the essence of the Passion 4 Jazz platform."
+            "paragraph": [
+              "We developed all the soundtracks and sonic branding in collaboration with Gustavo Bugni, a seasoned music professional with extensive experience in jazz.",
+              "Although this is a project with a strong focus on audio, we know that graphic design enhances the experience and stimulates the senses even further. That’s why we created a visual package to express the essence of the Passion 4 Jazz platform."
+            ]
           },
           {
             "type": "photoGallery",
             "layout": "flexFluid",
-            "files": ["p4jz1", "p4jz2", "p4jz3", "p4jz4", "p4jz5", "p4jz6", "p4jz7", "p4jz8", "p4jz9", "p4jz10", "p4jz11", "p4jz12", "p4jz13", "p4jz14", "p4jz15", "p4jz16", "p4jz17"],
+            "files": [
+              "p4jz1.avif", "p4jz2.avif", "p4jz3.avif", "p4jz4.avif", "p4jz5.avif", "p4jz6.avif", "p4jz7.avif", "p4jz8.avif", "p4jz9.avif", "p4jz10.avif",
+              "p4jz11.avif", "p4jz12.avif", "p4jz13.avif", "p4jz14.avif", "p4jz15.avif", "p4jz16.avif", "p4jz17.avif"
+            ],
             "description": "Promotional Package"
           },
           {
             "type": "quote",
-            "paragraph": "In addition to delivering the podcast in MP3 format and its graphic package, we also included a set of video and image assets to promote the project. Each episode is supported by greeting videos for social media, highlight reels featuring memorable moments, and behind-the-scenes photo albums."
+            "paragraph": [
+              "In addition to delivering the podcast in MP3 format and its graphic package, we also created a set of video and image assets to promote the project.",
+              "Each episode was supported by greeting videos for social media, highlight reels with memorable moments, and behind-the-scenes photo albums."
+            ]
           },
           {
             "type": "videoGallery",
@@ -195,13 +207,13 @@
             "type": "photoGallery",
             "layout": "gridColumn-3",
             "files": [
-              "bastidor1", "bastidor2", "bastidor3", "bastidor4", "bastidor5", "bastidor6", "bastidor7", "bastidor8", "bastidor9", "bastidor10",
-              "bastidor11", "bastidor12", "bastidor13", "bastidor14", "bastidor15", "bastidor16", "bastidor17", "bastidor18", "bastidor19", "bastidor20",
-              "bastidor21", "bastidor22", "bastidor23", "bastidor24", "bastidor25", "bastidor26", "bastidor27", "bastidor28", "bastidor29", "bastidor30",
-              "bastidor31", "bastidor32", "bastidor33", "bastidor34", "bastidor35", "bastidor36", "bastidor37", "bastidor38", "bastidor39", "bastidor40",
-              "bastidor41", "bastidor43", "bastidor44", "bastidor45", "bastidor46", "bastidor47", "bastidor48", "bastidor49", "bastidor50",
-              "bastidor51", "bastidor52", "bastidor53", "bastidor54", "bastidor55", "bastidor56", "bastidor57", "bastidor58", "bastidor59", "bastidor60",
-              "bastidor61", "bastidor62", "bastidor63", "bastidor64", "bastidor65", "bastidor66", "bastidor67", "bastidor68"
+              "bastidor1.avif", "bastidor2.avif", "bastidor3.avif", "bastidor4.avif", "bastidor5.avif", "bastidor6.avif", "bastidor7.avif", "bastidor8.avif", "bastidor9.avif", "bastidor10.avif",
+              "bastidor11.avif", "bastidor12.avif", "bastidor13.avif", "bastidor14.avif", "bastidor15.avif", "bastidor16.avif", "bastidor17.avif", "bastidor18.avif", "bastidor19.avif", "bastidor20.avif",
+              "bastidor21.avif", "bastidor22.avif", "bastidor23.avif", "bastidor24.avif", "bastidor25.avif", "bastidor26.avif", "bastidor27.avif", "bastidor28.avif", "bastidor29.avif", "bastidor30.avif",
+              "bastidor31.avif", "bastidor32.avif", "bastidor33.avif", "bastidor34.avif", "bastidor35.avif", "bastidor36.avif", "bastidor37.avif", "bastidor38.avif", "bastidor39.avif", "bastidor40.avif",
+              "bastidor41.avif", "bastidor43.avif", "bastidor44.avif", "bastidor45.avif", "bastidor46.avif", "bastidor47.avif", "bastidor48.avif", "bastidor49.avif", "bastidor50.avif",
+              "bastidor51.avif", "bastidor52.avif", "bastidor53.avif", "bastidor54.avif", "bastidor55.avif", "bastidor56.avif", "bastidor57.avif", "bastidor58.avif", "bastidor59.avif", "bastidor60.avif",
+              "bastidor61.avif", "bastidor62.avif", "bastidor63.avif", "bastidor64.avif", "bastidor65.avif", "bastidor66.avif", "bastidor67.avif", "bastidor68.avif"
             ]
           }
         ]
@@ -211,7 +223,7 @@
         "nome": "Natura",
         "marca": "Natura",
         "folder": "natura",
-        "logos": ["naturalogo.avif"],
+        "logos": ["naturalogo.png"],
         "capa": "naturacover.avif",
         "empresa": "Playground",
         "cargo": "Content and Product Manager",
@@ -220,13 +232,17 @@
         "blocks": [
           {
             "type": "text",
-            "title": "PLAYGROUND - Creative Agency | NATURA",
-            "paragraph": "In 2021, we began a partnership with Africa agency to serve Natura as the creative agency, focusing on social media content. Month after month we delivered content packages for the Tododia line, highlighting the main characteristics of the fragrances most loved by consumers, with strong emphasis on texture, sensations, and emotions.\n\nContent production included casting with a three-model cast, plus wardrobe, art direction and props. The graphics package was an extension of the brand guidelines."
+            "title": "Playground - Creative Agency | NATURA",
+            "paragraph": [
+              "In 2021, we began a partnership with Africa Agency to serve Natura as a creative agency, focusing on social media content.",
+              "Each month, we delivered content packages for the Tododia product line, highlighting the key characteristics of the fragrances most loved by consumers—with strong emphasis on texture, sensations, and emotions.",
+              "Content production included casting with a three-model lineup, wardrobe styling, art direction, and props. The graphic package was an extension of the brand’s visual guidelines."
+            ]
           },
           {
             "type": "photoGallery",
             "layout": "flexRow",
-            "files": ["natura1", "natura2", "natura3", "natura4"]
+            "files": ["natura1.avif", "natura2.avif", "natura3.avif", "natura4.avif"]
           },
           {
             "type": "videoGallery",
@@ -244,22 +260,30 @@
         "nome": "Netflix",
         "marca": "Netflix",
         "folder": "netflix",
-        "logos": ["netflixlogo.avif"],
+        "logos": ["netflixlogo.png"],
         "capa": "netflixcover.avif",
         "empresa": "Playground",
         "cargo": "Content and Product Manager",
-        "tags": ["contentStrategy", "socialMedia", "digitalContent", "digitalStrategy"],
+        "tags": ["contentStrategy", "digitalContent", "digitalStrategy"],
         "ano": 2021,
         "blocks": [
           {
             "type": "text",
-            "title": "PLAYGROUND - Creative Agency | NETFLIX",
-            "paragraph": "As production and content manager, I led the creative team in developing formats for Netflix’s social channels. Production included developing digital content from concept through scriptwriting, graphic package, sound and video editing, and promotional assets. The content strategy was based on data analysis from the brand’s platforms, considering audience engagement and retention."
+            "title": "Playground - Creative Agency | NETFLIX",
+            "paragraph": [
+              "As production and content manager, I led the creative team in developing formats for Netflix’s social media channels.",
+              "Production included developing digital content from concept through scriptwriting, graphic package design, sound and video editing, and promotional assets.",
+              "The content strategy was based on data analysis from the brand’s platforms, focusing on audience engagement and retention."
+            ]
           },
           {
             "type": "text",
             "title": "Worlds Collide | NETFLIX",
-            "paragraph": "An original six-episode YouTube series designed to cross-relate shows and present new titles to the brand’s audience. We created a narrative full of theories that connected catalog titles, forming a Netflix cinematic universe.\n\nThe result was high fan engagement, with comments that expanded on the theories and increased channel retention."
+            "paragraph": [
+              "An original six-episode YouTube series designed to cross-relate shows and introduce new titles to the brand’s audience.",
+              "We created a narrative filled with theories that connected catalog titles, forming a Netflix cinematic universe.",
+              "The result was high fan engagement, with comments that expanded on the theories and boosted channel retention."
+            ]
           },
           {
             "type": "videoGallery",
@@ -281,8 +305,8 @@
         "marca": "Netflix + Havaianas",
         "folder": "havaianas",
         "logos": [
-          "havaianaslogo.avif",
-          "netflixlogo.avif"
+          "havaianaslogo.png",
+          "netflixlogo.png"
         ],
         "capa": "havaianascover.avif",
         "empresa": "Playground",
@@ -292,8 +316,13 @@
         "blocks": [
           {
             "type": "text",
-            "title": "HAVAIANAS + NETFLIX | Follow My Voice (International Women’s Day)",
-            "paragraph": "For International Women’s Day, we kicked off a production partnership with Havaianas and Netflix. Both brands came together to launch a product inspired by the female leadership in Netflix series. But there was a challenge: how do we start this conversation without distancing real people from the superheroes’ powers?\n\nSo we created the Follow My Voice campaign, a platform where real women share their stories of victories and achievements—real powers from extremely strong people. To start this conversation, we brought together four women who have everything to do with Netflix’s protagonists."
+            "title": "Follow My Voice (International Women’s Day) | HAVAIANAS + NETFLIX",
+            "paragraph": [
+              "For International Women’s Day, we launched a production partnership with Havaianas and Netflix.",
+              "Both brands came together to release a product inspired by the female protagonists of Netflix series. But there was a challenge: how do we start this conversation without distancing real women from the superpowers of fictional heroines?",
+              "So we created the campaign Follow My Voice, a platform where real women share stories of victories and achievements—real powers from incredibly strong individuals.",
+              "To kick off the conversation, we brought together four women who deeply resonate with Netflix’s leading characters."
+            ]
           },
           {
             "type": "videoGallery",
@@ -302,17 +331,19 @@
           },
           {
             "type": "text",
-            "title": "3 LANGUAGES, MULTIPLE PLATFORMS",
-            "paragraph": "The entire campaign was created in three languages, preserving the originality and Brazilian creativity that expresses what HAVAIANAS is around the world."
+            "title": "3 Languages. Multiple Platforms",
+            "paragraph": [
+              "The entire campaign was created in three languages, preserving the originality and Brazilian creativity that defines HAVAIANAS around the world."
+            ]
           },
           {
             "type": "photoGallery",
             "layout": "gridFluid",
             "files": [
-              "havaianas1", "havaianas2", "havaianas3", "havaianas4", "havaianas5",
-              "havaianas6", "havaianas7", "havaianas8", "havaianas9", "havaianas10",
-              "havaianas11", "havaianas12", "havaianas13", "havaianas14", "havaianas15",
-              "havaianas16", "havaianas17", "havaianas18", "havaianas19", "havaianas20"
+              "havaianas1.avif", "havaianas2.avif", "havaianas3.avif", "havaianas4.avif", "havaianas5.avif",
+              "havaianas6.avif", "havaianas7.avif", "havaianas8.avif", "havaianas9.avif", "havaianas10.avif",
+              "havaianas11.avif", "havaianas12.avif", "havaianas13.avif", "havaianas14.avif", "havaianas15.avif",
+              "havaianas16.avif", "havaianas17.avif", "havaianas18.avif", "havaianas19.avif", "havaianas20.avif"
             ]
           }
         ]
@@ -322,17 +353,22 @@
         "nome": "Bohemia",
         "marca": "Bohemia",
         "folder": "bohemia",
-        "logos": ["bohemialogo.avif"],
+        "logos": ["bohemialogo.png"],
         "capa": "bohemiacover.avif",
         "empresa": "Playground",
         "cargo": "Content and Product Manager",
-        "tags": ["contentStrategy", "digitalContent", "digitalStrategy", "socialMedia"],
+        "tags": ["contentStrategy", "digitalContent", "socialMedia"],
         "ano": 2022,
         "blocks": [
           {
             "type": "text",
-            "title": "BOHEMIA | Flavor that Moves Traditions",
-            "paragraph": "In a series format with different approaches, the goal was to show that Brazil’s first brewery remains as current as many other traditions in our country, such as Northeastern São João and Rio’s passinho.\n\nEven during the pandemic, we brought together different personalities from these traditions to share their views and expand the conversations around the brand. As production and content manager, my role was to lead the creative and production teams in developing the brand’s digital presence through localized content for different platforms.\n\nThis production included scripting, pre- and post-production, remote capture, cast preparation, development of a graphic package based on concept art, motion design, and a promotional package."
+            "title": "Flavor That Moves Traditions | BOHEMIA",
+            "paragraph": [
+              "Structured as a series with different approaches, the goal was to show that Brazil’s first brewery remains as relevant as other cultural traditions in the country—like São João in the northeast and the carioca passinho dance.",
+              "Still during the pandemic, we brought together personalities from these traditions to share their perspectives and expand conversations around the brand.",
+              "As production and content manager, I led the creative and production teams in developing the brand’s digital presence through localized content for different platforms.",
+              "This production included scripting, pre- and post-production, remote filming, cast preparation, graphic package development based on conceptual art, motion design, and promotional assets."
+            ]
           },
           {
             "type": "videoGallery",
@@ -343,18 +379,20 @@
             ]
           },
           {
-            "type": "text",
-            "title": "Graphic Arts"
+            "type": "quote",
+            "paragraph": [
+              "Graphic Arts:"
+            ]
           },
           {
             "type": "photoGallery",
             "layout": "gridFluid2",
             "files": [
-              "bohemia1", "bohemia2", "bohemia3", "bohemia4", "bohemia5",
-              "bohemia6", "bohemia7", "bohemia8", "bohemia9", "bohemia10",
-              "bohemia11", "bohemia12", "bohemia13", "bohemia14", "bohemia15",
-              "bohemia16", "bohemia17", "bohemia18", "bohemia19", "bohemia20",
-              "bohemia21", "bohemia22"
+              "bohemia1.avif", "bohemia2.avif", "bohemia3.avif", "bohemia4.avif", "bohemia5.avif",
+              "bohemia6.avif", "bohemia7.avif", "bohemia8.avif", "bohemia9.avif", "bohemia10.avif",
+              "bohemia11.avif", "bohemia12.avif", "bohemia13.avif", "bohemia14.avif", "bohemia15.avif",
+              "bohemia16.avif", "bohemia17.avif", "bohemia18.avif", "bohemia19.avif", "bohemia20.avif",
+              "bohemia21.avif", "bohemia22.avif"
             ]
           }
         ]
@@ -364,7 +402,7 @@
         "nome": "Nestlé",
         "marca": "Nestlé",
         "folder": "nestle",
-        "logos": ["nestlelogo.avif"],
+        "logos": ["nestlelogo.png"],
         "capa": "nestlecover.avif",
         "empresa": "Playground",
         "cargo": "Content and Product Manager",
@@ -373,13 +411,23 @@
         "blocks": [
           {
             "type": "text",
-            "title": "PlayGround - Branded Content | NESTLÉ",
-            "paragraph": "Starting in January 2020 I joined the PlayGround Brasil team as production and project manager. Responsible for editorial content, but also branded content, I took on challenges not only from our creative team but also from our clients.\n\nAs production and project manager, I am responsible for developing content proposals that are effective and efficient for our clients and their brands—and also for PlayGround as a company, since branded content is one of our main business models. In addition to developing proposals with the commercial and editorial teams, I also manage production budgets, contract development, and production schedules, among other responsibilities."
+            "title": "PlayGround | NESTLÉ",
+            "paragraph": [
+              "Starting in January 2020, I joined the PlayGround Brasil team as Production and Project Manager.",
+              "Responsible for editorial content as well as branded content, I engaged with challenges not only from our creative team but also from our clients.",
+              "As Production and Project Manager, I’m responsible for developing content proposals that are both effective and efficient for our clients and their brands—and also for PlayGround as a company, since branded content is one of our core business models.",
+              "In addition to developing proposals with the commercial and editorial teams, I also manage production budgets, contract development, and production schedules."
+            ]
           },
           {
             "type": "text",
             "title": "Emergency Kitchen | NESTLÉ",
-            "paragraph": "Focusing on practical recipes and everyday emergencies, we developed a pilot project with Nestlé aimed at younger audiences. What do you do when there’s only water in the fridge? How do you give yourself a little comfort when Mercury is in retrograde? How do you cook something cool for an unexpected date?\n\nThe content campaign included four main, full videos, each with three recipes. To increase reach, we created shorter assets with calls to action to tease and invite the audience to the main video. This is an example made for Instagram Reels."
+            "paragraph": [
+              "Focused on practical recipes and everyday emergencies, we developed a pilot project with Nestlé aimed at younger audiences.",
+              "What do you do when there’s only water in the fridge? How do you comfort yourself when Mercury is in retrograde? How do you cook something fun for a last-minute date?",
+              "The content campaign included four full-length videos, each featuring three recipes. To boost reach, we created shorter assets with calls to action to provoke and invite the audience to the main video.",
+              "This is an example created for Instagram Reels."
+            ]
           },
           {
             "type": "videoGallery",
@@ -389,7 +437,11 @@
           {
             "type": "text",
             "title": "Masters’ Talk | NESCAFÉ",
-            "paragraph": "To promote its premium coffee brand, we developed with Nestlé a roundtable among women masters behind three beloved beverages: coffee, wine and beer.\n\nAt the height of the pandemic, we created a remote switcher to direct high-quality capture in three different environments. This allowed each master to share her experiences not only with the beverages but also in professional fields rarely occupied by women.\n\nThe content campaign featured one main video and short promotional teasers, all adapted for different platforms. This production included: development of an original editorial concept, casting, graphic package, script development, culinary curation, pre- and post-production, remote capture, art direction and props, photoshoot, lighting and motion."
+            "paragraph": [
+              "To promote its premium coffee brand, we developed a roundtable with Nestlé featuring women masters behind three beloved beverages: coffee, wine, and beer.",
+              "During the height of the pandemic, we created a remote switcher to direct high-quality capture across three different environments. This allowed each master to share her experiences not only with the beverages but also in professional fields rarely occupied by women.",
+              "The content campaign included one main video and several short promotional teasers, all adapted for different platforms. This production included: development of an original editorial concept, casting, graphic package, scriptwriting, culinary curation, pre- and post-production, remote capture, art direction and props, photoshoot, lighting, and motion design."
+            ]
           },
           {
             "type": "videoGallery",
@@ -403,22 +455,27 @@
         "nome": "Íntimus",
         "marca": "Íntimus",
         "folder": "intimus",
-        "logos": ["intimuslogo.avif"],
+        "logos": ["intimuslogo.png"],
         "capa": "intimuscover.avif",
         "empresa": "Playground",
         "cargo": "Content and Product Manager",
-        "tags": ["contentStrategy", "branding", "socialMedia", "digitalStrategy"],
+        "tags": ["contentStrategy", "branding", "socialMedia"],
         "ano": 2022,
         "blocks": [
           {
             "type": "text",
-            "title": "INTIMUS (Kotex) - End the Stigma (Stigma Box) | BRANDED CONTENT",
-            "paragraph": "We developed a branded content partnership with Intimus to bring a discussion about menstruation and its stigmas to our audience, aiming to better inform people about everyday prejudices and misinformation on the topic—humanizing it through the experiences of real people.\n\nWith an extensive content calendar, we explored various media formats and storytelling, starting with informational videos and social experiments in which women demystified the subject alongside men in their lives. We also included content created by the audience itself, who sent us their most controversial cases to be turned into animations.\n\nProduction took place at the beginning of the pandemic, which required adjustments to some pre-approved formats with the client, considering the new reality.\n\nThis production included: adapting the client’s concept into new and existing formats, casting and voiceover, script development, graphic arts and motion package, art direction, remote capture, animation, curation of user-generated content, and pre- and post-production."
+            "title": "End the Stigma (Stigma Box) | ÍNTIMUS (Kotex)",
+            "paragraph": [
+              "We developed a branded content partnership with Íntimus to spark a conversation about menstruation and its stigmas, aiming to better inform the public about everyday prejudices and misinformation—humanizing the topic through real-life experiences.",
+              "With an extensive content calendar, we explored multiple media formats and storytelling approaches, starting with informational videos and social experiments in which women demystified the subject alongside men in their lives. We also included content created by the audience, who submitted their most controversial stories to be turned into animations.",
+              "Production took place at the beginning of the pandemic, which required adjustments to some pre-approved formats with the client, considering the new reality.",
+              "This production included: adapting the client’s concept into new and existing formats, casting and voiceover, script development, graphic arts and motion package, art direction, remote capture, animation, curation of user-generated content, and pre- and post-production."
+            ]
           },
           {
             "type": "photoGallery",
-            "layout": "gridRow",
-            "files": ["intimus1", "intimus2", "intimus3", "intimus4"]
+            "layout": "flexRow",
+            "files": ["intimus1.avif", "intimus2.avif", "intimus3.avif", "intimus4.avif"]
           }
         ]
       },
@@ -427,17 +484,21 @@
         "nome": "Neve",
         "marca": "Neve",
         "folder": "neve",
-        "logos": ["nevelogo.avif"],
+        "logos": ["nevelogo.png"],
         "capa": "nevecover.avif",
         "empresa": "Playground",
         "cargo": "Content and Product Manager",
-        "tags": ["contentStrategy", "branding", "digitalStrategy", "digitalContent"],
+        "tags": ["contentStrategy", "branding", "digitalStrategy"],
         "ano": 2022,
         "blocks": [
           {
             "type": "text",
             "title": "Toilets Change Lives | NEVE",
-            "paragraph": "As PlayGround Brasil’s production and project manager, I was responsible for developing strategic content proposals for brands whose values align with ours and that resonate with the audience.\n\nWe partnered with Kimberly-Clark and its product Neve with the mission of telling Brazil about the outcome of localizing the global campaign Toilets Change Lives. After developing initiatives with NGOs that carry out basic sanitation work for hard-to-reach populations, the brand wanted to communicate the results nationwide through digital platforms."
+            "paragraph": [
+              "As PlayGround Brasil’s Production and Project Manager, I was responsible for developing strategic content proposals for brands whose values align with ours and resonate with the audience.",
+              "We partnered with Kimberly-Clark and its product Neve to tell Brazil about the localized version of the global campaign Toilets Change Lives, here titled Banheiros Mudam Vidas.",
+              "After developing initiatives with NGOs that provide basic sanitation services to hard-to-reach communities, the brand wanted to communicate the results nationwide through digital platforms."
+            ]
           },
           {
             "type": "videoGallery",
@@ -446,8 +507,15 @@
           },
           {
             "type": "text",
-            "title": "A new challenge",
-            "paragraph": "After completing the campaign with the NGOs and being ready to communicate the results, the pandemic changed all of the brand’s plans. How could we show the concrete impact of its actions with vulnerable, hard-to-reach populations during the most restrictive moment in recent history?\n\nPlayGround joined Kimberly-Clark in the search for viable solutions. We established a content strategy focused on a wide calendar with various informational pieces culminating in the release of a short documentary on the brand’s YouTube channel. The documentary brought together pre-captured footage, remote interviews, and on-site captures made by a small crew, following all health and hygiene protocols in different regions of the country (Northeast, Southeast and Center-West).\n\nWith the implementation of the on-the-ground solutions postponed, we introduced animations that helped visualize in video what had been delayed in real life.\n\nThis production included: development of strategic content based on the client’s initiatives; development of a graphic package based on the client’s identity; script development; remote and on-site capture; casting of talent and subject matter experts; animations and motion design; and pre- and post-production."
+            "title": "A New Challenge",
+            "paragraph": [
+              "After wrapping up the campaign with the NGOs and preparing to share the results, the pandemic disrupted all of the brand’s plans.",
+              "How could we showcase the impact of its actions with vulnerable, remote communities during the most restrictive moment in recent history?",
+              "PlayGround joined Kimberly-Clark in the search for viable solutions. We developed a content strategy focused on a broad calendar of informative pieces, culminating in the release of a short documentary on the brand’s YouTube channel.",
+              "The documentary combined pre-recorded footage, remote interviews, and on-site captures by a small crew, following all health and safety protocols across multiple regions of Brazil (Northeast, Southeast, and Center-West).",
+              "With the implementation of on-the-ground solutions postponed, we introduced animations to help visualize in video what had been delayed in real life.",
+              "This production included: strategic content development based on the client’s initiatives; graphic package design aligned with the brand identity; scriptwriting; remote and on-site filming; casting of talent and experts; animations and motion design; and full pre- and post-production."
+            ]
           }
         ]
       },
@@ -466,17 +534,25 @@
           {
             "type": "text",
             "title": "PlayGround | Editorial Content",
-            "paragraph": "Starting in January 2020, I became part of the PlayGround Brasil team as Production Manager. In 2021, I took over content and the general management of the company in Brazil. Along the way, I was responsible for branded content as well as editorial content—tailored to different networks and platforms."
+            "paragraph": [
+              "Starting in January 2020, I became part of the PlayGround Brasil team as Production Manager.",
+              "In 2021, I took over content and general management of the company in Brazil. During this journey, I was responsible for branded content as well as editorial content.",
+              "All content was custom-developed for different networks and platforms."
+            ]
           },
           {
             "type": "videoGallery",
             "layout": "single",
-            "links": ["https://www.youtube.com/watch?list=PLy16HvZ-E18KWPnwycEGhNKunh1nkHI-N&v=6esUUjc8GjI"]
+            "links": ["https://www.youtube.com/watch?v=6esUUjc8GjI"]
           },
           {
             "type": "text",
             "title": "Pq Deu Certo? | SERIES",
-            "paragraph": "An explainer-format series hosted by podcaster Laurinha Lero. As Producer and Director, I worked on schedule management, pre-production, production and post-production. I was responsible for budget management, talent contracts, crew scheduling, set dressing and interviews, managing talent, and script development."
+            "paragraph": [
+              "An explainer-format series hosted by podcaster Laurinha Lero.",
+              "As Producer and Director, I managed the schedule, pre-production, production, and post-production.",
+              "I was responsible for budget management, talent contracts, crew scheduling, set dressing, interviews, talent coordination, and script development."
+            ]
           }
         ]
       },
@@ -485,50 +561,58 @@
         "nome": "Grandes Debates da Humanidade",
         "marca": "Playground",
         "folder": "grandesdebates",
-        "logos": ["playgroundlogo.avif"],
+        "logos": ["grandesdebateslogo.avif"],
         "capa": "grandesdebatescover.avif",
         "empresa": "Playground",
         "cargo": "Content and Product Manager",
-        "tags": ["contentStrategy", "digitalStrategy", "editorialContent", "production"],
+        "tags": ["contentStrategy", "editorialContent", "production"],
         "ano": 2022,
         "blocks": [
           {
             "type": "videoGallery",
             "layout": "single",
-            "links": ["https://www.youtube.com/watch?list=PLy16HvZE18I5rr5PLMoypiIR432ZIScL&v=qF0mCKT0nkc"]
+            "links": ["https://www.youtube.com/watch?v=qF0mCKT0nkc"]
           },
           {
             "type": "text",
             "title": "Great Debates of Humanity | SERIES",
-            "paragraph": "The series proposes digestible debates on sometimes controversial topics. It is presented by Thiago Ora, a content creator who balances pop culture with philosophy. As Producer and Director, I handled the organization of pre-production, production and post-production schedules, talent and content management, as well as budget management, contracts and art production."
+            "paragraph": [
+              "The series presents digestible debates on topics that are sometimes controversial.",
+              "It is hosted by Thiago Ora, a content creator who skillfully balances pop culture and philosophy.",
+              "As Producer and Director, I handled the scheduling for pre-production, production, and post-production, as well as talent and content management.",
+              "I also oversaw budget planning, contracts, and art production."
+            ]
           }
         ]
       },
       {
         "id": 11,
-        "nome": "Playground - Redes Sociais",
+        "nome": "Playground - Social Media",
         "marca": "Playground",
         "folder": "playground",
         "logos": ["playgroundlogo.avif"],
         "capa": "playgroundcover.avif",
         "empresa": "Playground",
         "cargo": "Content and Product Manager",
-        "tags": ["contentStrategy", "socialMedia", "digitalStrategy", "digitalContent"],
+        "tags": ["socialMedia", "digitalStrategy", "digitalContent"],
         "ano": 2022,
         "blocks": [
           {
             "type": "text",
             "title": "Playground | Facebook, Instagram and TikTok Feeds",
-            "paragraph": "In addition to special series, I was also responsible for producing videos and other special content for PlayGround Brasil’s Facebook, Instagram and TikTok feeds.\n\nThese tasks included budget management; pre-production, production and post-production schedules; talent, crew and equipment management; and script approval."
+            "paragraph": [
+              "In addition to special series, I was also responsible for producing videos and other special content for PlayGround Brasil’s Facebook, Instagram, and TikTok feeds.",
+              "These tasks included budget management, scheduling for pre-production, production, and post-production, talent and crew coordination, equipment logistics, and script approval."
+            ]
           },
           {
             "type": "photoGallery",
             "layout": "gridFluid3",
             "files": [
-              "playground1", "playground2", "playground3", "playground4", "playground5",
-              "playground6", "playground7", "playground8", "playground9", "playground10",
-              "playground11", "playground12", "playground13", "playground14", "playground15",
-              "playground16", "playground17", "playground18"
+              "playground1.avif", "playground2.avif", "playground3.avif", "playground4.avif", "playground5.avif",
+              "playground6.avif", "playground7.avif", "playground8.avif", "playground9.avif", "playground10.avif",
+              "playground11.avif", "playground12.avif", "playground13.avif", "playground14.avif", "playground15.avif",
+              "playground16.avif", "playground17.avif", "playground18.avif"
             ]
           }
         ]
@@ -542,18 +626,26 @@
         "capa": "pgentrevistacover.avif",
         "empresa": "Playground",
         "cargo": "Content and Product Manager",
-        "tags": ["socialMedia", "digitalStrategy", "digitalContent", "production"],
+        "tags": ["socialMedia", "digitalContent", "production"],
         "ano": 2020,
         "blocks": [
           {
             "type": "photoGallery",
             "layout": "gridFluid4",
-            "files": ["pgentrevista1", "pgentrevista2", "pgentrevista3", "pgentrevista4"]
+            "files": ["pgentrevista1.avif", "pgentrevista2.avif", "pgentrevista3.avif", "pgentrevista4.avif"]
           },
           {
             "type": "text",
             "title": "PlayGround Interview | Production and Content Manager",
-            "paragraph": "Playground Interview is a biweekly remote interview format developed during the 2020 pandemic.\n\nThere was the editorial challenge of generating relevant content for the audience at a time of isolation and social distancing. What many could see as an obstacle turned into a great opportunity—on a global scale.\n\nArtists and personalities were isolated at home, still learning to deal with the new reality while continuing to produce. Logistics were solved—no one needed to visit a studio anymore. With a solid rundown, plenty of technology and communication software like Zoom or Skype, our super creative team started booking interviews and telling stories.\n\nWe premiered with Pabllo Vittar, but also talked to Spice Girl Mel C, Laerte Coutinho, Mauricio de Sousa, as well as Fernanda Takai, and the cast and production of the film Alice Junior, among others.\n\nIn this project I was involved from format creation to graphics package development, talent selection and remote capture. I am credited as Producer and Director. In some editions I was responsible for the rundown, conducting the interview and the script."
+            "paragraph": [
+              "PlayGround Interview is a biweekly remote interview format developed during the 2020 pandemic.",
+              "There was an editorial challenge to create relevant content for audiences during a time of isolation and social distancing.",
+              "What many saw as an obstacle became a major opportunity—on a global scale.",
+              "Artists and public figures were confined to their homes, still adjusting to the new reality while continuing to create. Logistics were simplified—no one needed to visit a studio anymore.",
+              "With strong editorial planning, plenty of tech, and communication tools like Zoom and Skype, our highly creative team began scheduling interviews and telling stories.",
+              "We premiered with Pabllo Vittar, and also spoke with Spice Girl Mel C, Laerte Coutinho, Mauricio de Sousa, Fernanda Takai, and the cast and crew of the film Alice Junior, among others.",
+              "In this project, I was involved from format creation to graphic package development, talent selection, and remote capture. I’m credited as Producer and Director. In some episodes, I also handled editorial planning, interview hosting, and scriptwriting."
+            ]
           },
           {
             "type": "videoGallery",
@@ -574,40 +666,55 @@
         "nome": "In Front of the Wall",
         "marca": "A+E Networks",
         "folder": "ifotw",
-        "logos": ["ifotwlogo.avif"],
+        "logos": ["ifotwlogo.png"],
         "capa": "ifotwcover.avif",
         "empresa": "A+E Networks",
         "cargo": "Digital Platforms Manager",
-        "tags": ["socialMedia", "digitalStrategy", "digitalContent", "contentStrategy"],
+        "tags": ["socialMedia", "digitalStrategy", "contentStrategy"],
         "ano": 2020,
         "blocks": [
           {
             "type": "photoGallery",
             "layout": "single",
-            "files": ["ifotw1"]
+            "files": ["ifotw1.avif"]
           },
           {
             "type": "text",
             "title": "In Front of the Wall | STRATEGY",
-            "paragraph": "The In Front Of The Wall strategy for the A&E, History, History 2 and Lifetime brands consists of sharing with everyday users a sample of the brands’ power as content producers—without requiring a platform login or being a pay-TV customer.\n\nNew titles (full episodes) are added monthly to the brands’ VOD platforms, focusing on owned environments (brand sites), YouTube and Dailymotion. The strategy has driven growth across all platforms, but YouTube is where it thrives most—and where the experiment began."
+            "paragraph": [
+              "The In Front of the Wall strategy for the A&E, History, History 2, and Lifetime brands was designed to give everyday users a taste of the brands’ power as content producers—without requiring login credentials or pay-TV subscriptions.",
+              "Each month, new titles (full episodes) were added to the brands’ VOD platforms, with a focus on owned environments (brand websites), YouTube, and Dailymotion.",
+              "The strategy drove growth across all platforms, but YouTube proved to be the most fertile ground—and where the initiative first launched."
+            ]
           },
           {
             "type": "photoGallery",
             "layout": "single",
-            "files": ["ifotw2"]
+            "files": ["ifotw2.avif"]
           },
           {
             "type": "quote",
-            "paragraph": "A comparison between periods before and after the IFTW Strategy shows steep growth in the brand’s main YouTube KPIs:\n\nTotal hours watched: +896%\nAverage view duration: +213%\nVideo views: +419%\nRevenue: +634%\nNew channel subscribers: +517%"
+            "paragraph": [
+              "A comparison between pre- and post-IFTW strategy periods revealed dramatic growth in the brand’s key YouTube KPIs:",
+              "- Total hours watched: +896%",
+              "- Average view duration: +213%",
+              "- Video views: +419%",
+              "- Revenue: +634%",
+              "- New channel subscribers: +517%"
+            ]
           },
           {
             "type": "photoGallery",
             "layout": "single",
-            "files": ["ifotw3"]
+            "files": ["ifotw3.avif"]
           },
           {
             "type": "quote",
-            "paragraph": "By publishing longer content, the channel gains more relevance on the platform and performs better in SEO rankings. This applies not only to Google’s search engine, but also to YouTube itself and other internal tools, such as related video suggestions (in-video) and menus on the platform’s internal pages.\n\nThe result is extremely positive."
+            "paragraph": [
+              "By publishing longer-form content, the channel gained greater relevance on the platform and improved its performance in SEO rankings.",
+              "This applied not only to Google’s search engine, but also to YouTube’s own algorithm and internal tools—such as related video suggestions (in-video) and navigation menus within the platform.",
+              "The results were overwhelmingly positive."
+            ]
           }
         ]
       },
@@ -616,21 +723,28 @@
         "nome": "Desafio Sob Fogo",
         "marca": "History Channel",
         "folder": "desafiosobfogo",
-        "logos": ["desafiosobfogologo.avif"],
+        "logos": ["desafiosobfogologo.png"],
         "capa": "desafiosobfogocover.avif",
         "empresa": "A+E Networks",
         "cargo": "Digital Platforms Manager",
-        "tags": ["socialMedia", "digitalStrategy", "digitalContent", "contentStrategy"],
+        "tags": ["socialMedia", "digitalStrategy", "digitalContent"],
         "ano": 2018,
         "blocks": [
           {
             "type": "text",
             "title": "Desafio Sob Fogo LatAm | YOUTUBE STRATEGY",
-            "paragraph": "A strategy focused on digital performance, supporting TV viewership through YouTube catch-up (missed an episode? Watch it on YouTube). The use of best practices combined with strategic tagging and monitoring of owned and competitor content led the project to success.\n\n- +2.5 million video views per month\n- +230% increase in the channel’s average ATS\n- Accelerated growth of the fan base and monetization indicators\n\nIn addition to publishing full episodes, weekly videos were released to expand the user experience. That way, viewers got to know the contestant representing Brazil in the series."
+            "paragraph": [
+              "A strategy focused on digital performance, supporting TV viewership through YouTube catch-up (missed an episode? Watch it on YouTube).",
+              "The use of best practices combined with strategic tagging and monitoring of owned and competitor content led the project to success:",
+              "- +2.5 million video views per month;",
+              "- +230% increase in the channel’s average ATS;",
+              "- Accelerated growth of the fan base and monetization indicators.",
+              "In addition to publishing full episodes, weekly videos were released to expand the user experience. That way, viewers got to know the contestant representing Brazil in the series."
+            ]
           },
           {
             "type": "quote",
-            "paragraph": "They were able to ask questions:"
+            "paragraph": ["They were able to ask questions:"]
           },
           {
             "type": "videoGallery",
@@ -639,7 +753,7 @@
           },
           {
             "type": "quote",
-            "paragraph": "They could visit the contestant’s workshop:"
+            "paragraph": ["They could visit the contestant’s workshop:"]
           },
           {
             "type": "videoGallery",
@@ -648,7 +762,7 @@
           },
           {
             "type": "quote",
-            "paragraph": "They discovered the secrets that led TOM SILVA to success:"
+            "paragraph": ["They discovered the secrets that led TOM SILVA to success:"]
           },
           {
             "type": "videoGallery",
@@ -657,7 +771,7 @@
           },
           {
             "type": "quote",
-            "paragraph": "And they were moved by the human side:"
+            "paragraph": ["And they were moved by the human side:"]
           },
           {
             "type": "videoGallery",
@@ -666,7 +780,7 @@
           },
           {
             "type": "quote",
-            "paragraph": "They also got to have fun with him and with the reality show host, the Colombian JUAN PABLO LLANO:"
+            "paragraph": ["They also got to have fun with him and with the reality show host, the Colombian JUAN PABLO LLANO:"]
           },
           {
             "type": "videoGallery",
@@ -679,7 +793,11 @@
           },
           {
             "type": "quote",
-            "paragraph": "The steady output of series-related videos, combined with a keyword strategy and consistent publishing cadence, led to dominance in search for key segment terms, both on Google and on YouTube.\n\nThe strategy was paired with publishing full episodes. Results: 2.5M views/month, increased TV viewership, and higher relevance of the channel on the platform itself."
+            "paragraph": [
+              "The steady output of series-related videos, combined with a keyword strategy and consistent publishing cadence, led to dominance in search for key segment terms, both on Google and on YouTube.",
+              "The strategy was paired with publishing full episodes.",
+              "Results: 2.5M views/month, increased TV viewership, and higher relevance of the channel on the platform itself."
+            ]
           }
         ]
       },
@@ -688,7 +806,7 @@
         "nome": "Portal R7",
         "marca": "Portal R7",
         "folder": "portalr7",
-        "logos": ["portalr7logo.avif"],
+        "logos": ["r7portallogo.png"],
         "capa": "portalr7cover.avif",
         "empresa": "Portal R7",
         "cargo": "Digital Content Producer",
@@ -703,7 +821,11 @@
           {
             "type": "text",
             "title": "Portal R7 | Ídolos, A Fazenda and Aprendiz Online",
-            "paragraph": "Between 2010 and 2011, I was a content producer in the video department of the R7 portal at Rede Record. During that period, I produced content for the digital platforms of the network’s top shows, such as the reality series A Fazenda, O Aprendiz and Ídolos.\n\nCoverage took place 24/7 on social networks and, mainly, on Rede Record’s portal, R7.com."
+            "paragraph": [
+              "Between 2010 and 2011, I was a content producer in the video department of the R7 portal at Rede Record.",
+              "During that period, I produced content for the digital platforms of the network’s top shows, such as the reality series A Fazenda, O Aprendiz, and Ídolos.",
+              "Coverage took place 24/7 on social networks and, mainly, on Rede Record’s portal, R7.com."
+            ]
           },
           {
             "type": "videoGallery",
@@ -717,7 +839,7 @@
         "nome": "Social TV - Campus Party",
         "marca": "SocialTV",
         "folder": "socialtv",
-        "logos": ["socialtvlogo.avif"],
+        "logos": ["socialtvlogo.png"],
         "capa": "socialtvcover.avif",
         "empresa": "Campus Party",
         "cargo": "Digital Content Producer",
@@ -731,8 +853,11 @@
           },
           {
             "type": "text",
-            "title": "SOCIAL TV: TV on two screens | Panel Moderator",
-            "paragraph": "I moderated and presented information about Social TV on a 45-minute panel during Campus Party Brasil, in its sixth edition (2013). With the participation of Nilson Xavier (Teledramaturgia), Lele Siedschlag (Te Dou Um Dado) and Alex Medeiros (TV Globo), we discussed the reality of Brazilian TV in the face of new trends brought by social networks."
+            "title": "SOCIAL TV: TV on Two Screens | Panel Moderator",
+            "paragraph": [
+              "I moderated and presented information about Social TV on a 45-minute panel during Campus Party Brasil, in its sixth edition (2013).",
+              "With the participation of Nilson Xavier (Teledramaturgia), Lele Siedschlag (Te Dou Um Dado), and Alex Medeiros (TV Globo), we discussed the reality of Brazilian TV in the face of new trends brought by social networks."
+            ]
           }
         ]
       },
@@ -741,66 +866,93 @@
         "nome": "Twitter Moments",
         "marca": "A+ENetworks",
         "folder": "twittermoments",
-        "logos": ["twittermomentscover.avif"],
+        "logos": ["twittermomentslogo.png"],
         "capa": "twittermomentscover.avif",
         "empresa": "A+ENetworks",
         "cargo": "Digital Platforms Manager",
-        "tags": ["socialMedia", "digitalStrategy", "editorialContent", "production"],
+        "tags": ["digitalStrategy", "editorialContent", "production"],
         "ano": 2012,
         "blocks": [
           {
             "type": "photoGallery",
             "layout": "gridRow",
-            "files": ["tm1-1", "tm1-2", "tm1-3", "tm1-4", "tm1-5", "tm1-6", "tm1-7", "tm1-8", "tm1-9"]
+            "files": ["tm1-1.avif", "tm1-2.avif", "tm1-3.avif", "tm1-4.avif", "tm1-5.avif", "tm1-6.avif", "tm1-7.avif", "tm1-8.avif", "tm1-9.avif"]
           },
           {
             "type": "text",
             "title": "Twitter Moments & Social TV",
-            "paragraph": "Twitter Moments is one of Twitter’s many native tools and was used strategically to grow the fan base and engagement, in collaboration with Twitter’s São Paulo office. Twitter Moments allows creators to start or join online conversations happening in real time. As content creators, History and A&E took part with a wide variety of examples."
+            "paragraph": [
+              "Twitter Moments is one of Twitter’s many native tools and was used strategically to grow the fan base and engagement, in collaboration with Twitter’s São Paulo office.",
+              "Twitter Moments allows creators to start or join online conversations happening in real time.",
+              "As content creators, History and A&E took part with a wide variety of examples."
+            ]
           },
           {
             "type": "photoGallery",
             "layout": "gridRow2",
-            "files": ["tm2-1", "tm2-2", "tm2-3", "tm2-4", "tm2-5", "tm2-6", "tm2-7", "tm2-8", "tm2-9", "tm2-10", "tm2-11"]
+            "files": ["tm2-1.avif", "tm2-2.avif", "tm2-3.avif", "tm2-4.avif", "tm2-5.avif", "tm2-6.avif", "tm2-7.avif", "tm2-8.avif", "tm2-9.avif", "tm2-10.avif", "tm2-11.avif"]
           },
           {
             "type": "text",
             "title": "Twitter Moments related to Today in History",
-            "paragraph": "Today in History is one of the best examples of native social content from our brands. It began as a daily post format celebrating past events that happened on that date. As engagement grew, it was adapted to other networks, always respecting each network’s language. Twitter Moments became the best way to adapt Today in History for Twitter. That’s how we did it: talking about odd facts and internet culture, presenting quizzes about events that marked the day, celebrating pop culture, remembering figures from the past, and testing our fans’ knowledge, among other things."
+            "paragraph": [
+              "Today in History is one of the best examples of native social content from our brands.",
+              "It began as a daily post format celebrating past events that happened on that date.",
+              "As engagement grew, it was adapted to other networks, always respecting each network’s language.",
+              "Twitter Moments became the best way to adapt Today in History for Twitter.",
+              "That’s how we did it: talking about odd facts and internet culture, presenting quizzes about events that marked the day, celebrating pop culture, remembering figures from the past, and testing our fans’ knowledge, among other things."
+            ]
           },
           {
             "type": "photoGallery",
             "layout": "gridRow3",
-            "files": ["tm3-1", "tm3-2", "tm3-3", "tm3-4", "tm3-5", "tm3-6", "tm3-7"]
+            "files": ["tm3-1.avif", "tm3-2.avif", "tm3-3.avif", "tm3-4.avif", "tm3-5.avif", "tm3-6.avif", "tm3-7.avif"]
           },
           {
             "type": "text",
             "title": "Twitter Moments related to News",
-            "paragraph": "We also adapted news originally produced for the History and A&E channel websites, through lists of curiosities, oddities, discoveries, theories, galleries with intriguing images, and other formats."
+            "paragraph": [
+              "We also adapted news originally produced for the History and A&E channel websites.",
+              "This included lists of curiosities, oddities, discoveries, theories, galleries with intriguing images, and other formats."
+            ]
           },
           {
             "type": "photoGallery",
-            "layout": "flexFluid",
-            "files": ["tm4-1", "tm4-2", "tm4-3", "tm4-4", "tm4-5", "tm4-6"]
+            "layout": "gridFluid5",
+            "files": ["tm4-1.avif", "tm4-2.avif", "tm4-3.avif", "tm4-4.avif", "tm4-5.avif", "tm4-6.avif"]
           },
           {
             "type": "text",
             "title": "Twitter Moments related to promoting New Series",
-            "paragraph": "We also promoted our series by generating audience through captivating conversations. In this case, we promoted the new miniseries Roots with a list of racist terms people use without even realizing it. We used the same technique to promote new episodes of another series for a week. That series covered different ways the world could end. Have you ever imagined what would happen to the planet after the start of a nuclear war? Or what would happen if our planet collided with another? What if a giant solar storm hit Earth? Worse yet: what would happen after an alien invasion? We imagined all of that. And if those hypotheses weren’t enough, we still considered six other ways the world could end.\n\nThese pieces were presented as complementary content to the episodes, released day by day, Monday through Friday. During one of President Michel Temer’s speeches—after being charged by the Federal Police—the main character of the series Bull analyzed his facial expressions. Our fans had the chance to guess what each expression meant.\n\nBy linking popular discussions to Bull’s core themes, we promoted the series by actively participating in the conversations happening online."
+            "paragraph": [
+              "We also promoted our series by generating audience through captivating conversations.",
+              "In this case, we promoted the new miniseries Roots with a list of racist terms people use without even realizing it.",
+              "We used the same technique to promote new episodes of another series for a week.",
+              "That series covered different ways the world could end. Have you ever imagined what would happen to the planet after the start of a nuclear war? Or what would happen if our planet collided with another? What if a giant solar storm hit Earth? Worse yet: what would happen after an alien invasion?",
+              "We imagined all of that. And if those hypotheses weren’t enough, we still considered six other ways the world could end.",
+              "These pieces were presented as complementary content to the episodes, released day by day, Monday through Friday.",
+              "During one of President Michel Temer’s speeches—after being charged by the Federal Police—the main character of the series Bull analyzed his facial expressions.",
+              "Our fans had the chance to guess what each expression meant.",
+              "By linking popular discussions to Bull’s core themes, we promoted the series by actively participating in the conversations happening online."
+            ]
           },
           {
             "type": "text",
             "title": "Results",
-            "paragraph": "240% growth in the fan base in less than five months, with triple the reach and engagement—without any paid media investment."
+            "paragraph": [
+              "240% growth in the fan base in less than five months, with triple the reach and engagement—without any paid media investment."
+            ]
           },
           {
             "type": "photoGallery",
             "layout": "gridColumn",
-            "files": ["tm5-1", "tm5-2", "tm5-3"]
+            "files": ["tm5-1.avif", "tm5-2.avif", "tm5-3.avif"]
           },
           {
             "type": "quote",
-            "paragraph": "The spikes occurred on the days we published Twitter Moments."
+            "paragraph": [
+              "The spikes occurred on the days we published Twitter Moments."
+            ]
           }
         ]
       },
@@ -809,8 +961,8 @@
         "nome": "TV Cultura",
         "marca": "TvCultura",
         "folder": "tvcultura",
-        "logos": ["tvcultura/tvcultura.avif"],
-        "capa": "tvcultura/tvculturacover.avif",
+        "logos": ["tvculturalogo.png"],
+        "capa": "tvculturacover.avif",
         "empresa": "Tv Cultura",
         "cargo": "Digital Content Producer",
         "tags": ["socialMedia", "presentation", "digitalContent"],
@@ -818,17 +970,20 @@
         "blocks": [
           {
             "type": "photoGallery",
-            "layout": "flexFluid",
+            "layout": "gridFluid6",
             "files": [
-              "tvcultura1", "tvcultura2", "tvcultura3", "tvcultura4", "tvcultura5",
-              "tvcultura6", "tvcultura7", "tvcultura8", "tvcultura9", "tvcultura10",
-              "tvcultura11", "tvcultura12", "tvcultura13"
+              "tvcultura1.avif", "tvcultura2.avif", "tvcultura3.avif", "tvcultura4.avif", "tvcultura5.avif",
+              "tvcultura6.avif", "tvcultura7.avif", "tvcultura8.avif", "tvcultura9.avif", "tvcultura10.avif",
+              "tvcultura11.avif", "tvcultura12.avif", "tvcultura13.avif"
             ]
           },
           {
             "type": "text",
             "title": "TV Cultura | Digital Content Producer",
-            "paragraph": "I worked at TV Cultura, in the Digital Department, between 2009 and 2010. I took part in the productions Programa Novo and Login, always creating content connected to internet topics, especially social networks."
+            "paragraph": [
+              "I worked at TV Cultura, in the Digital Department, between 2009 and 2010.",
+              "I took part in the productions Programa Novo and Login, always creating content connected to internet topics, especially social networks."
+            ]
           }
         ]
       },
@@ -837,17 +992,20 @@
         "nome": "Programa Novo",
         "marca": "Tv Cultura",
         "folder": "programanovo",
-        "logos": ["programanovologo.avif"],
+        "logos": ["programanovologo.png"],
         "capa": "programanovocover.avif",
         "empresa": "Tv Cultura",
         "cargo": "Digital Content Producer",
-        "tags": ["socialMedia", "presentation", "digitalContent", "production"],
+        "tags": ["socialMedia", "presentation", "production"],
         "ano": 2010,
         "blocks": [
           {
             "type": "text",
             "title": "Programa Novo | Digital Correspondent",
-            "paragraph": "On the Programa Novo production, I participated as a digital correspondent—or rather, as a blogger who represented the show on social media and connected the audience with what was new online through TV segments. My role was to share what was trending on social networks, as well as administer and manage the show’s official profiles."
+            "paragraph": [
+              "On the Programa Novo production, I participated as a digital correspondent—or rather, as a blogger who represented the show on social media and connected the audience with what was new online through TV segments.",
+              "My role was to share what was trending on social networks, as well as administer and manage the show’s official profiles."
+            ]
           }
         ]
       },
@@ -856,8 +1014,8 @@
         "nome": "Programa Login",
         "marca": "Tv Cultura",
         "folder": "programalogin",
-        "logos": ["programalogin/programaloginlogo.avif"],
-        "capa": "programalogin/programalogincover.avif",
+        "logos": ["programaloginlogo.png"],
+        "capa": "programalogincover.avif",
         "empresa": "Tv Cultura",
         "cargo": "Digital Content Producer",
         "tags": ["socialMedia", "presentation", "digitalContent"],
@@ -866,7 +1024,10 @@
           {
             "type": "text",
             "title": "Programa Login | Digital Content Producer",
-            "paragraph": "In the production of LOGIN, aimed at Generation Y youth, I worked as a base producer. I created characters for the segment \"Perfil Y,\" which showcased young people from this generation, translating and capturing all their dreams, aspirations, and expectations on video."
+            "paragraph": [
+              "In the production of LOGIN, aimed at Generation Y youth, I worked as a base producer.",
+              "I created characters for the segment \"Perfil Y,\" which showcased young people from this generation, translating and capturing all their dreams, aspirations, and expectations on video."
+            ]
           }
         ]
       },
@@ -875,8 +1036,8 @@
         "nome": "Tricô dos Bróder",
         "marca": "Portal R7",
         "folder": "tricodosbroder",
-        "logos": ["tricodosbroderlogo.avif"],
-        "capa": "tricodosbordercover.avif",
+        "logos": ["tricodosbroderlogo.png"],
+        "capa": "tricodosbrodercover.avif",
         "empresa": "Portal R7",
         "cargo": "Digital Content Producer",
         "tags": ["socialMedia", "production", "digitalContent"],
@@ -885,11 +1046,16 @@
           {
             "type": "text",
             "title": "Ex Tricô and Tricô dos Bróder | Digital Producer",
-            "paragraph": "In addition to producing digital content for major Rede Record series, between 2010 and 2011 I was also the producer of exclusive digital properties, such as the interview show Tricô dos Bróder, which later evolved into Ex Tricô. The show was hosted by Lele Siedschlag (Te Dou um Dado) and Clara Averbuck.\n\nThis daily feature on the R7 portal presented interviews with participants from the reality show Big Brother Brasil, as well as commentary from the hosts on the most relevant events from the show. When Big Brother was off the air, the program focused on web celebrities, minor celebrities, and trending internet topics."
+            "paragraph": [
+              "In addition to producing digital content for major Rede Record series, between 2010 and 2011 I was also the producer of exclusive digital properties, such as the interview show Tricô dos Bróder, which later evolved into Ex Tricô.",
+              "The show was hosted by Lele Siedschlag (Te Dou um Dado) and Clara Averbuck.",
+              "This daily feature on the R7 portal presented interviews with participants from the reality show Big Brother Brasil, as well as commentary from the hosts on the most relevant events from the show.",
+              "When Big Brother was off the air, the program focused on web celebrities, minor celebrities, and trending internet topics."
+            ]
           },
           {
             "type": "videoGallery",
-            "class": "gridColumn",
+            "layout": "gridColumn",
             "links": [
               "https://www.youtube.com/watch?v=qWGT72cNDrk",
               "https://www.youtube.com/watch?v=fsaT_MeBc2Y"
@@ -902,32 +1068,43 @@
         "nome": "Alone",
         "marca": "History Channel",
         "folder": "sozinhos",
-        "logos": ["sozinhoslogo.avif"],
+        "logos": ["sozinhoslogo.png"],
         "capa": "sozinhoscover.avif",
         "empresa": "A+E Networks",
         "cargo": "Digital Platforms Manager",
-        "tags": ["contentStrategy", "editorialContent", "production", "socialMedia"],
+        "tags": ["editorialContent", "production", "socialMedia"],
         "ano": 2017,
         "blocks": [
           {
             "type": "photoGallery",
-            "class": "single",
-            "files": ["sozinhos1"]
+            "layout": "single",
+            "files": ["sozinhos1.avif"]
           },
           {
             "type": "text",
             "title": "Alone | History Channel",
-            "paragraph": "In this campaign, I was responsible not only for localizing assets shared by the corporate headquarters, but also for overseeing content creation for Latin America.\n\nSozinhos is a TV series that performs slightly better in the Brazilian domestic market. Therefore, it was a priority for our region. The main goal of the campaign was to generate awareness and drive tune-in.\n\nWe identified potential audience segments and worked with exclusive content for social media, reaching these groups through a targeted dark post campaign on Facebook."
+            "paragraph": [
+              "In this campaign, I was responsible not only for localizing assets shared by the corporate headquarters, but also for overseeing content creation for Latin America.",
+              "Alone is a TV series that performs slightly better in the Brazilian domestic market. Therefore, it was a priority for our region.",
+              "The main goal of the campaign was to generate awareness and drive tune-in.",
+              "We identified potential audience segments and worked with exclusive content for social media, reaching these groups through a targeted dark post campaign on Facebook."
+            ]
           },
           {
             "type": "text",
             "title": "Social Media Content",
-            "paragraph": "- The first season of the series is set in Patagonia, a region in South America. We leveraged this information to promote the show through creative assets that highlight the new setting, which is part of our market and resonates strongly with our audience.\n\n- The new setting was also showcased through immersive 360º photos.\n\n- This is the first season to feature women in the cast. We saw this as an opportunity to engage with female audiences and reinforce themes related to women's empowerment.\n\n- All digital creatives were fully aligned with the out-of-home media campaign assets.\n\n- The strategy included exclusive content tailored to each platform. A highlight was the content on Twitter, using Twitter Moments. Examples include: The Dangers of Patagonia and Survival Tips."
+            "paragraph": [
+              "- The first season of the series is set in Patagonia, a region in South America. We leveraged this information to promote the show through creative assets that highlight the new setting, which is part of our market and resonates strongly with our audience.",
+              "- The new setting was also showcased through immersive 360º photos.",
+              "- This is the first season to feature women in the cast. We saw this as an opportunity to engage with female audiences and reinforce themes related to women's empowerment.",
+              "- All digital creatives were fully aligned with the out-of-home media campaign assets.",
+              "- The strategy included exclusive content tailored to each platform. A highlight was the content on Twitter, using Twitter Moments. Examples include: The Dangers of Patagonia and Survival Tips."
+            ]
           },
           {
             "type": "photoGallery",
-            "class": "flexFluid",
-            "files": ["sozinhos2", "sozinhos3", "sozinhos4", "sozinhos5", "sozinhos6", "sozinhos7"]
+            "layout": "flexRow",
+            "files": ["sozinhos2.avif", "sozinhos3.avif", "sozinhos4.avif", "sozinhos5.avif"]
           }
         ]
       },
@@ -936,73 +1113,98 @@
         "nome": "Giorgio no Brasil",
         "marca": "History Channel",
         "folder": "giorgionobrasil",
-        "logos": ["giorgionobrasilogo.avif"],
+        "logos": ["giorgionobrasillogo.png"],
         "capa": "giorgionobrasilcover.avif",
         "empresa": "A+E Networks",
         "cargo": "Digital Platforms Manager",
-        "tags": ["socialMedia", "digitalStrategy", "digitalContent", "contentStrategy"],
+        "tags": ["socialMedia", "digitalStrategy", "contentStrategy"],
         "ano": 2017,
         "blocks": [
           {
             "type": "text",
             "title": "Digital Strategy for Promotion and Support of the Giorgio in Brazil Event",
-            "paragraph": "On August 26, HISTORY welcomed fans of the series Ancient Aliens to a special event featuring an exclusive screening of a new episode from the latest season, followed by a live discussion with talent GIORGIO TSOUKALOS."
+            "paragraph": [
+              "On August 26, HISTORY welcomed fans of the series Ancient Aliens to a special event featuring an exclusive screening of a new episode from the latest season, followed by a live discussion with talent GIORGIO TSOUKALOS."
+            ]
           },
           {
             "type": "photoGallery",
-            "class": "gridColumn3",
-            "files": ["giorgio1.avif", "giorgio2.avif", "giorgio4.avif", "giorgio5.avif", "giorgio6.avif", "giorgio7.avif", "giorgio8.avif", "giorgio9.avif", "giorgio10.avif", "giorgio11.avif", "giorgio12.avif", "giorgio13.avif"]
+            "layout": "gridColumn3",
+            "files": [
+              "giorgio1.avif", "giorgio2.avif", "giorgio4.avif", "giorgio5.avif", "giorgio6.avif",
+              "giorgio7.avif", "giorgio8.avif", "giorgio9.avif", "giorgio10.avif", "giorgio11.avif", "giorgio12.avif"
+            ]
           },
           {
             "type": "quote",
-            "paragraph": "The event also featured a cosplay contest, VIP Meet & Greet sessions, and live broadcasts via Facebook and YouTube Live across Brazil."
+            "paragraph": [
+              "The event also featured a cosplay contest, VIP Meet & Greet sessions, and live broadcasts via Facebook and YouTube Live across Brazil."
+            ]
           },
           {
             "type": "text",
             "title": "Event Highlights and Metrics",
-            "paragraph": "- 710 tickets distributed in less than one hour via the digital platform EventBrite\n\n- Average of 1,300 viewers during the Facebook Live broadcast, peaking at 1,500\n\n- 1.7 million people followed the campaign’s live streams on Facebook\n\n- The #GiorgioNoBrasil debate broadcast alone reached 1.06 million unique users organically on Facebook\n\n- #GiorgioNoBrasil trended in São Paulo’s Twitter Trending Topics throughout the event\n\n- 7.8 million unique users reached organically on Twitter\n\n- #GiorgioNoBrasil post campaign reached 2.3 million unique users organically\n\n- 454 Instagram posts using the hashtag #GiorgioNoBrasil\n\nThese strong social media results reflect a well-executed digital strategy. One key initiative was a partnership with Flowics, which displayed posts using the hashtag #GiorgioNoBrasil on large screens throughout the event and as lower-thirds during the live panel broadcast on Facebook and YouTube Live.\n\nAnother impactful action was inviting digital influencers, who had access to a special area and an exclusive Meet & Greet, where they met Giorgio and took photos with him."
+            "paragraph": [
+              "- 710 tickets distributed in less than one hour via the digital platform EventBrite;",
+              "- Average of 1,300 viewers during the Facebook Live broadcast, peaking at 1,500;",
+              "- 1.7 million people followed the campaign’s live streams on Facebook;",
+              "- The #GiorgioNoBrasil debate broadcast alone reached 1.06 million unique users organically on Facebook;",
+              "- #GiorgioNoBrasil trended in São Paulo’s Twitter Trending Topics throughout the event;",
+              "- 7.8 million unique users reached organically on Twitter;",
+              "- #GiorgioNoBrasil post campaign reached 2.3 million unique users organically;",
+              "- 454 Instagram posts using the hashtag #GiorgioNoBrasil.",
+              "These strong social media results reflect a well-executed digital strategy.",
+              "One key initiative was a partnership with Flowics, which displayed posts using the hashtag #GiorgioNoBrasil on large screens throughout the event and as lower-thirds during the live panel broadcast on Facebook and YouTube Live.",
+              "Another impactful action was inviting digital influencers, who had access to a special area and an exclusive Meet & Greet, where they met Giorgio and took photos with him."
+            ]
           },
           {
             "type": "text",
-            "title": "Broadcasts via Facebook and Youtube Live",
-            "paragraph": "Guests joined via Facebook and Youtube Live."
+            "title": "Broadcasts via Facebook and YouTube Live",
+            "paragraph": [
+              "Guests joined via Facebook and YouTube Live."
+            ]
           },
           {
             "type": "videoGallery",
-            "class": "single",
+            "layout": "single",
             "links": ["https://www.youtube.com/watch?v=MUg8MJMshCc"]
           }
         ]
       },
       {
         "id": 24,
-        "nome": "Alienígenas do Passado",
+        "nome": "Ancient Aliens",
         "marca": "History Channel",
         "folder": "alienigenas",
-        "logos": ["alienigenaslogo.avif"],
+        "logos": ["alienigenaslogo.png"],
         "capa": "alienigenascover.avif",
         "empresa": "A+E Networks",
         "cargo": "Digital Platforms Manager",
-        "tags": ["socialMedia", "digitalStrategy", "digitalContent", "contentStrategy"],
+        "tags": ["socialMedia", "digitalStrategy", "digitalContent"],
         "ano": 2018,
         "blocks": [
           {
             "type": "photoGallery",
-            "class": "flexFluid",
-            "files": ["alien1", "alien2", "alien3", "alien4", "alien5", "alien6"]
+            "layout": "gridColumn3",
+            "files": ["alien1.avif", "alien2.avif", "alien3.avif", "alien4.avif", "alien6.avif"]
           },
           {
             "type": "text",
             "title": "Press Conference and Social Media Content #GiorgioNoBrasil",
-            "paragraph": "Press event in collaboration with the Public Relations department, with a focus on digital influencers.\n\nBy strategically offering audiovisual content capture, we ensured full media presence and the creation of diverse content across social platforms."
+            "paragraph": [
+              "Press event in collaboration with the Public Relations department, with a focus on digital influencers.",
+              "By strategically offering audiovisual content capture, we ensured full media presence and the creation of diverse content across social platforms."
+            ]
           },
           {
             "type": "text",
-            "title": "Content Created by Select Digital Influencers and Press"
+            "title": "Content Created by Select Digital Influencers and Press",
+            "paragraph": []
           },
           {
             "type": "videoGallery",
-            "class": "gridColumn",
+            "layout": "gridColumn",
             "links": [
               "https://www.youtube.com/watch?v=FqVYYmj4qXQ",
               "https://www.youtube.com/watch?v=Uzv7iupPrpc",
@@ -1012,11 +1214,14 @@
           {
             "type": "text",
             "title": "Exclusive Content Created for History Channel’s Social Media",
-            "paragraph": "Exclusive broadcast featuring a special guest to promote the #GiorgioNoBrasil event and the new season of the series Ancient Aliens.\n\nThe interview was hosted by Afonso Tresdê, a digital influencer specializing in ufology, who has a strong connection with the channel’s audience."
+            "paragraph": [
+              "Exclusive broadcast featuring a special guest to promote the #GiorgioNoBrasil event and the new season of the series Ancient Aliens.",
+              "The interview was hosted by Afonso Tresdê, a digital influencer specializing in ufology, who has a strong connection with the channel’s audience."
+            ]
           },
           {
             "type": "videoGallery",
-            "class": "single",
+            "layout": "single",
             "links": [
               "https://www.youtube.com/watch?v=MUg8MJMshCc&list=PLC85G0r1H2eH4zP4D704ZLnAcGv3Cbmnj&index=1&pp=iAQB"
             ]
@@ -1024,11 +1229,14 @@
           {
             "type": "text",
             "title": "Social Media Actions",
-            "paragraph": "To generate engagement around the talent’s first visit to the country, we invited fans to submit questions about Giorgio’s area of expertise: the Ancient Astronaut Theory. The audience response was overwhelming."
+            "paragraph": [
+              "To generate engagement around the talent’s first visit to the country, we invited fans to submit questions about Giorgio’s area of expertise: the Ancient Astronaut Theory.",
+              "The audience response was overwhelming."
+            ]
           },
           {
             "type": "videoGallery",
-            "class": "gridColumn",
+            "layout": "gridColumn",
             "links": [
               "https://www.youtube.com/watch?v=a4_nPM5lqQM",
               "https://www.youtube.com/watch?v=Bg3Kf3SHgJU",
@@ -1038,14 +1246,16 @@
           },
           {
             "type": "quote",
-            "paragraph": "We also put together an exclusive Twitter Moments with the talent. This piece brought together a sequential series of videos in which Giorgio talks about his life."
+            "paragraph": [
+              "We also put together an exclusive Twitter Moments with the talent. This piece brought together a sequential series of videos in which Giorgio talks about his life."
+            ]
           },
           {
             "type": "photoGallery",
-            "class": "flexFluid",
+            "layout": "gridColumn4",
             "files": [
-              "alien7", "alien8", "alien9", "alien10", "alien11", "alien12",
-              "alien13", "alien14", "alien15", "alien16", "alien17", "alien18"
+              "alien7.avif", "alien8.avif", "alien9.avif", "alien10.avif", "alien11.avif", "alien12.avif",
+              "alien13.avif", "alien14.avif", "alien15.avif", "alien16.avif", "alien17.avif", "alien18.avif"
             ]
           }
         ]
