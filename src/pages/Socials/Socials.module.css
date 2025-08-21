@@ -19,6 +19,12 @@
     width: 10rem;
 }
 
+.titleSection:hover {
+    text-decoration: underline;
+    text-underline-offset: 0.3rem;
+}
+
+
 .socialsGrid {
     display: grid;
     grid-template-columns: 1fr 3fr;

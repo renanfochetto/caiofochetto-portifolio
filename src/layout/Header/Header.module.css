@@ -6,7 +6,7 @@ header {
     display: grid;
     gap: 1rem;
     background-image: url('/svgs/bannerheader.svg');
-    background-position: calc(0% - 6rem) top;
+    background-position: calc(0% - 5rem) top;
     background-repeat: no-repeat;
     background-size: cover;
     grid-template-columns: 1fr 1fr 1fr;
@@ -44,3 +44,16 @@ a:hover {
     text-decoration: underline;
     text-underline-offset: 0.3rem;
 }
+
+.logoLink {
+    cursor: pointer;
+}
+
+.logoLink:hover {
+    transform: scale(1.03);
+    transition: transform 0.3s;
+    text-decoration: none;
+    text-shadow: var(--shadow-regular-hover);
+}
+
+

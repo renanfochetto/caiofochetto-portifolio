@@ -1,13 +1,15 @@
 import styles from './QuoteBlock.module.css';
 
 export type QuoteBlockProps = {
-  quote: string;
+  quote: string[];
 }
 
 const QuoteBlock = ({ quote }: QuoteBlockProps) => {
   return (
     <div className={styles.quoteBlock}>
-      <p>{quote}</p>
+      {quote.map((q, i) => (
+        <p key={i}>{q}</p>
+      ))}
     </div>
   );
 };

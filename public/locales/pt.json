@@ -148,18 +148,24 @@
           },
           {
             "type": "text",
-            "title": "Podcast Passion 4 Jazz",
-            "paragraph": "Passion 4 Jazz é uma plataforma digital para interessados em Jazz, seja aquele que já possui vasto conhecimento, ou quem está começando a se interessar pelo gênero. Através de uma equipe diversa, desenvolvemos uma temporada completa de oito episódios focados nos principais nomes e ícones do Jazz, desde sua origem até os dias de hoje, contemplando todas as suas instâncias.\n\nA produção contou com desenvolvimento de conceito, pesquisa e roteiro, casting, produção de arte, cenografia e adereços, iluminação, captação, produção sonora, edição de áudio e vídeo. Faz parte ainda a estratégia de conteúdo e o pacote de divulgação."
-          },
+            "title": "Passion 4 Jazz | Podcast",
+            "paragraph": [
+              "Passion 4 Jazz é uma plataforma digital para interessados em Jazz, seja aquele que já possui vasto conhecimento, ou quem está começando a se interessar pelo gênero.",
+              "Através de uma equipe diversa, desenvolvemos uma temporada completa de oito episódios focados nos principais nomes e ícones do Jazz, desde sua origem até os dias de hoje, contemplando todas as suas instâncias.",
+              "A produção contou com desenvolvimento de conceito, pesquisa e roteiro, casting, produção de arte, cenografia e adereços, iluminação, captação, produção sonora, edição de áudio e vídeo. Faz parte ainda a estratégia de conteúdo e o pacote de divulgação."
+          ]
+              },
           {
             "type": "videoGallery",
             "layout": "single",
-            "links": ["https://www.youtube.com/watch?v=8wbdIYeAc_0"],
-            "description": "Pacote Sonoro e Gráfico"
+            "links": ["https://www.youtube.com/watch?v=8wbdIYeAc_0"]
           },
           {
             "type": "quote",
-            "paragraph": "Desenvolvemos todas as trilhas e assinatura sonora junto a um profissional da música com ampla experiência em Jazz, Gustavo Bugni. Apesar de ser um projeto fortemente focado em áudio, sabemos que as artes gráficas complementam o projeto e aguçam os sentidos ainda mais. Por tanto, elaboramos um pacote gráfico para traduzir o que é a plataforma Passion 4 Jazz."
+            "paragraph": [
+              "Desenvolvemos todas as trilhas e assinatura sonora junto a um profissional da música com ampla experiência em Jazz, Gustavo Bugni.",
+              "Apesar de ser um projeto fortemente focado em áudio, sabemos que as artes gráficas complementam o projeto e aguçam os sentidos ainda mais. Por tanto, elaboramos um pacote gráfico para traduzir o que é a plataforma Passion 4 Jazz."
+              ]
           },
           {
             "type": "photoGallery",
@@ -169,7 +175,9 @@
           },
           {
             "type": "quote",
-            "paragraph": "Além das entregas do podcast em mp3 e de seu pacote gráfico, também contemplamos um pacote de entregas em vídeo e imagem para promover o projeto. Assim, cada episódio é apoiado por vídeos de saudação para redes sociais, além de vídeos com compilações de melhores momentos e trechos memoráveis, e álbuns com fotos dos bastidor."
+            "paragraph": ["Além das entregas do podcast em mp3 e de seu pacote gráfico, também contemplamos um pacote de entregas em vídeo e imagem para promover o projeto.",
+              "Assim, cada episódio é apoiado por vídeos de saudação para redes sociais, além de vídeos com compilações de melhores momentos e trechos memoráveis, e álbuns com fotos dos bastidor."
+              ]
           },
           {
             "type": "videoGallery",
@@ -211,8 +219,12 @@
         "blocks": [
           {
             "type": "text",
-            "title": "PLAYGROUND - Agência Criativa | NATURA",
-            "paragraph": "Em 2021 iniciamos parceria com a Agência Africa para atender a Natura enquanto agência criativa, com foco em conteúdo para redes sociais. Mês a mês entregamos pacotes de conteúdo para a linha Tododia, destacando as principais características das fragrâncias preferidas pelas consumidoras. Muito destaque para textura, sensações e emoções.\n\nA produção de conteúdo contou com casting, elenco de três modelos, além de figurino, direção de arte e objetos. O pacote gráfico é um desdobramento do manual da marca."
+            "title": "Playground | NATURA",
+            "paragraph": [
+              "Em 2021 iniciamos parceria com a Agência Africa para atender a Natura enquanto agência criativa, com foco em conteúdo para redes sociais.",
+              "Mês a mês entregamos pacotes de conteúdo para a linha Tododia, destacando as principais características das fragrâncias preferidas pelas consumidoras. Muito destaque para textura, sensações e emoções.",
+              "A produção de conteúdo contou com casting, elenco de três modelos, além de figurino, direção de arte e objetos. O pacote gráfico é um desdobramento do manual da marca."
+              ]
           },
           {
             "type": "photoGallery",
@@ -244,13 +256,21 @@
         "blocks": [
           {
             "type": "text",
-            "title": "PLAYGROUND - Agência Criativa | NETFLIX",
-            "paragraph": "Como gerente de produção e conteúdo, liderei o time criativo no desenvolvimento de formatos para as redes de Netflix. A produção incluiu o desenvolvimento de conteúdo digital desde seu conceito, até desenvolvimento de roteiro, pacote gráfico, edição de som e vídeo, a pacote de promoção. A estratégia de conteúdo foi baseada em análise de dados das plataformas da marca, considerando engajamento da audiência e retenção."
+            "title": "Playground | NETFLIX",
+            "paragraph": [
+              "Como gerente de produção e conteúdo, liderei o time criativo no desenvolvimento de formatos para as redes de Netflix.",
+              "A produção incluiu o desenvolvimento de conteúdo digital desde seu conceito, até desenvolvimento de roteiro, pacote gráfico, edição de som e vídeo, a pacote de promoção.",
+              "A estratégia de conteúdo foi baseada em análise de dados das plataformas da marca, considerando engajamento da audiência e retenção."
+              ]
           },
           {
             "type": "text",
             "title": "Colisão de Mundos | NETFLIX",
-            "paragraph": "Uma série original de Youtube em seis episódios, com o objetivo de correlacionar séries e apresentar novos títulos para a audiência da marca. Desta forma, criamos uma narrativa recheada de teorias que cruzava títulos do catálogo, formando um universo cinematográfico da Netflix.\n\nO resultado foi alto engajamento dos fãs, que participavam nos comentários compartilhando pontos que expandiam as teorias, e ampliando a retenção do canal."
+            "paragraph": [
+              "Uma série original de Youtube em seis episódios, com o objetivo de correlacionar séries e apresentar novos títulos para a audiência da marca.",
+              "Desta forma, criamos uma narrativa recheada de teorias que cruzava títulos do catálogo, formando um universo cinematográfico da Netflix.",
+              "O resultado foi alto engajamento dos fãs, que participavam nos comentários compartilhando pontos que expandiam as teorias, e ampliando a retenção do canal."
+              ]
           },
           {
             "type": "videoGallery",
@@ -283,8 +303,13 @@
         "blocks": [
           {
             "type": "text",
-            "title": "HAVAIANAS + NETFLIX | Siga Minha Voz (Dia das Mulheres)",
-            "paragraph": "Para o dia internacional da Mulher iniciamos uma parceria de produção com Havaianas e Netflix. Ambas as marcas se juntaram para lançar um produto inspirado no protagonismo feminino das séries Netflix. Mas havia um desafio: como iniciar esta conversa sem distanciar as pessoas reais dos super poderes de heroínas?\n\nEntão criamos a campanha Siga minha voz, uma plataforma na qual mulheres reais compartilham seus relatos de vitórias e conquistas, poderes reais de pessoas extremamente fortes. E para iniciar esta conversa, reunimos quatro mulheres que têm tudo a ver com as protagonistas de Netflix."
+            "title": "Siga Minha Voz (Dia das Mulheres) | HAVAIANAS + NETFLIX",
+            "paragraph": [
+              "Para o dia internacional da Mulher iniciamos uma parceria de produção com Havaianas e Netflix.",
+              "Ambas as marcas se juntaram para lançar um produto inspirado no protagonismo feminino das séries Netflix. Mas havia um desafio: como iniciar esta conversa sem distanciar as pessoas reais dos super poderes de heroínas?",
+              "Então criamos a campanha Siga minha voz, uma plataforma na qual mulheres reais compartilham seus relatos de vitórias e conquistas, poderes reais de pessoas extremamente fortes.",
+              "E para iniciar esta conversa, reunimos quatro mulheres que têm tudo a ver com as protagonistas de Netflix."
+              ]
           },
           {
             "type": "videoGallery",
@@ -293,8 +318,10 @@
           },
           {
             "type": "text",
-            "title": "3 IDIOMAS, MÚLTIPLAS PLATAFORMAS",
-            "paragraph": "Toda a campanha foi criada em três idiomas, mantendo a originalidade e a criatividade brasileira, que traduz o que é HAVAIANAS em todo o mundo."
+            "title": "3 Idiomas. Múltiplas Plataformas",
+            "paragraph": [
+              "Toda a campanha foi criada em três idiomas, mantendo a originalidade e a criatividade brasileira, que traduz o que é HAVAIANAS em todo o mundo."
+            ]
           },
           {
             "type": "photoGallery",
@@ -322,8 +349,13 @@
         "blocks": [
           {
             "type": "text",
-            "title": "BOHEMIA | Sabor que Move Tradições",
-            "paragraph": "No formato de série, com diferentes abordagens, o objetivo era mostrar que a primeira cervejaria do Brasil se mantém tão atual quanto diversas outras tradições de nosso país, como o São João nordestino e o passinho carioca.\n\nAinda durante a pandemia, juntamos diferentes personalidades destas tradições para compartilhar suas visões e expandir as conversas ao redor da marca. Como gerente de produção e conteúdo, meu papel foi liderar o time creativo e de produção no desenvolvimento da presença digital da marca, através de conteúdo localizado para diferentes plataformas.\n\nEsta produção incluiu roteirização, pré-produção e pós-produção, captação remota, preparação de elenco, desenvolvimento de pacote gráfico baseado em arte conceitual, motion e pacote de promoção."
+            "title": "Sabor que Move Tradições | BOHEMIA",
+            "paragraph": [
+              "No formato de série, com diferentes abordagens, o objetivo era mostrar que a primeira cervejaria do Brasil se mantém tão atual quanto diversas outras tradições de nosso país, como o São João nordestino e o passinho carioca.",
+              "Ainda durante a pandemia, juntamos diferentes personalidades destas tradições para compartilhar suas visões e expandir as conversas ao redor da marca.",
+              "Como gerente de produção e conteúdo, meu papel foi liderar o time creativo e de produção no desenvolvimento da presença digital da marca, através de conteúdo localizado para diferentes plataformas.",
+              "Esta produção incluiu roteirização, pré-produção e pós-produção, captação remota, preparação de elenco, desenvolvimento de pacote gráfico baseado em arte conceitual, motion e pacote de promoção."
+              ]
           },
           {
             "type": "videoGallery",
@@ -334,8 +366,10 @@
             ]
           },
           {
-            "type": "text",
-            "title": "Artes Gráficas"
+            "type": "quote",
+            "paragraph": [
+              "Artes Gráficas:"
+              ]
           },
           {
             "type": "photoGallery",
@@ -364,13 +398,23 @@
         "blocks": [
           {
             "type": "text",
-            "title": "PlayGround - Branded Content | NESTLÉ",
-            "paragraph": "A partir de janeiro de 2020 ingressei na equipe da PlayGround Brasil como gerente de produção e projetos. Responsável por conteúdo editorial, mas também por conteúdo de marca (branded content), me envolvi com os desafios não apenas da nossa equipe criativa, mas também de nossos clientes.\n\nComo gerente de produção e projetos sou responsável por desenvolver propostas de conteúdo que sejam eficazes e eficientes para nossos clientes e suas marcas. E também para a PlayGround enquanto empresa, já que conteúdo de marca é um dos nossos principais modelos de negócio. Além de desenvolver propostas junto ao time comercial e editorial, também gerencio orçamentos de produção, desenvolvimento de contratos, cronogramas de produção etc."
+            "title": "PlayGround | NESTLÉ",
+            "paragraph": [
+              "A partir de janeiro de 2020 ingressei na equipe da PlayGround Brasil como gerente de produção e projetos.",
+              "Responsável por conteúdo editorial, mas também por conteúdo de marca (branded content), me envolvi com os desafios não apenas da nossa equipe criativa, mas também de nossos clientes.",
+              "Como gerente de produção e projetos sou responsável por desenvolver propostas de conteúdo que sejam eficazes e eficientes para nossos clientes e suas marcas. E também para a PlayGround enquanto empresa, já que conteúdo de marca é um dos nossos principais modelos de negócio.",
+              "Além de desenvolver propostas junto ao time comercial e editorial, também gerencio orçamentos de produção, desenvolvimento de contratos, cronogramas de produção etc."
+              ]
           },
           {
             "type": "text",
             "title": "Cozinha de Emergência | NESTLÉ",
-            "paragraph": "Com foco em receitas práticas e emergências do cotidiano, desenvolvemos junto a Nestlé um projeto piloto que conversa com os mais jovens. O que fazer quando só se tem água na geladeira? Como se dar um afago enquanto mercúrio está retrógrado? Como cozinhar algo legal para um encontro de emergência?\n\nA campanha de conteúdo contava com 4 vídeos principais e completos, com 3 receitas cada. Mas para aumentar seu alcance, elaboramos peças menores com call to action, para provocar e convocar a audiência, levando-a ao vídeo principal. Este é um exemplo feito para Instagram Reels."
+            "paragraph": [
+              "Com foco em receitas práticas e emergências do cotidiano, desenvolvemos junto a Nestlé um projeto piloto que conversa com os mais jovens.",
+              "O que fazer quando só se tem água na geladeira? Como se dar um afago enquanto mercúrio está retrógrado? Como cozinhar algo legal para um encontro de emergência?",
+              "A campanha de conteúdo contava com 4 vídeos principais e completos, com 3 receitas cada. Mas para aumentar seu alcance, elaboramos peças menores com call to action, para provocar e convocar a audiência, levando-a ao vídeo principal.",
+              "Este é um exemplo feito para Instagram Reels."
+              ]
           },
           {
             "type": "videoGallery",
@@ -380,7 +424,11 @@
           {
             "type": "text",
             "title": "Papo de Mestras | NESCAFÉ",
-            "paragraph": "Para promover sua marca de café de alta qualidade, desenvolvemos junto a Nestlé um bate papo entre mestras no desenvolvimento de três bebidas muito queridas: o café, o vinho e a cerveja.\n\nEm plena pandemia criamos um switcher remoto para comandar uma captação de alta qualidade em três ambientes diferentes. Com isso, cada uma das mestras pode compartilhar suas experiências não apenas com as bebidas, mas também em áreas profissionais pouco ocupadas por mulheres.\n\nA campanha de conteúdo contava com 1 vídeo principal e pequenos teasers promocionais, todos adaptados para diferentes plataformas. Esta produção contou com: desenvolvimento de conceito editorial original, casting, pacote gráfico, desenvolvimento de roteiro, curadoria culinária, pré-produção e pós produção, captação remota, direção de arte e adereços, photoshoot, iluminação e motion."
+            "paragraph": [
+              "Para promover sua marca de café de alta qualidade, desenvolvemos junto a Nestlé um bate papo entre mestras no desenvolvimento de três bebidas muito queridas: o café, o vinho e a cerveja.",
+              "Em plena pandemia criamos um switcher remoto para comandar uma captação de alta qualidade em três ambientes diferentes. Com isso, cada uma das mestras pode compartilhar suas experiências não apenas com as bebidas, mas também em áreas profissionais pouco ocupadas por mulheres.",
+              "A campanha de conteúdo contava com 1 vídeo principal e pequenos teasers promocionais, todos adaptados para diferentes plataformas. Esta produção contou com: desenvolvimento de conceito editorial original, casting, pacote gráfico, desenvolvimento de roteiro, curadoria culinária, pré-produção e pós produção, captação remota, direção de arte e adereços, photoshoot, iluminação e motion."
+              ]
           },
           {
             "type": "videoGallery",
@@ -403,8 +451,13 @@
         "blocks": [
           {
             "type": "text",
-            "title": "ÍNTIMUS (Kotex) - Chega de Estigma (Stigma Box) | BRANDED CONTENT",
-            "paragraph": "Desenvolvemos uma parceria de conteúdo de marca com Íntimus tendo como objetivo levar à nossa audiência uma discussão sobre menstruação e seus estigmas, com objetivo de melhor informar a população sobre pequenos preconceitos e desinformação sobre o tema, humanizando através da vivência de pessoas reais.\n\nCom um calendário de conteúdo extenso, exploramos diversos formatos de mídia e storytelling, começando com vídeos informativos, explorando ainda experimentos sociais nos quais mulheres desmistificam o assunto junto a homens presentes em suas vidas, incluindo ainda conteúdo criado pela própria audiência, que nos enviou seus casos mais controversos para serem transformados em animações.\n\nA produção foi realizada durante o início da pandemia, o que demandou ajustes de alguns formatos pré-aprovados com cliente, considerando a nova realidade.\n\nEsta produção incluiu: adaptação do conceito do cliente em formatos novos e já existentes, casting, casting de voz, desenvolvimento de roteiro, pacote de artes gráficas e motion, direção de arte, captação remota, animação, curadoria de conteúdo gerado pela audiência, pré-produção e pós-produção."
+            "title": "Chega de Estigma (Stigma Box) | ÍNTIMUS (Kotex)",
+            "paragraph": [
+              "Desenvolvemos uma parceria de conteúdo de marca com Íntimus tendo como objetivo levar à nossa audiência uma discussão sobre menstruação e seus estigmas, com objetivo de melhor informar a população sobre pequenos preconceitos e desinformação sobre o tema, humanizando através da vivência de pessoas reais.",
+              "Com um calendário de conteúdo extenso, exploramos diversos formatos de mídia e storytelling, começando com vídeos informativos, explorando ainda experimentos sociais nos quais mulheres desmistificam o assunto junto a homens presentes em suas vidas, incluindo ainda conteúdo criado pela própria audiência, que nos enviou seus casos mais controversos para serem transformados em animações.",
+              "A produção foi realizada durante o início da pandemia, o que demandou ajustes de alguns formatos pré-aprovados com cliente, considerando a nova realidade.",
+              "Esta produção incluiu: adaptação do conceito do cliente em formatos novos e já existentes, casting, casting de voz, desenvolvimento de roteiro, pacote de artes gráficas e motion, direção de arte, captação remota, animação, curadoria de conteúdo gerado pela audiência, pré-produção e pós-produção."
+              ]
           },
           {
             "type": "photoGallery",
@@ -428,7 +481,11 @@
           {
             "type": "text",
             "title": "Banheiros Mudam Vidas | NEVE",
-            "paragraph": "Como gerente de produção e projetos da PlayGround Brasil, fui responsável por desenvolver propostas de conteúdo estratégico para marcas cujos valores se alinham aos nossos, e que ressoam com a audiência.\n\nNos juntamos à Kimberly Clark e seu produto Neve com a missão de contar ao Brasil o resultado da localização da campanha global Toilets Change Lives, aqui chamada de Banheiros Mudam Vidas. Após desenvolver iniciativas junto a ONGs que realizam trabalho de saneamento básico junto a populações de difícil acesso, a marca desejava comunicar a todo país, através de plataformas digitais, o resultado de seu esforço."
+            "paragraph": [
+              "Como gerente de produção e projetos da PlayGround Brasil, fui responsável por desenvolver propostas de conteúdo estratégico para marcas cujos valores se alinham aos nossos, e que ressoam com a audiência.",
+              "Nos juntamos à Kimberly Clark e seu produto Neve com a missão de contar ao Brasil o resultado da localização da campanha global Toilets Change Lives, aqui chamada de Banheiros Mudam Vidas.",
+              "Após desenvolver iniciativas junto a ONGs que realizam trabalho de saneamento básico junto a populações de difícil acesso, a marca desejava comunicar a todo país, através de plataformas digitais, o resultado de seu esforço."
+              ]
           },
           {
             "type": "videoGallery",
@@ -438,7 +495,14 @@
           {
             "type": "text",
             "title": "Um novo desafio",
-            "paragraph": "Após encerrar a campanha junto às ONGs e já pronta para comunicar os resultados, a pandemia alterou todos os planos da marca. Como mostrar a concretização de suas ações junto a populações vulneráveis e de difícil acesso no momento mais restrito da história?\n\nPlayGround se juntou à Kimberly Clark na busca de soluções viáveis. Estabelecemos uma estratégia de conteúdo focada em um calendário amplo, com diversas peças informativas, que culminassem no lançamento de um curta metragem em formato documentário no canal de Youtube da marca. O documentário reunia imagens pré-captadas, entrevistas remotas e captações in-loco feitas a partir de um time reduzido, seguindo todos os protocolos de saúde e higiene em diversos locais do país (nordeste, sudeste e centro-oeste).\n\nCom a implementação das soluções postergadas, introduzimos animações que ajudaram a concretizar em vídeo o que foi adiado na vida real.\n\nEsta produção contou com: desenvolvimento de conteúdo estratégico baseado em iniciativas do cliente, desenvolvimento de pacote gráfico baseado na identidade do cliente, desenvolvimento de roteiro, captação remota e in loco, casting de personagens e especialistas, animações e motion design, pré-produção e pós produção."
+            "paragraph": [
+              "Após encerrar a campanha junto às ONGs e já pronta para comunicar os resultados, a pandemia alterou todos os planos da marca.",
+              "Como mostrar a concretização de suas ações junto a populações vulneráveis e de difícil acesso no momento mais restrito da história?",
+              "PlayGround se juntou à Kimberly Clark na busca de soluções viáveis. Estabelecemos uma estratégia de conteúdo focada em um calendário amplo, com diversas peças informativas, que culminassem no lançamento de um curta metragem em formato documentário no canal de Youtube da marca.",
+              "O documentário reunia imagens pré-captadas, entrevistas remotas e captações in-loco feitas a partir de um time reduzido, seguindo todos os protocolos de saúde e higiene em diversos locais do país (nordeste, sudeste e centro-oeste).",
+              "Com a implementação das soluções postergadas, introduzimos animações que ajudaram a concretizar em vídeo o que foi adiado na vida real.",
+              "Esta produção contou com: desenvolvimento de conteúdo estratégico baseado em iniciativas do cliente, desenvolvimento de pacote gráfico baseado na identidade do cliente, desenvolvimento de roteiro, captação remota e in loco, casting de personagens e especialistas, animações e motion design, pré-produção e pós produção."
+              ]
           }
         ]
       },
@@ -457,7 +521,11 @@
           {
             "type": "text",
             "title": "PlayGround | Conteúdo Editorial",
-            "paragraph": "A partir de janeiro de 2020 me tornei parte da equipe da PlayGround Brasil como Gerente de Produção. Em 2021 assumi a cadeira de conteúdo e gerência geral da empresa no Brasil. Nesta jornada, fui responsável por conteúdo de marca, mas também por conteúdo editorial. Tudo desenvolvido sob-medida para diferentes redes e plataformas."
+            "paragraph": [
+              "A partir de janeiro de 2020 me tornei parte da equipe da PlayGround Brasil como Gerente de Produção.",
+              "Em 2021 assumi a cadeira de conteúdo e gerência geral da empresa no Brasil. Nesta jornada, fui responsável por conteúdo de marca, mas também por conteúdo editorial.",
+              "Tudo desenvolvido sob-medida para diferentes redes e plataformas."
+              ]
           },
           {
             "type": "videoGallery",
@@ -467,7 +535,10 @@
           {
             "type": "text",
             "title": "Pq Deu Certo? | SÉRIE",
-            "paragraph": "Série no formato \"explainer\", apresentada pela podcaster Laurinha Lero. Como Produtor e Diretor, atuei no gerenciamento de cronograma, na pré-produção, produção e pós-produção. Sou responsável pelo gerenciamento de orçamento, contrato com talento, agenda de equipe, produção de objetos e entrevistas, gerenciando talentos, incluindo o desenvolvimento de roteiro."
+            "paragraph": [
+              "Série no formato \"explainer\", apresentada pela podcaster Laurinha Lero. Como Produtor e Diretor, atuei no gerenciamento de cronograma, na pré-produção, produção e pós-produção.",
+              "Sou responsável pelo gerenciamento de orçamento, contrato com talento, agenda de equipe, produção de objetos e entrevistas, gerenciando talentos, incluindo o desenvolvimento de roteiro."
+              ]
           }
         ]
       },
@@ -491,7 +562,11 @@
           {
             "type": "text",
             "title": "Grandes Debates da Humanidade | SÉRIE",
-            "paragraph": "A série propõe debates palatáveis sobre temas às vezes controversos. É apresentada por Thiago Ora, criador de conteúdo que sabe balancear cultura pop com filosofia. Como Produtor e Diretor, atuei na organização de cronograma de pré-produção, produção e pós-produção, gerenciamento de talento e conteúdo. Além do gerenciamento de orçamento, contrato e produção de arte."
+            "paragraph": [
+              "A série propõe debates palatáveis sobre temas às vezes controversos. É apresentada por Thiago Ora, criador de conteúdo que sabe balancear cultura pop com filosofia.",
+              "Como Produtor e Diretor, atuei na organização de cronograma de pré-produção, produção e pós-produção, gerenciamento de talento e conteúdo.",
+              "Além do gerenciamento de orçamento, contrato e produção de arte."
+              ]
           }
         ]
       },
@@ -510,7 +585,10 @@
           {
             "type": "text",
             "title": "Playground | Feeds Facebook, Instagram e Tiktok",
-            "paragraph": "Além de séries especiais, também fui responsável por produzir vídeos e outros conteúdos especiais para os feeds da PlayGround Brasil no Facebook, Instagram e TikTok.\n\nEstas tarefas incluem gerenciamento de orçamento, cronograma de pré-produção, produção e pós-produção, gerenciamento de talentos, equipe e equipamentos, além da aprovação de roteiros."
+            "paragraph": [
+              "Além de séries especiais, também fui responsável por produzir vídeos e outros conteúdos especiais para os feeds da PlayGround Brasil no Facebook, Instagram e TikTok.",
+              "Estas tarefas incluem gerenciamento de orçamento, cronograma de pré-produção, produção e pós-produção, gerenciamento de talentos, equipe e equipamentos, além da aprovação de roteiros."
+              ]
           },
           {
             "type": "photoGallery",
@@ -544,7 +622,15 @@
           {
             "type": "text",
             "title": "PlayGround Entrevista | Gerente de Produção e Conteúdo",
-            "paragraph": "Playground Entrevista é um formato quinzenal de entrevistas remotas, desenvolvido durante a pandemia em 2020.\n\nHavia o desafio editorial de gerar conteúdo relevante para a audiência em um momento de isolamento e distanciamento social. O que muitos poderiam encarar como um obstáculo acabou se tornando uma grande possibilidade, em escala global.\n\nArtistas e personalidades estavam isolados em suas casas, ainda aprendendo a lidar com a nova realidade enquanto seguiam produzindo. A logística estava resolvida. Ninguém precisava mais visitar um estúdio. Com uma boa pauta, muita tecnologia e softwares de comunicação como Zoom ou Skype, nossa equipe super criativa passou a agendar entrevistas e contar histórias.\n\nEstreamos com Pabllo Vittar, mas também falamos com a Spice Girl Mel C, Laerte Coutinho, Mauricio de Sousa, além de Fernanda Takai, elenco e produção do filme Alice Junior, entre outros.\n\nNeste projeto, me envolvi desde a criação do formato, desenvolvimento de pacote gráfico, seleção de talentos e captação remota. Sou creditado como Produtor e Diretor. Em algumas edições fui responsável por pauta, condução de entrevista e roteiro."
+            "paragraph": [
+              "Playground Entrevista é um formato quinzenal de entrevistas remotas, desenvolvido durante a pandemia em 2020.",
+              "Havia o desafio editorial de gerar conteúdo relevante para a audiência em um momento de isolamento e distanciamento social.",
+              "O que muitos poderiam encarar como um obstáculo acabou se tornando uma grande possibilidade, em escala global.",
+              "Artistas e personalidades estavam isolados em suas casas, ainda aprendendo a lidar com a nova realidade enquanto seguiam produzindo. A logística estava resolvida. Ninguém precisava mais visitar um estúdio.",
+              "Com uma boa pauta, muita tecnologia e softwares de comunicação como Zoom ou Skype, nossa equipe super criativa passou a agendar entrevistas e contar histórias.",
+              "Estreamos com Pabllo Vittar, mas também falamos com a Spice Girl Mel C, Laerte Coutinho, Mauricio de Sousa, além de Fernanda Takai, elenco e produção do filme Alice Junior, entre outros.",
+              "Neste projeto, me envolvi desde a criação do formato, desenvolvimento de pacote gráfico, seleção de talentos e captação remota. Sou creditado como Produtor e Diretor. Em algumas edições fui responsável por pauta, condução de entrevista e roteiro."
+              ]
           },
           {
             "type": "videoGallery",
@@ -580,7 +666,11 @@
           {
             "type": "text",
             "title": "In Front of the Wall | ESTRATÉGIA",
-            "paragraph": "A estratégia In Front Of The Wall para marcas A&E, History, History 2 e Lifetime consiste em compartilhar com o usuário comum uma amostra do poder das marcas enquanto produtores de conteúdo, sem a necessidade de realizar login em uma plataforma ou ser cliente de alguma operadora.\n\nMensalmente novos títulos (episódios completos) são adicionados às plataformas VOD das marcas, com foco no ambiente proprietário (sites da marca), Youtube e Dailymotion. A estratégia tem impulsionado o crescimento em todas as plataformas, porém é no Youtube que encontra seu terreno mais fértil. É também onde a experiência começou."
+            "paragraph": [
+              "A estratégia In Front Of The Wall para marcas A&E, History, History 2 e Lifetime consiste em compartilhar com o usuário comum uma amostra do poder das marcas enquanto produtores de conteúdo, sem a necessidade de realizar login em uma plataforma ou ser cliente de alguma operadora.",
+              "Mensalmente novos títulos (episódios completos) são adicionados às plataformas VOD das marcas, com foco no ambiente proprietário (sites da marca), Youtube e Dailymotion.",
+              "A estratégia tem impulsionado o crescimento em todas as plataformas, porém é no Youtube que encontra seu terreno mais fértil. É também onde a experiência começou."
+              ]
           },
           {
             "type": "photoGallery",
@@ -589,7 +679,14 @@
           },
           {
             "type": "quote",
-            "paragraph": "Um comparativo entre distintos períodos, pré e pós Estratégia IFTW, apresenta crescimento vertiginoso nos principais KPIs da operação da marca no Youtube:\n\nTotal de horas assistidas: crescimento de 896%\nTempo médio de visualização: crescimento de 213%\nVisualização de vídeos: crescimento de 419%\nReceita: crescimento de 634%\nNovos assinantes do canal: crescimento de 517%"
+            "paragraph": [
+              "Um comparativo entre distintos períodos, pré e pós Estratégia IFTW, apresenta crescimento vertiginoso nos principais KPIs da operação da marca no Youtube:",
+              "- Total de horas assistidas: crescimento de 896%; ",
+              "- Tempo médio de visualização: crescimento de 213%; ",
+              "- Visualização de vídeos: crescimento de 419%; ",
+              "- Receita: crescimento de 634%; ",
+              "- Novos assinantes do canal: crescimento de 517%. "
+            ]
           },
           {
             "type": "photoGallery",
@@ -598,7 +695,11 @@
           },
           {
             "type": "quote",
-            "paragraph": "Através da publicação de conteúdo com maior duração o canal ganha mais relevância na plataforma e passa a ter melhor performance no ranking de SEO. Isso se aplica não apenas ao motor de buscas do Google, mas do próprio Youtube e outras ferramentas internas, como indicação de vídeos relacionados (in video) ou menus nas páginas internas da plataforma.\n\nO resultado é extremamente positivo."
+            "paragraph": [
+              "Através da publicação de conteúdo com maior duração o canal ganha mais relevância na plataforma e passa a ter melhor performance no ranking de SEO.",
+              "Isso se aplica não apenas ao motor de buscas do Google, mas do próprio Youtube e outras ferramentas internas, como indicação de vídeos relacionados (in video) ou menus nas páginas internas da plataforma.",
+              "O resultado é extremamente positivo."
+              ]
           }
         ]
       },
@@ -617,11 +718,20 @@
           {
             "type": "text",
             "title": "Desafio Sob Fogo LatAm | ESTRATÉGIA YOUTUBE",
-            "paragraph": "Estratégia focada em performance digital, apoio à audiência na TV através de catch up no Youtube (perdeu episódio? Assista no Youtube). A aplicação de boas práticas atrelada ao tageamento estratégico e monitoramento de conteúdo próprio e concorrente levou o projeto ao sucesso.\n\n- Aumento de 2,5 milhões de videos views ao mês\n- Aumento de ATS médio do canal em 230%\n- Aceleração no crescimento da base de fã e indicadores de monetização\n\nAlém da publicação de episódios completos, foram publicados semanalmente vídeos que ampliavam a experiência do usuário. Assim, conheceram o personagem que representava o Brasil na série."
+            "paragraph": [
+              "Estratégia focada em performance digital, apoio à audiência na TV através de catch up no Youtube (perdeu episódio? Assista no Youtube).",
+              "A aplicação de boas práticas atrelada ao tageamento estratégico e monitoramento de conteúdo próprio e concorrente levou o projeto ao sucesso: ",
+              "- Aumento de 2,5 milhões de videos views ao mês;",
+              "- Aumento de ATS médio do canal em 230%;",
+              "- Aceleração no crescimento da base de fã e indicadores de monetização.",
+              "Além da publicação de episódios completos, foram publicados semanalmente vídeos que ampliavam a experiência do usuário. Assim, conheceram o personagem que representava o Brasil na série."
+              ]
           },
           {
             "type": "quote",
-            "paragraph": "Puderam fazer perguntas:"
+            "paragraph": [
+              "Puderam fazer perguntas:"
+              ]
           },
           {
             "type": "videoGallery",
@@ -630,7 +740,9 @@
           },
           {
             "type": "quote",
-            "paragraph": "Puderam conhecer a oficina do personagem:"
+            "paragraph": [
+              "Puderam conhecer a oficina do personagem:"
+              ]
           },
           {
             "type": "videoGallery",
@@ -639,7 +751,9 @@
           },
           {
             "type": "quote",
-            "paragraph": "Conheceram os segredos que levaram TOM SILVA ao sucesso:"
+            "paragraph": [
+              "Conheceram os segredos que levaram TOM SILVA ao sucesso:"
+              ]
           },
           {
             "type": "videoGallery",
@@ -648,7 +762,9 @@
           },
           {
             "type": "quote",
-            "paragraph": "E se emocionaram com o lado humano:"
+            "paragraph": [
+              "E se emocionaram com o lado humano:"
+              ]
           },
           {
             "type": "videoGallery",
@@ -657,7 +773,9 @@
           },
           {
             "type": "quote",
-            "paragraph": "Também puderam brincar com ele e com o apresentador do reality, o colombiano JUAN PABLO LLANO:"
+            "paragraph": [
+              "Também puderam brincar com ele e com o apresentador do reality, o colombiano JUAN PABLO LLANO:"
+              ]
           },
           {
             "type": "videoGallery",
@@ -670,7 +788,11 @@
           },
           {
             "type": "quote",
-            "paragraph": "A geração de vídeos sobre universo da série atrelado à aplicação de estratégia de palavras-chave e periodicidade resultou no domínio do motor de busca nos principais termos do segmento, tanto no Google quanto no Youtube.\n\nA estratégia foi pareada à publicação de episódios completos. Resultados: 2,5 mi views/mês, aumento de audiência na TV, e da relevância do próprio canal na plataforma."
+            "paragraph": [
+              "A geração de vídeos sobre universo da série atrelado à aplicação de estratégia de palavras-chave e periodicidade resultou no domínio do motor de busca nos principais termos do segmento, tanto no Google quanto no Youtube.",
+              "A estratégia foi pareada à publicação de episódios completos.",
+              "Resultados: 2,5 mi views/mês, aumento de audiência na TV, e da relevância do próprio canal na plataforma."
+              ]
           }
         ]
       },
@@ -694,7 +816,11 @@
           {
             "type": "text",
             "title": "Portal R7 | Ídolos, A Fazenda e Aprendiz Online",
-            "paragraph": "Entre 2010 e 2011, fui produtor de conteúdo do departamento de vídeos do portal R7, da Rede Record. Na ocasião, produzi conteúdo para as plataformas digitais das maiores atrações da emissora, como os reality-shows A Fazenda, O Aprendiz e Ídolos.\n\nA cobertura acontecia 24x7 nas redes sociais e principalmente no portal da Rede Record, o R7.com."
+            "paragraph": [
+              "Entre 2010 e 2011, fui produtor de conteúdo do departamento de vídeos do portal R7, da Rede Record.",
+              "Na ocasião, produzi conteúdo para as plataformas digitais das maiores atrações da emissora, como os reality-shows A Fazenda, O Aprendiz e Ídolos.",
+              "A cobertura acontecia 24x7 nas redes sociais e principalmente no portal da Rede Record, o R7.com."
+              ]
           },
           {
             "type": "videoGallery",
@@ -723,7 +849,10 @@
           {
             "type": "text",
             "title": "SOCIAL TV: A TV em duas telas | Mediador do Painel",
-            "paragraph": "Mediei e apresentei informações sobre a TV Social em painel de 45 minutos durante a Campus Party Brasil, em sua sexta edição (2013). Durante a ocasião, com participação de Nilson Xavier (Teledramaturgia), Lele Siedschlag (Te Dou Um Dado) e Alex Medeiros (TV Globo), discutimos a realidade da TV brasileira diante das novas tendências trazidas pelas redes sociais."
+            "paragraph": [
+              "Mediei e apresentei informações sobre a TV Social em painel de 45 minutos durante a Campus Party Brasil, em sua sexta edição (2013).",
+              "Durante a ocasião, com participação de Nilson Xavier (Teledramaturgia), Lele Siedschlag (Te Dou Um Dado) e Alex Medeiros (TV Globo), discutimos a realidade da TV brasileira diante das novas tendências trazidas pelas redes sociais."
+              ]
           }
         ]
       },
@@ -747,7 +876,11 @@
           {
             "type": "text",
             "title": "Twitter Moments & Social TV",
-            "paragraph": "Twitter Moments é uma das muitas ferramentas nativas do Twitter e foi usada estrategicamente para aumentar base de fãs e engajamento através de uma parceria com o escritório do Twitter em São Paulo. Twitter Moments abre a possibilidade de que os criadores iniciem ou façam parte de uma conversa online que esteja acontecendo no momento. Como criadores de conteúdo, History e A&E participam com uma diversidade de exemplos."
+            "paragraph": [
+              "Twitter Moments é uma das muitas ferramentas nativas do Twitter e foi usada estrategicamente para aumentar base de fãs e engajamento através de uma parceria com o escritório do Twitter em São Paulo.",
+              "Twitter Moments abre a possibilidade de que os criadores iniciem ou façam parte de uma conversa online que esteja acontecendo no momento.",
+              "Como criadores de conteúdo, History e A&E participam com uma diversidade de exemplos."
+              ]
           },
           {
             "type": "photoGallery",
@@ -757,7 +890,12 @@
           {
             "type": "text",
             "title": "Twitter Moments relacionado ao Hoje na História",
-            "paragraph": "Hoje na História é um dos melhores exemplos de conteúdo social nativo de nossas marcas. Surgiu como um formato de post diário para celebrar algum fato do passado que aconteceu num dia como aquele. Conforme o engajamento do formato cresceu, ele passou a ser adaptado para outras redes. Sempre respeitando a linguagem dessas redes. Twitter Moments se tornou a melhor maneira de adaptar o Hoje na História para o Twitter. E assim o fizemos, falando sobre coisas bizarras, sobre a cultura de internet, apresentando quizes sobre fatos que marcaram o dia, celebrando a cultura pop, relembrando figuras do passado, testando a inteligência de nossos fãs etc."
+            "paragraph": [
+              "Hoje na História é um dos melhores exemplos de conteúdo social nativo de nossas marcas. Surgiu como um formato de post diário para celebrar algum fato do passado que aconteceu num dia como aquele.",
+              "Conforme o engajamento do formato cresceu, ele passou a ser adaptado para outras redes. Sempre respeitando a linguagem dessas redes.",
+              "Twitter Moments se tornou a melhor maneira de adaptar o Hoje na História para o Twitter.",
+              "E assim o fizemos, falando sobre coisas bizarras, sobre a cultura de internet, apresentando quizes sobre fatos que marcaram o dia, celebrando a cultura pop, relembrando figuras do passado, testando a inteligência de nossos fãs etc."
+              ]
           },
           {
             "type": "photoGallery",
@@ -767,7 +905,10 @@
           {
             "type": "text",
             "title": "Twitter Moments relacionado a Notícias",
-            "paragraph": "Também adaptamos notícias desenvolvidas originalmente para o site dos canais History e A&E. Através de listas de curiosidades, alguma coisa bizarra, uma descoberta, uma teoria, uma galeria com imagens intrigantes etc."
+            "paragraph": [
+              "Também adaptamos notícias desenvolvidas originalmente para o site dos canais History e A&E.",
+              "Através de listas de curiosidades, alguma coisa bizarra, uma descoberta, uma teoria, uma galeria com imagens intrigantes etc."
+              ]
           },
           {
             "type": "photoGallery",
@@ -777,12 +918,21 @@
           {
             "type": "text",
             "title": "Twitter Moments relacionado à promoção de Novas Séries",
-            "paragraph": "Também promovemos nossas séries gerando audiência através de conversas que cativam. Neste caso promovemos a nova minissérie Raízes com uma lista de termos racistas que as pessoas usam sem nem se dar conta. Usamos a mesma técnica para promover os novos episódios da série durante uma semana. A série falava sobre diferentes maneiras com as quais o mundo poderia ser destruído. Já imaginou o que aconteceria ao planeta após o início de uma guerra nuclear? Ou o que poderia acontecer se o nosso planeta colidisse com outro? E se uma tempestade solar gigantesca atingisse o nosso planeta? Pior ainda, o que aconteceria após uma invasão alienígena? Nós imaginamos tudo isso. E se todas essas hipóteses não são suficientes, ainda consideramos outras 6 maneiras do mundo acabar. Estas peças foram apresentadas como complementos dos episódios, lançadas dia a dia, de segunda a sexta. Durante um dos discursos do Presidente Michel Temer, após ser acusado pela Polícia Federal, o personagem principal da série Bull fez uma análise sobre as expressões faciais dele. E nossos fãs tiveram a oportunidade de adivinhar o que cada expressão queria dizer. Alinhando discussões populares aos principais temas de Bull, promovemos a série ao fazer parte das conversas que aconteciam online."
+            "paragraph": [
+              "Também promovemos nossas séries gerando audiência através de conversas que cativam.",
+              "Neste caso promovemos a nova minissérie Raízes com uma lista de termos racistas que as pessoas usam sem nem se dar conta. Usamos a mesma técnica para promover os novos episódios da série durante uma semana.",
+              "A série falava sobre diferentes maneiras com as quais o mundo poderia ser destruído. Já imaginou o que aconteceria ao planeta após o início de uma guerra nuclear? Ou o que poderia acontecer se o nosso planeta colidisse com outro? E se uma tempestade solar gigantesca atingisse o nosso planeta? Pior ainda, o que aconteceria após uma invasão alienígena?",
+              "Nós imaginamos tudo isso. E se todas essas hipóteses não são suficientes, ainda consideramos outras 6 maneiras do mundo acabar. Estas peças foram apresentadas como complementos dos episódios, lançadas dia a dia, de segunda a sexta.",
+              "Durante um dos discursos do Presidente Michel Temer, após ser acusado pela Polícia Federal, o personagem principal da série Bull fez uma análise sobre as expressões faciais dele. E nossos fãs tiveram a oportunidade de adivinhar o que cada expressão queria dizer.",
+              "Alinhando discussões populares aos principais temas de Bull, promovemos a série ao fazer parte das conversas que aconteciam online."
+              ]
           },
           {
             "type": "text",
             "title": "Os Resultados",
-            "paragraph": "Crescimento de 240% da base de fãs em menos de 5 meses, três vezes mais alcance e engajamento sem qualquer compra de mídia."
+            "paragraph": [
+              "Crescimento de 240% da base de fãs em menos de 5 meses, três vezes mais alcance e engajamento sem qualquer compra de mídia."
+              ]
           },
           {
             "type": "photoGallery",
@@ -801,7 +951,9 @@
           },
           {
             "type": "quote",
-            "paragraph": "Os picos aconteceram nos dias em que publicamos Twitter Moments."
+            "paragraph": [
+              "Os picos aconteceram nos dias em que publicamos Twitter Moments."
+              ]
           }
         ]
       },
@@ -829,7 +981,10 @@
           {
             "type": "text",
             "title": "TV Cultura | Produtor de Conteúdo Digital",
-            "paragraph": "Trabalhei na TV Cultura, no Departamento Digital, entre 2009 e 2010. Participei das produções PROGRAMA NOVO e LOGIN, sempre produzindo conteúdo conectado com os assuntos da internet, em especial as Redes Sociais."
+            "paragraph": [
+              "Trabalhei na TV Cultura, no Departamento Digital, entre 2009 e 2010.",
+              "Participei das produções PROGRAMA NOVO e LOGIN, sempre produzindo conteúdo conectado com os assuntos da internet, em especial as Redes Sociais."
+              ]
           }
         ]
       },
@@ -848,7 +1003,10 @@
           {
             "type": "text",
             "title": "Programa Novo | Correspondente Digital",
-            "paragraph": "Na produção PROGRAMA NOVO participei como correspondente digital, ou melhor, como blogueiro que representava a atração nas redes sociais e também conectava o público com o que há de novo online, através de participações na TV. Minha função era compartilhar o que estava acontecendo de novo nas redes sociais, além de administrar e gerenciar os perfis oficiais do programa nas redes."
+            "paragraph": [
+              "Na produção PROGRAMA NOVO participei como correspondente digital, ou melhor, como blogueiro que representava a atração nas redes sociais e também conectava o público com o que há de novo online, através de participações na TV.",
+              "Minha função era compartilhar o que estava acontecendo de novo nas redes sociais, além de administrar e gerenciar os perfis oficiais do programa nas redes."
+              ]
           }
         ]
       },
@@ -867,7 +1025,10 @@
           {
             "type": "text",
             "title": "Programa Login | Produtor de Conteúdo Digital",
-            "paragraph": "Na produção LOGIN, voltada aos jovens da Geração Y, fui produtor de base. Produzi personagens para o quadro Perfil Y, que apresentava jovens desta geração, traduzindo e imprimindo no vídeo todos os seus sonhos, anseios e expectativas."
+            "paragraph": [
+              "Na produção LOGIN, voltada aos jovens da Geração Y, fui produtor de base.",
+              "Produzi personagens para o quadro Perfil Y, que apresentava jovens desta geração, traduzindo e imprimindo no vídeo todos os seus sonhos, anseios e expectativas."
+              ]
           }
         ]
       },
@@ -886,7 +1047,11 @@
           {
             "type": "text",
             "title": "Ex Tricô e Tricô dos Bróder | Produtor Digital",
-            "paragraph": "Além de produzir conteúdo digital das grandes séries da Rede Record, entre 2010 e 2011 também fui produtor de propriedades exclusivas do digital, como o programa de entrevista Tricô dos Bróder, que depois se transformou em Ex Tricô. O programa era apresentado por Lele Siedschlag (Te Dou um Dado) e Clara Averbuck.\n\nEsta atração diária do portal R7 apresentava entrevista com participantes do Reality Show Big Brother Brasil, assim como a opinião das apresentadoras sobre os fatos mais relevantes do reality. Quando Big Brother não estava no ar o programa pautava web-celebridades, sub-celebridades e pautas de internet."
+            "paragraph": [
+              "Além de produzir conteúdo digital das grandes séries da Rede Record, entre 2010 e 2011 também fui produtor de propriedades exclusivas do digital, como o programa de entrevista Tricô dos Bróder, que depois se transformou em Ex Tricô.",
+              "O programa era apresentado por Lele Siedschlag (Te Dou um Dado) e Clara Averbuck.",
+              "Esta atração diária do portal R7 apresentava entrevista com participantes do Reality Show Big Brother Brasil, assim como a opinião das apresentadoras sobre os fatos mais relevantes do reality. Quando Big Brother não estava no ar o programa pautava web-celebridades, sub-celebridades e pautas de internet."
+              ]
           },
           {
             "type": "videoGallery",
@@ -918,12 +1083,23 @@
           {
             "type": "text",
             "title": "Sozinhos | History Channel",
-            "paragraph": "Nesta campanha fui responsável não apenas pela localização de ativos compartilhados pela sede corporativa, mas também por supervisionar a criação de conteúdo para LatAm.\n\nSozinhos é uma série de TV cuja performance é ligeiramente maior em território nacional brasileiro. Portanto, foi uma prioridade de nosso mercado. O objetivo principal da campanha foi gerar awareness e tune in.\n\nIdentificamos grupos de audiência em potencial e trabalhamos com conteúdo exclusivo para redes sociais, chegando a esses grupos através de campanha de dark posts no Facebook."
+            "paragraph": [
+              "Nesta campanha fui responsável não apenas pela localização de ativos compartilhados pela sede corporativa, mas também por supervisionar a criação de conteúdo para LatAm.",
+              "Sozinhos é uma série de TV cuja performance é ligeiramente maior em território nacional brasileiro. Portanto, foi uma prioridade de nosso mercado.",
+              "O objetivo principal da campanha foi gerar awareness e tune in.",
+              "Identificamos grupos de audiência em potencial e trabalhamos com conteúdo exclusivo para redes sociais, chegando a esses grupos através de campanha de dark posts no Facebook."
+              ]
           },
           {
             "type": "text",
             "title": "Conteúdo para as Redes Sociais",
-            "paragraph": "- Primeira temporada da série na Patagônia, região da América do Sul. Tomamos proveito dessa informação para promover a série através de peças que apresentam o novo cenário, que faz parte de nosso mercado e tem maior apelo com nossa audiência;\n\n- O novo cenário da série também foi apresentado em fotos 360º;\n\n- Primeira temporada com mulheres no elenco. Encaramos isso como uma oportunidade de comunicar com a audiência feminina e reforçar temas relacionados ao empoderamento feminino;\n\n- Criativos digitais totalmente alinhados aos criativos de campanha de mídia exterior;\n\n- A estratégia apresentou conteúdo exclusivo para cada rede. Destaque para conteúdo no Twitter, com Twitter Momets. Exemplos: Os Perigos da Patagônia e Dicas de Sobrevivência."
+            "paragraph": [
+              "- Primeira temporada da série na Patagônia, região da América do Sul. Tomamos proveito dessa informação para promover a série através de peças que apresentam o novo cenário, que faz parte de nosso mercado e tem maior apelo com nossa audiência;",
+              "- O novo cenário da série também foi apresentado em fotos 360º;",
+              "- Primeira temporada com mulheres no elenco. Encaramos isso como uma oportunidade de comunicar com a audiência feminina e reforçar temas relacionados ao empoderamento feminino;",
+              "- Criativos digitais totalmente alinhados aos criativos de campanha de mídia exterior;",
+              "- A estratégia apresentou conteúdo exclusivo para cada rede. Destaque para conteúdo no Twitter, com Twitter Momets. Exemplos: Os Perigos da Patagônia e Dicas de Sobrevivência."
+              ]
           },
           {
             "type": "photoGallery",
@@ -947,30 +1123,47 @@
           {
             "type": "text",
             "title": "Estratégia Digital para promoção e suporte ao evento Giorgio no Brasil",
-            "paragraph": "No dia 26 de agosto o HISTORY recebeu os fãs da série ALIENÍGENAS DO PASSADO para um evento especial no qual foi exibido um episódio inédito da nova temporada da série, seguido por um debate com o talento GIORGIO TSOUKALOS."
+            "paragraph": [
+              "No dia 26 de agosto o HISTORY recebeu os fãs da série ALIENÍGENAS DO PASSADO para um evento especial no qual foi exibido um episódio inédito da nova temporada da série, seguido por um debate com o talento GIORGIO TSOUKALOS."
+              ]
           },
           {
             "type": "photoGallery",
             "layout": "gridColumn3",
-            "files": ["giorgio1.avif", "giorgio2.avif", "giorgio4.avif", "giorgio5.avif", "giorgio6.avif", "giorgio7.avif", "giorgio8.avif", "giorgio9.avif", "giorgio10.avif", "giorgio11.avif", "giorgio12.avif", "giorgio13.avif"]
+            "files": ["giorgio1.avif", "giorgio2.avif", "giorgio4.avif", "giorgio5.avif", "giorgio6.avif", "giorgio7.avif", "giorgio8.avif", "giorgio9.avif", "giorgio10.avif", "giorgio11.avif", "giorgio12.avif"]
           },
           {
             "type": "quote",
-            "paragraph": "O evento ainda contemplou um concurso Cosplay, Meet & Greet para VIPs e transmissões ao vivo via Facebook e YouTube Live, para todo o Brasil."
+            "paragraph": [
+              "O evento ainda contemplou um concurso Cosplay, Meet & Greet para VIPs e transmissões ao vivo via Facebook e YouTube Live, para todo o Brasil."
+              ]
           },
           {
             "type": "text",
             "title": "O Evento em Números",
-            "paragraph": "- 710 ingressos distribuídos em menos de uma hora, através da plataforma digital EventBrite;\n- Média de 1300 espectadores durante transmissão ao vivo no facebook Live com pico de 1500 pessoas;\n- 1,7 milhões de pessoas acompanharam as transmissões ao vivo da campanha no Facebook;\n- Transmissão do debate #GiorgioNoBrasil alcançou isoladamente 1,06 milhões de usuários únicos organicamente no Facebook;\n- #GiorgioNoBrasil nos Trending Topics São Paulo durante todo o evento;\n- Alcance de 7,8 milhões de usuários únicos no Twitter de forma orgânica;\n- Campanha de posts #GiorgioNoBrasil com alcance orgânico de 2,3 milhões de usuários únicos;\n- 454 posts em Instagram com a hashtag #GiorgioNoBrasil.\n\nOs bons números em redes sociais refletem a estratégia digital bem amarrada. Uma das ações foi parceria com Flowics, na qual posts com a hashtag #GiorgioNoBrasil eram exibidos em telões durante todo o evento e também em GCs durante a transmissão do painel ao vivo via Facebook e YouTube Live.\n\nOutra ação relevante foi o convite a influenciadores digitais, que tiveram acesso a uma área especial e ao Meet & Greet exclusivo, no qual puderam conhecer Giorgio e tirar fotos com ele."
+            "paragraph": [
+              "- 710 ingressos distribuídos em menos de uma hora, através da plataforma digital EventBrite;",
+              "- Média de 1300 espectadores durante transmissão ao vivo no facebook Live com pico de 1500 pessoas;",
+              "- 1,7 milhões de pessoas acompanharam as transmissões ao vivo da campanha no Facebook;",
+              "- Transmissão do debate #GiorgioNoBrasil alcançou isoladamente 1,06 milhões de usuários únicos organicamente no Facebook;",
+              "- #GiorgioNoBrasil nos Trending Topics São Paulo durante todo o evento;",
+              "- Alcance de 7,8 milhões de usuários únicos no Twitter de forma orgânica;",
+              "- Campanha de posts #GiorgioNoBrasil com alcance orgânico de 2,3 milhões de usuários únicos;",
+              "- 454 posts em Instagram com a hashtag #GiorgioNoBrasil.",
+              "Os bons números em redes sociais refletem a estratégia digital bem amarrada. Uma das ações foi parceria com Flowics, na qual posts com a hashtag #GiorgioNoBrasil eram exibidos em telões durante todo o evento e também em GCs durante a transmissão do painel ao vivo via Facebook e YouTube Live.",
+              "Outra ação relevante foi o convite a influenciadores digitais, que tiveram acesso a uma área especial e ao Meet & Greet exclusivo, no qual puderam conhecer Giorgio e tirar fotos com ele."
+              ]
           },
           {
             "type": "text",
             "title": "Transmissões via Facebook e Youtube",
-            "paragraph": "Convidados via Facebook Live e via YouTube Live."
+            "paragraph": [
+              "Convidados via Facebook Live e via YouTube Live."
+              ]
           },
           {
             "type": "videoGallery",
-            "class": "single",
+            "layout": "single",
             "links": ["https://www.youtube.com/watch?v=MUg8MJMshCc"]
           }
         ]
@@ -990,20 +1183,26 @@
           {
             "type": "photoGallery",
             "layout": "gridColumn3",
-            "files": ["alien1.avif", "alien2.avif", "alien3.avif", "alien4.avif", "alien5.avif", "alien6.avif"]
+            "files": ["alien1.avif", "alien2.avif", "alien3.avif", "alien4.avif", "alien6.avif"]
           },
           {
             "type": "text",
             "title": "Conferência de Imprensa e Conteúdo para Redes Sociais #GiorgioNoBrasil",
-            "paragraph": "Evento de imprensa, cooperação com departamento de Relações Públicas, focado em influenciadores digitais.\n\nCom a estratégia de oferecermos captura de material audiovisual, garantimos presença total de imprensa e geração de conteúdo diverso em redes."
+            "paragraph": [
+              "Evento de imprensa, cooperação com departamento de Relações Públicas, focado em influenciadores digitais.",
+              "Com a estratégia de oferecermos captura de material audiovisual, garantimos presença total de imprensa e geração de conteúdo diverso em redes."
+              ]
           },
           {
             "type": "text",
-            "title": "Conteúdo gerado por alguns dos influenciadores digital e imprensa"
+            "title": [
+              "Conteúdo gerado por alguns dos influenciadores digital e imprensa"
+              ],
+            "paragraph": []
           },
           {
             "type": "videoGallery",
-            "class": "gridColumn",
+            "layout": "gridColumn",
             "links": [
               "https://www.youtube.com/watch?v=FqVYYmj4qXQ",
               "https://www.youtube.com/watch?v=Uzv7iupPrpc",
@@ -1013,7 +1212,10 @@
           {
             "type": "text",
             "title": "Conteúdo exclusivo feito para redes sociais do canal History",
-            "paragraph": "Transmissão exclusiva com talento para promoção do evento #GiorgioNoBrasil e da nova temporada da série Alienígenas do Passado.\n\nA entrevista foi conduzida pelo talento Afonso Tresdê, influenciador digital especializado em ufologia, que possui grande afinidade com público do canal."
+            "paragraph": [
+              "Transmissão exclusiva com talento para promoção do evento #GiorgioNoBrasil e da nova temporada da série Alienígenas do Passado.",
+              "A entrevista foi conduzida pelo talento Afonso Tresdê, influenciador digital especializado em ufologia, que possui grande afinidade com público do canal."
+              ]
           },
           {
             "type": "videoGallery",
@@ -1025,7 +1227,10 @@
           {
             "type": "text",
             "title": "Ações em Redes Sociais",
-            "paragraph": "Para gerar engajamento com a audiência em torno do talento em sua primeira vinda ao país, pedimos que os fãs enviassem perguntas sobre a especialidade de Giorgio, a Teoria dos Deuses Astronautas. A resposta da audiência foi gigante."
+            "paragraph": [
+              "Para gerar engajamento com a audiência em torno do talento em sua primeira vinda ao país, pedimos que os fãs enviassem perguntas sobre a especialidade de Giorgio, a Teoria dos Deuses Astronautas.",
+              "A resposta da audiência foi gigante."
+              ]
           },
           {
             "type": "videoGallery",
@@ -1039,7 +1244,9 @@
           },
           {
             "type": "quote",
-            "paragraph": "Também montamos um Twitter Moments exclusivo com talento. Esta peça reuniu uma linha sequencial de vídeos na qual Giorgio fala sobre sua vida."
+            "paragraph": [
+              "Também montamos um Twitter Moments exclusivo com talento. Esta peça reuniu uma linha sequencial de vídeos na qual Giorgio fala sobre sua vida."
+              ]
           },
           {
             "type": "photoGallery",

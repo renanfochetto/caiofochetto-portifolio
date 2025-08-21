@@ -1,4 +1,6 @@
 .quoteBlock {
+    display: flex;
+    flex-direction: column;
     margin: 4rem 0;
     box-shadow: none;
 }
@@ -9,4 +11,5 @@
     background-color: var(--background);
     font-size: var(--font-size-xs);
     box-shadow: none;
+    text-indent: 2rem;
 }

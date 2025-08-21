@@ -15,5 +15,6 @@
     font-weight: var(--font-weight-regular);
     background-color: var(--background);
     font-size: var(--font-size-xs);
+    text-indent: 1.5rem;
     box-shadow: none;
 }

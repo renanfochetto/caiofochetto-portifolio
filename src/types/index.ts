@@ -21,7 +21,7 @@ export type CaseBlock =
   | {
   type: 'text' | 'quote';
   title: string;
-  paragraph: string;
+  paragraph: string[];
 }
   | {
   type: 'photoGallery';

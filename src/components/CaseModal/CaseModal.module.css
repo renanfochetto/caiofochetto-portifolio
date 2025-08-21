@@ -20,10 +20,26 @@
     position: absolute;
     top: 1rem;
     right: 1rem;
-    font-size: 1.5rem;
     background: none;
     border: none;
     cursor: pointer;
+    z-index: 1001;
+}
+
+.closeButton:hover {
+    transform: scale(1.15);
+    transition: transform 0.3s;
+}
+
+.closeButton:active {
+    transform: scale(1.0);
+    transition: transform 0.1s;
+}
+
+.closeButton svg {
+    width: 2.5rem;
+    height: 2.5rem;
+    fill: var(--white);
 }
 
 .modalHeader {
@@ -63,7 +79,7 @@
 .techSheet {
     display: flex;
     flex-direction: column;
-    margin-top: 4rem;
+    margin-top: 6rem;
     width: 27rem;
     border: 1px solid var(--black);
 }

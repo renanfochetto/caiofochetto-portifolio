@@ -22,6 +22,11 @@
     width: 10rem;
 }
 
+.titleSection:hover {
+    text-decoration: underline;
+    text-underline-offset: 0.3rem;
+}
+
 .scrollWrapper {
     position: relative;
     width: 100vw;

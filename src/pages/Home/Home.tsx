@@ -17,7 +17,7 @@ const Home = () => {
   const {pagina, titulo, subtitulo} = content.inicial;
 
   return (
-    <section className={styles.container}>
+    <section id="home" className={styles.container}>
       <div className={styles.titleSection}>
         <h3>{pagina}</h3>
       </div>

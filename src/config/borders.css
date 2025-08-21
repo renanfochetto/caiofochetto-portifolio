@@ -9,6 +9,8 @@
     --border-radius-large: 2rem;
 
     /*Box-Shadow*/
-    --shadow-base: 4px 4px 6px rgba(0, 0, 0, 0.3);
-    --shadow-regular: 8px 8px 12px rgba(0, 0, 0, 0.3);
+    --shadow-base: 4px 4px 6px rgba(0, 0, 0, 0.35);
+    --shadow-base-hover: 5px 5px 7px rgba(0, 0, 0, 0.37);
+    --shadow-regular: 8px 8px 10px rgba(0, 0, 0, 0.35);
+    --shadow-regular-hover: 9px 9px 11px rgba(0, 0, 0, 0.37);
 }
