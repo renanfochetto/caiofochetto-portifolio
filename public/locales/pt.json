@@ -92,9 +92,9 @@
         "competencias": "Gestão de Projetos * Estratégia Digital * Content Strategy * Social Media Marketing * Mobile Content * Video Production"
       },
       {
-        "empresa": "RÁDIO BOA NOVA",
-        "logo": "/logos/radioboanova.avif",
-        "corFundo": "#0aa3c6",
+        "empresa": "REDE BOA NOVA",
+        "logo": "/logos/redeboanova.avif",
+        "corFundo": "#0083c1",
         "corTexto": "#ffffff",
         "cargo": "Web Content Producer",
         "periodo": "Jul 2009 - Ago 2010",
@@ -106,7 +106,7 @@
         "empresa": "TV MUNDO MAIOR",
         "logo": "/logos/tvmundomaior.avif",
         "corFundo": "#ffffff",
-        "corTexto": "#000000",
+        "corTexto": "#175979",
         "cargo": "TV Producer Coordinator",
         "periodo": "Nov 2005 - Nov 2008",
         "total": "3 anos e 1 mes",
@@ -114,9 +114,9 @@
         "competencias": "Gestão de Projetos * Liderança * Estratégia Digital * Content Strategy * Social Media Marketing * Mobile Content"
       },
       {
-        "empresa": "RÁDIO BOA NOVA",
-        "logo": "/logos/radioboanova.avif",
-        "corFundo": "#0aa3c6",
+        "empresa": "REDE BOA NOVA",
+        "logo": "/logos/redeboanova.avif",
+        "corFundo": "#0083c1",
         "corTexto": "#ffffff",
         "cargo": "Executive Producer",
         "periodo": "Jun 2002 - Nov 2005",

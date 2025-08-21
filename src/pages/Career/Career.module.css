@@ -22,11 +22,6 @@
     width: 10rem;
 }
 
-.titleSection:hover {
-    text-decoration: underline;
-    text-underline-offset: 0.3rem;
-}
-
 .scrollWrapper {
     position: relative;
     width: 100vw;
@@ -69,11 +64,11 @@
 .timelineYear::before {
     content: "";
     position: absolute;
-    top: -6rem;                /* deve bater com o padding-top do wrapper */
+    top: -5rem;                /* deve bater com o padding-top do wrapper */
     left: 50%;
     transform: translateX(-50%);
     width: 2px;
-    height: 6rem;
+    height: 5rem;
     z-index: 1;/* idem: mesmo valor do padding-top */
     background: var(--black);
 }

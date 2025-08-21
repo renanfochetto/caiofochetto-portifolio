@@ -32,12 +32,6 @@
     width: 10rem;
 }
 
-.titleSection:hover {
-    text-decoration: underline;
-    text-underline-offset: 0.3rem;
-}
-
-
 .casesGrid {
     /* Make the flex item expand to fit its grid contents horizontally */
     width: max-content;

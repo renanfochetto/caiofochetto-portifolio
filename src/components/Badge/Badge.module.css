@@ -47,6 +47,8 @@
 
 .badgeFront img {
     margin-top: 1rem;
+    width: 8rem;
+    height: auto;
 }
 
 .badgeFront h3 {
