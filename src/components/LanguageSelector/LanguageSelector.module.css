@@ -28,7 +28,7 @@
 
 .options {
     position: absolute;
-    top: 2rem;
+    top: 1.8rem;
     left:0;
     list-style: none;
     z-index: 10;
@@ -38,6 +38,6 @@
 .option {
     text-align: left;
     cursor: pointer;
-    padding-block: 0.2rem;
+    padding-block: 0.12rem;
     transition: background 0.2s ease;
 }

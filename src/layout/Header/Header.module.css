@@ -10,7 +10,7 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     grid-template-columns: 1fr 1fr 1fr;
-    padding: 1.5rem 12.5rem 0;
+    padding: 1.5rem 12.5rem 0.5rem;
     z-index: 100;
     text-shadow: var(--shadow-regular);
 }
