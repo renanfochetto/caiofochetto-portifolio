@@ -9,6 +9,7 @@ import PhotoGallery from './Blocks/PhotoGallery/PhotoGallery.tsx';
 import Tag from '../Tag/Tag.tsx';
 import type {CaseBlock} from '../../types';
 import {createPortal} from 'react-dom';
+import { useLocalizedContent } from '../../hooks/useLocalizedContent.ts';
 
 export type CaseModalProps = {
   caseData: CaseData;
@@ -17,8 +18,10 @@ export type CaseModalProps = {
 }
 
 
-const CaseModal = ({caseData, tagData, onClose}: CaseModalProps) => {
+export const CaseModal = ({caseData, tagData, onClose}: CaseModalProps) => {
+  const content = useLocalizedContent();
 
+  const modalFooter = content?.cases?.modalFooter;
 
   useEffect(() => {
     const handleKeyDown = (e: KeyboardEvent) => {
@@ -39,6 +42,8 @@ const CaseModal = ({caseData, tagData, onClose}: CaseModalProps) => {
   }, []);
 
   if (!caseData) return null;
+
+  if (!modalFooter) return null;
 
   const {nome, empresa, cargo, ano, tags, logos, blocks, folder} = caseData;
 
@@ -116,15 +121,13 @@ const CaseModal = ({caseData, tagData, onClose}: CaseModalProps) => {
 
         <div className={styles.modalFooter}>
           <div className={styles.techSheet}>
-            <span><strong>Case:</strong> {nome}</span>
-            <span><strong>Empresa:</strong> {empresa}</span>
-            <span><strong>Cargo:</strong> {cargo}</span>
-            <span><strong>Ano:</strong> {ano}</span>
+            <span><strong>{modalFooter.case}</strong>{nome}</span>
+            <span><strong>{modalFooter.company}</strong>{empresa}</span>
+            <span><strong>{modalFooter.role}</strong>{cargo}</span>
+            <span><strong>{modalFooter.year}</strong>{ano}</span>
           </div>
         </div>
       </div>
     </div>, document.body
   );
 };
-
-export default CaseModal;

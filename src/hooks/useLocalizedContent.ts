@@ -19,7 +19,9 @@ export const useLocalizedContent = () => {
 
         const data: LocalizedContent = await response.json();
         setContent(data);
-      } catch {
+      } catch (error) {
+        // eslint-disable-next-line no-console
+        console.error('Erro ao carregar conteúdo localizado:', error);
       }
     };
 

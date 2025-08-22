@@ -75,7 +75,6 @@
     grid-column: 1 / span 2;
     width: 100%;
     height: auto;
-    object-fit: cover;
     border-radius: var(--border-radius-medium);
     border: var(--border-regular);
     box-shadow: var(--shadow-regular);
@@ -100,4 +99,16 @@
 .previewImage:nth-child(2) {
     width: 45rem;
     height: 28rem;
+}
+
+@media (width < 1300px) {
+    .titleSection {
+        left: 1.5%;
+        width: 8rem;
+    }
+
+    .socialsGrid {
+        margin-left: 15rem;
+        grid-template-columns: 13rem auto;
+    }
 }

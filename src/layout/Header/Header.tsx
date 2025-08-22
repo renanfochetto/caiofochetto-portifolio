@@ -24,7 +24,7 @@ const Header = () => {
         <ul>
           {links.map((link: Link) => (
             <li key={link.id}>
-              <a href={`#${link.id}`}>{link.label}</a>
+              <a href={`#${link.id}`} className={styles.linksNav}>{link.label}</a>
             </li>
           ))}
         </ul>

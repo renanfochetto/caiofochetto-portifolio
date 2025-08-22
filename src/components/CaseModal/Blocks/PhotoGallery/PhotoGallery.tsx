@@ -25,5 +25,4 @@ const PhotoGallery = ({images, layout, description}: PhotoGalleryProps) => {
   );
 };
 
-// @ts-ignore
 export default PhotoGallery;

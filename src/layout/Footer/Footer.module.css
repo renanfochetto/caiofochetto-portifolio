@@ -49,3 +49,9 @@ p:active {
     transform: scale(0.90);
     transition: transform 0.2s;
 }
+
+@media (width < 1300px) {
+    footer {
+        padding: 1.5rem 9rem;
+    }
+}

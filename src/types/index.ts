@@ -77,6 +77,12 @@ export interface Cases {
   pagina: string;
   projetos: CaseData[];
   tags: Record<string, Tag>;
+  modalFooter?: {
+    case: string;
+    company: string;
+    role: string;
+    year: string;
+  };
 }
 
 export interface Socials {

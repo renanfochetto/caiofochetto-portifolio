@@ -72,3 +72,15 @@
     z-index: 1;/* idem: mesmo valor do padding-top */
     background: var(--black);
 }
+
+@media (width < 1300px) {
+    .titleSection {
+        left: 1.5%;
+        width: 8rem;
+    }
+
+    .badgeGrid {
+        padding: 4rem 16rem 2rem;
+        grid-column-gap: 10rem;
+    }
+}

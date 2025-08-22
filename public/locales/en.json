@@ -1263,41 +1263,39 @@
     ],
     "tags": {
       "digitalStrategy": {
-        "label": "#DigitalStrategy",
-        "color": "#00ff37"
+        "label": "#DigitalStrategy"
       },
       "digitalContent": {
-        "label": "#DigitalContent",
-        "color": "#e30169"
+        "label": "#DigitalContent"
       },
       "branding": {
-        "label": "#Branding",
-        "color": "#3fffff"
+        "label": "#Branding"
       },
       "graphicDesign": {
-        "label": "#GraphicDesign",
-        "color": "#ff7d20"
+        "label": "#GraphicDesign"
       },
       "socialMedia": {
-        "label": "#SocialMedia",
-        "color": "#b700ff"
+        "label": "#SocialMedia"
       },
       "contentStrategy": {
-        "label": "#ContentStrategy",
-        "color": "#f6ff00"
+        "label": "#ContentStrategy"
       },
       "editorialContent": {
-        "label": "#EditorialContent",
-        "color": "#4f9aef"
+        "label": "#EditorialContent"
       },
       "production": {
-        "label": "#Production",
-        "color": "#ff9ef2"
+        "label": "#Production"
       },
       "presentation": {
-        "label": "#Presentation",
-        "color": "#9aff91"
+        "label": "#Presentation"
+
       }
+    },
+    "modalFooter": {
+      "case": "Case: ",
+      "company": "Company: ",
+      "role": "Role: ",
+      "year": "Year: "
     }
   },
   "socials": {

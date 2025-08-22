@@ -2,7 +2,7 @@ import styles from './CaseGrid.module.css';
 import CaseCard from '../CaseCard/CaseCard.tsx';
 import TagFilter from '../TagFilter/TagFilter.tsx';
 import {useState, useMemo} from 'react';
-import CaseModal from '../CaseModal/CaseModal.tsx';
+import {CaseModal} from '../CaseModal/CaseModal.tsx';
 import { buildAssetPath } from '../../utils/path';
 import type {CaseData} from '../../types';
 import { useLocalizedContent } from '../../hooks/useLocalizedContent.ts';

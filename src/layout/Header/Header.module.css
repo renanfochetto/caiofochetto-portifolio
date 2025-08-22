@@ -40,13 +40,13 @@ a{
     color: var(--black);
 }
 
-li:hover {
+.linksNav:hover {
     text-decoration: underline;
     text-decoration-thickness: 0.15rem;
     text-underline-offset: 0.5rem;
 }
 
-li:active {
+.li:active {
     transform: scale(0.95);
     transition: transform 0.2s;
 }
@@ -65,6 +65,13 @@ li:active {
 .logoLink:active {
     transform: scale(0.95);
     transition: transform 0.2s;
+}
+
+@media (width < 1300px) {
+    header {
+        padding: 1.5rem 9rem 0.5rem;
+        background-position: calc(0% - 4rem) top;
+    }
 }
 
 

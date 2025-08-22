@@ -65,3 +65,21 @@
     margin-bottom: 0.5rem;
 }
 
+@media (width < 1300px) {
+    .container {
+        padding-top: 11rem;
+    }
+
+    .titleSection {
+        left: 1.5%;
+        width: 8rem;
+    }
+
+    .intro {
+        padding: 3.6rem 9rem 2rem 12rem;
+    }
+
+    .socials {
+        grid-template-columns: 1fr auto 9rem;
+    }
+}

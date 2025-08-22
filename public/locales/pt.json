@@ -1288,6 +1288,12 @@
       "presentation": {
         "label": "#Apresentação"
       }
+    },
+    "modalFooter": {
+      "case": "Case: ",
+      "company": "Empresa: ",
+      "role": "Cargo: ",
+      "year": "Ano: "
     }
   },
   "socials": {
