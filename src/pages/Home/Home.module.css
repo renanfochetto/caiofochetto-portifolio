@@ -82,10 +82,20 @@
     .socials {
         grid-template-columns: 1fr auto 9rem;
     }
+}
 
-    @media(width < 1200px) {
-        .intro {
-            padding: 3.6rem 8rem 2rem 10rem;
-        }
+@media(width < 1200px) {
+    .intro {
+        padding: 3.6rem 8rem 2rem 10rem;
+    }
+}
+
+@media(width < 1100px) {
+    .intro {
+        padding: 4rem 8rem 3rem 9rem;
+    }
+
+    .intro p {
+        font-size: var(--font-size-sm);
     }
 }
