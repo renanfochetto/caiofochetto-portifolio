@@ -4,3 +4,11 @@
     height: auto;
     padding: 1.5rem 12.5rem 0;
 }
+
+@media (width < 1000px) {
+    .caseGrid {
+        padding: 1.5rem 8rem 0;
+        gap: 0;
+        grid-row-gap: 2rem;
+    }
+}

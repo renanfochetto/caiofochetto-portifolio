@@ -92,10 +92,30 @@
 
 @media(width < 1100px) {
     .intro {
-        padding: 4rem 8rem 3rem 9rem;
+        padding: 4rem 10rem 2rem 7rem;
     }
 
     .intro p {
         font-size: var(--font-size-sm);
+    }
+
+    .socials {
+        margin-top: 3rem;
+    }
+}
+
+@media(width < 1000px) {
+    .titleSection {
+        left: -1%;
+        font-size: var(--font-size-xs);
+    }
+
+    .intro h2 {
+        font-size: var(--font-size-lg);
+    }
+
+    .socials {
+        grid-template-columns: 1fr auto 6rem;
+        margin-top: 6rem;
     }
 }

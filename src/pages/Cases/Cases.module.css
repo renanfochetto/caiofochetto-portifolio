@@ -44,3 +44,11 @@
         width: 8rem;
     }
 }
+
+@media(width < 1000px) {
+    .titleSection {
+        left: -1%;
+        font-size: var(--font-size-xs);
+    }
+}
+

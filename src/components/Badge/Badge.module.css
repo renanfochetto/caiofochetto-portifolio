@@ -93,3 +93,28 @@
     z-index: 5;
     box-shadow: inset 8px 8px 10px rgba(0, 0, 0, 0.35);
 }
+
+@media (width < 1000px) {
+    .badgeInner {
+        width: 17rem;
+        height: 24rem;
+    }
+
+    .badgeFront img {
+        margin-top: 0.5rem;
+        width: 6.5rem;
+    }
+
+    .badgeFront h3 {
+        margin-top: 1rem;
+        font-size: var(--font-size-sm);
+    }
+
+    .badgeFront p {
+        font-size: var(--font-size-xs);
+    }
+
+    .badgeBack p {
+        font-size: var(--font-size-xxs);
+    }
+}

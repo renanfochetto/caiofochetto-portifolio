@@ -130,3 +130,8 @@
     z-index: 999;
 }
 
+@media(width < 1000px) {
+    .modalHeader img {
+        width: 6rem;
+    }
+}

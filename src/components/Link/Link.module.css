@@ -12,3 +12,11 @@
     transform: scale(0.9);
     transition: transform 0.2s;
 }
+
+@media (width < 1000px) {
+    .links {
+        width: 2.8rem;
+        height: 2.8rem;
+        padding: 0.1rem;
+    }
+}

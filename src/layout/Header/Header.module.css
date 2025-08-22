@@ -74,4 +74,29 @@ a{
     }
 }
 
+@media (width < 1000px) {
+    header {
+        padding: 1rem 6rem 0.5rem;
+        background-position: calc(0% - 5rem) top;
+    }
+
+    .logo {
+        font-size: var(--font-size-md-plus);
+    }
+
+    ul {
+        font-size: var(--font-size-xs);
+    }
+
+    nav li:nth-child(2) {
+        padding: 0.4rem 0;
+    }
+
+    .linksNav:hover {
+        text-decoration: underline;
+        text-decoration-thickness: 0.1rem;
+        text-underline-offset: 0.3rem;
+    }
+}
+
 

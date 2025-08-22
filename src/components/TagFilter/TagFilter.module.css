@@ -9,3 +9,9 @@
     display: flex;
 }
 
+@media (width < 1000px) {
+    .tagFilter {
+        margin: 0.1rem 0 0.3rem 8rem;
+    }
+}
+

@@ -55,3 +55,20 @@ p:active {
         padding: 1.5rem 9rem;
     }
 }
+
+@media (width < 1000px) {
+    footer {
+        padding: 1.5rem 6rem;
+        margin-top: 3rem;
+    }
+
+    footer h4 {
+        margin-right: 2rem;
+    }
+
+    .footerLinks a {
+        width: 2.5rem;
+        height: 2.5rem;
+        padding: 0.1rem
+    }
+}

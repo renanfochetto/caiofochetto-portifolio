@@ -84,3 +84,23 @@
         grid-column-gap: 10rem;
     }
 }
+
+@media(width < 1000px) {
+    .container {
+        padding-top: 11rem;
+    }
+    .titleSection {
+        left: -1%;
+        font-size: var(--font-size-xs);
+    }
+
+    .badgeGrid {
+        padding: 4rem 8rem 2rem 14rem;
+        grid-column-gap: 8rem;
+    }
+
+    .timelineYear {
+        font-size: var(--font-size-xs);
+    }
+}
+
