@@ -8,9 +8,14 @@
 }
 
 .caseCard:hover {
-    transform: scale(1.03);
-    transition: transform 0.3s;
+    transform: scale(1.04);
+    transition: transform 0.2s;
     box-shadow: var(--shadow-regular-hover);
+}
+
+.caseCard:active {
+    transform: scale(0.98);
+    transition: transform 0.2s;
 }
 
 .caseCard img {

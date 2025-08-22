@@ -40,10 +40,15 @@ a{
     color: var(--black);
 }
 
-a:hover {
+li:hover {
     text-decoration: underline;
     text-decoration-thickness: 0.15rem;
-    text-underline-offset: 0.4rem;
+    text-underline-offset: 0.5rem;
+}
+
+li:active {
+    transform: scale(0.95);
+    transition: transform 0.2s;
 }
 
 .logoLink {
@@ -55,6 +60,11 @@ a:hover {
     transition: transform 0.3s;
     text-decoration: none;
     text-shadow: var(--shadow-regular-hover);
+}
+
+.logoLink:active {
+    transform: scale(0.95);
+    transition: transform 0.2s;
 }
 
 

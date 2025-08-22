@@ -40,6 +40,13 @@
     font-weight: var(--font-weight-bold);
 }
 
+.card span:hover {
+    text-decoration: underline;
+    text-underline-offset: 0.3rem;
+    text-decoration-thickness: 0.15rem;
+    cursor: pointer;
+}
+
 .header {
     grid-column: 1 / span 2;
     display: flex;
@@ -48,9 +55,9 @@
 }
 
 .header a {
-    width: 3.2rem;
-    height: 3.2rem;
-    padding: 0.15rem;
+    width: 3rem;
+    height: 3rem;
+    padding: 0.12rem;
 }
 
 .header img {
@@ -78,6 +85,11 @@
     transform: scale(1.03);
     transition: transform 0.3s;
     box-shadow: var(--shadow-regular-hover);
+}
+
+.previewImage:active {
+    transform: scale(0.98);
+    transition: transform 0.2s;
 }
 
 .previewImage:nth-child(1) {

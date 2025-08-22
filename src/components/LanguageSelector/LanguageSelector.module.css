@@ -11,6 +11,11 @@
     text-decoration-thickness: 0.15rem;
 }
 
+.option:active {
+    transform: scale(0.9);
+    transition: transform 0.1s;
+}
+
 .selected {
     background-color: transparent;
     color: var(--black);

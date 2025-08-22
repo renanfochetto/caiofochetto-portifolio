@@ -7,3 +7,8 @@
     padding: 0.15rem;
     box-shadow: var(--shadow-regular);
 }
+
+.links:active {
+    transform: scale(0.9);
+    transition: transform 0.2s;
+}

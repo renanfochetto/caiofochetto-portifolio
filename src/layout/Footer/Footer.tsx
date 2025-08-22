@@ -14,7 +14,7 @@ export const Footer = () => {
       <footer>
         <h4>CAIO <br />FOCHETTO</h4>
         <p>
-          <a href="https://www.renanfochetto.dev" target="_blank" rel="noopener noreferrer">
+          <a className={styles.author} href="https://www.renanfochetto.dev" target="_blank" rel="noopener noreferrer">
             {autor}
           </a>
         </p>
