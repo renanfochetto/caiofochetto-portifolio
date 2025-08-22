@@ -2,17 +2,14 @@ import styles from './Tag.module.css';
 
 type TagProps = {
   label: string;
-  color: string;
   className?: string;
 }
 
-const Tag = ({ label, color }: TagProps) => {
+const Tag = ({ label, className }: TagProps) => {
+  const combinedClass = [styles.tag, className].filter(Boolean).join(' ');
   return (
-    <span
-      className={styles.tag}
-      style={{ backgroundColor: color}}
-    >
-    {label}
+    <span className={combinedClass}>
+      {label}
     </span>
   );
 };

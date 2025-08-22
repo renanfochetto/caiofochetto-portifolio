@@ -6,7 +6,6 @@
 }
 
 .quoteBlock p {
-    font-family: var(--font-mono), monospace;
     font-weight: var(--font-weight-regular);
     background-color: var(--background);
     font-size: var(--font-size-xs);

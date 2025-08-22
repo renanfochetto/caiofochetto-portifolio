@@ -4,7 +4,7 @@
     font-size: var(--font-size-base);
 }
 
-.selector:hover {
+.selected:hover, .option:hover {
     cursor: pointer;
     text-decoration: underline;
     text-underline-offset: 0.3rem;
@@ -40,9 +40,4 @@
     cursor: pointer;
     padding-block: 0.2rem;
     transition: background 0.2s ease;
-}
-
-.option:hover {
-    text-decoration: underline;
-    text-underline-offset: 0.3rem;
 }

@@ -1,10 +1,6 @@
 .caseGrid {
     display: grid;
-    /* Flow items horizontally to create a wide grid that overflows the viewport */
-    grid-template-columns: repeat(12, 1fr);
-    /* Each column matches the card width for consistent spacing */
-    grid-auto-columns: 23rem;
-    gap: 1.5rem;
+    gap: 2rem;
     height: auto;
-    padding: 1rem 12.5rem 0;
+    padding: 1.5rem 12.5rem 0;
 }

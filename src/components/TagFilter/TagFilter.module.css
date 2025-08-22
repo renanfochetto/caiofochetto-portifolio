@@ -5,8 +5,7 @@
     margin: 0.1rem 0 0.3rem 12.5rem;
 }
 
-.active {
-    border: 2px solid var(--black);
-    border-radius: var(--border-radius-base);
-    transition: border 0.2s ease-in-out;
+.tagWrapper {
+    display: flex;
 }
+

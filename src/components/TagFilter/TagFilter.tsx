@@ -1,11 +1,11 @@
 import styles from './TagFilter.module.css';
+import tagStyles from '../Tag/Tag.module.css';
 import { useLocalizedContent } from '../../hooks/useLocalizedContent.ts';
 import { useState } from 'react';
 import Tag from '../Tag/Tag.tsx';
 
 type TagData = {
   label: string;
-  color: string;
 }
 
 type TagsMap = {
@@ -35,13 +35,16 @@ const TagFilter = ({ onFilterChange }: TagFilterProps) => {
 
   return (
     <div className={styles.tagFilter}>
-      {Object.entries(tags).map(([key, { label, color }]) => (
+      {Object.entries(tags).map(([key, { label }]) => (
         <div
           key={key}
         onClick={() => handleTagClick(key)}
-        className={`${styles.tagWrapper} ${selectedTags.includes(key) ? styles.active : ''}`}
+        className={styles.tagWrapper}
         >
-          <Tag label={label} color={color} />
+          <Tag
+            label={label}
+            className={selectedTags.includes(key) ? tagStyles.active : ''}
+          />
         </div>
       ))}
     </div>

@@ -12,7 +12,7 @@ import {createPortal} from 'react-dom';
 
 export type CaseModalProps = {
   caseData: CaseData;
-  tagData: Record<string, { label: string; color: string }>;
+  tagData: Record<string, { label: string }>;
   onClose: () => void;
 }
 
@@ -94,7 +94,7 @@ const CaseModal = ({caseData, tagData, onClose}: CaseModalProps) => {
                 const tag = tagData?.[key];
                 if (!tag) return null;
                 return (
-                  <Tag key={i} className={styles.tag} color={tag.color} label={tag.label}/>
+                  <Tag key={i} className={styles.tag} label={tag.label}/>
                 );
               })}
             </div>

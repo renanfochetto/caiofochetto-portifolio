@@ -28,10 +28,10 @@
       {
         "empresa": "OCTAGON",
         "logo": "/logos/octagon.avif",
-        "corFundo": "#f07003",
+        "corFundo": "#fb1e04",
         "corTexto": "#ffffff",
         "cargo": "Diretor de Conteúdo Digital, Marketing de Influência e Talentos",
-        "periodo": "Abr 2023 - Atual",
+        "periodo": "Abr/23 - Atual",
         "total": "2 anos e 5 meses",
         "atividades": "Responsável pelas marcas Betfair, Ambev e mais",
         "competencias": "Creator Economy * Gestão de Projetos * Brand Experience * Digital Media * Brand Marketing * Influencer Marketing * Content Marketing"
@@ -42,7 +42,7 @@
         "corFundo": "#01adde",
         "corTexto": "#ffffff",
         "cargo": "Líder de Operações LATAM",
-        "periodo": "Nov 2021 - Abr 2023",
+        "periodo": "Nov/21 - Abr/23",
         "total": "1 ano e 6 meses",
         "atividades": "Lider de Operações da empresa na América Latina.",
         "competencias": "Creator Economy * Liderança * Brand Marketing * Estratégia Digital * Estratégia de Conteúdo * Social Media Marketing"
@@ -53,7 +53,7 @@
         "corFundo": "#000000",
         "corTexto": "#ffffff",
         "cargo": "Content and Product Manager",
-        "periodo": "Jan 2020 - Nov 2021",
+        "periodo": "Jan/20 - Nov/21",
         "total": "1 ano e 11 meses",
         "atividades": "Gerenciamento de conteúdo e projetos editoriais. Planejamento de conteúdo, estratégias de comunicação e liderança de equipes.",
         "competencias": "Creator Economy * Liderança * Gestão de Projetos * Estratégia Digital * Social Media Marketing * Brand Marketing"
@@ -64,7 +64,7 @@
         "corFundo": "#ffffff",
         "corTexto": "#000000",
         "cargo": "Digital Platforms Manager",
-        "periodo": "Fev 2012 - Out 2019",
+        "periodo": "Fev/12 - Out/19",
         "total": "7 anos e 9 meses",
         "atividades": "Programação de conteúdo para plataformas On Demand, desenvolvimento de novos negócios, Branded Content e estratégia de conteúdo.",
         "competencias": "Creator Economy * Liderança * Gestão de Projetos * Estratégia Digital * Social Media Marketing * Brand Marketing."
@@ -72,10 +72,10 @@
       {
         "empresa": "PORTAL R7",
         "logo": "/logos/portalr7.avif",
-        "corFundo": "#0071bd",
+        "corFundo": "#0973ba",
         "corTexto": "#ffffff",
         "cargo": "Digital Content Producer",
-        "periodo": "Set 2010 - Fev 2012",
+        "periodo": "Set/10 - Fev/12",
         "total": "1 ano e 6 meses",
         "atividades": "Produtor de conteúdo online para blogs, sites do portal e programas da Rede Record (A Fazenda, O Aprendiz, O Melhor do Brasil, Ídolos, etc).",
         "competencias": "Gestão de Projetos * Estratégia Digital * Social Media Marketing * Mobile Content * Blogging * Análise de Dados"
@@ -83,10 +83,10 @@
       {
         "empresa": "TV CULTURA",
         "logo": "/logos/tvcultura.avif",
-        "corFundo": "#ff8500",
+        "corFundo": "#27ba59",
         "corTexto": "#ffffff",
         "cargo": "Digital Content Producer",
-        "periodo": "Aug 2009 - Set 2010",
+        "periodo": "Aug/09 - Set/10",
         "total": "1 ano e 2 meses",
         "atividades": "Geração de Conteúdo para programas de TV em ambiente digital, como Programa Novo e Login. Gerenciamento de Perfis e conteúdo em redes sociais.",
         "competencias": "Gestão de Projetos * Estratégia Digital * Content Strategy * Social Media Marketing * Mobile Content * Video Production"
@@ -97,7 +97,7 @@
         "corFundo": "#0083c1",
         "corTexto": "#ffffff",
         "cargo": "Web Content Producer",
-        "periodo": "Jul 2009 - Ago 2010",
+        "periodo": "Jul/09 - Ago/10",
         "total": "1 ano e 2 meses",
         "atividades": "Produção para a internet, gerenciamento e desenvolvimento de rede de blogs.",
         "competencias": "Gestão de Projetos * Liderança * Estratégia Digital * Content Strategy * Gerenciamento de Comunidades * Mobile Content"
@@ -108,7 +108,7 @@
         "corFundo": "#ffffff",
         "corTexto": "#175979",
         "cargo": "TV Producer Coordinator",
-        "periodo": "Nov 2005 - Nov 2008",
+        "periodo": "Nov/05 - Nov/08",
         "total": "3 anos e 1 mes",
         "atividades": "Coordenação e reformulação de projetos, organização de equipe e gestão de agendas de gravação.",
         "competencias": "Gestão de Projetos * Liderança * Estratégia Digital * Content Strategy * Social Media Marketing * Mobile Content"
@@ -119,7 +119,7 @@
         "corFundo": "#0083c1",
         "corTexto": "#ffffff",
         "cargo": "Executive Producer",
-        "periodo": "Jun 2002 - Nov 2005",
+        "periodo": "Jun/02 - Nov/05",
         "total": "3 anos e 6 meses",
         "atividades": "Produção de conteúdo hard news para rádio e plataformas online.",
         "competencias": "Gestão de Projetos * Liderança * Estratégia Digital * Social Media Marketing * Digital Media * Streaming * Mobile Content"
@@ -1262,40 +1262,31 @@
     ],
     "tags": {
       "digitalStrategy": {
-        "label": "#EstratégiaDigital",
-        "color": "#000000"
+        "label": "#EstratégiaDigital"
       },
       "digitalContent": {
-        "label": "#ConteúdoDigital",
-        "color": "#000000"
+        "label": "#ConteúdoDigital"
       },
       "branding": {
-        "label": "#Branding",
-        "color": "#000000"
+        "label": "#Branding"
       },
       "graphicDesign": {
-        "label": "#DesignGráfico",
-        "color": "#000000"
+        "label": "#DesignGráfico"
       },
       "socialMedia": {
-        "label": "#SocialMedia",
-        "color": "#000000"
+        "label": "#SocialMedia"
       },
       "contentStrategy": {
-        "label": "#EstratégiaDeConteúdo",
-        "color": "#000000"
+        "label": "#EstratégiaDeConteúdo"
       },
       "editorialContent": {
-        "label": "#ConteúdoEditorial",
-        "color": "#000000"
+        "label": "#ConteúdoEditorial"
       },
       "production": {
-        "label": "#Produção",
-        "color": "#000000"
+        "label": "#Produção"
       },
       "presentation": {
-        "label": "#Apresentação",
-        "color": "#000000"
+        "label": "#Apresentação"
       }
     }
   },

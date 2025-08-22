@@ -2,7 +2,7 @@
     position: relative;
     width: 100vw;
     height: 100vh;
-    padding-top: 12rem;
+    padding-top: 10rem;
     background-image: url('/svgs/background.svg');
     background-size: auto;
     background-position: top left;
@@ -36,8 +36,8 @@
 }
 
 .card span {
-    font-size: var(--font-size-xs);
-    font-weight: var(--font-weight-semibold);
+    font-size: var(--font-size-base);
+    font-weight: var(--font-weight-bold);
 }
 
 .header {
@@ -48,9 +48,9 @@
 }
 
 .header a {
-    width: 3.5rem;
-    height: 3.5rem;
-    padding: 0.2rem;
+    width: 3.2rem;
+    height: 3.2rem;
+    padding: 0.15rem;
 }
 
 .header img {

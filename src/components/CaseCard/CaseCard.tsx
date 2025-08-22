@@ -23,7 +23,7 @@ const CaseCard = ({image, alt, projeto, tagKeys, onClick }: CaseCardProps) => {
           tagKeys.map((key, index) => {
             const tag = tagData?.[key];
             if (!tag) return null;
-            return <Tag key={index} label={tag.label} color={tag.color} />;
+            return <Tag key={index} label={tag.label} />;
           })};
       </div>
       <div className={styles.labelCard}>

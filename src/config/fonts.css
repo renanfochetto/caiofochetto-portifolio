@@ -96,12 +96,13 @@
     --font-mono: 'IBM Plex Mono', monospace;
 
     --font-size-xxs: 0.80rem;
-    --font-size-base: 1rem;
+    --font-size-base: 1.0rem;
     --font-size-xs: 1.25rem;
-    --font-size-sm: 1.5rem;
-    --font-size-md: 1.75rem;
-    --font-size-lg: 2.625rem;
-    --font-size-xl: 3.6rem;
+    --font-size-sm: 1.4rem;
+    --font-size-md: 1.55rem;
+    --font-size-md-plus: 2rem;
+    --font-size-lg: 2.4rem;
+    --font-size-xl: 3.2rem;
 
     --font-weight-regular: 400;
     --font-weight-medium: 500;

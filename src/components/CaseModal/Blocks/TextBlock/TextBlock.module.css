@@ -2,19 +2,21 @@
     margin: 4rem 0;
     font-family: var(--font-sans), sans-serif;
     box-shadow: none;
+    display: flex;
+    flex-direction: column;
 }
 
 .textBlock h5 {
-    font-size: var(--font-size-md);
+    font-size: var(--font-size-md-plus);
+    font-family: var(--font-mono), monospace;
     font-weight: var(--font-weight-bold);
     text-align: center;
 }
 
 .textBlock p {
-    font-family: var(--font-mono), monospace;
     font-weight: var(--font-weight-regular);
     background-color: var(--background);
     font-size: var(--font-size-xs);
-    text-indent: 1.5rem;
+    text-indent: 2rem;
     box-shadow: none;
 }

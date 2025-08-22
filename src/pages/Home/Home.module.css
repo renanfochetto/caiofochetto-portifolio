@@ -20,7 +20,7 @@
 }
 
 .intro {
-    padding: 3rem 15rem 0;
+    padding: 2.5rem 16rem 1rem;
     font-family: var(--font-mono), monospace;
     border-radius: var(--border-radius-large);
     text-align: left;

@@ -2,7 +2,7 @@
     display: flex;
     height: auto;
     min-height: 100vh;
-    padding-top: 10rem;
+    padding-top: 9rem;
     background-image: url('/svgs/background.svg');
     background-size: auto;
     background-position: top left;
@@ -32,7 +32,7 @@
 .badgeGrid {
     display: grid;
     grid-template-columns: repeat(9, 1fr);
-    grid-column-gap: 10rem;
+    grid-column-gap: 12rem;
     padding: 4rem 20rem 0;
 }
 
@@ -41,7 +41,7 @@
     display: grid;
     grid-template-columns: inherit;
     position: relative;
-    margin-block: 1.5rem 0;
+    margin-block: 0.5rem 0;
 }
 
 .timeline::before {
@@ -64,11 +64,11 @@
 .timelineYear::before {
     content: "";
     position: absolute;
-    top: -5rem;                /* deve bater com o padding-top do wrapper */
+    top: -6.5rem;                /* deve bater com o padding-top do wrapper */
     left: 50%;
     transform: translateX(-50%);
     width: 2px;
-    height: 5rem;
+    height: 6.2rem;
     z-index: 1;/* idem: mesmo valor do padding-top */
     background: var(--black);
 }
