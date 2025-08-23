@@ -131,4 +131,19 @@ a{
     }
 }
 
+@media (width < 600px) {
+    header {
+        padding: 0.5rem 2rem;
+        background-position: calc(0% - 6rem) top;
+    }
+
+    ul {
+        font-size: var(--font-size-xxs);
+    }
+
+    .logo {
+        font-size: var(--font-size-sm);
+    }
+}
+
 

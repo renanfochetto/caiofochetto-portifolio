@@ -176,3 +176,38 @@
         padding: 0.8rem 7rem 0.5rem 5rem;
     }
 }
+
+@media (width < 600px) {
+    .container {
+        padding-top: 6rem;
+    }
+
+    .titleSection {
+        top: 35%;
+        left: -6%;
+        font-size: var(--font-size-xxs);
+    }
+
+    .intro {
+        padding: 0 6rem 0 5rem;
+    }
+
+    .intro h2 {
+        font-size: var(--font-size-md);
+    }
+
+    .intro p {
+        font-size: var(--font-size-xxs);
+    }
+
+    .socials {
+        grid-template-columns: 1fr auto 3rem;
+        margin-top: 3.6rem;
+    }
+
+    .intro h2, .intro p {
+        margin: -0.72rem;
+        padding: 1.2rem;
+    }
+
+}

@@ -51,5 +51,17 @@
 
     .textBlock h5 {
         font-size: var(--font-size-sm);
+        padding-inline: 0.5rem;
+        margin-block: 1.5rem 0;
+    }
+}
+
+@media (width < 600px) {
+    .textBlock {
+        gap: 2rem
+    }
+
+    .textBlock h5 {
+        font-size: var(--font-size-xs);
     }
 }

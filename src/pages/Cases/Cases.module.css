@@ -72,3 +72,16 @@
     }
 }
 
+@media (width < 600px) {
+    .container {
+        padding-top: 5rem;
+    }
+
+    .titleSection {
+        top: 35%;
+        left: -6%;
+        font-size: var(--font-size-xxs);
+    }
+}
+
+

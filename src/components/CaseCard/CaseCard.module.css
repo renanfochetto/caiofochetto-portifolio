@@ -97,3 +97,20 @@
         height: 9.5rem;
     }
 }
+
+@media (width < 600px) {
+    .caseCard {
+        width: 16rem;
+        height: 8rem;
+    }
+
+    .labelCard {
+        bottom: 0.6rem;
+        padding: 0.2rem 0.5rem;
+        font-size: var(--font-size-sm);
+    }
+
+    .labelCard h5 {
+        font-size: var(--font-size-xxs);
+    }
+}

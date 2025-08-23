@@ -28,3 +28,10 @@
         padding: 0.05rem;
     }
 }
+
+@media (width < 600px) {
+    .links {
+        width: 2rem;
+        height: 2rem;
+    }
+}

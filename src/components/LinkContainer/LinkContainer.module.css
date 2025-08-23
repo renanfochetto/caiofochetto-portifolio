@@ -27,3 +27,10 @@
         column-gap: 0.8rem;
     }
 }
+
+
+@media (width < 600px) {
+    .linkContainer a:hover {
+        outline-offset: 0.2rem;
+    }
+}

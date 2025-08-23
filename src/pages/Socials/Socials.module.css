@@ -225,3 +225,41 @@
         height: 18rem;
     }
 }
+
+@media (width < 600px) {
+    .titleSection {
+        top: 35%;
+        left: -6%;
+        font-size: var(--font-size-xxs);
+    }
+
+    .socialsGrid {
+        margin-left: 4rem;
+        grid-template-columns: 6.5rem 17.5rem;
+        column-gap: 2rem;
+    }
+
+    .previewImage:nth-child(2) {
+        height: 14rem;
+    }
+
+    .card span {
+        font-size: var(--font-size-xxl);
+    }
+
+    .card {
+        gap: 0.5rem;
+    }
+
+    .linkSocial {
+        gap: 0;
+    }
+
+    .header a {
+        width: 1.8rem;
+        height: 1.8rem;
+    }
+}
+
+
+
