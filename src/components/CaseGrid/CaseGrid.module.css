@@ -20,3 +20,11 @@
         gap: 1.2rem
     }
 }
+
+@media (width < 800px) {
+    .caseGrid {
+        padding: 0.5rem 8rem 0;
+        --column-width: 18rem;
+        gap: 1rem
+    }
+}

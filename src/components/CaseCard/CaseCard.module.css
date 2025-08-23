@@ -83,3 +83,10 @@
         padding: 0.2rem 0.5rem;
     }
 }
+
+@media (width < 800px) {
+    .caseCard {
+        width: 18rem;
+        height: 10rem;
+    }
+}

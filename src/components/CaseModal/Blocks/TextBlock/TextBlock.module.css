@@ -43,3 +43,13 @@
         font-size: var(--font-size-base);
     }
 }
+
+@media (width < 800px) {
+    .textBlock {
+        margin: 0;
+    }
+
+    .textBlock h5 {
+        font-size: var(--font-size-sm);
+    }
+}

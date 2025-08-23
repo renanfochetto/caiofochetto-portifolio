@@ -141,3 +141,33 @@
         margin-top: 5rem;
     }
 }
+
+@media(width < 800px) {
+    .container {
+        padding-top: 7rem;
+    }
+
+    .titleSection {
+        top: 35%;
+        left: -4%;
+        font-size: var(--font-size-base);
+    }
+
+    .intro {
+        padding: 2rem 5rem 0;
+    }
+
+    .intro h2 {
+        font-size: var(--font-size-md-plus);
+    }
+
+    .intro p {
+        font-size: var(--font-size-base);
+    }
+
+    .socials {
+        margin-top: 4rem;
+    }
+
+
+}

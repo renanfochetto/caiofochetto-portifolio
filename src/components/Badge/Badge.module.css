@@ -125,3 +125,32 @@
         height: 23rem;
     }
 }
+
+@media (width < 800px) {
+    .badgeInner {
+        width: 13rem;
+        height: 20rem;
+    }
+
+    .badgeFront img {
+        margin-top: 0.1rem;
+        width: 5rem;
+    }
+
+    .badgeFront h3 {
+        margin-top: 0.5rem;
+        font-size: var(--font-size-xs);
+    }
+
+    .badgeFront p {
+        font-size: var(--font-size-base);
+    }
+    .badgeBack {
+        padding-top: 2.5rem;
+    }
+
+    .badgeBack p {
+        padding: 0.9rem 1rem;
+        font-size: var(--font-size-xxxs);
+    }
+}

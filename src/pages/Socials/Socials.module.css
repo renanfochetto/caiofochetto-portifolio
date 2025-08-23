@@ -179,3 +179,30 @@
     }
 }
 
+@media(width < 800px) {
+    .container {
+        padding-top: 7.5rem;
+    }
+
+    .titleSection {
+        top: 35%;
+        left: -4%;
+        font-size: var(--font-size-base);
+    }
+
+    .header a {
+        width: 2.2rem;
+        height: 2.2rem;
+    }
+
+    .socialsGrid {
+        margin-left: 6.5rem;
+        grid-template-columns: 9rem 24rem;
+        column-gap: 3rem;
+    }
+
+    .previewImage:nth-child(2) {
+        height: 20rem;
+    }
+
+}

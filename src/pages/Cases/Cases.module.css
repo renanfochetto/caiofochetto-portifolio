@@ -58,3 +58,11 @@
     }
 }
 
+@media(width < 800px) {
+    .titleSection {
+        top: 35%;
+        left: -4%;
+        font-size: var(--font-size-base);
+    }
+}
+

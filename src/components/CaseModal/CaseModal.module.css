@@ -148,3 +148,17 @@
         font-size: var(--font-size-xxs);
     }
 }
+
+@media(width < 900px) {
+    .closeButton svg {
+        width: 2rem;
+        height: 2rem;
+    }
+}
+
+
+@media(width < 800px) {
+    .modalHeader {
+        margin-bottom: 1rem;
+    }
+}

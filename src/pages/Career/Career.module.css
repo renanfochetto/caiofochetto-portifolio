@@ -123,3 +123,20 @@
     }
 }
 
+@media(width < 800px) {
+    .container {
+        padding-top: 4.5rem;
+    }
+
+    .titleSection {
+        top: 35%;
+        left: -4%;
+        font-size: var(--font-size-base);
+    }
+
+    .badgeGrid {
+        grid-column-gap: 6rem;
+        padding: 4rem 8rem 2rem 12rem;
+    }
+}
+

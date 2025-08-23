@@ -109,4 +109,19 @@ a{
     }
 }
 
+@media (width < 800px) {
+    header {
+        padding: 1rem 4rem 0.5rem;
+        background-position: calc(0% - 4rem) top;
+    }
+
+    .logo {
+        font-size: var(--font-size-md);
+    }
+
+    ul {
+        font-size: var(--font-size-base);
+    }
+}
+
 
