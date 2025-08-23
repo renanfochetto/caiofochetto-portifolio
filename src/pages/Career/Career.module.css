@@ -140,3 +140,9 @@
     }
 }
 
+@media(width < 700px) {
+    .container {
+        padding-top: 2rem;
+    }
+}
+

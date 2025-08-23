@@ -162,3 +162,9 @@
         margin-bottom: 1rem;
     }
 }
+
+@media (width < 700px) {
+    .tagsSection {
+        gap: 0.6rem;
+    }
+}

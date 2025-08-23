@@ -63,3 +63,29 @@
         height: 1.3rem;
     }
 }
+
+@media (width < 800px) {
+    .selector {
+        font-size: var(--font-size-xxxs);
+        width: 5rem;
+    }
+
+    .selected img {
+        width: 1.2rem;
+        height: 1.2rem;
+    }
+
+    .options {
+        top: 1.2rem;
+    }
+
+    .option {
+        padding-block: 0.1rem;
+        font-size: var(--font-size-xxxs);
+    }
+
+    .selected:hover, .option:hover {
+        text-underline-offset: 0.2rem;
+        text-decoration-thickness: 0.1rem;
+    }
+}

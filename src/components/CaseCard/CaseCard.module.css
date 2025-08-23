@@ -90,3 +90,10 @@
         height: 10rem;
     }
 }
+
+@media (width < 700px) {
+    .caseCard {
+        width: 17.5rem;
+        height: 9.5rem;
+    }
+}

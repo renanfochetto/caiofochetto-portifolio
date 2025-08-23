@@ -21,3 +21,9 @@
         margin-inline: 1rem;
     }
 }
+
+@media (width < 700px) {
+    .linkContainer {
+        column-gap: 0.8rem;
+    }
+}

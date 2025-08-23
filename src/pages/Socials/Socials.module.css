@@ -204,5 +204,24 @@
     .previewImage:nth-child(2) {
         height: 20rem;
     }
+}
 
+@media(width < 700px) {
+    .container {
+        padding-top: 6rem;
+    }
+
+    .card {
+        gap: 0.8rem;
+    }
+
+    .socialsGrid {
+        margin-left: 5rem;
+        grid-template-columns: 8.5rem 22rem;
+        column-gap: 2rem;
+    }
+
+    .previewImage:nth-child(2) {
+        height: 18rem;
+    }
 }
