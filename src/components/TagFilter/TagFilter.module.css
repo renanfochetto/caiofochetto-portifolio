@@ -15,3 +15,8 @@
     }
 }
 
+@media(width < 900px) {
+    .tagFilter {
+        margin: 0 0 0.8rem 8rem;
+    }
+}

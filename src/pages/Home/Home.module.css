@@ -110,6 +110,10 @@
         font-size: var(--font-size-xs);
     }
 
+    .intro {
+        padding: 3rem 8rem 3rem 8rem;
+    }
+
     .intro h2 {
         font-size: var(--font-size-lg);
     }

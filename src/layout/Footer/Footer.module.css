@@ -72,3 +72,13 @@ p:active {
         padding: 0.1rem
     }
 }
+
+@media (width < 900px) {
+    footer {
+        margin-top: 0;
+    }
+
+    .author {
+        font-size: var(--font-size-xxs);
+    }
+}

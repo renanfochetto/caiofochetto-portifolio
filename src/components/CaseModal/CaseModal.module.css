@@ -135,3 +135,12 @@
         width: 6rem;
     }
 }
+
+@media(width < 900px) {
+    .techSheet {
+        width: 22rem;
+    }
+    .techSheet span {
+        font-size: var(--font-size-xxs);
+    }
+}

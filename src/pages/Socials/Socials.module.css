@@ -145,3 +145,21 @@
     }
 }
 
+@media(width < 900px) {
+    .container {
+        padding-top: 12rem;
+    }
+    .socialsGrid {
+        margin-left: 8rem;
+        grid-template-columns: 10rem 27rem;
+    }
+
+    .previewImage:nth-child(1) {
+        height: auto;
+    }
+
+    .previewImage:nth-child(2) {
+        height: 22rem;
+    }
+}
+
