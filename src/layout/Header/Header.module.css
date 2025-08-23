@@ -70,7 +70,7 @@ a{
 @media (width < 1300px) {
     header {
         padding: 1.5rem 9rem 0.5rem;
-        background-position: calc(0% - 4rem) top;
+        background-position: calc(0% - 5rem) top;
     }
 }
 
@@ -96,6 +96,16 @@ a{
         text-decoration: underline;
         text-decoration-thickness: 0.1rem;
         text-underline-offset: 0.3rem;
+    }
+}
+
+@media (width < 900px) {
+    header {
+        background-position: calc(0% - 4.5rem) top;
+    }
+
+    nav li:nth-child(2) {
+        padding: 0;
     }
 }
 

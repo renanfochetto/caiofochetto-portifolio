@@ -29,3 +29,10 @@
     background-color: var(--pink);
     border: 2px solid var(--white);
 }
+
+@media (width < 900px) {
+    .tag {
+        font-size: var(--font-size-xxxs);
+        padding: 0.06rem 0.25rem;
+    }
+}

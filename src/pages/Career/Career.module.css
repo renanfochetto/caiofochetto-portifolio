@@ -87,7 +87,7 @@
 
 @media(width < 1000px) {
     .container {
-        padding-top: 11rem;
+        padding-top: 8rem;
     }
     .titleSection {
         left: -1%;
@@ -95,12 +95,31 @@
     }
 
     .badgeGrid {
-        padding: 4rem 8rem 2rem 14rem;
+        padding: 4rem 8rem 2rem 12rem;
         grid-column-gap: 8rem;
     }
 
     .timelineYear {
         font-size: var(--font-size-xs);
+    }
+}
+
+@media(width < 900px) {
+    .container {
+        padding-top: 5rem;
+    }
+
+    .timeline {
+        margin-block: 2rem 0;
+    }
+
+    .timelineYear {
+        margin-top: 1rem;
+        font-size: var(--font-size-xxs);
+    }
+
+    .timelineYear::before {
+        top: -6.5rem;
     }
 }
 

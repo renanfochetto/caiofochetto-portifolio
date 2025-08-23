@@ -118,3 +118,10 @@
         font-size: var(--font-size-xxs);
     }
 }
+
+@media (width < 900px) {
+    .badgeInner {
+        width: 16rem;
+        height: 23rem;
+    }
+}

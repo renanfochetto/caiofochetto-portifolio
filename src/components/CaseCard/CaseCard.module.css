@@ -70,3 +70,16 @@
         font-size: var(--font-size-xs);
     }
 }
+
+@media (width < 900px) {
+    .caseCard {
+        width: 19rem;
+        height: 11rem;
+    }
+
+    .labelCard {
+        bottom: 0.8rem;
+        font-size: var(--font-size-base);
+        padding: 0.2rem 0.5rem;
+    }
+}

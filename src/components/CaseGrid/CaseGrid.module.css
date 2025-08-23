@@ -3,12 +3,20 @@
     gap: 2rem;
     height: auto;
     padding: 1.5rem 12.5rem 0;
+    --column-width: 24rem;
 }
 
 @media (width < 1000px) {
     .caseGrid {
-        padding: 1.5rem 8rem 0;
-        gap: 0;
-        grid-row-gap: 2rem;
+        padding: 1.2rem 8rem 0;
+        --column-width: 22rem;
+    }
+}
+
+@media (width < 900px) {
+    .caseGrid {
+        padding: 0.8rem 8rem 0;
+        --column-width: 19rem;
+        gap: 1.2rem
     }
 }

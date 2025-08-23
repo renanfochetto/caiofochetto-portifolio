@@ -131,15 +131,19 @@
 }
 
 @media(width < 1000px) {
+    .modalHeader {
+        padding-bottom: 0;
+    }
+
     .modalHeader img {
         width: 6rem;
+        padding-bottom: 0.5rem;
     }
-}
 
-@media(width < 900px) {
     .techSheet {
-        width: 22rem;
+        width: 21rem;
     }
+
     .techSheet span {
         font-size: var(--font-size-xxs);
     }

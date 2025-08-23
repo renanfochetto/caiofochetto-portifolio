@@ -32,7 +32,7 @@ const CaseGrid = () => {
       </div>
       <div
         className={styles.caseGrid}
-        style={{ gridTemplateColumns: `repeat(${numColumns}, 24rem)`}}
+        style={{ gridTemplateColumns: `repeat(${numColumns}, var(--column-width))` }}
       >
         {filteredCases.map(c => (
           <CaseCard

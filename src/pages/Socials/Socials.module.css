@@ -108,8 +108,8 @@
     }
 
     .socialsGrid {
-        margin-left: 13rem;
-        grid-template-columns: 13rem 32rem;
+        margin-left: 15rem;
+        grid-template-columns: 14rem 32rem;
     }
 }
 
@@ -147,11 +147,27 @@
 
 @media(width < 900px) {
     .container {
-        padding-top: 12rem;
+        padding-top: 10rem;
     }
+
+    .header a {
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+
+    .card {
+        gap: 1rem;
+    }
+
+    .card span {
+        font-size: var(--font-size-xxs);
+        font-weight: var(--font-weight-bold);
+    }
+
     .socialsGrid {
         margin-left: 8rem;
         grid-template-columns: 10rem 27rem;
+        column-gap: 3rem;
     }
 
     .previewImage:nth-child(1) {

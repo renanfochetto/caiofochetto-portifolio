@@ -11,6 +11,7 @@
     font-family: var(--font-mono), monospace;
     font-weight: var(--font-weight-bold);
     text-align: center;
+    padding-inline: 4rem;
 }
 
 .textBlock p {
