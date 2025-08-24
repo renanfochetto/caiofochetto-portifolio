@@ -89,3 +89,19 @@
         text-decoration-thickness: 0.1rem;
     }
 }
+
+@media (width < 600px) {
+    .selector {
+        font-size: var(--font-size-xxl);
+        width: 4.5rem;
+    }
+
+    .option {
+        padding-block: 0;
+        font-size: var(--font-size-xxl);
+    }
+
+    .options {
+        top: 1rem;
+    }
+}

@@ -4,6 +4,7 @@
     --border-regular: 2px solid var(--black);
 
     /*Border Radius*/
+    --border-radius-small: 0.3rem;
     --border-radius-base: 0.5rem;
     --border-radius-medium: 1rem;
     --border-radius-large: 2rem;

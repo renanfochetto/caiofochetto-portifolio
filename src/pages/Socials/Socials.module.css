@@ -261,5 +261,33 @@
     }
 }
 
+@media (width < 500px) {
+    .container {
+        padding-top: 5.6rem;
+    }
+
+    .titleSection {
+        top: 28%;
+        left: -8.5%;
+        font-size: var(--font-size-xxxs);
+    }
+
+    .socialsGrid {
+        margin-left: 4.5rem;
+        grid-template-columns: 5.5rem 14rem;
+        column-gap: 2rem;
+    }
+
+    .header a {
+        width: 1.6rem;
+        height: 1.6rem;
+    }
+
+    .previewImage:nth-child(2) {
+        height: 11rem;
+    }
+}
+
+
 
 

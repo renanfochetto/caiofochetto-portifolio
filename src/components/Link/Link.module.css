@@ -35,3 +35,12 @@
         height: 2rem;
     }
 }
+
+@media (width < 500px) {
+    .links {
+        width: 1.7rem;
+        height: 1.7rem;
+        padding: 0.1rem;
+        border-radius: 0.3rem;
+    }
+}

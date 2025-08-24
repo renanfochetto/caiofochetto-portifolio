@@ -209,5 +209,40 @@
         margin: -0.72rem;
         padding: 1.2rem;
     }
+}
 
+@media (width < 500px) {
+    .container {
+        padding-top: 5.7rem;
+    }
+
+    .titleSection {
+        top: 28%;
+        left: -8.5%;
+        font-size: var(--font-size-xxxs);
+    }
+
+    .intro {
+        padding: 0 5.5rem 0 4rem;
+    }
+
+    .intro h2 {
+        font-size: var(--font-size-sm);
+        padding: 0.8rem;
+    }
+
+    .intro .introTitle:first-child {
+        margin-bottom: 0.4rem;
+    }
+
+    .intro p {
+        font-size: var(--font-size-xxxs);
+        padding: 0.8rem;
+        margin-top: -1rem;
+        margin-right: 0;
+    }
+
+    .socials {
+        margin-top: 3rem;
+    }
 }

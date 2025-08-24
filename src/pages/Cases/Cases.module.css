@@ -84,4 +84,17 @@
     }
 }
 
+@media (width < 500px) {
+    .container {
+        padding-top: 5rem;
+    }
+
+    .titleSection {
+        top: 18%;
+        left: -8.5%;
+        font-size: var(--font-size-xxxs);
+    }
+}
+
+
 

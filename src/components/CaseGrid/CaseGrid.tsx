@@ -15,12 +15,19 @@ const CaseGrid = () => {
 
   const cases = content?.cases?.projetos || [];
 
+  const getColumnDivisor = () => {
+    const width = window.innerWidth;
+    if(width < 700) return 1;
+    return 2;
+  };
+
   const filteredCases = activeTags.length === 0
     ? cases
     : cases.filter(c => c.tags.some(tag => activeTags.includes(tag)));
 
   const numColumns = useMemo(() => {
-    return Math.max(2, Math.ceil(filteredCases.length / 2));
+    const divisor = getColumnDivisor();
+    return Math.max(2, Math.ceil(filteredCases.length / divisor));
   }, [filteredCases]);
 
   if (!content?.cases) return null;

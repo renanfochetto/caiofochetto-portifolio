@@ -169,3 +169,28 @@
     }
 }
 
+@media (width < 500px) {
+    .container {
+        padding-top: 0;
+    }
+
+    .titleSection {
+        top: 18%;
+        left: -8.5%;
+        font-size: var(--font-size-xxxs);
+    }
+
+    .timeline {
+        margin-block: 0.6rem 0;
+    }
+
+    .badgeGrid {
+        padding: 4.8rem 5rem 5.5rem 8rem;
+    }
+
+    .timelineYear::before {
+        top: -6.2rem;
+    }
+}
+
+

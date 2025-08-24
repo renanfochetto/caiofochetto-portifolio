@@ -173,6 +173,10 @@
         width: 3rem;
         height: 1rem;
     }
+
+    .displayInfo {
+        display: none;
+    }
 }
 
 @media (width < 600px) {
@@ -208,5 +212,36 @@
 
     .badgeBack p {
         font-size: var(--font-size-xxl);
+    }
+
+}
+
+@media (width < 500px) {
+    .badgeInner {
+        width: 9.5rem;
+        height: 12rem;
+    }
+
+    .badgeFront {
+        padding: 2rem 0.2rem 0.5rem;
+        gap: 0.1rem;
+    }
+
+    .badgeFront img {
+        margin-top: 0;
+        width: 3rem;
+    }
+
+    .badgeFront h3 {
+        margin-top: 0.5rem;
+    }
+
+    .badgeFront p {
+        padding: 0.1rem;
+        margin-top: 0.15rem;
+    }
+
+    .badgeBack {
+        padding-top: 2rem;
     }
 }

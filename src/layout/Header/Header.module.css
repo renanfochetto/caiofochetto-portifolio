@@ -146,4 +146,24 @@ a{
     }
 }
 
+@media (width < 500px) {
+    header {
+        padding: 0.5rem 1.5rem;
+    }
+
+    .logo {
+        font-size: var(--font-size-xs);
+    }
+
+    ul {
+        font-size: var(--font-size-xxs);
+    }
+
+    .linksNav:hover {
+        text-decoration: underline;
+        text-decoration-thickness: 0.1rem;
+        text-underline-offset: 0.1rem;
+    }
+}
+
 

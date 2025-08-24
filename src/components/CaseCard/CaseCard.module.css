@@ -114,3 +114,16 @@
         font-size: var(--font-size-xxs);
     }
 }
+
+@media (width < 500px) {
+    .caseCard {
+        width: 15rem;
+        height: 11rem;
+    }
+
+    .labelCard {
+        bottom: 1rem;
+        padding: 0.3rem 0.6rem;
+    }
+
+}
