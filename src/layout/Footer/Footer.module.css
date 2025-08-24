@@ -62,7 +62,7 @@ p:active {
 @media (width < 1000px) {
     footer {
         padding: 1.5rem 6rem;
-        margin-top: 3rem;
+        margin-top: 0;
     }
 
     .footerLinks a {
@@ -74,7 +74,6 @@ p:active {
 
 @media (width < 900px) {
     footer {
-        margin-top: 4rem;
         padding: 1rem 6rem;
     }
 

@@ -17,7 +17,7 @@ const CaseGrid = () => {
 
   const getColumnDivisor = () => {
     const width = window.innerWidth;
-    if(width < 700) return 1;
+    if(width < 500) return 1;
     return 2;
   };
 

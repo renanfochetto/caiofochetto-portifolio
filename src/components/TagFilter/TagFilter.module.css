@@ -28,6 +28,12 @@
     }
 }
 
+@media(width < 600px) {
+    .tagFilter {
+        margin: 0 0 0.6rem 6rem;
+    }
+}
+
 @media(width < 500px) {
     .tagFilter {
         margin: 0 0 0.8rem 5rem;

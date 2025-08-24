@@ -52,7 +52,10 @@
     .textBlock h5 {
         font-size: var(--font-size-sm);
         padding-inline: 0.5rem;
-        margin-block: 1.5rem 0;
+        margin-block: 1.5rem;
+    }
+    .textBlock p {
+        text-indent: 1.5rem;
     }
 }
 
@@ -63,5 +66,16 @@
 
     .textBlock h5 {
         font-size: var(--font-size-xs);
+    }
+}
+
+@media (width < 500px) {
+    .textBlock h5 {
+        font-size: var(--font-size-xs);
+    }
+
+    .textBlock p {
+        font-size: var(--font-size-xxs);
+        text-indent: 1rem;
     }
 }

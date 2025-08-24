@@ -302,8 +302,8 @@
         "marca": "Netflix + Havaianas",
         "folder": "havaianas",
         "logos": [
-          "netflixlogo.png",
-          "havaianaslogo.png"
+          "havaianaslogo.png",
+          "netflixlogo.png"
         ],
         "capa": "havaianascover.avif",
         "empresa": "Playground",
@@ -861,11 +861,11 @@
       {
         "id": 17,
         "nome": "Twitter Moments",
-        "marca": "A+ENetworks",
+        "marca": "A+E Networks",
         "folder": "twittermoments",
         "logos": ["twittermomentslogo.png"],
         "capa": "twittermomentscover.avif",
-        "empresa": "A+ENetworks",
+        "empresa": "A+E Networks",
         "cargo": "Gerente de Plataformas Digitales",
         "tags": ["digitalStrategy", "editorialContent", "production"],
         "ano": 2012,

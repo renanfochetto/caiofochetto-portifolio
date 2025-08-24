@@ -129,6 +129,10 @@
 }
 
 @media(width < 1000px) {
+    .container {
+        margin-bottom: 6rem;
+    }
+
     .titleSection {
         left: -1%;
         font-size: var(--font-size-xs);
@@ -136,6 +140,7 @@
 
     .socialsGrid {
         margin-left: 9rem;
+        margin-bottom: 16rem;
         grid-template-columns: 12rem 29rem;
     }
 
@@ -234,9 +239,9 @@
     }
 
     .socialsGrid {
-        margin-left: 4rem;
+        margin-left: 5rem;
         grid-template-columns: 6.5rem 17.5rem;
-        column-gap: 2rem;
+        column-gap: 2.4rem;
     }
 
     .previewImage:nth-child(2) {

@@ -12,3 +12,27 @@
     box-shadow: none;
     text-indent: 2rem;
 }
+
+@media(width < 1000px) {
+    .quoteBlock p {
+        font-size: var(--font-size-base);
+    }
+}
+
+@media(width < 800px) {
+    .quoteBlock p {
+        text-indent: 1.5rem;
+    }
+}
+
+@media(width < 500px) {
+    .quoteBlock {
+        margin-block: 0.2rem;
+    }
+
+    .quoteBlock p {
+        text-indent: 1rem;
+        font-size: var(--font-size-xxs);
+        margin-block: 0.8rem;
+    }
+}

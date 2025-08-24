@@ -174,7 +174,7 @@
         height: 1rem;
     }
 
-    .displayInfo {
+    .tempoTotal {
         display: none;
     }
 }
@@ -219,7 +219,7 @@
 @media (width < 500px) {
     .badgeInner {
         width: 9.5rem;
-        height: 12rem;
+        height: 11.5rem;
     }
 
     .badgeFront {
@@ -241,7 +241,16 @@
         margin-top: 0.15rem;
     }
 
+    .atividades {
+        display: none;
+    }
+
     .badgeBack {
         padding-top: 2rem;
+    }
+
+    .badgeHole {
+        width: 2rem;
+        height: 0.6rem;
     }
 }
