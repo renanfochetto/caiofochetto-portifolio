@@ -13,6 +13,7 @@
     transition: transform 0.2s;
 }
 
+/*Media Queries - Landscape*/
 @media (width < 1000px) {
     .links {
         width: 2.8rem;
@@ -42,5 +43,14 @@
         height: 1.7rem;
         padding: 0.1rem;
         border-radius: 0.3rem;
+    }
+}
+
+/*Media Queries - Portrait*/
+@media (width < 1100px) and (orientation: portrait) {
+    .links {
+        width: 4.2rem;
+        height: 4.2rem;
+        padding: 0.3rem;
     }
 }

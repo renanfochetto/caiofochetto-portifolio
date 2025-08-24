@@ -65,6 +65,7 @@
     margin-bottom: 0.5rem;
 }
 
+/*Media Queries Landscape*/
 @media (width < 1300px) {
     .container {
         padding-top: 11rem;
@@ -246,3 +247,45 @@
         margin-top: 3rem;
     }
 }
+
+/*Media Queries Portrait*/
+@media (width < 1100px) and (orientation: portrait) {
+    .container {
+        background-position: center top;
+        background-size: contain;
+        width: 100vw;
+        height: 100vh;
+        padding-top: 12rem;
+    }
+
+    .titleSection {
+        font-size: var(--font-size-md);
+        top: 25%;
+        left: -1.5%;
+    }
+
+    .intro {
+        padding: 6rem 14rem 2rem 10rem;
+    }
+
+    .intro h2 {
+        line-height: 1.5;
+        font-size: var(--font-size-xl);
+    }
+
+    .intro .introTitle:first-child {
+        margin-bottom: -0.8rem;
+    }
+
+    .intro p {
+        margin-top: 2rem;
+        font-size: var(--font-size-md-plus);
+        line-height: 1.9;
+    }
+
+    .socials {
+        margin-top: 13rem;
+        grid-template-columns: 1fr auto 12rem;
+    }
+}
+

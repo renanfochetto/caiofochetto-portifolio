@@ -10,6 +10,8 @@
     outline-offset: 0.4rem;
 }
 
+
+/*Media Queries - Landscape*/
 @media (width < 1000px) {
     .linkContainer {
         column-gap: 1rem;
@@ -38,5 +40,13 @@
     .linkContainer {
         margin-inline: 0.5rem;
         column-gap: 0.6rem;
+    }
+}
+
+/*Media Queries - Portrait*/
+@media (width < 1100px) and (orientation: portrait) {
+    .linkContainer {
+        column-gap: 2.4rem;
+        margin-inline: 2rem;
     }
 }
