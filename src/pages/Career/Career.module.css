@@ -235,5 +235,22 @@
     }
 }
 
+@media (width <= 800px) and (orientation: portrait) {
+    .container {
+        padding-top: 12rem;
+    }
+
+    .titleSection {
+        top: 25%;
+        left: -2.5%;
+        font-size: var(--font-size-sm);
+    }
+
+    .badgeGrid {
+        grid-column-gap: 10rem;
+        padding-right: 10rem;
+    }
+}
+
 
 

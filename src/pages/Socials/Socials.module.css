@@ -326,6 +326,29 @@
     }
 }
 
+@media (width <= 800px) and (orientation: portrait) {
+    .container {
+        padding-top: 12rem;
+    }
+
+    .titleSection {
+        top: 25%;
+        left: -2.5%;
+        font-size: var(--font-size-sm);
+    }
+
+    .socialsGrid {
+        margin-left: 7rem;
+        column-gap: 2rem;
+    }
+
+    .card {
+        gap: 0;
+        grid-template-rows: 5rem auto;
+    }
+}
+
+
 
 
 
