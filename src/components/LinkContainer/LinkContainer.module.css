@@ -44,7 +44,7 @@
 }
 
 /*Media Queries - Portrait*/
-@media (width < 1100px) and (orientation: portrait) {
+@media (width <= 1100px) and (orientation: portrait) {
     .linkContainer {
         column-gap: 2.4rem;
         margin-inline: 2rem;

@@ -30,6 +30,7 @@
     border: 2px solid var(--white);
 }
 
+/*Media Queries - Landscape*/
 @media (width < 900px) {
     .tag {
         font-size: var(--font-size-xxxs);
@@ -41,5 +42,13 @@
     .tag {
         font-size: var(--font-size-xxl);
         padding: 0.05rem 0.2rem;
+    }
+}
+
+/*Media Queries - Portrait*/
+@media (width <= 1100) and (orientation: portrait) {
+    .tag {
+        padding: 0.08rem 0.3rem;
+        font-size: var(--font-size-base);
     }
 }

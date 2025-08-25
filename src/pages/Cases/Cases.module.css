@@ -38,6 +38,7 @@
     display: block;
 }
 
+/*Media Queries - Landscape*/
 @media (width < 1300px) {
     .titleSection {
         left: 1.5%;
@@ -93,6 +94,27 @@
         top: 18%;
         left: -8.5%;
         font-size: var(--font-size-xxxs);
+    }
+}
+
+/*Media Queries - Portrait*/
+@media (width <= 1100px) and (orientation: portrait) {
+    .container {
+        background-position: center top;
+        background-size: contain;
+        width: 100vw;
+        height: 100vh;
+        padding-top: 16rem;
+    }
+
+    .titleSection {
+        font-size: var(--font-size-md);
+        top: 25%;
+        left: -1.5%;
+    }
+
+    .casesGrid {
+        margin-left: 4rem;
     }
 }
 

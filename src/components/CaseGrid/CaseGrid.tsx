@@ -17,8 +17,19 @@ const CaseGrid = () => {
 
   const getColumnDivisor = () => {
     const width = window.innerWidth;
-    if(width < 500) return 1;
-    return 2;
+    const height = window.innerHeight;
+
+    const isPortrait = height > width;
+
+    if (isPortrait) {
+      if (width < 500) return 1;
+      if (width < 800) return 2;
+      return 3; // Exemplo: 1100x1400
+    } else {
+      if (width < 500) return 1;
+      if (width < 800) return 2;
+      return 2; // padrão para paisagem
+    }
   };
 
   const filteredCases = activeTags.length === 0

@@ -593,6 +593,8 @@
     gap: 0.5rem;
 }
 
+
+/*Media Queries - Landscape*/
 @media (width < 800px) {
     .description {
         font-size: var(--font-size-xxs);
@@ -633,4 +635,13 @@
     .layout--gridFluid6 img:nth-child(4) {
         display: none;
     }
+}
+
+/*Media Queries - Portrait*/
+.layout--gridRow img:last-child {
+    display: none;
+}
+
+.layout--gridRow2 img:last-child {
+    display: none;
 }
