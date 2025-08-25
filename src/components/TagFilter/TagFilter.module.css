@@ -49,3 +49,10 @@
         gap: 0.6rem;
     }
 }
+
+@media (width <= 1000px) and (orientation: portrait) {
+    .tagFilter {
+        margin: 0 0 2rem 8rem;
+        gap: 0.5rem;
+    }
+}

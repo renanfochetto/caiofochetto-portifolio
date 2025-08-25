@@ -267,3 +267,10 @@
         height: 3rem;
     }
 }
+
+@media (width <= 900px) and (orientation: portrait) {
+    .closeButton {
+        top: 1.4rem;
+        right: 1rem;
+    }
+}

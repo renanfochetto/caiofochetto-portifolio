@@ -50,6 +50,7 @@ p:active {
     transition: transform 0.2s;
 }
 
+/*Media Queries - Landscape*/
 @media (width < 1300px) {
     footer {
         padding: 1.5rem 9rem;
@@ -148,5 +149,17 @@ p:active {
 
     .author {
         font-size: var(--font-size-xxxl);
+    }
+}
+
+
+/*Media Queries - Portrait*/
+@media (width <= 900px) {
+    footer {
+        padding: 1rem 4rem;
+    }
+
+    footer h4 {
+        margin-right: 0;
     }
 }

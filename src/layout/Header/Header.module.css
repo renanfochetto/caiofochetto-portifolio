@@ -176,3 +176,10 @@ a{
         background-position: calc(0% - 7rem) top;
     }
 }
+
+@media (width <= 900px) and (orientation: portrait) {
+    header {
+        padding: 2rem 4rem;
+        background-position: calc(0% - 8rem) top;
+    }
+}

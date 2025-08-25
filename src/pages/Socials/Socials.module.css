@@ -319,6 +319,13 @@
 
 }
 
+@media (width <= 900px) and (orientation: portrait) {
+    .socialsGrid {
+        margin-left: 8rem;
+        column-gap: 2.4rem;
+    }
+}
+
 
 
 

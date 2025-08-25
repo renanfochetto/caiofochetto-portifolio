@@ -229,5 +229,11 @@
     }
 }
 
+@media (width <= 1000px) and (orientation: portrait) {
+    .badgeGrid {
+        padding: 8rem 18rem 8rem;
+    }
+}
+
 
 

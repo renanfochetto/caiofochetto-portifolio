@@ -289,3 +289,9 @@
     }
 }
 
+@media (width <= 900px) and (orientation: portrait) {
+    .intro {
+        padding: 5rem 14rem 2rem 9rem;
+    }
+}
+

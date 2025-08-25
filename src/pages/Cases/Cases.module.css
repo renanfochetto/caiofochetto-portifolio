@@ -118,5 +118,15 @@
     }
 }
 
+@media (width <= 900px) and (orientation: portrait) {
+    .container {
+        padding-top: 14rem;
+    }
+
+    .casesGrid {
+        margin-left: 8rem;
+    }
+}
+
 
 
