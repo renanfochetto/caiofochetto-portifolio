@@ -195,3 +195,9 @@ a{
         padding: 1rem 2rem;
     }
 }
+
+@media (width <= 400px) and (orientation: portrait) {
+    header {
+        padding: 1rem 1rem;
+    }
+}

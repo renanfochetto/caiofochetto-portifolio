@@ -285,8 +285,15 @@
     .modalHeader {
         padding-bottom: 1rem;
     }
-    
+
     .modalHeader img {
         display: none;
+    }
+}
+
+@media (width <= 400px) and (orientation: portrait) {
+    .closeButton {
+        top: 0.5rem;
+        right: 0.5rem;
     }
 }

@@ -163,7 +163,7 @@
 
     .badgeGrid {
         grid-column-gap: 4rem;
-        padding: 4rem 8rem 2rem 8rem;
+        padding: 4rem 8rem 2rem;
     }
 
     .timeline {
@@ -289,6 +289,13 @@
 
     .timelineYear::before {
         height: 15.5rem;
+    }
+}
+
+@media (width <= 400px) and (orientation: portrait) {
+    .badgeGrid {
+        padding: 4rem 4rem 2rem 8rem;
+        column-gap: 7rem;
     }
 }
 

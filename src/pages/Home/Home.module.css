@@ -372,3 +372,26 @@
     }
 }
 
+@media (width <= 400px) and (orientation: portrait) {
+    .intro {
+        padding: 1rem 4rem 0 5rem;
+    }
+
+    .intro h2 {
+        font-size: var(--font-size-md-plus);
+    }
+
+    .intro p {
+        font-size: var(--font-size-xs);
+    }
+
+    .intro .introTitle:first-child {
+        margin-bottom: 0.1rem;
+    }
+
+    .socials {
+        margin-top: 7rem;
+        grid-template-columns: 1fr auto 3.6rem;
+    }
+}
+
