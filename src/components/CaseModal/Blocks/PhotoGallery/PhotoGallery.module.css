@@ -681,3 +681,9 @@
         display: none;
     }
 }
+
+@media (width <= 500px) and (orientation: portrait) {
+    .layout--gridFluid3 {
+        margin-top: 2rem;
+    }
+}

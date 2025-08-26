@@ -62,3 +62,11 @@
         padding: 0.2rem;
     }
 }
+
+@media (width <= 500px) and (orientation: portrait) {
+    .links {
+        width: 3rem;
+        height: 3rem;
+        padding: 0.1rem;
+    }
+}

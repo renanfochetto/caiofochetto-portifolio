@@ -351,3 +351,24 @@
     }
 }
 
+@media (width <= 500px) and (orientation: portrait) {
+    .container {
+        padding-top: 8rem;
+    }
+
+    .titleSection {
+        top: 20%;
+        left: -8%;
+        font-size: var(--font-size-base);
+    }
+
+    .intro {
+        padding: 3rem 5rem 0;
+    }
+
+    .intro p {
+        margin-top: 0;
+        font-size: var(--font-size-sm);
+    }
+}
+

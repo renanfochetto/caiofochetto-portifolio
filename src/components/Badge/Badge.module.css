@@ -291,3 +291,38 @@
     }
 
 }
+
+@media (width <= 500px) and (orientation: portrait) {
+    .container {
+        padding-top: 10rem;
+    }
+
+    .badgeInner {
+        width: 15rem;
+        height: 22rem;
+    }
+
+    .badgeFront {
+        padding: 3.2rem 0 1rem;
+    }
+
+    .badgeFront img {
+        margin-top: 0.3rem;
+        width: 7rem;
+    }
+
+    .badgeFront h3 {
+        margin-top: 1.2rem;
+        font-size: var(--font-size-sm);
+    }
+
+    .badgeFront p {
+        margin-top: 0.6rem;
+        font-size: var(--font-size-xs);
+    }
+
+    .badgeBack p {
+        font-size: var(--font-size-xxs);
+    }
+
+}

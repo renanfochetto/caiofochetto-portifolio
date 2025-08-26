@@ -160,5 +160,17 @@
     }
 }
 
+@media (width <= 500px) and (orientation: portrait) {
+    .container {
+        padding-top: 14rem;
+    }
+
+    .titleSection {
+        top: 20%;
+        left: -8%;
+        font-size: var(--font-size-base);
+    }
+}
+
 
 

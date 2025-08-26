@@ -385,6 +385,23 @@
 
 }
 
+@media (width <= 500px) and (orientation: portrait) {
+    .titleSection {
+        top: 20%;
+        left: -8%;
+        font-size: var(--font-size-base);
+    }
+
+    .socialsGrid {
+        margin-left: 5rem;
+        grid-template-columns: 9rem 18.2rem;
+        column-gap: 2.8rem;
+    }
+
+    .previewImage:nth-child(2) {
+        height: 20rem;
+    }
+}
 
 
 

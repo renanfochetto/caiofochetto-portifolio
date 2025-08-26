@@ -81,3 +81,9 @@
     }
 }
 
+/*Media Queries - Portrait*/
+@media (width < 1200px) and (orientation: portrait) {
+    .textBlock {
+        margin: 2rem 0;
+    }
+}

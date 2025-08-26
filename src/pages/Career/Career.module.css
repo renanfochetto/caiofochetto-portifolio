@@ -276,6 +276,22 @@
     }
 }
 
+@media (width <= 500px) and (orientation: portrait) {
+    .titleSection {
+        top: 20%;
+        left: -8%;
+        font-size: var(--font-size-base);
+    }
+
+    .badgeGrid {
+        padding: 8rem 6rem 5rem 10rem;
+    }
+
+    .timelineYear::before {
+        height: 15.5rem;
+    }
+}
+
 
 
 

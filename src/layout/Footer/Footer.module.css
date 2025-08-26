@@ -185,3 +185,13 @@ p:active {
         font-size: var(--font-size-xxxs);
     }
 }
+
+@media (width <= 500px) and (orientation: portrait) {
+    footer {
+        padding: 1rem 2rem;
+    }
+
+    .author {
+        font-size: var(--font-size-xxl);
+    }
+}
