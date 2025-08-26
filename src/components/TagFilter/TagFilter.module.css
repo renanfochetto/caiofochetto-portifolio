@@ -62,3 +62,9 @@
         margin-bottom: 1rem;
     }
 }
+
+@media (width <= 700px) and (orientation: portrait) {
+    .tagFilter {
+        margin: 0 0 2rem 4rem;
+    }
+}

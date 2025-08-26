@@ -56,3 +56,10 @@
         column-gap: 1rem;
     }
 }
+
+@media (width <= 700px) and (orientation: portrait) {
+    .linkContainer {
+        margin-inline: 1rem;
+        column-gap: 1.5rem;
+    }
+}

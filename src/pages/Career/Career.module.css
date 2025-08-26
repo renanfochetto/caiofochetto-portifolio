@@ -252,5 +252,12 @@
     }
 }
 
+@media (width <= 700px) and (orientation: portrait) {
+    .badgeGrid {
+        padding-top: 6rem;
+        padding-bottom: 6rem;
+    }
+}
+
 
 

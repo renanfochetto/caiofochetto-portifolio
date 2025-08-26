@@ -637,11 +637,25 @@
     }
 }
 
+
 /*Media Queries - Portrait*/
-.layout--gridRow img:last-child {
-    display: none;
+
+@media (width <= 900px) and (orientation: portrait) {
+    .layout--gridRow img:last-child {
+        display: none;
+    }
+
+    .layout--gridRow2 img:last-child {
+        display: none;
+    }
+
+    .layout--gridRow3 img:last-child {
+        display: none;
+    }
 }
 
-.layout--gridRow2 img:last-child {
-    display: none;
+@media (width <= 700px) and (orientation: portrait) {
+    .layout--gridFluid4 {
+        margin-bottom: 2rem;
+    }
 }

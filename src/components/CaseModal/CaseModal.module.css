@@ -274,3 +274,19 @@
         right: 1rem;
     }
 }
+
+@media (width <= 800px) and (orientation: portrait) {
+    .modalHeader img:nth-child(2) {
+        display: none;
+    }
+}
+
+@media (width <= 700px) and (orientation: portrait) {
+    .modalHeader {
+        padding-bottom: 1rem;
+    }
+    
+    .modalHeader img {
+        display: none;
+    }
+}

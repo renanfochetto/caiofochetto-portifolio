@@ -141,4 +141,10 @@
 }
 
 
+@media (width <= 700px) and (orientation: portrait) {
+    .container {
+        padding-top: 16rem;
+    }
+}
+
 

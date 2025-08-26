@@ -348,6 +348,17 @@
     }
 }
 
+@media (width <= 700px) and (orientation: portrait) {
+    .container {
+        padding-top: 7rem;
+    }
+
+    .socialsGrid {
+        margin-left: 6rem;
+        column-gap: 1.5rem;
+    }
+}
+
 
 
 

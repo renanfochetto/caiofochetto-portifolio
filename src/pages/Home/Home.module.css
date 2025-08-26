@@ -316,3 +316,26 @@
 
 }
 
+@media (width <= 700px) and (orientation: portrait) {
+    .intro {
+        padding: 3rem 5rem 2rem 6rem;
+    }
+
+    .intro h2 {
+        font-size: var(--font-size-lg);
+    }
+
+    .intro p {
+        font-size: var(--font-size-md);
+    }
+
+    .intro .introTitle:first-child {
+        margin-bottom: -0.4rem;
+    }
+
+    .socials {
+        grid-template-columns: 1fr auto 6rem;
+    }
+
+}
+
