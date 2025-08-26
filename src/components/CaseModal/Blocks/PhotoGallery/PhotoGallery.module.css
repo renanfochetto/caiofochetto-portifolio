@@ -659,3 +659,25 @@
         margin-bottom: 2rem;
     }
 }
+
+@media (width <= 600px) and (orientation: portrait) {
+    .layout--gridFluid6 {
+        margin-bottom: 1rem;
+    }
+
+    .layout--gridFluid6 img:nth-child(1) {
+        display: none;
+    }
+
+    .layout--gridFluid6 img:nth-child(2) {
+        display: none;
+    }
+
+    .layout--gridFluid6 img:nth-child(3) {
+        display: none;
+    }
+
+    .layout--gridFluid6 img:nth-child(4) {
+        display: none;
+    }
+}

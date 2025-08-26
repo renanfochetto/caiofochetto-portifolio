@@ -183,3 +183,9 @@ a{
         background-position: calc(0% - 8rem) top;
     }
 }
+
+@media (width <= 600px) and (orientation: portrait) {
+    header {
+        padding: 1rem 3rem;
+    }
+}

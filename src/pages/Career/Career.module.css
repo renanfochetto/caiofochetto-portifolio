@@ -254,10 +254,28 @@
 
 @media (width <= 700px) and (orientation: portrait) {
     .badgeGrid {
-        padding-top: 6rem;
-        padding-bottom: 6rem;
+        padding-block: 6rem;
     }
 }
+
+
+@media (width <= 600px) and (orientation: portrait) {
+    .container {
+        padding-top: 7rem;
+    }
+
+    .titleSection {
+        top: 25%;
+        left: -4%;
+        font-size: var(--font-size-xs);
+    }
+
+    .badgeGrid {
+        grid-column-gap: 9rem;
+        padding:6rem 8rem 2rem 10rem;
+    }
+}
+
 
 
 

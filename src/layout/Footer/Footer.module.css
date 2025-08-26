@@ -175,3 +175,13 @@ p:active {
         gap: 0.5rem;
     }
 }
+
+@media (width <= 600px) and (orientation: portrait) {
+    footer {
+        padding: 1rem 3rem;
+    }
+
+    .author {
+        font-size: var(--font-size-xxxs);
+    }
+}

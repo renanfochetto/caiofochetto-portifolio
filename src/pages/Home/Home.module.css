@@ -339,3 +339,15 @@
 
 }
 
+@media (width <= 600px) and (orientation: portrait) {
+    .titleSection {
+        top: 25%;
+        left: -4%;
+        font-size: var(--font-size-xs);
+    }
+
+    .intro {
+        padding: 2rem 5rem 0 5rem;
+    }
+}
+

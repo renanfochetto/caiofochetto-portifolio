@@ -80,3 +80,9 @@
         padding-inline: 4rem 8rem;
     }
 }
+
+@media (width <= 600px) and (orientation: portrait) {
+    .caseGrid {
+        gap: 2rem;
+    }
+}

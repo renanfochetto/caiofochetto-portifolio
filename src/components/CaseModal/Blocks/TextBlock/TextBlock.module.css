@@ -22,6 +22,7 @@
     box-shadow: none;
 }
 
+/*Media Queries - Landscape*/
 @media (width < 1200px) {
     .textBlock {
         margin: 3rem 0;
@@ -79,3 +80,4 @@
         text-indent: 1rem;
     }
 }
+

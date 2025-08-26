@@ -13,7 +13,10 @@ const links = [
     name: 'YOUTUBE',
     icon: '/icons/youtube.svg',
     href: 'https://www.youtube.com/@caiofochetto/playlists',
-    preview: '/socials/youtube-desktop.avif'
+    preview: {
+      desktop: '/socials/youtube-desktop.avif',
+      mobile: '/socials/youtube-mobile.avif'
+    }
   }
 ];
 
@@ -40,13 +43,24 @@ const Socials = () => {
               <span>{link.name}</span>
               </Link>
             </div>
-            <img
-              src={link.preview}
-              className={styles.previewImage}
-              alt={`Preview do perfil de Caio Fochetto no ${link.name}`}
-              onClick={() => window.open(link.href, '_blank')}
-              style={{ cursor: 'pointer' }}
-            />
+            {typeof link.preview === 'string' ? (
+              <img
+                src={link.preview}
+                className={styles.previewImage}
+                alt={`Preview do perfil de Caio Fochetto no ${link.name}`}
+                onClick={() => window.open(link.href, '_blank')}
+                style={{ cursor: 'pointer' }}
+              />
+            ) : (
+              <picture onClick={() => window.open(link.href, '_blank')} style={{ cursor: 'pointer' }}>
+                <source media="(orientation: portrait)" srcSet={link.preview.mobile} />
+                <img
+                  src={link.preview.desktop}
+                  className={styles.previewImage}
+                  alt={`Preview do perfil de Caio Fochetto no ${link.name}`}
+                />
+              </picture>
+            )}
           </div>
         ))}
       </div>

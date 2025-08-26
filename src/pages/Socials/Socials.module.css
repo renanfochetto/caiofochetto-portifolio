@@ -317,18 +317,23 @@
         grid-template-rows: 8rem auto;
     }
 
+    .socialsGrid {
+        margin-left: 14rem;
+        grid-template-columns: 13rem 26rem;
+        column-gap: 4rem;
+    }
+
 }
 
 @media (width <= 900px) and (orientation: portrait) {
     .socialsGrid {
-        margin-left: 8rem;
-        column-gap: 2.4rem;
+        margin-left: 12rem;
     }
 }
 
 @media (width <= 800px) and (orientation: portrait) {
     .container {
-        padding-top: 12rem;
+        padding-top: 10rem;
     }
 
     .titleSection {
@@ -338,8 +343,8 @@
     }
 
     .socialsGrid {
-        margin-left: 7rem;
-        column-gap: 2rem;
+        margin-left: 10rem;
+        grid-template-columns: 11rem 22rem;
     }
 
     .card {
@@ -354,10 +359,32 @@
     }
 
     .socialsGrid {
-        margin-left: 6rem;
-        column-gap: 1.5rem;
+        grid-template-columns: 10rem 20rem;
+        margin-left: 9rem;
+        column-gap: 3rem;
     }
 }
+
+@media (width <= 600px) and (orientation: portrait) {
+    .titleSection {
+        top: 25%;
+        left: -4%;
+        font-size: var(--font-size-xs);
+    }
+
+    .card {
+        gap: 0;
+        grid-template-rows: 4rem auto;
+    }
+
+    .socialsGrid {
+        grid-template-columns: 8.5rem 18rem;
+        margin-left: 8rem;
+        column-gap: 2.4rem;
+    }
+
+}
+
 
 
 
