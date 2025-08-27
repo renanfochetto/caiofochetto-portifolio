@@ -5,6 +5,7 @@
     border: 2px solid var(--black);
     box-shadow: var(--shadow-regular);
     cursor: pointer;
+    border-radius: var(--border-radius-base);
 }
 
 .caseCard:hover {
@@ -47,6 +48,8 @@
     padding: 0.2rem 1rem;
     border: 1px solid var(--black);
     box-shadow: var(--shadow-base);
+    border-radius: 0 var(--border-radius-base) var(--border-radius-base) 0;
+    z-index: 2;
 }
 
 .labelProject {
@@ -60,7 +63,7 @@
 }
 
 /*Media Queries - Landscape*/
-@media (width < 1000px) {
+@media (width <= 1000px) {
     .caseCard {
         width: 22rem;
         height: 13rem;
@@ -72,7 +75,7 @@
     }
 }
 
-@media (width < 900px) {
+@media (width <= 900px) {
     .caseCard {
         width: 19rem;
         height: 11rem;
@@ -85,21 +88,21 @@
     }
 }
 
-@media (width < 800px) {
+@media (width <= 800px) {
     .caseCard {
         width: 18rem;
         height: 10rem;
     }
 }
 
-@media (width < 700px) {
+@media (width <= 700px) {
     .caseCard {
         width: 17.5rem;
         height: 9.5rem;
     }
 }
 
-@media (width < 600px) {
+@media (width <= 600px) {
     .caseCard {
         width: 16rem;
         height: 8rem;
@@ -116,7 +119,7 @@
     }
 }
 
-@media (width < 500px) {
+@media (width <= 500px) {
     .caseCard {
         width: 15rem;
         height: 11rem;

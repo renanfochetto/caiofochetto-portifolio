@@ -31,14 +31,14 @@
 }
 
 /*Media Queries - Landscape*/
-@media (width < 900px) {
+@media (width <= 900px) {
     .tag {
         font-size: var(--font-size-xxxs);
         padding: 0.06rem 0.25rem;
     }
 }
 
-@media (width < 800px) {
+@media (width <= 800px) {
     .tag {
         font-size: var(--font-size-xxl);
         padding: 0.05rem 0.2rem;

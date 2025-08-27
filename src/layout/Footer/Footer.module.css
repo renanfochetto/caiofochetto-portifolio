@@ -51,7 +51,7 @@ p:active {
 }
 
 /*Media Queries - Landscape*/
-@media (width < 1300px) {
+@media (width <= 1300px) {
     footer {
         padding: 1.5rem 9rem;
     }
@@ -60,7 +60,7 @@ p:active {
     }
 }
 
-@media (width < 1000px) {
+@media (width <= 1000px) {
     footer {
         padding: 1.5rem 6rem;
         margin-top: 0;
@@ -73,7 +73,7 @@ p:active {
     }
 }
 
-@media (width < 900px) {
+@media (width <= 900px) {
     footer {
         padding: 1rem 6rem;
     }
@@ -83,9 +83,9 @@ p:active {
     }
 }
 
-@media (width < 800px) {
+@media (width <= 800px) {
     footer {
-        padding: 1rem 4rem;
+        padding: 1rem 2rem;
     }
 
     footer h4 {
@@ -100,7 +100,7 @@ p:active {
     }
 }
 
-@media (width < 700px) {
+@media (width <= 700px) {
     footer h4 {
         font-size: var(--font-size-xs);
     }
@@ -112,7 +112,7 @@ p:active {
     }
 }
 
-@media (width < 600px) {
+@media (width <= 600px) {
     footer {
         padding: 0.5rem 2rem;
     }
@@ -136,7 +136,7 @@ p:active {
     }
 }
 
-@media (width < 500px) {
+@media (width <= 500px) {
     footer {
         padding: 0.5rem 1.5rem;
     }

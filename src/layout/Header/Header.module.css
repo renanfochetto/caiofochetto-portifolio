@@ -5,11 +5,8 @@ header {
     width: 100%;
     display: grid;
     gap: 1rem;
-    background-image: url('/svgs/bannerheader.svg');
-    background-position: calc(0% - 5rem) top;
-    background-repeat: no-repeat;
-    background-size: cover;
     grid-template-columns: 1fr 1fr 1fr;
+    background-color: var(--background);
     padding: 1.5rem 12.5rem 0.5rem;
     z-index: 100;
     text-shadow: var(--shadow-regular);
@@ -35,7 +32,7 @@ nav li:nth-child(2) {
     padding: 0.2rem 0;
 }
 
-a{
+a {
     text-decoration: none;
     color: var(--black);
 }
@@ -68,17 +65,15 @@ a{
 }
 
 /*Media Queries - Landscape*/
-@media (width < 1300px) {
+@media (width <= 1300px) {
     header {
         padding: 1.5rem 9rem 0.5rem;
-        background-position: calc(0% - 5rem) top;
     }
 }
 
-@media (width < 1000px) {
+@media (width <= 1000px) {
     header {
         padding: 1rem 6rem 0.5rem;
-        background-position: calc(0% - 5rem) top;
     }
 
     .logo {
@@ -100,20 +95,15 @@ a{
     }
 }
 
-@media (width < 900px) {
-    header {
-        background-position: calc(0% - 4.5rem) top;
-    }
-
+@media (width <= 900px) {
     nav li:nth-child(2) {
         padding: 0;
     }
 }
 
-@media (width < 800px) {
+@media (width <= 800px) {
     header {
         padding: 1rem 4rem 0.5rem;
-        background-position: calc(0% - 4rem) top;
     }
 
     .logo {
@@ -125,17 +115,15 @@ a{
     }
 }
 
-@media (width < 700px) {
+@media (width <= 700px) {
     header {
         padding: 0.5rem 4rem;
-        background-position: calc(0% - 4rem) top;
     }
 }
 
-@media (width < 600px) {
+@media (width <= 600px) {
     header {
         padding: 0.5rem 2rem;
-        background-position: calc(0% - 6rem) top;
     }
 
     ul {
@@ -147,7 +135,7 @@ a{
     }
 }
 
-@media (width < 500px) {
+@media (width <= 500px) {
     header {
         padding: 0.5rem 1.5rem;
     }
@@ -173,14 +161,12 @@ a{
         width: 100vw;
         padding: 2rem 6rem;
         gap: 1rem;
-        background-position: calc(0% - 7rem) top;
     }
 }
 
 @media (width <= 900px) and (orientation: portrait) {
     header {
         padding: 2rem 4rem;
-        background-position: calc(0% - 8rem) top;
     }
 }
 
@@ -201,3 +187,4 @@ a{
         padding: 1rem 1rem;
     }
 }
+

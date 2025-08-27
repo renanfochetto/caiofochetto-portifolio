@@ -22,12 +22,12 @@ const CaseGrid = () => {
     const isPortrait = height > width;
 
     if (isPortrait) {
-      if (width < 800) return 2;
+      if (width <= 800) return 2;
       return 3; // Exemplo: 1100x1400
     } else {
-      if (width < 500) return 1;
-      if (width < 800) return 2;
-      return 2; // padrão para paisagem
+      if (width <= 500) return 1;
+      if (width <= 1900) return 2;
+      return 3;
     }
   };
 

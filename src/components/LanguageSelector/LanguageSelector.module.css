@@ -47,7 +47,7 @@
     transition: background 0.2s ease;
 }
 
-@media (width < 1000px) {
+@media (width <= 1000px) {
     .selector {
         font-size: var(--font-size-xxs);
         width: 6rem;
@@ -64,7 +64,7 @@
     }
 }
 
-@media (width < 800px) {
+@media (width <= 800px) {
     .selector {
         font-size: var(--font-size-xxxs);
         width: 5rem;
@@ -90,7 +90,7 @@
     }
 }
 
-@media (width < 600px) {
+@media (width <= 600px) {
     .selector {
         font-size: var(--font-size-xxl);
         width: 4.5rem;

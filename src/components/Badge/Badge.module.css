@@ -95,7 +95,7 @@
 }
 
 /*Media Queries - Landscape*/
-@media (width < 1000px) {
+@media (width <= 1000px) {
     .badgeInner {
         width: 17rem;
         height: 24rem;
@@ -120,14 +120,7 @@
     }
 }
 
-@media (width < 900px) {
-    .badgeInner {
-        width: 16rem;
-        height: 23rem;
-    }
-}
-
-@media (width < 800px) {
+@media (width <= 900px) {
     .badgeInner {
         width: 13rem;
         height: 20rem;
@@ -154,9 +147,10 @@
         padding: 0.9rem 1rem;
         font-size: var(--font-size-xxxs);
     }
+
 }
 
-@media (width < 700px) {
+@media (width <= 700px) {
     .badgeInner {
         width: 12.5rem;
         height: 19rem;
@@ -180,9 +174,9 @@
     }
 }
 
-@media (width < 600px) {
+@media (width <= 600px) {
     .badgeInner {
-        width: 12.5rem;
+        width: 12rem;
         height: 16rem;
     }
 
@@ -217,9 +211,9 @@
 
 }
 
-@media (width < 500px) {
+@media (width <= 500px) {
     .badgeInner {
-        width: 9.5rem;
+        width: 9rem;
         height: 11.5rem;
     }
 

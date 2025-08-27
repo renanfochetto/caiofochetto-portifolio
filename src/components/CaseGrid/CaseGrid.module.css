@@ -7,20 +7,20 @@
 }
 
 /*Media Queries - Landscape*/
-@media (width < 1100px) {
+@media (width <= 1100px) {
     .caseGrid{
         gap: 1.5rem;
     }
 }
 
-@media (width < 1000px) {
+@media (width <= 1000px) {
     .caseGrid {
         padding: 1.2rem 8rem 0;
         --column-width: 22rem;
     }
 }
 
-@media (width < 900px) {
+@media (width <= 900px) {
     .caseGrid {
         padding: 0.8rem 8rem 0;
         --column-width: 19rem;
@@ -28,7 +28,7 @@
     }
 }
 
-@media (width < 800px) {
+@media (width <= 800px) {
     .caseGrid {
         padding: 0.5rem 8rem 0;
         --column-width: 18rem;
@@ -36,7 +36,7 @@
     }
 }
 
-@media (width < 700px) {
+@media (width <= 700px) {
     .caseGrid {
         padding: 0.1rem 6rem 0;
         --column-width: 17.5rem;
@@ -44,7 +44,7 @@
     }
 }
 
-@media (width < 600px) {
+@media (width <= 600px) {
     .caseGrid {
         padding: 0.1rem 6rem 0;
         --column-width: 16rem;
@@ -52,7 +52,7 @@
     }
 }
 
-@media (width < 500px) {
+@media (width <= 500px) {
     .caseGrid {
         padding: 0.1rem 5rem 0;
         --column-width: 15rem;

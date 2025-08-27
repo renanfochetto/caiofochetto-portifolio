@@ -595,13 +595,13 @@
 
 
 /*Media Queries - Landscape*/
-@media (width < 800px) {
+@media (width <= 800px) {
     .description {
         font-size: var(--font-size-xxs);
     }
 }
 
-@media (width < 600px) {
+@media (width <= 600px) {
     .description {
         font-size: var(--font-size-xxl);
     }
@@ -615,7 +615,7 @@
     }
 }
 
-@media (width < 500px) {
+@media (width <= 500px) {
     .layout--gridFluid6 {
         margin-bottom: 1rem;
     }

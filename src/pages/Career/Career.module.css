@@ -1,12 +1,8 @@
 .container {
     display: flex;
+    width: 100%;
     height: auto;
     min-height: 100vh;
-    padding-top: 9rem;
-    background-image: url('/svgs/background.svg');
-    background-size: auto;
-    background-position: top left;
-    background-repeat: no-repeat;
     transform: translateX(0);
     will-change: transform;
     z-index: 2;
@@ -27,13 +23,16 @@
     width: 100vw;
     height: 100vh;
     z-index: 1;
+
 }
 
 .badgeGrid {
     display: grid;
     grid-template-columns: repeat(9, 1fr);
-    grid-column-gap: 12rem;
-    padding: 4rem 20rem 0;
+    column-gap: 10rem;
+    row-gap: 2rem;
+    padding: 8rem 20rem 2rem;
+    margin: auto 0;
 }
 
 .timeline {
@@ -41,7 +40,6 @@
     display: grid;
     grid-template-columns: inherit;
     position: relative;
-    margin-block: 0.5rem 0;
 }
 
 .timeline::before {
@@ -74,19 +72,19 @@
 }
 
 /*Media Queries - Landscape*/
-@media (width < 1300px) {
+@media (width <= 1300px) {
     .titleSection {
         left: 1.5%;
         width: 8rem;
     }
 
     .badgeGrid {
-        padding: 4rem 16rem 2rem;
+        padding: 10rem 16rem 2rem;
         grid-column-gap: 10rem;
     }
 }
 
-@media (width < 1000px) {
+@media (width <= 1000px) {
     .container {
         padding-top: 8rem;
     }
@@ -106,28 +104,28 @@
     }
 }
 
-@media (width < 900px) {
+@media (width <= 900px) {
     .container {
-        padding-top: 5rem;
+        padding-top: 6rem;
     }
 
-    .timeline {
-        margin-block: 2rem 0;
+    .badgeGrid {
+        margin-right: 6rem;
     }
 
     .timelineYear {
-        margin-top: 1rem;
         font-size: var(--font-size-xxs);
     }
 
     .timelineYear::before {
-        top: -6.5rem;
+        height: 10rem;
+        top: -10.5rem;
     }
 }
 
-@media (width < 800px) {
+@media (width <= 800px) {
     .container {
-        padding-top: 4.5rem;
+        padding-top: 4rem;
     }
 
     .titleSection {
@@ -138,40 +136,39 @@
 
     .badgeGrid {
         grid-column-gap: 6rem;
-        padding: 4rem 8rem 2rem 12rem;
+        padding: 3rem 8rem 2rem 12rem;
     }
 }
 
-@media (width < 700px) {
+@media (width <= 700px) {
     .container {
-        padding-top: 2rem;
+        padding-top: 3rem;
+    }
+
+    .badgeGrid{
+        padding-bottom: 0;
+        row-gap: 1.2rem;
     }
 }
 
-@media (width < 600px) {
+@media (width <= 600px) {
+    .container {
+        padding-top: 0.9rem;
+    }
+
     .titleSection {
         top: 35%;
         left: -6%;
         font-size: var(--font-size-xxs);
     }
-}
-
-@media (width < 600px) {
-    .container {
-        padding-top: 0.9rem;
-    }
 
     .badgeGrid {
-        grid-column-gap: 4rem;
-        padding: 4rem 8rem 2rem;
-    }
-
-    .timeline {
-        margin-block: 1rem 0;
+        grid-column-gap: 6rem;
+        padding: 4rem 10rem 1rem;
     }
 }
 
-@media (width < 500px) {
+@media (width <= 500px) {
     .container {
         padding-top: 0;
     }
@@ -183,15 +180,16 @@
     }
 
     .timeline {
-        margin-block: 0.6rem 0;
+        margin-block: 0;
     }
 
     .badgeGrid {
-        padding: 4.8rem 5rem 5.5rem 8rem;
+        padding: 5rem 5rem 5.5rem 8rem;
+        row-gap: 1rem;
     }
 
     .timelineYear::before {
-        top: -6.2rem;
+        top: -10.2rem;
     }
 }
 

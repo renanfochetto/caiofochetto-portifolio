@@ -10,32 +10,32 @@
 }
 
 /*Media Queries - Landscape*/
-@media (width < 1000px) {
+@media (width <= 1000px) {
     .tagFilter {
         margin: 0.1rem 0 0.3rem 8rem;
     }
 }
 
-@media(width < 900px) {
+@media(width <= 900px) {
     .tagFilter {
         margin: 0 0 0.8rem 8rem;
     }
 }
 
-@media(width < 700px) {
+@media(width <= 700px) {
     .tagFilter {
         margin: 0 0 0.8rem 6rem;
         gap: 0.5rem;
     }
 }
 
-@media(width < 600px) {
+@media(width <= 600px) {
     .tagFilter {
         margin: 0 0 0.6rem 6rem;
     }
 }
 
-@media(width < 500px) {
+@media(width <= 500px) {
     .tagFilter {
         margin: 0 0 0.8rem 5rem;
         gap: 0.5rem;
