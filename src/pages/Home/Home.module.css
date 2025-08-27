@@ -77,6 +77,8 @@
     margin-bottom: 0.5rem;
 }
 
+
+/*Media Queries Landscape*/
 @media (width <= 1300px) {
     .titleSection {
         left: 1.5%;
@@ -84,8 +86,6 @@
     }
 }
 
-
-/*Media Queries Landscape*/
 @media(width = 1200px) {
     .socials {
         margin-top: 3rem;
@@ -208,8 +208,6 @@
 /*Media Queries Portrait*/
 @media (width <= 1100px) and (orientation: portrait) {
     .container {
-        background-position: center top;
-        background-size: contain;
         width: 100vw;
         height: 100vh;
         padding-top: 12rem;
@@ -219,10 +217,6 @@
         font-size: var(--font-size-md);
         top: 25%;
         left: -1.5%;
-    }
-
-    .intro {
-        padding: 6rem 16rem 2rem 10rem;
     }
 
     .intro h2 {
@@ -241,43 +235,25 @@
     }
 
     .socials {
-        margin-top: 13rem;
+        margin-top: 10rem;
         grid-template-columns: 1fr auto 12rem;
     }
 }
 
-@media (width <= 900px) and (orientation: portrait) {
-    .intro {
-        padding: 5rem 14rem 2rem 9rem;
-    }
-}
-
 @media (width <= 800px) and (orientation: portrait) {
-    .container {
-        padding-top: 10rem;
-    }
-
     .titleSection {
         top: 25%;
         left: -2.5%;
         font-size: var(--font-size-sm);
     }
 
-    .intro {
-        padding: 4rem 6rem 2rem 8rem;
-    }
-
     .socials {
-        margin-top: 10rem;
+        margin-bottom: 8rem;
     }
 
 }
 
 @media (width <= 700px) and (orientation: portrait) {
-    .intro {
-        padding: 3rem 5rem 2rem 6rem;
-    }
-
     .intro h2 {
         font-size: var(--font-size-lg);
     }
@@ -299,28 +275,16 @@
 @media (width <= 600px) and (orientation: portrait) {
     .titleSection {
         top: 25%;
-        left: -4%;
+        left: -5.5%;
         font-size: var(--font-size-xs);
-    }
-
-    .intro {
-        padding: 2rem 5rem 0 5rem;
     }
 }
 
 @media (width <= 500px) and (orientation: portrait) {
-    .container {
-        padding-top: 8rem;
-    }
-
     .titleSection {
         top: 20%;
         left: -8%;
         font-size: var(--font-size-base);
-    }
-
-    .intro {
-        padding: 3rem 5rem 0;
     }
 
     .intro p {
@@ -331,9 +295,8 @@
 
 @media (width <= 400px) and (orientation: portrait) {
     .intro {
-        padding: 1rem 4rem 0 5rem;
+        margin-left: 2rem;
     }
-
     .intro h2 {
         font-size: var(--font-size-md-plus);
     }

@@ -221,126 +221,161 @@
 }
 
 
-/*!*Media Queries - Portrait*!*/
-/*@media (width <= 1100px) and (orientation: portrait) {*/
-/*    .container {*/
-/*        background-position: center top;*/
-/*        background-size: contain;*/
-/*        width: 100vw;*/
-/*        height: 80vh;*/
-/*        padding-top: 12rem;*/
-/*    }*/
+/*Media Queries - Portrait*/
+@media (width <= 1100px) and (orientation: portrait) {
+    .container {
+        width: 100vw;
+    }
 
-/*    .titleSection {*/
-/*        font-size: var(--font-size-md);*/
-/*        top: 25%;*/
-/*        left: -1.5%;*/
-/*    }*/
+    .titleSection {
+        font-size: var(--font-size-md);
+        top: 25%;
+        left: -1.5%;
+    }
 
-/*    .card {*/
-/*        gap: 0;*/
-/*        grid-template-rows: 8rem auto;*/
-/*    }*/
+    .socialsGrid {
+        margin-bottom: 12rem;
+        column-gap: 4rem;
+    }
 
-/*    .socialsGrid {*/
-/*        margin-left: 14rem;*/
-/*        grid-template-columns: 13rem 26rem;*/
-/*        column-gap: 4rem;*/
-/*    }*/
+    .header {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0.5rem;
+    }
 
-/*}*/
+    .header a {
+        width: 3.2rem;
+        height: 3.2rem;
+        padding: 0.001rem;
+    }
 
-/*@media (width <= 900px) and (orientation: portrait) {*/
-/*    .socialsGrid {*/
-/*        margin-left: 12rem;*/
-/*    }*/
-/*}*/
+    .linkSocial {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+    }
 
-/*@media (width <= 800px) and (orientation: portrait) {*/
-/*    .container {*/
-/*        padding-top: 10rem;*/
-/*    }*/
+    .linkedin {
+        height: 42rem;
+    }
 
-/*    .titleSection {*/
-/*        top: 25%;*/
-/*        left: -2.5%;*/
-/*        font-size: var(--font-size-sm);*/
-/*    }*/
+    .youtube {
+        height: 42rem;
+    }
 
-/*    .socialsGrid {*/
-/*        margin-left: 10rem;*/
-/*        grid-template-columns: 11rem 22rem;*/
-/*    }*/
+    .youtubeMobile {
+        height: 42rem;
+    }
+}
 
-/*    .card {*/
-/*        gap: 0;*/
-/*        grid-template-rows: 5rem auto;*/
-/*    }*/
-/*}*/
 
-/*@media (width <= 700px) and (orientation: portrait) {*/
-/*    .container {*/
-/*        padding-top: 7rem;*/
-/*    }*/
+@media (width <= 800px) and (orientation: portrait) {
+    .titleSection {
+        top: 25%;
+        left: -2.5%;
+        font-size: var(--font-size-sm);
+    }
 
-/*    .socialsGrid {*/
-/*        grid-template-columns: 10rem 20rem;*/
-/*        margin-left: 9rem;*/
-/*        column-gap: 3rem;*/
-/*    }*/
-/*}*/
+    .socialsGrid {
+        margin-bottom: 4rem;
+        column-gap: 3rem;
+    }
 
-/*@media (width <= 600px) and (orientation: portrait) {*/
-/*    .titleSection {*/
-/*        top: 25%;*/
-/*        left: -4%;*/
-/*        font-size: var(--font-size-xs);*/
-/*    }*/
+    .linkedin {
+        height: 32rem;
+    }
 
-/*    .card {*/
-/*        gap: 0;*/
-/*        grid-template-rows: 4rem auto;*/
-/*    }*/
+    .youtube {
+        height: 32rem;
+    }
 
-/*    .socialsGrid {*/
-/*        grid-template-columns: 8.5rem 18rem;*/
-/*        margin-left: 8rem;*/
-/*        column-gap: 2.4rem;*/
-/*    }*/
+    .youtubeMobile {
+        height: 32rem;
+    }
+}
 
-/*}*/
+@media (width <= 700px) and (orientation: portrait) {
+    .linkedin {
+        height: 28rem;
+    }
 
-/*@media (width <= 500px) and (orientation: portrait) {*/
-/*    .titleSection {*/
-/*        top: 20%;*/
-/*        left: -8%;*/
-/*        font-size: var(--font-size-base);*/
-/*    }*/
+    .youtube {
+        height: 28rem;
+    }
 
-/*    .socialsGrid {*/
-/*        margin-left: 5rem;*/
-/*        grid-template-columns: 9rem 18.2rem;*/
-/*        column-gap: 2.8rem;*/
-/*    }*/
+    .youtubeMobile {
+        height: 28rem;
+    }
+}
 
-/*    .previewImage:nth-child(2) {*/
-/*        height: 20rem;*/
-/*    }*/
-/*}*/
+@media (width <= 600px) and (orientation: portrait) {
+    .titleSection {
+        top: 25%;
+        left: -5.5%;
+        font-size: var(--font-size-xs);
+    }
 
-/*@media (width <= 400px) and (orientation: portrait) {*/
+    .header a {
+        width: 2.5rem;
+        height: 2.5rem;
+        padding: 0.001rem;
+    }
 
-/*    .socialsGrid {*/
-/*        grid-template-columns: 8rem 16rem;*/
-/*        margin-left: 4.5rem;*/
-/*        column-gap: 1.4rem;*/
-/*    }*/
+    .linkedin {
+        height: 22rem;
+    }
 
-/*    .previewImage:nth-child(2) {*/
-/*        height: 18rem;*/
-/*    }*/
+    .youtube {
+        height: 22rem;
+    }
 
-/*}*/
+    .youtubeMobile {
+        height: 22rem;
+    }
+}
+
+@media (width <= 500px) and (orientation: portrait) {
+    .titleSection {
+        top: 20%;
+        left: -8%;
+        font-size: var(--font-size-base);
+    }
+}
+
+@media (width <= 400px) and (orientation: portrait) {
+    .socialsGrid {
+        margin-bottom: 10rem;
+        gap: 1rem;
+    }
+
+    .linkedin {
+        height: 15rem;
+    }
+
+    .youtube {
+        height: 15rem;
+    }
+
+    .youtubeMobile {
+        height: 15rem;
+    }
+
+    .card {
+        gap: 1rem;
+    }
+
+    .header a {
+        width: 2rem;
+        height: 2rem;
+        padding: 0.001rem;
+    }
+
+    .linkSocial {
+        gap: 0.2rem;
+    }
+}
 
 
 

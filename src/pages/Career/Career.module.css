@@ -196,11 +196,8 @@
 /*Media Queries - Portrait*/
 @media (width <= 1100px) and (orientation: portrait) {
     .container {
-        background-position: center top;
-        background-size: contain;
         width: 100vw;
         height: 100vh;
-        padding-top: 14rem;
     }
 
     .titleSection {
@@ -210,8 +207,9 @@
     }
 
     .badgeGrid {
-        padding: 12rem 18rem 14rem;
+        padding: 16rem 18rem 8rem;
         grid-column-gap: 16rem;
+        row-gap: 6rem;
     }
 
 
@@ -250,13 +248,6 @@
     }
 }
 
-@media (width <= 700px) and (orientation: portrait) {
-    .badgeGrid {
-        padding-block: 6rem;
-    }
-}
-
-
 @media (width <= 600px) and (orientation: portrait) {
     .container {
         padding-top: 7rem;
@@ -264,7 +255,7 @@
 
     .titleSection {
         top: 25%;
-        left: -4%;
+        left: -5.5%;
         font-size: var(--font-size-xs);
     }
 
@@ -282,7 +273,11 @@
     }
 
     .badgeGrid {
-        padding: 8rem 6rem 5rem 10rem;
+        padding: 1rem 6rem 1rem 10rem;
+    }
+
+    .timelineYear {
+        font-size: var(--font-size-sm);
     }
 
     .timelineYear::before {
@@ -292,8 +287,9 @@
 
 @media (width <= 400px) and (orientation: portrait) {
     .badgeGrid {
-        padding: 4rem 4rem 2rem 8rem;
+        padding: 1rem 4rem 1rem 8rem;
         column-gap: 7rem;
+        row-gap: 4rem;
     }
 }
 
