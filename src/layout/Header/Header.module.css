@@ -112,7 +112,7 @@ li:active {
 /* Media Queries - Landscape */
 @media (width <= 1300px) {
     header {
-        padding: 1.5rem 9rem 0.5rem;
+        padding-inline: 9rem;
     }
 }
 
@@ -148,7 +148,7 @@ li:active {
 
 @media (width <= 800px) {
     header {
-        padding: 1rem 4rem 0.5rem;
+        padding: 0.5rem 4rem;
     }
 
     .logo {

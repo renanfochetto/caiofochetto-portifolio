@@ -15,7 +15,7 @@
     text-align: center;
     background-color: var(--lime-green);
     border-radius: var(--border-radius-base);
-    padding-inline: 4rem;
+    padding-inline: 1rem;
     place-self: center;
 }
 
@@ -38,6 +38,7 @@
     .textBlock {
         margin: 2rem 0;
     }
+
 }
 
 @media (width <= 1000px) {
@@ -78,7 +79,7 @@
 
 @media (width <= 500px) {
     .textBlock h5 {
-        font-size: var(--font-size-xs);
+        font-size: var(--font-size-base);
     }
 
     .textBlock p {

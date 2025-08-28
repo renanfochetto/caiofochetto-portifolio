@@ -107,13 +107,6 @@
 }
 
 /* !*Media Queries - Landscape*! */
-@media (width <= 1300px) {
-    .titleSection {
-        left: 1.5%;
-        width: 8rem;
-    }
-}
-
 @media(width <= 1000px) {
     .titleSection {
         left: -1%;
@@ -157,7 +150,7 @@
 @media(width <= 800px) {
     .titleSection {
         top: 35%;
-        left: -4%;
+        left: -3%;
         font-size: var(--font-size-base);
     }
 
@@ -185,7 +178,6 @@
 @media (width <= 600px) {
     .titleSection {
         top: 35%;
-        left: -6%;
         font-size: var(--font-size-xxs);
     }
 
@@ -211,8 +203,8 @@
 
 @media (width <= 500px) {
     .titleSection {
-        top: 28%;
-        left: -8.5%;
+        top: 40%;
+        left: -5%;
         font-size: var(--font-size-xxxs);
     }
 

@@ -51,7 +51,7 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    margin-bottom: 4rem;
+    margin-bottom: 1rem;
     padding-bottom: 2rem;
     border-bottom: 2px solid var(--black);
 }
@@ -136,12 +136,12 @@
 /* Media Queries - Landscape */
 @media(width <= 1000px) {
     .modalHeader {
-        padding-bottom: 0;
+        padding-bottom: 0.5rem;
     }
 
     .modalHeader img {
         width: 6rem;
-        padding-bottom: 0.5rem;
+        padding-bottom: 2rem;
     }
 
     .techSheet {
@@ -162,9 +162,19 @@
 
 
 @media(width <= 800px) {
+    .titleSection h5 {
+        padding-block: 0;
+    }
+
     .modalHeader {
         margin-bottom: 1rem;
+        padding-bottom: 0;
     }
+
+    .modalHeader img:nth-child(2) {
+        display: none;
+    }
+
 }
 
 @media (width <= 700px) {
@@ -214,10 +224,6 @@
 
     .modalHeader img {
         width: 4rem;
-    }
-
-    .modalHeader img:nth-child(2) {
-        display: none;
     }
 
     .titleSection h5 {

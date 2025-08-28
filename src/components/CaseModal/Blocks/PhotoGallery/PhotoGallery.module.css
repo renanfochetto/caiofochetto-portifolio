@@ -594,10 +594,29 @@
 
 
 /* Media Queries - Landscape */
+@media (width <= 1000px) {
+    .layout--gridRow img:nth-child(9) {
+        display: none;
+    }
+
+    .layout--gridRow2 img:nth-child(11) {
+        display: none;
+    }
+}
+
 @media (width <= 800px) {
     .description {
         font-size: var(--font-size-xxs);
     }
+
+    .layout--gridFluid4 {
+        margin-bottom: 2rem;
+    }
+
+    .layout--gridFluid6 {
+        margin-bottom: 2rem;
+    }
+
 }
 
 @media (width <= 600px) {

@@ -78,11 +78,6 @@
 
 /* Media Queries - Landscape */
 @media (width <= 1300px) {
-    .titleSection {
-        left: 1.5%;
-        width: 8rem;
-    }
-
     .badgeGrid {
         column-gap: 10rem;
         padding: 10rem 16rem 2rem;
@@ -135,7 +130,7 @@
 
     .titleSection {
         top: 35%;
-        left: -4%;
+        left: -3%;
         font-size: var(--font-size-base);
     }
 
@@ -163,7 +158,7 @@
 
     .titleSection {
         top: 35%;
-        left: -6%;
+        left: -5%;
         font-size: var(--font-size-xxs);
     }
 
@@ -179,8 +174,7 @@
     }
 
     .titleSection {
-        top: 18%;
-        left: -8.5%;
+        top: 40%;
         font-size: var(--font-size-xxxs);
     }
 

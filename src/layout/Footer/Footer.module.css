@@ -38,7 +38,7 @@ footer p a {
     outline-offset: 0.4rem;
 }
 
-p:hover {
+footer p:hover {
     transform: scale(1.03);
     transition: transform 0.2s;
     text-decoration: underline;
@@ -46,7 +46,7 @@ p:hover {
     text-underline-offset: 0.5rem;
 }
 
-p:active {
+footer p:active {
     transform: scale(0.90);
     transition: transform 0.2s;
 }
