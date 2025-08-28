@@ -1,13 +1,17 @@
 import styles from './Socials.module.css';
 import { useLocalizedContent } from '../../hooks/useLocalizedContent.ts';
 import Link from '../../components/Link/Link.tsx';
+import {useEffect, useState} from 'react';
 
 const links = [
   {
     name: 'LINKEDIN',
     icon: '/icons/linkedin.svg',
     href: 'https://www.linkedin.com/in/caiofochetto/',
-    preview: '/socials/linkedin-mobile.avif'
+    preview: {
+      desktop: '/socials/linkedin-desktop.avif',
+      mobile: '/socials/linkedin-mobile.avif'
+    }
   },
   {
     name: 'YOUTUBE',
@@ -20,24 +24,68 @@ const links = [
   }
 ];
 
-// ✅ Detecta se deve usar imagem mobile
-const shouldUseMobileImage = (): boolean => {
-  return window.matchMedia('(max-width: 500px)').matches
-  || window.matchMedia('(orientation: portrait)').matches;
+const getPreviewSrc = (link: typeof links[number], type: 'mobile' | 'desktop' | 'mixed') => {
+  if (type === 'mobile') return link.preview.mobile;
+  if (type === 'desktop') return link.preview.desktop;
+
+  // mixed
+  return link.name === 'YOUTUBE' ? link.preview.desktop : link.preview.mobile;
 };
 
-// ✅ Retorna a classe correta com base no nome e contexto
-const getImageClass = (name: string, isMobile: boolean = false): string => {
-  if (name === 'LINKEDIN') return styles.linkedin;
-  if (name === 'YOUTUBE') return isMobile ? styles.youtubeMobile : styles.youtube;
+const getImageClass = (linkName: string, type: 'mobile' | 'desktop' | 'mixed') => {
+  if (type === 'mixed') {
+    if (linkName === 'LINKEDIN') return styles.linkedinMobile;
+    if (linkName === 'YOUTUBE') return styles.youtubeDesktop;
+  }
+
+  if (type === 'mobile') {
+    if (linkName === 'LINKEDIN') return styles.linkedinMobile;
+    if (linkName === 'YOUTUBE') return styles.youtubeMobile;
+  }
+
+  if (type === 'desktop') {
+    if (linkName === 'LINKEDIN') return styles.linkedinDesktop;
+    if (linkName === 'YOUTUBE') return styles.youtubeDesktop;
+  }
+
   return '';
 };
 
-const Socials = () => {
-  const content = useLocalizedContent();
-  const isMobile = shouldUseMobileImage();
+const usePreviewType = () => {
+  const [previewType, setPreviewType] = useState<'mobile' | 'desktop' | 'mixed' | null>(null);
 
-  if (!content) return null;
+  useEffect(() => {
+    const calcType = () => {
+      const isPortrait = window.matchMedia('(orientation: portrait)').matches;
+      const isSmallScreen = window.matchMedia('(max-width: 500px)').matches;
+      const isLargeScreen = window.matchMedia('(min-width: 1800px)').matches;
+
+      if (isPortrait || isSmallScreen) return 'mobile';
+      if (isLargeScreen) return 'desktop';
+      return 'mixed';
+    };
+
+    setPreviewType(calcType());
+
+    // opcional: reagir a resize
+    const onResize = () => setPreviewType(calcType());
+    window.addEventListener('resize', onResize);
+    window.addEventListener('orientationchange', onResize);
+
+    return () => {
+      window.removeEventListener('resize', onResize);
+      window.removeEventListener('orientationchange', onResize);
+    };
+  }, []);
+
+  return previewType;
+};
+
+export const Socials = () => {
+  const content = useLocalizedContent();
+  const previewType = usePreviewType();
+
+  if(!content || !previewType) return null;
 
   return (
     <section id="social" className={styles.container}>
@@ -57,30 +105,16 @@ const Socials = () => {
                 <span>{link.name}</span>
               </Link>
             </div>
-            {typeof link.preview === 'string' ? (
-              <img
-                src={link.preview}
-                className={`${styles.previewImage} ${getImageClass(link.name, isMobile)}`}
-                alt={`Preview do perfil de Caio Fochetto no ${link.name}`}
-                onClick={() => window.open(link.href, '_blank')}
-                style={{ cursor: 'pointer' }}
-              />
-            ) : (
-              <picture onClick={() => window.open(link.href, '_blank')} style={{ cursor: 'pointer' }}>
-                <source media="(max-width: 500px)" srcSet={link.preview.mobile} />
-                <source media="(orientation: portrait)" srcSet={link.preview.mobile} />
-                <img
-                  src={link.preview.desktop}
-                  className={`${styles.previewImage} ${getImageClass(link.name, isMobile)}`}
-                  alt={`Preview do perfil de Caio Fochetto no ${link.name}`}
-                />
-              </picture>
-            )}
+            <img
+              src={getPreviewSrc(link, previewType)}
+              className={`${styles.previewImage} ${getImageClass(link.name, previewType)}`}
+              alt={`Preview do perfil de Caio Fochetto no ${link.name}`}
+              onClick={() => window.open(link.href, '_blank')}
+              style={{ cursor: 'pointer' }}
+            />
           </div>
         ))}
       </div>
     </section>
   );
 };
-
-export default Socials;

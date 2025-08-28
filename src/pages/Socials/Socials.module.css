@@ -81,13 +81,13 @@
     transition: transform 0.2s;
 }
 
-.linkedin {
+.linkedinDesktop {
     height: 25rem;
-    aspect-ratio: 468/1121;
-    object-fit: contain;
+    aspect-ratio: 1396/1123;
+    object-fit: cover;
 }
 
-.youtube {
+.youtubeDesktop {
     height: 25rem;
     aspect-ratio: 1396/1123;
     object-fit: cover;
@@ -129,11 +129,11 @@
         gap: 3rem;
     }
 
-    .linkedin {
+    .linkedinDesktop {
         height: 20rem;
     }
 
-    .youtube {
+    .youtubeDesktop {
         height: 20rem;
     }
 
@@ -163,11 +163,11 @@
         gap: 2rem;
     }
 
-    .linkedin {
+    .linkedinDesktop {
         height: 14rem;
     }
 
-    .youtube {
+    .youtubeDesktop {
         height: 14rem;
     }
 
@@ -221,11 +221,11 @@
         font-size: var(--font-size-xxxl);
     }
 
-    .linkedin {
+    .linkedinDesktop {
         height: 11rem;
     }
 
-    .youtube {
+    .youtubeDesktop {
         height: 11rem;
     }
 
@@ -274,11 +274,15 @@
         gap: 0.5rem;
     }
 
-    .linkedin {
+    .linkedinDesktop {
         height: 42rem;
     }
 
-    .youtube {
+    .youtubeDesktop {
+        height: 42rem;
+    }
+
+    .linkedinMobile {
         height: 42rem;
     }
 
@@ -300,11 +304,15 @@
         column-gap: 3rem;
     }
 
-    .linkedin {
+    .linkedinDesktop {
         height: 32rem;
     }
 
-    .youtube {
+    .youtubeDesktop {
+        height: 32rem;
+    }
+
+    .linkedinMobile {
         height: 32rem;
     }
 
@@ -314,11 +322,15 @@
 }
 
 @media (width <= 700px) and (orientation: portrait) {
-    .linkedin {
+    .linkedinDesktop {
         height: 28rem;
     }
 
-    .youtube {
+    .youtubeDesktop {
+        height: 28rem;
+    }
+
+    .linkedinMobile {
         height: 28rem;
     }
 
@@ -340,11 +352,15 @@
         padding: 0.001rem;
     }
 
-    .linkedin {
+    .linkedinDesktop {
         height: 22rem;
     }
 
-    .youtube {
+    .youtubeDesktop {
+        height: 22rem;
+    }
+
+    .linkedinMobile {
         height: 22rem;
     }
 
@@ -367,11 +383,15 @@
         gap: 1rem;
     }
 
-    .linkedin {
+    .linkedinDesktop {
         height: 15rem;
     }
 
-    .youtube {
+    .youtubeDesktop {
+        height: 15rem;
+    }
+
+    .linkedinMobile {
         height: 15rem;
     }
 
