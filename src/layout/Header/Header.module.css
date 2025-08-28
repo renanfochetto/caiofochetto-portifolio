@@ -15,6 +15,7 @@ header {
     backdrop-filter: blur(8px);
 }
 
+
 .logoLink {
     display: flex;
     flex-direction: column;
