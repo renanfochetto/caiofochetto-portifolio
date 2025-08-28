@@ -22,13 +22,13 @@ header {
 }
 
 .logoLink h1:first-child {
-    padding: 0 0.5rem;
+    padding: 0.2rem 0.8rem 0;
     border-radius: var(--border-radius-small) var(--border-radius-small) 0 0;
 }
 
 .logoLink h1:last-child {
     margin-top: -0.1rem;
-    padding: 0 0.5rem;
+    padding: 0 0.8rem 0.2rem;
     border-radius: 0 var(--border-radius-small) var(--border-radius-small) var(--border-radius-small);
 }
 
@@ -72,13 +72,23 @@ a {
     text-decoration: none;
 }
 
+
 .linksNav:hover {
     text-decoration: underline;
-    text-decoration-thickness: 0.15rem;
+    text-decoration-thickness: 0.2rem;
     text-underline-offset: 0.2rem;
 }
 
-.li:active {
+li {
+    display: block;
+}
+
+li:hover {
+    transform: scale(1.02);
+    transition: transform 0.2s;
+}
+
+li:active {
     transform: scale(0.95);
     transition: transform 0.2s;
 }
@@ -88,8 +98,9 @@ a {
 }
 
 .logoLink:hover {
-    text-decoration: none;
-    transform: scale(1.03);
+    text-decoration: underline;
+    text-underline-offset: 0.2rem;
+    transform: scale(1.02);
     transition: transform 0.3s;
 }
 

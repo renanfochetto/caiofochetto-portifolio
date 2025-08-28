@@ -8,8 +8,12 @@
 .selected:hover, .option:hover {
     text-decoration: underline;
     cursor: pointer;
-    text-underline-offset: 0.3rem;
+    text-underline-offset: 0.25rem;
     text-decoration-thickness: 0.15rem;
+}
+
+.option:hover {
+    background-color: var(--lime-green);
 }
 
 .option:active {
@@ -44,8 +48,9 @@
 .option {
     text-align: left;
     cursor: pointer;
-    padding-block: 0.12rem;
+    padding: 0.12rem 0.2rem;
     transition: background 0.2s ease;
+    border-radius: var(--border-radius-small);
 }
 
 @media (width <= 1000px) {
