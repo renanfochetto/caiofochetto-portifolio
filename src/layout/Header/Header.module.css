@@ -6,10 +6,30 @@ header {
     display: grid;
     gap: 1rem;
     grid-template-columns: 1fr 1fr 1fr;
-    background-color: var(--background);
-    padding: 1.5rem 12.5rem 0.5rem;
+    align-items: center;
+    background: linear-gradient(to bottom, rgba(255,255,255,0.4), rgba(255,255,255,0));
+    backdrop-filter: blur(8px);
+    padding: 1rem 12.5rem;
     z-index: 100;
-    text-shadow: var(--shadow-regular);
+    border-bottom: 2px solid var(--black);
+    box-shadow: 0 10px 20px -10px rgba(0, 0, 0, 0.3);
+}
+
+.logoLink {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.logoLink h1:first-child {
+    border-radius: var(--border-radius-small) var(--border-radius-small) 0 0;
+    padding: 0 0.5rem 0;
+}
+
+.logoLink h1:last-child {
+    border-radius: 0 var(--border-radius-small) var(--border-radius-small) var(--border-radius-small);
+    padding: 0 0.5rem 0;
+    margin-top: -0.1rem;
 }
 
 .logo {
@@ -17,7 +37,15 @@ header {
     grid-row: 1 / 3;
     text-align: left;
     font-size: var(--font-size-lg);
+    background: #a8eb0f;
+    display: inline-block;
+    border-radius: var(--border-radius-base);
 }
+
+.selector {
+    align-self: start;
+}
+
 
 ul {
     grid-column: 3 / 3;
@@ -28,8 +56,15 @@ ul {
     font-weight: var(--font-weight-bold);
 }
 
+
 nav li:nth-child(2) {
     padding: 0.2rem 0;
+}
+
+nav ul li a {
+    background: var(--lime-green);
+    padding: 0.15rem 0.3rem;
+    border-radius: var(--border-radius-small);
 }
 
 a {
@@ -40,7 +75,7 @@ a {
 .linksNav:hover {
     text-decoration: underline;
     text-decoration-thickness: 0.15rem;
-    text-underline-offset: 0.5rem;
+    text-underline-offset: 0.2rem;
 }
 
 .li:active {
@@ -56,7 +91,6 @@ a {
     transform: scale(1.03);
     transition: transform 0.3s;
     text-decoration: none;
-    text-shadow: var(--shadow-regular-hover);
 }
 
 .logoLink:active {

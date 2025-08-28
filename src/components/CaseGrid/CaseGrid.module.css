@@ -1,8 +1,8 @@
 .caseGrid {
     display: grid;
-    gap: 2rem;
+    gap: 1rem;
     height: auto;
-    padding: 1.5rem 12.5rem 0;
+    padding:1rem 12.5rem 0;
     --column-width: 24rem;
 }
 

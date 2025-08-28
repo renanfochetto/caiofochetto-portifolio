@@ -12,10 +12,11 @@
     position: absolute;
     transform: rotate(-90deg);
     top: 32%;
-    left: 2%;
+    left: 1%;
     font-size: var(--font-size-sm);
-    text-shadow: var(--shadow-regular);
-    width: 10rem;
+    background: #a8eb0f;
+    padding: 0.8rem;
+    border-radius: var(--border-radius-small);
 }
 
 .scrollWrapper {
@@ -31,7 +32,7 @@
     grid-template-columns: repeat(9, 1fr);
     column-gap: 10rem;
     row-gap: 2rem;
-    padding: 8rem 20rem 2rem;
+    padding: 8rem 18rem 2rem;
     margin: auto 0;
 }
 
@@ -56,7 +57,12 @@
     font-size: var(--font-size-sm);
     position: relative;
     text-align: center;
-    text-shadow: var(--shadow-regular);
+    background-color: var(--lime-green);
+    width: fit-content;
+    place-self: center;
+    padding: 0.2rem 0.5rem;
+    border-radius: var(--border-radius-base);
+    display: inline-block;
 }
 
 .timelineYear::before {

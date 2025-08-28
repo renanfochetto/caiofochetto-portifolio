@@ -42,8 +42,8 @@
     position: absolute;
     bottom: 1.6rem;
     left: -1px;
-    background-color: var(--pink);
-    color: var(--white);
+    background-color: var(--lime-green);
+    color: var(--black);
     font-size: var(--font-size-sm);
     padding: 0.2rem 1rem;
     border: 1px solid var(--black);

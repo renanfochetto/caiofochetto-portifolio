@@ -7,7 +7,7 @@
     font-family: var(--font-mono), monospace;
     display: inline-block;
     width: auto;
-    border: 2px solid var(--pink);
+    border: 2px solid var(--lime-green);
     white-space: nowrap;
     max-width: max-content;
     box-shadow: var(--shadow-base);
@@ -26,8 +26,9 @@
 }
 
 .active {
-    background-color: var(--pink);
-    border: 2px solid var(--white);
+    background-color: var(--lime-green);
+    border: 2px solid var(--black);
+    color: var(--black);
 }
 
 /*Media Queries - Landscape*/

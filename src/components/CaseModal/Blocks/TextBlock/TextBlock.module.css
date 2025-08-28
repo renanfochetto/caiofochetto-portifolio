@@ -12,11 +12,16 @@
     font-weight: var(--font-weight-bold);
     text-align: center;
     padding-inline: 4rem;
+    background-color: var(--lime-green);
+    width: fit-content;
+    place-self: center;
+    border-radius: var(--border-radius-base);
+    display: inline-block;
 }
 
 .textBlock p {
     font-weight: var(--font-weight-regular);
-    background-color: var(--background);
+    background-color: var(--white);
     font-size: var(--font-size-xs);
     text-indent: 2rem;
     box-shadow: none;

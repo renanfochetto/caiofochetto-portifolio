@@ -10,6 +10,7 @@ import {Footer} from './layout/Footer/Footer.tsx';
 function App() {
   return (
     <LanguageProvider>
+      <div className="background-layer"/>
       <Header/>
       <Home/>
       <Career/>

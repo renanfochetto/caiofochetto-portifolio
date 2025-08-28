@@ -7,7 +7,7 @@
 
 .quoteBlock p {
     font-weight: var(--font-weight-regular);
-    background-color: var(--background);
+    background-color: var(--white);
     font-size: var(--font-size-xs);
     box-shadow: none;
     text-indent: 2rem;

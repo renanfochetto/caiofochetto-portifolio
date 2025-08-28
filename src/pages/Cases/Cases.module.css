@@ -22,10 +22,11 @@
     position: absolute;
     transform: rotate(-90deg);
     top: 32%;
-    left: 2%;
+    left: 1%;
     font-size: var(--font-size-sm);
-    text-shadow: var(--shadow-regular);
-    width: 10rem;
+    background: #a8eb0f;
+    padding: 0.8rem;
+    border-radius: var(--border-radius-small);
 }
 
 .casesGrid {

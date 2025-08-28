@@ -17,7 +17,8 @@ const Header = () => {
   return (
     <header className={styles.header}>
       <a href="#home" className={styles.logoLink}>
-        <h1 className={styles.logo}>CAIO <br />FOCHETTO</h1>
+        <h1 className={styles.logo}>CAIO</h1>
+        <h1 className={styles.logo}>FOCHETTO</h1>
       </a>
       <LanguageSelector />
       <nav>

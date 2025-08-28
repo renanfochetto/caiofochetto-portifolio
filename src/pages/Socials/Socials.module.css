@@ -11,10 +11,11 @@
     position: absolute;
     transform: rotate(-90deg);
     top: 32%;
-    left: 2%;
+    left: 1%;
     font-size: var(--font-size-sm);
-    text-shadow: var(--shadow-regular);
-    width: 10rem;
+    background: #a8eb0f;
+    padding: 0.8rem;
+    border-radius: var(--border-radius-small);
 }
 
 .socialsGrid {
@@ -92,6 +93,12 @@
     object-fit: cover;
 }
 
+.linkedinMobile {
+    height: 25rem;
+    aspect-ratio: 468 / 1121;
+    object-fit: contain;
+}
+
 .youtubeMobile {
     height: 25rem;
     aspect-ratio: 468 / 1121;
@@ -122,7 +129,15 @@
         gap: 3rem;
     }
 
+    .linkedin {
+        height: 20rem;
+    }
+
     .youtube {
+        height: 20rem;
+    }
+
+    .linkedinMobile {
         height: 20rem;
     }
 
@@ -130,9 +145,6 @@
         height: 20rem;
     }
 
-    .linkedin {
-        height: 20rem;
-    }
 
     .header a {
         width: 2.2rem;
@@ -156,6 +168,10 @@
     }
 
     .youtube {
+        height: 14rem;
+    }
+
+    .linkedinMobile {
         height: 14rem;
     }
 
@@ -212,14 +228,15 @@
     .youtube {
         height: 11rem;
     }
-    .youtubeMobile {
+
+    .linkedinMobile {
         height: 11rem;
     }
 
-
-
+    .youtubeMobile {
+        height: 11rem;
+    }
 }
-
 
 /*Media Queries - Portrait*/
 @media (width <= 1100px) and (orientation: portrait) {

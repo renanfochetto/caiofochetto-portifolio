@@ -2,7 +2,7 @@
     display: flex;
     flex-wrap: wrap;
     gap: 1rem;
-    margin: 0.1rem 0 0.3rem 12.5rem;
+    margin: 2rem 0 0.3rem 12.5rem;
 }
 
 .tagWrapper {
