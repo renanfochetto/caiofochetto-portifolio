@@ -1,6 +1,6 @@
-@import './styles/reset.css';
-@import './config/borders.css';
-@import './config/colors.css';
-@import './config/fonts.css';
-@import './config/media.css';
+@import url('./styles/reset.css');
+@import url('./config/borders.css');
+@import url('./config/colors.css');
+@import url('./config/fonts.css');
+@import url('./config/media.css');
 

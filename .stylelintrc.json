@@ -1,0 +1,21 @@
+{
+  "extends": [
+    "stylelint-config-standard",
+    "stylelint-config-rational-order"
+  ],
+  "plugins": [
+    "stylelint-order"
+  ],
+  "rules": {
+    "order/properties-order": [],
+    "color-no-invalid-hex": true,
+    "declaration-no-important": true,
+    "property-no-unknown": true,
+    "selector-pseudo-class-no-unknown": true,
+    "declaration-block-no-duplicate-properties": true,
+    "no-descending-specificity": true,
+    "selector-max-type": 1,
+    "media-feature-name-no-unknown": true,
+    "selector-class-pattern": [".*", {}]
+  }
+}

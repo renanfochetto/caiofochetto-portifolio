@@ -1,42 +1,43 @@
 .scrollWrapper {
     position: relative;
+    z-index: 1;
     width: 100vw;
     height: 100vh;
     overflow: hidden;
-    z-index: 1;
 }
 
 .container {
+    z-index: 2;
     display: flex;
-    height: auto;
     flex-direction: column;
     justify-content: space-around;
     width: 100%;
+    height: auto;
     min-height: 100vh;
     transform: translateX(0);
-    z-index: 2;
     will-change: transform;
 }
 
 .titleSection {
     position: absolute;
-    transform: rotate(-90deg);
     top: 32%;
     left: 1%;
+    padding: 0.8rem;
     font-size: var(--font-size-sm);
     background: #a8eb0f;
-    padding: 0.8rem;
     border-radius: var(--border-radius-small);
+    transform: rotate(-90deg);
 }
 
 .casesGrid {
+    display: block;
+
     /* Make the flex item expand to fit its grid contents horizontally */
     width: max-content;
-    display: block;
     padding: 8rem 8rem 2rem;
 }
 
-/*Media Queries - Landscape*/
+/* Media Queries - Landscape */
 @media (width <= 1300px) {
     .titleSection {
         left: 1.5%;
@@ -91,7 +92,7 @@
     }
 }
 
-/*Media Queries - Portrait*/
+/* Media Queries - Portrait */
 @media (width <= 1100px) and (orientation: portrait) {
     .container {
         width: 100vw;
@@ -99,9 +100,9 @@
     }
 
     .titleSection {
-        font-size: var(--font-size-md);
         top: 25%;
         left: -1.5%;
+        font-size: var(--font-size-md);
     }
 }
 

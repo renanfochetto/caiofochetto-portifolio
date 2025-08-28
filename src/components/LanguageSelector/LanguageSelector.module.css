@@ -1,13 +1,13 @@
 .selector {
     position: relative;
+    align-self: start;
     width: 7rem;
     font-size: var(--font-size-base);
-    align-self: start;
 }
 
 .selected:hover, .option:hover {
-    cursor: pointer;
     text-decoration: underline;
+    cursor: pointer;
     text-underline-offset: 0.3rem;
     text-decoration-thickness: 0.15rem;
 }
@@ -18,12 +18,12 @@
 }
 
 .selected {
-    background-color: transparent;
-    color: var(--black);
-    cursor: pointer;
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: space-between;
+    color: var(--black);
+    background-color: transparent;
+    cursor: pointer;
 }
 
 .selected img {
@@ -36,9 +36,9 @@
     position: absolute;
     top: 1.8rem;
     left:0;
-    list-style: none;
     z-index: 10;
     font-size: var(--font-size-base);
+    list-style: none;
 }
 
 .option {
@@ -50,8 +50,8 @@
 
 @media (width <= 1000px) {
     .selector {
-        font-size: var(--font-size-xxs);
         width: 6rem;
+        font-size: var(--font-size-xxs);
     }
 
     .option {
@@ -67,8 +67,8 @@
 
 @media (width <= 800px) {
     .selector {
-        font-size: var(--font-size-xxxs);
         width: 5rem;
+        font-size: var(--font-size-xxxs);
     }
 
     .selected img {
@@ -93,8 +93,8 @@
 
 @media (width <= 600px) {
     .selector {
-        font-size: var(--font-size-xxl);
         width: 4.5rem;
+        font-size: var(--font-size-xxl);
     }
 
     .option {

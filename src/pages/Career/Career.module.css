@@ -1,83 +1,82 @@
 .container {
+    z-index: 2;
     display: flex;
     width: 100%;
     height: auto;
     min-height: 100vh;
     transform: translateX(0);
     will-change: transform;
-    z-index: 2;
 }
 
 .titleSection {
     position: absolute;
-    transform: rotate(-90deg);
     top: 32%;
     left: 1%;
+    padding: 0.8rem;
     font-size: var(--font-size-sm);
     background: #a8eb0f;
-    padding: 0.8rem;
     border-radius: var(--border-radius-small);
+    transform: rotate(-90deg);
 }
 
 .scrollWrapper {
     position: relative;
+    z-index: 1;
     width: 100vw;
     height: 100vh;
-    z-index: 1;
 
 }
 
 .badgeGrid {
     display: grid;
     grid-template-columns: repeat(9, 1fr);
-    column-gap: 10rem;
-    row-gap: 2rem;
-    padding: 8rem 18rem 2rem;
     margin: auto 0;
+    padding: 8rem 18rem 2rem;
+    gap: 2rem 10rem;
 }
 
 .timeline {
-    grid-column: 1 / -1;
-    display: grid;
-    grid-template-columns: inherit;
     position: relative;
+    display: grid;
+    grid-column: 1 / -1;
+    grid-template-columns: inherit;
 }
 
 .timeline::before {
-    content: "";
     position: absolute;
     top: 0; /* topo do wrapper */
-    left: 0;
     right: 0;
+    left: 0;
     height: 2px;
     background: var(--black);
+    content: "";
 }
 
 .timelineYear {
-    font-size: var(--font-size-sm);
     position: relative;
+    display: inline-block;
+    width: fit-content;
+    padding: 0.2rem 0.5rem;
+    font-size: var(--font-size-sm);
     text-align: center;
     background-color: var(--lime-green);
-    width: fit-content;
-    place-self: center;
-    padding: 0.2rem 0.5rem;
     border-radius: var(--border-radius-base);
-    display: inline-block;
+    place-self: center;
 }
 
 .timelineYear::before {
-    content: "";
     position: absolute;
     top: -6.5rem; /* deve bater com o padding-top do wrapper */
     left: 50%;
-    transform: translateX(-50%);
+    z-index: 1; /* idem: mesmo valor do padding-top */
     width: 2px;
     height: 6.2rem;
-    z-index: 1; /* idem: mesmo valor do padding-top */
     background: var(--black);
+    transform: translateX(-50%);
+    content: "";
 }
 
-/*Media Queries - Landscape*/
+/* Media Queries - Landscape */
 @media (width <= 1300px) {
     .titleSection {
         left: 1.5%;
@@ -85,8 +84,8 @@
     }
 
     .badgeGrid {
+        column-gap: 10rem;
         padding: 10rem 16rem 2rem;
-        grid-column-gap: 10rem;
     }
 }
 
@@ -101,8 +100,8 @@
     }
 
     .badgeGrid {
+        column-gap: 8rem;
         padding: 4rem 8rem 2rem 12rem;
-        grid-column-gap: 8rem;
     }
 
     .timelineYear {
@@ -124,8 +123,8 @@
     }
 
     .timelineYear::before {
-        height: 10rem;
         top: -10.5rem;
+        height: 10rem;
     }
 }
 
@@ -141,7 +140,7 @@
     }
 
     .badgeGrid {
-        grid-column-gap: 6rem;
+        column-gap: 6rem;
         padding: 3rem 8rem 2rem 12rem;
     }
 }
@@ -169,7 +168,7 @@
     }
 
     .badgeGrid {
-        grid-column-gap: 6rem;
+        column-gap: 6rem;
         padding: 4rem 10rem 1rem;
     }
 }
@@ -199,7 +198,7 @@
     }
 }
 
-/*Media Queries - Portrait*/
+/* Media Queries - Portrait */
 @media (width <= 1100px) and (orientation: portrait) {
     .container {
         width: 100vw;
@@ -207,14 +206,14 @@
     }
 
     .titleSection {
-        font-size: var(--font-size-md);
         top: 25%;
         left: -1.5%;
+        font-size: var(--font-size-md);
     }
 
     .badgeGrid {
+        column-gap: 16rem;
         padding: 16rem 18rem 8rem;
-        grid-column-gap: 16rem;
         row-gap: 6rem;
     }
 
@@ -233,7 +232,7 @@
 
 @media (width <= 1000px) and (orientation: portrait) {
     .badgeGrid {
-        padding: 8rem 18rem 8rem;
+        padding: 8rem 18rem;
     }
 }
 
@@ -249,7 +248,7 @@
     }
 
     .badgeGrid {
-        grid-column-gap: 10rem;
+        column-gap: 10rem;
         padding-right: 10rem;
     }
 }
@@ -266,7 +265,7 @@
     }
 
     .badgeGrid {
-        grid-column-gap: 9rem;
+        column-gap: 9rem;
         padding:6rem 8rem 2rem 10rem;
     }
 }
@@ -294,8 +293,7 @@
 @media (width <= 400px) and (orientation: portrait) {
     .badgeGrid {
         padding: 1rem 4rem 1rem 8rem;
-        column-gap: 7rem;
-        row-gap: 4rem;
+        gap: 4rem 7rem;
     }
 }
 

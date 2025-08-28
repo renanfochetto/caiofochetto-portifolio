@@ -1,9 +1,9 @@
 .description {
-    text-align: left;
     padding-top: 2rem;
     font-size: var(--font-size-base);
     font-family: var(--font-mono), monospace;
     font-style: italic;
+    text-align: left;
 }
 
 .layout--single {
@@ -21,8 +21,8 @@
 
 .layout--banner {
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
     width: 100%;
     overflow: hidden;
 }
@@ -40,8 +40,8 @@
 }
 
 .layout--flexFluid img {
-    object-fit: cover;
     display: block;
+    object-fit: cover;
 }
 
 .layout--flexFluid img:nth-child(1) {
@@ -120,15 +120,14 @@
 
 .layout--flexRow {
     display: flex;
-    flex-wrap: nowrap;
-    flex-direction: column;
+    flex-flow: column nowrap;
     gap: 2rem;
-    width: 100%;
-    max-width: 100vw;
-    overflow-x: hidden;
     align-items: center;
     justify-content: space-between;
+    width: 100%;
+    max-width: 100vw;
     margin: 2rem 0;
+    overflow-x: hidden;
 }
 
 .layout--flexRow img {
@@ -145,8 +144,8 @@
 }
 
 .layout--gridFluid img {
-    height: 100%;
     display: block;
+    height: 100%;
 }
 
 .layout--gridFluid img:nth-child(1) {
@@ -237,8 +236,8 @@
 }
 
 .layout--gridFluid2 img {
-    height: 100%;
     display: block;
+    height: 100%;
 }
 
 .layout--gridFluid2 img:nth-child(1) {
@@ -337,8 +336,8 @@
 }
 
 .layout--gridFluid3 img {
-    height: 100%;
     display: block;
+    height: 100%;
 }
 
 .layout--gridFluid3 img:nth-child(1) {
@@ -420,8 +419,8 @@
 }
 
 .layout--gridFluid4 img {
-    height: 100%;
     display: block;
+    height: 100%;
 }
 
 .layout--gridFluid4 img:nth-child(1) {
@@ -443,10 +442,10 @@
 .layout--gridRow {
     display: flex;
     flex-wrap: nowrap;
-    width: 100%;
+    gap: 0.5rem;
     align-items: center;
     justify-content: space-between;
-    gap: 0.5rem
+    width: 100%
 }
 
 .layout--gridRow img {
@@ -457,10 +456,10 @@
 .layout--gridRow2 {
     display: flex;
     flex-wrap: nowrap;
-    width: 100%;
+    gap: 0.25rem;
     align-items: center;
     justify-content: space-between;
-    gap: 0.25rem
+    width: 100%
 }
 
 .layout--gridRow2 img {
@@ -471,10 +470,10 @@
 .layout--gridRow3 {
     display: flex;
     flex-wrap: nowrap;
-    width: 100%;
+    gap: 0.3rem;
     align-items: center;
     justify-content: space-between;
-    gap: 0.3rem
+    width: 100%
 }
 
 .layout--gridRow3 img {
@@ -489,8 +488,8 @@
 }
 
 .layout--gridFluid5 img {
-    height: 100%;
     display: block;
+    height: 100%;
 }
 
 .layout--gridFluid5 img:nth-child(1) {
@@ -525,8 +524,8 @@
 }
 
 .layout--gridFluid6 img {
-    height: 100%;
     display: block;
+    height: 100%;
 }
 
 .layout--gridFluid6 img:nth-child(1) {
@@ -594,7 +593,7 @@
 }
 
 
-/*Media Queries - Landscape*/
+/* Media Queries - Landscape */
 @media (width <= 800px) {
     .description {
         font-size: var(--font-size-xxs);
@@ -638,7 +637,7 @@
 }
 
 
-/*Media Queries - Portrait*/
+/* Media Queries - Portrait */
 
 @media (width <= 900px) and (orientation: portrait) {
     .layout--gridRow img:last-child {

@@ -1,22 +1,22 @@
 .tag {
-    border-radius: var(--border-radius-base);
-    padding: 0.08rem 0.3rem;
-    font-size: var(--font-size-xxs);
-    color: var(--white);
-    font-weight: var(--font-weight-semibold);
-    font-family: var(--font-mono), monospace;
     display: inline-block;
     width: auto;
-    border: 2px solid var(--lime-green);
-    white-space: nowrap;
     max-width: max-content;
-    box-shadow: var(--shadow-base);
+    padding: 0.08rem 0.3rem;
+    color: var(--white);
+    font-weight: var(--font-weight-semibold);
+    font-size: var(--font-size-xxs);
+    font-family: var(--font-mono), monospace;
+    white-space: nowrap;
     background-color: var(--black);
+    border: 2px solid var(--lime-green);
+    border-radius: var(--border-radius-base);
+    box-shadow: var(--shadow-base);
 }
 
 .tag:hover {
-    cursor: pointer;
     border: 2px solid var(--white);
+    cursor: pointer;
     transition: transform 0.2s ease-in-out;
 }
 
@@ -26,27 +26,27 @@
 }
 
 .active {
+    color: var(--black);
     background-color: var(--lime-green);
     border: 2px solid var(--black);
-    color: var(--black);
 }
 
-/*Media Queries - Landscape*/
+/* Media Queries - Landscape */
 @media (width <= 900px) {
     .tag {
-        font-size: var(--font-size-xxxs);
         padding: 0.06rem 0.25rem;
+        font-size: var(--font-size-xxxs);
     }
 }
 
 @media (width <= 800px) {
     .tag {
-        font-size: var(--font-size-xxl);
         padding: 0.05rem 0.2rem;
+        font-size: var(--font-size-xxl);
     }
 }
 
-/*Media Queries - Portrait*/
+/* Media Queries - Portrait */
 @media (width <= 1100) and (orientation: portrait) {
     .tag {
         padding: 0.08rem 0.3rem;

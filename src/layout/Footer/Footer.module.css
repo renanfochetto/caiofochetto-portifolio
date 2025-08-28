@@ -4,27 +4,27 @@ section {
 
 footer {
     z-index: 1;
-    background-color: var(--black);
-    color: var(--white);
-    padding: 1.5rem 12.5rem 1.5rem;
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 12.5rem;
+    color: var(--white);
+    background-color: var(--black);
 }
 
 footer h4 {
-    font-size: var(--font-size-md);
     font-weight: var(--font-weight-bold);
+    font-size: var(--font-size-md);
     line-height: 1.2;
 }
 
 footer p a {
     color: var(--white);
-    text-decoration: none;
     font-weight: var(--font-weight-regular);
-    cursor: pointer;
-    font-family: var(--font-mono), monospace;
     font-size: var(--font-size-base);
+    font-family: var(--font-mono), monospace;
+    text-decoration: none;
+    cursor: pointer;
 }
 
 .footerLinks a {
@@ -49,11 +49,12 @@ p:active {
     transition: transform 0.2s;
 }
 
-/*Media Queries - Landscape*/
+/* Media Queries - Landscape */
 @media (width <= 1300px) {
     footer {
         padding: 1.5rem 9rem;
     }
+
     footer h4 {
         margin-right: 2rem;
     }
@@ -61,8 +62,8 @@ p:active {
 
 @media (width <= 1000px) {
     footer {
-        padding: 1.5rem 6rem;
         margin-top: 0;
+        padding: 1.5rem 6rem;
     }
 
     .footerLinks a {
@@ -152,7 +153,7 @@ p:active {
 }
 
 
-/*Media Queries - Portrait*/
+/* Media Queries - Portrait */
 @media (width <= 900px) {
     footer {
         padding: 1rem 4rem;
@@ -197,7 +198,7 @@ p:active {
 
 @media (width <= 400px) and (orientation: portrait) {
     footer {
-        padding: 1rem 1rem;
+        padding: 1rem;
     }
 
     .author {

@@ -1,31 +1,31 @@
 .container {
     position: relative;
-    width: 100%;
-    height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
+    width: 100%;
+    height: 100vh;
 }
 
 .titleSection {
     position: absolute;
-    transform: rotate(-90deg);
     top: 32%;
     left: 1%;
+    padding: 0.8rem;
     font-size: var(--font-size-sm);
     background: #a8eb0f;
-    padding: 0.8rem;
     border-radius: var(--border-radius-small);
+    transform: rotate(-90deg);
 }
 
 .intro {
-    margin-top: 12rem;
     width: 60%;
     max-width: 100rem;
+    margin-top: 12rem;
     font-family: var(--font-mono), monospace;
-    border-radius: var(--border-radius-large);
     text-align: left;
+    border-radius: var(--border-radius-large);
 }
 
 .intro h2 {
@@ -34,16 +34,16 @@
 }
 
 .intro p {
-    font-size: var(--font-size-md);
-    font-weight: var(--font-weight-regular);
     color: var(--white);
+    font-weight: var(--font-weight-regular);
+    font-size: var(--font-size-md);
 }
 
 .intro h2, p {
-    background: var(--black);
     display: inline-block;
-    padding: 1.4rem;
     margin: -0.8rem 0;
+    padding: 1.4rem;
+    background: var(--black);
     box-shadow: var(--shadow-regular);
 }
 
@@ -79,7 +79,7 @@
 }
 
 
-/*Media Queries Landscape*/
+/* Media Queries Landscape */
 @media (width <= 1300px) {
     .titleSection {
         left: 1.5%;
@@ -186,8 +186,8 @@
     }
 
     .intro h2 {
-        font-size: var(--font-size-sm);
         padding: 0.8rem;
+        font-size: var(--font-size-sm);
     }
 
     .intro .introTitle:first-child {
@@ -195,10 +195,10 @@
     }
 
     .intro p {
-        font-size: var(--font-size-xxxs);
-        padding: 0.8rem;
         margin-top: -1rem;
         margin-right: 0;
+        padding: 0.8rem;
+        font-size: var(--font-size-xxxs);
     }
 
     .socials {
@@ -206,7 +206,7 @@
     }
 }
 
-/*Media Queries Portrait*/
+/* Media Queries Portrait */
 @media (width <= 1100px) and (orientation: portrait) {
     .container {
         width: 100vw;
@@ -215,14 +215,14 @@
     }
 
     .titleSection {
-        font-size: var(--font-size-md);
         top: 25%;
         left: -1.5%;
+        font-size: var(--font-size-md);
     }
 
     .intro h2 {
-        line-height: 1.5;
         font-size: var(--font-size-xl);
+        line-height: 1.5;
     }
 
     .intro .introTitle:first-child {
@@ -236,8 +236,8 @@
     }
 
     .socials {
-        margin-top: 10rem;
         grid-template-columns: 1fr auto 12rem;
+        margin-top: 10rem;
     }
 }
 
@@ -298,6 +298,7 @@
     .intro {
         margin-left: 2rem;
     }
+
     .intro h2 {
         font-size: var(--font-size-md-plus);
     }
@@ -311,8 +312,8 @@
     }
 
     .socials {
-        margin-top: 7rem;
         grid-template-columns: 1fr auto 3.6rem;
+        margin-top: 7rem;
     }
 }
 
