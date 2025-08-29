@@ -13,6 +13,7 @@
     "lint-css": "stylelint \"**/*.{css,scss}\""
   },
   "dependencies": {
+    "focus-trap-react": "^11.0.4",
     "gsap": "^3.13.0",
     "react": "^19.1.1",
     "react-dom": "^19.1.1"

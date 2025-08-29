@@ -23,6 +23,7 @@ const VideoGallery = ({videos, layout, description}: VideoGalleryProps) => {
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen
               className={styles.video}
+              tabIndex={0}
             />
           </div>
         ))}
