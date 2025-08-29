@@ -1,5 +1,5 @@
 import styles from './Badge.module.css';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 
 interface Experiencia {
   empresa: string;
@@ -20,15 +20,30 @@ interface BadgeLabels {
   competencias: string;
 }
 
+const isTouchDevice = (): boolean => {
+  return (
+    'ontouchstart' in window ||
+    navigator.maxTouchPoints > 0 ||
+    window.matchMedia('(pointer: coarse)').matches
+  );
+};
+
 const Badge = ({experiencia, labels}: { experiencia: Experiencia, labels: BadgeLabels }) => {
   const [flipped, setFlipped] = useState(false);
+  const [isTouch, setIsTouch] = useState(false);
+
+  useEffect(() => {
+    setIsTouch(isTouchDevice());
+  }, []);
 
   const handleToggle = () => {
-    setFlipped(prev => !prev);
+    if(isTouch) {
+      setFlipped(prev => !prev);
+    }
   };
 
   return (
-    <div className={styles.badge} onClick={handleToggle}>
+    <div className={styles.badge} onClick={isTouch ? handleToggle : undefined}>
       <div className={`${styles.badgeInner} ${flipped ? styles.flipped : ''}`} style={{ backgroundColor: experiencia.corFundo, color: experiencia.corTexto, border: `2px solid ${experiencia.corTexto}` }}>
         <div className={styles.badgeHole} style={{ border: `2px solid ${experiencia.corTexto}`}}></div>
         <div className={styles.badgeFront}>

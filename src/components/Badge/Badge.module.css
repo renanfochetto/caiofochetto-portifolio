@@ -18,12 +18,18 @@
     background-color: transparent;
     box-shadow: none;
 }
-
-.badge:hover .badgeInner {
-    transform: rotateY(180deg);
+@media  (hover: hover) and (pointer: fine) {
+    .badge:hover .badgeInner {
+        transform: rotateY(180deg);
+    }
 }
 
-.badgeInner.flipped {
+.badgeInner,
+.flipped {
+    transition: transform 0.6s;
+}
+
+.flipped {
     transform: rotateY(180deg);
 }
 

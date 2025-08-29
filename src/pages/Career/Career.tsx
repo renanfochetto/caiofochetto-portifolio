@@ -19,6 +19,8 @@ interface Experiencia {
   competencias: string;
 }
 
+
+
 const Career = () => {
   const content = useLocalizedContent();
   const wrapperRef = useRef<HTMLElement | null>(null);
