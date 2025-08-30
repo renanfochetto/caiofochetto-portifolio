@@ -5,50 +5,52 @@ import { useState } from 'react';
 import Tag from '../Tag/Tag.tsx';
 
 type TagData = {
-  label: string;
+    label: string;
 };
 
 type TagsMap = {
-  [key: string]: TagData;
+    [key: string]: TagData;
 };
 
 type TagFilterProps = {
-  onFilterChange: (selectedTags: string[]) => void;
+    onFilterChange: (selectedTags: string[]) => void;
 };
 
 const TagFilter = ({ onFilterChange }: TagFilterProps) => {
-  const content = useLocalizedContent();
-  const [selectedTags, setSelectedTags] = useState<string[]>([]);
+    const content = useLocalizedContent();
+    const [selectedTags, setSelectedTags] = useState<string[]>([]);
 
-  if (!content?.cases?.tags) return null;
+    if (!content?.cases?.tags) return null;
 
-  const tags = content.cases.tags as TagsMap;
+    const tags = content.cases.tags as TagsMap;
 
-  const handleTagClick = (tagKey: string) => {
-    const updatedTags = selectedTags.includes(tagKey)
-      ? selectedTags.filter((t) => t !== tagKey)
-      : [...selectedTags, tagKey];
+    const handleTagClick = (tagKey: string) => {
+        const updatedTags = selectedTags.includes(tagKey)
+            ? selectedTags.filter((t) => t !== tagKey)
+            : [...selectedTags, tagKey];
 
-    setSelectedTags(updatedTags);
-    onFilterChange(updatedTags);
-  };
+        setSelectedTags(updatedTags);
+        onFilterChange(updatedTags);
+    };
 
-  return (
-    <div className={styles.tagFilter}>
-      {Object.entries(tags).map(([key, { label }]) => (
-        <div
-          key={key}
-          onClick={() => handleTagClick(key)}
-          className={styles.tagWrapper}
-        >
-          <Tag
-            label={label}
-            className={selectedTags.includes(key) ? tagStyles.active : ''}
-          />
+    return (
+        <div className={styles.tagFilter}>
+            {Object.entries(tags).map(([key, { label }]) => (
+                <div
+                    key={key}
+                    onClick={() => handleTagClick(key)}
+                    className={styles.tagWrapper}
+                >
+                    <Tag
+                        label={label}
+                        className={
+                            selectedTags.includes(key) ? tagStyles.active : ''
+                        }
+                    />
+                </div>
+            ))}
         </div>
-      ))}
-    </div>
-  );
+    );
 };
 
 export default TagFilter;

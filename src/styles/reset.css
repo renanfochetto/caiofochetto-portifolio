@@ -1,14 +1,14 @@
 *,
 *::before,
 *::after {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 /* https://kilianvalkhof.com/2022/css-html/your-css-reset-needs-text-size-adjust-probably/ */
 html {
-  text-size-adjust: none;
-  text-size-adjust: none;
-  text-size-adjust: none;
+    text-size-adjust: none;
+    text-size-adjust: none;
+    text-size-adjust: none;
 }
 
 body,
@@ -21,19 +21,19 @@ figure,
 blockquote,
 dl,
 dd {
-  margin: 0;
+    margin: 0;
 }
 
 /* https://www.scottohara.me/blog/2019/01/12/lists-and-safari.html */
 [role='list'] {
-  margin: 0;
-  padding: 0;
-  list-style: none;
+    margin: 0;
+    padding: 0;
+    list-style: none;
 }
 
 body {
-  min-block-size: 100vh;
-  line-height: 1.6;
+    min-block-size: 100vh;
+    line-height: 1.6;
 }
 
 h1,
@@ -42,35 +42,35 @@ h3,
 button,
 input,
 label {
-  line-height: 1.1;
+    line-height: 1.1;
 }
 
 h1,
 h2,
 h3,
 h4 {
-  text-wrap: balance;
+    text-wrap: balance;
 }
 
 p,
 li {
-  text-wrap: pretty;
+    text-wrap: pretty;
 }
 
 img,
 picture {
-  max-inline-size: 100%;
-  display: block;
+    max-inline-size: 100%;
+    display: block;
 }
 
 input,
 button,
 textarea,
 select {
-  font: inherit;
+    font: inherit;
 }
 
 ul {
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
 }

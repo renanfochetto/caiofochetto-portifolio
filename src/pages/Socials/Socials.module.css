@@ -1,415 +1,415 @@
 .container {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  width: 100%;
-  height: 100vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100%;
+    height: 100vh;
 }
 
 .titleSection {
-  position: absolute;
-  top: 40%;
-  left: 0;
-  padding: 0.3rem;
-  font-size: var(--font-size-sm);
-  background: #a8eb0f;
-  border-radius: var(--border-radius-small);
-  font-family: var(--font-mono), monospace;
-  transform: rotate(-90deg);
+    position: absolute;
+    top: 40%;
+    left: 0;
+    padding: 0.3rem;
+    font-size: var(--font-size-sm);
+    background: #a8eb0f;
+    border-radius: var(--border-radius-small);
+    font-family: var(--font-mono), monospace;
+    transform: rotate(-90deg);
 }
 
 .socialsGrid {
-  display: flex;
-  justify-content: space-evenly;
-  width: 70%;
-  margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    width: 70%;
+    margin: 0 auto;
 }
 
 .card {
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-  align-items: flex-start;
-  max-width: 30rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: flex-start;
+    max-width: 30rem;
 }
 
 .card span {
-  font-weight: var(--font-weight-bold);
-  font-size: var(--font-size-base);
+    font-weight: var(--font-weight-bold);
+    font-size: var(--font-size-base);
 }
 
 .card span:hover {
-  text-decoration: underline;
-  text-underline-offset: 0.3rem;
-  text-decoration-thickness: 0.15rem;
-  cursor: pointer;
+    text-decoration: underline;
+    text-underline-offset: 0.3rem;
+    text-decoration-thickness: 0.15rem;
+    cursor: pointer;
 }
 
 .header {
-  display: flex;
-  gap: 0.5rem;
-  align-items: center;
-  justify-content: center;
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    justify-content: center;
 }
 
 .header a {
-  width: 3rem;
-  height: 3rem;
-  padding: 0.12rem;
+    width: 3rem;
+    height: 3rem;
+    padding: 0.12rem;
 }
 
 .linkSocial {
-  display: flex;
-  gap: 0.5rem;
-  align-items: center;
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
 }
 
 .previewImage {
-  border: var(--border-regular);
-  border-radius: var(--border-radius-medium);
-  box-shadow: var(--shadow-regular);
+    border: var(--border-regular);
+    border-radius: var(--border-radius-medium);
+    box-shadow: var(--shadow-regular);
 }
 
 .previewImage:hover {
-  box-shadow: var(--shadow-regular-hover);
-  transform: scale(1.03);
-  border: 4px solid var(--lime-green);
-  transition: transform 0.3s;
+    box-shadow: var(--shadow-regular-hover);
+    transform: scale(1.03);
+    border: 4px solid var(--lime-green);
+    transition: transform 0.3s;
 }
 
 .previewImage:active {
-  transform: scale(0.98);
-  transition: transform 0.2s;
+    transform: scale(0.98);
+    transition: transform 0.2s;
 }
 
 .linkedinDesktop {
-  height: 25rem;
-  aspect-ratio: 1018/1123;
-  object-fit: cover;
+    height: 25rem;
+    aspect-ratio: 1018/1123;
+    object-fit: cover;
 }
 
 .youtubeDesktop {
-  height: 25rem;
-  aspect-ratio: 1396/1123;
-  object-fit: cover;
+    height: 25rem;
+    aspect-ratio: 1396/1123;
+    object-fit: cover;
 }
 
 .linkedinMobile {
-  height: 25rem;
-  aspect-ratio: 468 / 1121;
-  object-fit: contain;
+    height: 25rem;
+    aspect-ratio: 468 / 1121;
+    object-fit: contain;
 }
 
 .youtubeMobile {
-  height: 25rem;
-  aspect-ratio: 468 / 1121;
-  object-fit: contain;
+    height: 25rem;
+    aspect-ratio: 468 / 1121;
+    object-fit: contain;
 }
 
 /* !*Media Queries - Landscape*! */
 @media (width <= 1100px) {
-  .titleSection {
-    font-size: var(--font-size-xs);
-  }
+    .titleSection {
+        font-size: var(--font-size-xs);
+    }
 }
 
 @media (width <= 1000px) {
-  .titleSection {
-    left: -1%;
-    font-size: var(--font-size-xs);
-  }
+    .titleSection {
+        left: -1%;
+        font-size: var(--font-size-xs);
+    }
 
-  .socialsGrid {
-    gap: 2rem;
-  }
+    .socialsGrid {
+        gap: 2rem;
+    }
 }
 
 @media (width <= 900px) {
-  .titleSection {
-    font-size: var(--font-size-base);
-  }
+    .titleSection {
+        font-size: var(--font-size-base);
+    }
 
-  .socialsGrid {
-    gap: 3rem;
-  }
+    .socialsGrid {
+        gap: 3rem;
+    }
 
-  .linkedinDesktop {
-    height: 20rem;
-  }
+    .linkedinDesktop {
+        height: 20rem;
+    }
 
-  .youtubeDesktop {
-    height: 20rem;
-  }
+    .youtubeDesktop {
+        height: 20rem;
+    }
 
-  .linkedinMobile {
-    height: 20rem;
-  }
+    .linkedinMobile {
+        height: 20rem;
+    }
 
-  .youtubeMobile {
-    height: 20rem;
-  }
+    .youtubeMobile {
+        height: 20rem;
+    }
 
-  .header a {
-    width: 2.2rem;
-    height: 2.2rem;
-  }
+    .header a {
+        width: 2.2rem;
+        height: 2.2rem;
+    }
 }
 
 @media (width <= 800px) {
-  .titleSection {
-    left: -1%;
-  }
+    .titleSection {
+        left: -1%;
+    }
 
-  .socialsGrid {
-    gap: 2rem;
-  }
+    .socialsGrid {
+        gap: 2rem;
+    }
 
-  .linkSocial {
-    gap: 0;
-  }
+    .linkSocial {
+        gap: 0;
+    }
 
-  .card span {
-    font-size: var(--font-size-xxl);
-  }
+    .card span {
+        font-size: var(--font-size-xxl);
+    }
 
-  .linkedinDesktop {
-    height: 14rem;
-  }
+    .linkedinDesktop {
+        height: 14rem;
+    }
 
-  .youtubeDesktop {
-    height: 14rem;
-  }
+    .youtubeDesktop {
+        height: 14rem;
+    }
 
-  .linkedinMobile {
-    height: 14rem;
-  }
+    .linkedinMobile {
+        height: 14rem;
+    }
 
-  .youtubeMobile {
-    height: 14rem;
-  }
+    .youtubeMobile {
+        height: 14rem;
+    }
 }
 
 @media (width <= 600px) {
-  .titleSection {
-    left: -3%;
-    font-size: var(--font-size-xxs);
-  }
+    .titleSection {
+        left: -3%;
+        font-size: var(--font-size-xxs);
+    }
 
-  .card {
-    gap: 0.6rem;
-  }
+    .card {
+        gap: 0.6rem;
+    }
 
-  .header a {
-    width: 1.8rem;
-    height: 1.8rem;
-  }
+    .header a {
+        width: 1.8rem;
+        height: 1.8rem;
+    }
 }
 
 /* } */
 
 @media (width <= 500px) {
-  .titleSection {
-    font-size: var(--font-size-xxxs);
-  }
+    .titleSection {
+        font-size: var(--font-size-xxxs);
+    }
 
-  .header a {
-    width: 1.5rem;
-    height: 1.5rem;
-  }
+    .header a {
+        width: 1.5rem;
+        height: 1.5rem;
+    }
 
-  .card span {
-    font-size: var(--font-size-xxxl);
-  }
+    .card span {
+        font-size: var(--font-size-xxxl);
+    }
 
-  .linkedinDesktop {
-    height: 11rem;
-  }
+    .linkedinDesktop {
+        height: 11rem;
+    }
 
-  .youtubeDesktop {
-    height: 11rem;
-  }
+    .youtubeDesktop {
+        height: 11rem;
+    }
 
-  .linkedinMobile {
-    height: 11rem;
-  }
+    .linkedinMobile {
+        height: 11rem;
+    }
 
-  .youtubeMobile {
-    height: 11rem;
-  }
+    .youtubeMobile {
+        height: 11rem;
+    }
 }
 
 /* Media Queries - Portrait */
 @media (width <= 1100px) and (orientation: portrait) {
-  .container {
-    width: 100vw;
-  }
+    .container {
+        width: 100vw;
+    }
 
-  .titleSection {
-    top: 25%;
-    left: -1.5%;
-    font-size: var(--font-size-md);
-  }
+    .titleSection {
+        top: 25%;
+        left: -1.5%;
+        font-size: var(--font-size-md);
+    }
 
-  .socialsGrid {
-    margin-bottom: 12rem;
-    column-gap: 4rem;
-  }
+    .socialsGrid {
+        margin-bottom: 12rem;
+        column-gap: 4rem;
+    }
 
-  .header {
-    display: flex;
-    gap: 0.5rem;
-    align-items: center;
-    justify-content: center;
-  }
+    .header {
+        display: flex;
+        gap: 0.5rem;
+        align-items: center;
+        justify-content: center;
+    }
 
-  .header a {
-    width: 3.2rem;
-    height: 3.2rem;
-    padding: 0.001rem;
-  }
+    .header a {
+        width: 3.2rem;
+        height: 3.2rem;
+        padding: 0.001rem;
+    }
 
-  .linkSocial {
-    display: flex;
-    gap: 0.5rem;
-    align-items: center;
-  }
+    .linkSocial {
+        display: flex;
+        gap: 0.5rem;
+        align-items: center;
+    }
 
-  .linkedinDesktop {
-    height: 42rem;
-  }
+    .linkedinDesktop {
+        height: 42rem;
+    }
 
-  .youtubeDesktop {
-    height: 42rem;
-  }
+    .youtubeDesktop {
+        height: 42rem;
+    }
 
-  .linkedinMobile {
-    height: 42rem;
-  }
+    .linkedinMobile {
+        height: 42rem;
+    }
 
-  .youtubeMobile {
-    height: 42rem;
-  }
+    .youtubeMobile {
+        height: 42rem;
+    }
 }
 
 @media (width <= 800px) and (orientation: portrait) {
-  .titleSection {
-    top: 25%;
-    left: -2.5%;
-    font-size: var(--font-size-sm);
-  }
+    .titleSection {
+        top: 25%;
+        left: -2.5%;
+        font-size: var(--font-size-sm);
+    }
 
-  .socialsGrid {
-    margin-bottom: 4rem;
-    column-gap: 3rem;
-  }
+    .socialsGrid {
+        margin-bottom: 4rem;
+        column-gap: 3rem;
+    }
 
-  .linkedinDesktop {
-    height: 32rem;
-  }
+    .linkedinDesktop {
+        height: 32rem;
+    }
 
-  .youtubeDesktop {
-    height: 32rem;
-  }
+    .youtubeDesktop {
+        height: 32rem;
+    }
 
-  .linkedinMobile {
-    height: 32rem;
-  }
+    .linkedinMobile {
+        height: 32rem;
+    }
 
-  .youtubeMobile {
-    height: 32rem;
-  }
+    .youtubeMobile {
+        height: 32rem;
+    }
 }
 
 @media (width <= 700px) and (orientation: portrait) {
-  .linkedinDesktop {
-    height: 28rem;
-  }
+    .linkedinDesktop {
+        height: 28rem;
+    }
 
-  .youtubeDesktop {
-    height: 28rem;
-  }
+    .youtubeDesktop {
+        height: 28rem;
+    }
 
-  .linkedinMobile {
-    height: 28rem;
-  }
+    .linkedinMobile {
+        height: 28rem;
+    }
 
-  .youtubeMobile {
-    height: 28rem;
-  }
+    .youtubeMobile {
+        height: 28rem;
+    }
 }
 
 @media (width <= 600px) and (orientation: portrait) {
-  .titleSection {
-    top: 25%;
-    left: -5.5%;
-    font-size: var(--font-size-xs);
-  }
+    .titleSection {
+        top: 25%;
+        left: -5.5%;
+        font-size: var(--font-size-xs);
+    }
 
-  .header a {
-    width: 2.5rem;
-    height: 2.5rem;
-    padding: 0.001rem;
-  }
+    .header a {
+        width: 2.5rem;
+        height: 2.5rem;
+        padding: 0.001rem;
+    }
 
-  .linkedinDesktop {
-    height: 22rem;
-  }
+    .linkedinDesktop {
+        height: 22rem;
+    }
 
-  .youtubeDesktop {
-    height: 22rem;
-  }
+    .youtubeDesktop {
+        height: 22rem;
+    }
 
-  .linkedinMobile {
-    height: 22rem;
-  }
+    .linkedinMobile {
+        height: 22rem;
+    }
 
-  .youtubeMobile {
-    height: 22rem;
-  }
+    .youtubeMobile {
+        height: 22rem;
+    }
 }
 
 @media (width <= 500px) and (orientation: portrait) {
-  .titleSection {
-    top: 20%;
-    left: -8%;
-    font-size: var(--font-size-base);
-  }
+    .titleSection {
+        top: 20%;
+        left: -8%;
+        font-size: var(--font-size-base);
+    }
 }
 
 @media (width <= 400px) and (orientation: portrait) {
-  .socialsGrid {
-    gap: 1rem;
-    margin-bottom: 10rem;
-  }
+    .socialsGrid {
+        gap: 1rem;
+        margin-bottom: 10rem;
+    }
 
-  .linkedinDesktop {
-    height: 15rem;
-  }
+    .linkedinDesktop {
+        height: 15rem;
+    }
 
-  .youtubeDesktop {
-    height: 15rem;
-  }
+    .youtubeDesktop {
+        height: 15rem;
+    }
 
-  .linkedinMobile {
-    height: 15rem;
-  }
+    .linkedinMobile {
+        height: 15rem;
+    }
 
-  .youtubeMobile {
-    height: 15rem;
-  }
+    .youtubeMobile {
+        height: 15rem;
+    }
 
-  .card {
-    gap: 1rem;
-  }
+    .card {
+        gap: 1rem;
+    }
 
-  .header a {
-    width: 2rem;
-    height: 2rem;
-    padding: 0.001rem;
-  }
+    .header a {
+        width: 2rem;
+        height: 2rem;
+        padding: 0.001rem;
+    }
 
-  .linkSocial {
-    gap: 0.2rem;
-  }
+    .linkSocial {
+        gap: 0.2rem;
+    }
 }

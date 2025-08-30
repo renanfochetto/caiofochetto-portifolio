@@ -8,17 +8,17 @@ import { Socials } from './pages/Socials/Socials.tsx';
 import { Footer } from './layout/Footer/Footer.tsx';
 
 function App() {
-  return (
-    <LanguageProvider>
-      <div className="background-layer" />
-      <Header />
-      <Home />
-      <Career />
-      <Cases />
-      <Socials />
-      <Footer />
-    </LanguageProvider>
-  );
+    return (
+        <LanguageProvider>
+            <div className="background-layer" />
+            <Header />
+            <Home />
+            <Career />
+            <Cases />
+            <Socials />
+            <Footer />
+        </LanguageProvider>
+    );
 }
 
 export default App;

@@ -1,3 +1,3 @@
 export const buildAssetPath = (folder: string, filename: string): string => {
-  return `/cases/${folder}/${filename}`;
+    return `/cases/${folder}/${filename}`;
 };

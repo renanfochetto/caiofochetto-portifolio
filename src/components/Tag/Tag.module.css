@@ -1,55 +1,55 @@
 .tag {
-  display: inline-block;
-  width: auto;
-  max-width: max-content;
-  padding: 0.08rem 0.3rem;
-  color: var(--white);
-  font-weight: var(--font-weight-semibold);
-  font-size: var(--font-size-xxs);
-  font-family: var(--font-mono), monospace;
-  white-space: nowrap;
-  background-color: var(--black);
-  border: 2px solid var(--lime-green);
-  border-radius: var(--border-radius-base);
-  box-shadow: var(--shadow-base);
+    display: inline-block;
+    width: auto;
+    max-width: max-content;
+    padding: 0.08rem 0.3rem;
+    color: var(--white);
+    font-weight: var(--font-weight-semibold);
+    font-size: var(--font-size-xxs);
+    font-family: var(--font-mono), monospace;
+    white-space: nowrap;
+    background-color: var(--black);
+    border: 2px solid var(--lime-green);
+    border-radius: var(--border-radius-base);
+    box-shadow: var(--shadow-base);
 }
 
 .tag:hover {
-  border: 2px solid var(--white);
-  cursor: pointer;
-  transition: transform 0.2s ease-in-out;
+    border: 2px solid var(--white);
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
 }
 
 .tag:active {
-  transform: scale(0.9);
-  transition: transform 0.1s ease-in-out;
+    transform: scale(0.9);
+    transition: transform 0.1s ease-in-out;
 }
 
 .active {
-  color: var(--black);
-  background-color: var(--lime-green);
-  border: 2px solid var(--black);
+    color: var(--black);
+    background-color: var(--lime-green);
+    border: 2px solid var(--black);
 }
 
 /* Media Queries - Landscape */
 @media (width <= 900px) {
-  .tag {
-    padding: 0.06rem 0.25rem;
-    font-size: var(--font-size-xxxs);
-  }
+    .tag {
+        padding: 0.06rem 0.25rem;
+        font-size: var(--font-size-xxxs);
+    }
 }
 
 @media (width <= 800px) {
-  .tag {
-    padding: 0.05rem 0.2rem;
-    font-size: var(--font-size-xxl);
-  }
+    .tag {
+        padding: 0.05rem 0.2rem;
+        font-size: var(--font-size-xxl);
+    }
 }
 
 /* Media Queries - Portrait */
 @media (width <= 1100) and (orientation: portrait) {
-  .tag {
-    padding: 0.08rem 0.3rem;
-    font-size: var(--font-size-base);
-  }
+    .tag {
+        padding: 0.08rem 0.3rem;
+        font-size: var(--font-size-base);
+    }
 }

@@ -1,19 +1,19 @@
 import styles from './TextBlock.module.css';
 
 export type TextBlockProps = {
-  title: string;
-  paragraph: string[];
+    title: string;
+    paragraph: string[];
 };
 
 const TextBlock = ({ title, paragraph }: TextBlockProps) => {
-  return (
-    <div className={styles.textBlock}>
-      <h5>{title}</h5>
-      {paragraph.map((p, i) => (
-        <p key={i}>{p}</p>
-      ))}
-    </div>
-  );
+    return (
+        <div className={styles.textBlock}>
+            <h5>{title}</h5>
+            {paragraph.map((p, i) => (
+                <p key={i}>{p}</p>
+            ))}
+        </div>
+    );
 };
 
 export default TextBlock;

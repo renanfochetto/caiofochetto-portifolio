@@ -1,163 +1,163 @@
 .caseCard {
-  position: relative;
-  width: 24rem;
-  height: 15rem;
-  border: 2px solid var(--black);
-  border-radius: var(--border-radius-base);
-  box-shadow: var(--shadow-regular);
-  cursor: pointer;
+    position: relative;
+    width: 24rem;
+    height: 15rem;
+    border: 2px solid var(--black);
+    border-radius: var(--border-radius-base);
+    box-shadow: var(--shadow-regular);
+    cursor: pointer;
 }
 
 .caseCard:hover {
-  box-shadow: var(--shadow-regular-hover);
-  border: 4px solid var(--lime-green);
-  transform: scale(1.03);
-  transition: transform 0.2s;
+    box-shadow: var(--shadow-regular-hover);
+    border: 4px solid var(--lime-green);
+    transform: scale(1.03);
+    transition: transform 0.2s;
 }
 
 .caseCard:active {
-  transform: scale(0.98);
-  transition: transform 0.2s;
+    transform: scale(0.98);
+    transition: transform 0.2s;
 }
 
 .caseCard img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  border-radius: var(--border-radius-base);
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: var(--border-radius-base);
 }
 
 .tagList {
-  position: absolute;
-  top: 0.1rem;
-  right: 0.4rem;
-  z-index: 2;
-  display: flex;
-  flex-direction: column;
-  gap: 0.25rem;
-  align-items: flex-end;
-  margin-top: 0.25rem;
+    position: absolute;
+    top: 0.1rem;
+    right: 0.4rem;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+    align-items: flex-end;
+    margin-top: 0.25rem;
 }
 
 .labelCard {
-  position: absolute;
-  bottom: 1.6rem;
-  left: -1px;
-  z-index: 2;
-  padding: 0.2rem 1rem;
-  color: var(--black);
-  font-size: var(--font-size-sm);
-  background-color: var(--lime-green);
-  border: 1px solid var(--black);
-  border-radius: 0 var(--border-radius-base) var(--border-radius-base) 0;
-  box-shadow: var(--shadow-base);
+    position: absolute;
+    bottom: 1.6rem;
+    left: -1px;
+    z-index: 2;
+    padding: 0.2rem 1rem;
+    color: var(--black);
+    font-size: var(--font-size-sm);
+    background-color: var(--lime-green);
+    border: 1px solid var(--black);
+    border-radius: 0 var(--border-radius-base) var(--border-radius-base) 0;
+    box-shadow: var(--shadow-base);
 }
 
 .labelProject {
-  font-family: var(--font-sans), sans-serif;
-  text-align: left;
+    font-family: var(--font-sans), sans-serif;
+    text-align: left;
 }
 
 .labelProject h5 {
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
 /* Media Queries - Landscape */
 @media (width <= 1000px) {
-  .caseCard {
-    width: 22rem;
-    height: 13rem;
-  }
+    .caseCard {
+        width: 22rem;
+        height: 13rem;
+    }
 
-  .labelCard {
-    bottom: 1.4rem;
-    font-size: var(--font-size-xs);
-  }
+    .labelCard {
+        bottom: 1.4rem;
+        font-size: var(--font-size-xs);
+    }
 }
 
 @media (width <= 900px) {
-  .caseCard {
-    width: 19rem;
-    height: 11rem;
-  }
+    .caseCard {
+        width: 19rem;
+        height: 11rem;
+    }
 
-  .labelCard {
-    bottom: 0.8rem;
-    padding: 0.2rem 0.5rem;
-    font-size: var(--font-size-base);
-  }
+    .labelCard {
+        bottom: 0.8rem;
+        padding: 0.2rem 0.5rem;
+        font-size: var(--font-size-base);
+    }
 }
 
 @media (width <= 800px) {
-  .caseCard {
-    width: 18rem;
-    height: 10rem;
-  }
+    .caseCard {
+        width: 18rem;
+        height: 10rem;
+    }
 }
 
 @media (width <= 700px) {
-  .caseCard {
-    width: 17.5rem;
-    height: 9.5rem;
-  }
+    .caseCard {
+        width: 17.5rem;
+        height: 9.5rem;
+    }
 }
 
 @media (width <= 600px) {
-  .caseCard {
-    width: 16rem;
-    height: 8rem;
-  }
+    .caseCard {
+        width: 16rem;
+        height: 8rem;
+    }
 
-  .labelCard {
-    bottom: 0.6rem;
-    padding: 0.2rem 0.5rem;
-    font-size: var(--font-size-sm);
-  }
+    .labelCard {
+        bottom: 0.6rem;
+        padding: 0.2rem 0.5rem;
+        font-size: var(--font-size-sm);
+    }
 
-  .labelCard h5 {
-    font-size: var(--font-size-xxs);
-  }
+    .labelCard h5 {
+        font-size: var(--font-size-xxs);
+    }
 }
 
 @media (width <= 500px) {
-  .caseCard {
-    width: 15rem;
-    height: 11rem;
-  }
+    .caseCard {
+        width: 15rem;
+        height: 11rem;
+    }
 
-  .labelCard {
-    bottom: 1rem;
-    padding: 0.3rem 0.6rem;
-  }
+    .labelCard {
+        bottom: 1rem;
+        padding: 0.3rem 0.6rem;
+    }
 }
 
 /* Media Queries - Portrait */
 @media (width <= 1100px) and (orientation: portrait) {
-  .caseCard {
-    width: 28rem;
-    height: 17rem;
-  }
+    .caseCard {
+        width: 28rem;
+        height: 17rem;
+    }
 
-  .labelCard {
-    bottom: 1.6rem;
-    padding: 0.2rem 1rem;
-    font-size: var(--font-size-md);
-  }
+    .labelCard {
+        bottom: 1.6rem;
+        padding: 0.2rem 1rem;
+        font-size: var(--font-size-md);
+    }
 }
 
 @media (width <= 500px) and (orientation: portrait) {
-  .caseCard {
-    width: 20rem;
-    height: 12rem;
-  }
+    .caseCard {
+        width: 20rem;
+        height: 12rem;
+    }
 
-  .labelCard {
-    bottom: 1.2rem;
-    padding: 0.2rem 0.5rem;
-  }
+    .labelCard {
+        bottom: 1.2rem;
+        padding: 0.2rem 0.5rem;
+    }
 
-  .labelCard h5 {
-    font-size: var(--font-size-base);
-  }
+    .labelCard h5 {
+        font-size: var(--font-size-base);
+    }
 }

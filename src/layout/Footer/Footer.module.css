@@ -1,208 +1,208 @@
 section {
-  position: relative;
+    position: relative;
 }
 
 footer {
-  z-index: 1;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 1.5rem 12.5rem;
-  color: var(--white);
-  background-color: var(--black);
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 12.5rem;
+    color: var(--white);
+    background-color: var(--black);
 }
 
 footer h4 {
-  font-weight: var(--font-weight-bold);
-  font-size: var(--font-size-md);
-  line-height: 1.2;
+    font-weight: var(--font-weight-bold);
+    font-size: var(--font-size-md);
+    line-height: 1.2;
 }
 
 footer p a {
-  color: var(--white);
-  font-weight: var(--font-weight-regular);
-  font-size: var(--font-size-base);
-  font-family: var(--font-mono), monospace;
-  text-decoration: none;
-  cursor: pointer;
+    color: var(--white);
+    font-weight: var(--font-weight-regular);
+    font-size: var(--font-size-base);
+    font-family: var(--font-mono), monospace;
+    text-decoration: none;
+    cursor: pointer;
 }
 
 .footerLinks a {
-  width: 3rem;
-  height: 3rem;
-  padding: 0.1rem;
+    width: 3rem;
+    height: 3rem;
+    padding: 0.1rem;
 }
 
 .footerLinks a:hover {
-  outline: 2px solid var(--white);
-  outline-offset: 0.4rem;
+    outline: 2px solid var(--white);
+    outline-offset: 0.4rem;
 }
 
 footer p:hover {
-  transform: scale(1.03);
-  transition: transform 0.2s;
-  text-decoration: underline;
-  text-decoration-thickness: 0.08rem;
-  text-underline-offset: 0.5rem;
+    transform: scale(1.03);
+    transition: transform 0.2s;
+    text-decoration: underline;
+    text-decoration-thickness: 0.08rem;
+    text-underline-offset: 0.5rem;
 }
 
 footer p:active {
-  transform: scale(0.9);
-  transition: transform 0.2s;
+    transform: scale(0.9);
+    transition: transform 0.2s;
 }
 
 /* Media Queries - Landscape */
 @media (width <= 1300px) {
-  footer {
-    padding: 1.5rem 9rem;
-  }
+    footer {
+        padding: 1.5rem 9rem;
+    }
 
-  footer h4 {
-    margin-right: 2rem;
-  }
+    footer h4 {
+        margin-right: 2rem;
+    }
 }
 
 @media (width <= 1000px) {
-  footer {
-    margin-top: 0;
-    padding: 1.5rem 6rem;
-  }
+    footer {
+        margin-top: 0;
+        padding: 1.5rem 6rem;
+    }
 
-  .footerLinks a {
-    width: 2.5rem;
-    height: 2.5rem;
-    padding: 0.1rem;
-  }
+    .footerLinks a {
+        width: 2.5rem;
+        height: 2.5rem;
+        padding: 0.1rem;
+    }
 }
 
 @media (width <= 900px) {
-  footer {
-    padding: 1rem 6rem;
-  }
+    footer {
+        padding: 1rem 6rem;
+    }
 
-  .author {
-    font-size: var(--font-size-xxs);
-  }
+    .author {
+        font-size: var(--font-size-xxs);
+    }
 }
 
 @media (width <= 800px) {
-  footer {
-    padding: 1rem 2rem;
-  }
+    footer {
+        padding: 1rem 2rem;
+    }
 
-  footer h4 {
-    margin-right: 1rem;
-    font-size: var(--font-size-sm);
-  }
+    footer h4 {
+        margin-right: 1rem;
+        font-size: var(--font-size-sm);
+    }
 
-  .footerLinks a {
-    width: 2.3rem;
-    height: 2.3rem;
-    padding: 0.1rem;
-  }
+    .footerLinks a {
+        width: 2.3rem;
+        height: 2.3rem;
+        padding: 0.1rem;
+    }
 }
 
 @media (width <= 700px) {
-  footer h4 {
-    font-size: var(--font-size-xs);
-  }
+    footer h4 {
+        font-size: var(--font-size-xs);
+    }
 
-  .footerLinks a {
-    width: 2rem;
-    height: 2rem;
-    padding: 0.1rem;
-  }
+    .footerLinks a {
+        width: 2rem;
+        height: 2rem;
+        padding: 0.1rem;
+    }
 }
 
 @media (width <= 600px) {
-  footer {
-    padding: 0.5rem 2rem;
-  }
+    footer {
+        padding: 0.5rem 2rem;
+    }
 
-  footer h4 {
-    font-size: var(--font-size-base);
-  }
+    footer h4 {
+        font-size: var(--font-size-base);
+    }
 
-  .footerLinks a {
-    width: 1.8rem;
-    height: 1.8rem;
-    padding: 0.1rem;
-  }
+    .footerLinks a {
+        width: 1.8rem;
+        height: 1.8rem;
+        padding: 0.1rem;
+    }
 
-  p {
-    padding: 0;
-  }
+    p {
+        padding: 0;
+    }
 
-  .author {
-    font-size: var(--font-size-xxl);
-  }
+    .author {
+        font-size: var(--font-size-xxl);
+    }
 }
 
 @media (width <= 500px) {
-  footer {
-    padding: 0.5rem 1.5rem;
-  }
+    footer {
+        padding: 0.5rem 1.5rem;
+    }
 
-  .footerLinks a {
-    width: 1.6rem;
-    height: 1.6rem;
-    padding: 0.1rem;
-  }
+    .footerLinks a {
+        width: 1.6rem;
+        height: 1.6rem;
+        padding: 0.1rem;
+    }
 
-  .author {
-    font-size: var(--font-size-xxxl);
-  }
+    .author {
+        font-size: var(--font-size-xxxl);
+    }
 }
 
 /* Media Queries - Portrait */
 @media (width <= 900px) {
-  footer {
-    padding: 1rem 4rem;
-  }
+    footer {
+        padding: 1rem 4rem;
+    }
 
-  footer h4 {
-    margin-right: 0;
-  }
+    footer h4 {
+        margin-right: 0;
+    }
 }
 
 @media (width <= 800px) and (orientation: portrait) {
-  footer {
-    margin-top: 0;
-  }
+    footer {
+        margin-top: 0;
+    }
 }
 
 @media (width <= 700px) and (orientation: portrait) {
-  .footerLinks {
-    gap: 0.5rem;
-  }
+    .footerLinks {
+        gap: 0.5rem;
+    }
 }
 
 @media (width <= 600px) and (orientation: portrait) {
-  footer {
-    padding: 1rem 3rem;
-  }
+    footer {
+        padding: 1rem 3rem;
+    }
 
-  .author {
-    font-size: var(--font-size-xxxs);
-  }
+    .author {
+        font-size: var(--font-size-xxxs);
+    }
 }
 
 @media (width <= 500px) and (orientation: portrait) {
-  footer {
-    padding: 1rem 2rem;
-  }
+    footer {
+        padding: 1rem 2rem;
+    }
 
-  .author {
-    font-size: var(--font-size-xxl);
-  }
+    .author {
+        font-size: var(--font-size-xxl);
+    }
 }
 
 @media (width <= 400px) and (orientation: portrait) {
-  footer {
-    padding: 1rem;
-  }
+    footer {
+        padding: 1rem;
+    }
 
-  .author {
-    font-size: var(--font-size-xxxl);
-  }
+    .author {
+        font-size: var(--font-size-xxxl);
+    }
 }

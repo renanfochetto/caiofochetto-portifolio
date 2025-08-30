@@ -8,71 +8,73 @@ import type { CaseData } from '../../types';
 import { useLocalizedContent } from '../../hooks/useLocalizedContent.ts';
 
 const CaseGrid = () => {
-  const content = useLocalizedContent();
-  const [activeTags, setActiveTags] = useState<string[]>([]);
-  const [selectedCase, setSelectedCase] = useState<CaseData | null>(null);
+    const content = useLocalizedContent();
+    const [activeTags, setActiveTags] = useState<string[]>([]);
+    const [selectedCase, setSelectedCase] = useState<CaseData | null>(null);
 
-  const cases = content?.cases?.projetos || [];
+    const cases = content?.cases?.projetos || [];
 
-  const getColumnDivisor = () => {
-    const width = window.innerWidth;
-    const height = window.innerHeight;
+    const getColumnDivisor = () => {
+        const width = window.innerWidth;
+        const height = window.innerHeight;
 
-    const isPortrait = height > width;
+        const isPortrait = height > width;
 
-    if (isPortrait) {
-      if (width <= 800) return 2;
-      return 3; // Exemplo: 1100x1400
-    } else {
-      if (width <= 500) return 1;
-      if (width <= 1900) return 2;
-      return 3;
-    }
-  };
+        if (isPortrait) {
+            if (width <= 800) return 2;
+            return 3; // Exemplo: 1100x1400
+        } else {
+            if (width <= 500) return 1;
+            if (width <= 1900) return 2;
+            return 3;
+        }
+    };
 
-  const filteredCases =
-    activeTags.length === 0
-      ? cases
-      : cases.filter((c) => c.tags.some((tag) => activeTags.includes(tag)));
+    const filteredCases =
+        activeTags.length === 0
+            ? cases
+            : cases.filter((c) =>
+                  c.tags.some((tag) => activeTags.includes(tag)),
+              );
 
-  const numColumns = useMemo(() => {
-    const divisor = getColumnDivisor();
-    return Math.max(2, Math.ceil(filteredCases.length / divisor));
-  }, [filteredCases]);
+    const numColumns = useMemo(() => {
+        const divisor = getColumnDivisor();
+        return Math.max(2, Math.ceil(filteredCases.length / divisor));
+    }, [filteredCases]);
 
-  if (!content?.cases) return null;
+    if (!content?.cases) return null;
 
-  return (
-    <>
-      <div className={styles.tagFilterContainer}>
-        <TagFilter onFilterChange={setActiveTags} />
-      </div>
-      <div
-        className={styles.caseGrid}
-        style={{
-          gridTemplateColumns: `repeat(${numColumns}, var(--column-width))`,
-        }}
-      >
-        {filteredCases.map((c) => (
-          <CaseCard
-            image={buildAssetPath(c.folder, c.capa)}
-            key={c.id}
-            onClick={() => setSelectedCase(c)}
-            alt={`Imagem do Case ${c.nome}`}
-            projeto={c.nome}
-            tagKeys={c.tags}
-          />
-        ))}
-        {selectedCase && (
-          <CaseModal
-            caseData={selectedCase}
-            tagData={content?.cases?.tags}
-            onClose={() => setSelectedCase(null)}
-          />
-        )}
-      </div>
-    </>
-  );
+    return (
+        <>
+            <div className={styles.tagFilterContainer}>
+                <TagFilter onFilterChange={setActiveTags} />
+            </div>
+            <div
+                className={styles.caseGrid}
+                style={{
+                    gridTemplateColumns: `repeat(${numColumns}, var(--column-width))`,
+                }}
+            >
+                {filteredCases.map((c) => (
+                    <CaseCard
+                        image={buildAssetPath(c.folder, c.capa)}
+                        key={c.id}
+                        onClick={() => setSelectedCase(c)}
+                        alt={`Imagem do Case ${c.nome}`}
+                        projeto={c.nome}
+                        tagKeys={c.tags}
+                    />
+                ))}
+                {selectedCase && (
+                    <CaseModal
+                        caseData={selectedCase}
+                        tagData={content?.cases?.tags}
+                        onClose={() => setSelectedCase(null)}
+                    />
+                )}
+            </div>
+        </>
+    );
 };
 
 export default CaseGrid;

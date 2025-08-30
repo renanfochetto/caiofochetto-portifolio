@@ -1,141 +1,141 @@
 .scrollWrapper {
-  position: relative;
-  z-index: 1;
-  width: 100vw;
-  height: 100vh;
-  overflow: hidden;
+    position: relative;
+    z-index: 1;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
 }
 
 .container {
-  z-index: 2;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  width: 100%;
-  height: auto;
-  min-height: 100vh;
-  transform: translateX(0);
-  will-change: transform;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100%;
+    height: auto;
+    min-height: 100vh;
+    transform: translateX(0);
+    will-change: transform;
 }
 
 .titleSection {
-  position: absolute;
-  top: 40%;
-  left: 0;
-  padding: 0.3rem;
-  font-size: var(--font-size-sm);
-  background: #a8eb0f;
-  border-radius: var(--border-radius-small);
-  font-family: var(--font-mono), monospace;
-  transform: rotate(-90deg);
+    position: absolute;
+    top: 40%;
+    left: 0;
+    padding: 0.3rem;
+    font-size: var(--font-size-sm);
+    background: #a8eb0f;
+    border-radius: var(--border-radius-small);
+    font-family: var(--font-mono), monospace;
+    transform: rotate(-90deg);
 }
 
 .casesGrid {
-  display: block;
-  width: max-content;
-  padding: 8rem 8rem 2rem;
+    display: block;
+    width: max-content;
+    padding: 8rem 8rem 2rem;
 }
 
 /* Media Queries - Landscape */
 @media (width <= 1100px) {
-  .titleSection {
-    font-size: var(--font-size-xs);
-  }
+    .titleSection {
+        font-size: var(--font-size-xs);
+    }
 }
 
 @media (width <= 1000px) {
-  .titleSection {
-    left: -1%;
-    font-size: var(--font-size-xs);
-  }
+    .titleSection {
+        left: -1%;
+        font-size: var(--font-size-xs);
+    }
 }
 
 @media (width <= 900px) {
-  .titleSection {
-    font-size: var(--font-size-base);
-  }
+    .titleSection {
+        font-size: var(--font-size-base);
+    }
 
-  .casesGrid {
-    padding-inline: 4rem;
-  }
+    .casesGrid {
+        padding-inline: 4rem;
+    }
 }
 
 @media (width <= 800px) {
-  .titleSection {
-    left: -1%;
-  }
+    .titleSection {
+        left: -1%;
+    }
 }
 
 @media (width <= 700px) {
-  .casesGrid {
-    padding-block: 6rem;
-  }
+    .casesGrid {
+        padding-block: 6rem;
+    }
 }
 
 @media (width <= 600px) {
-  .titleSection {
-    left: -3%;
-    font-size: var(--font-size-xxs);
-  }
+    .titleSection {
+        left: -3%;
+        font-size: var(--font-size-xxs);
+    }
 
-  .casesGrid {
-    padding-block: 5.5rem;
-  }
+    .casesGrid {
+        padding-block: 5.5rem;
+    }
 }
 
 @media (width <= 500px) {
-  .titleSection {
-    font-size: var(--font-size-xxxs);
-  }
+    .titleSection {
+        font-size: var(--font-size-xxxs);
+    }
 }
 
 /* Media Queries - Portrait */
 @media (width <= 1100px) and (orientation: portrait) {
-  .container {
-    width: 100vw;
-    height: 100vh;
-  }
+    .container {
+        width: 100vw;
+        height: 100vh;
+    }
 
-  .titleSection {
-    top: 25%;
-    left: -1.5%;
-    font-size: var(--font-size-md);
-  }
+    .titleSection {
+        top: 25%;
+        left: -1.5%;
+        font-size: var(--font-size-md);
+    }
 }
 
 @media (width <= 900px) and (orientation: portrait) {
-  .container {
-  }
+    .container {
+    }
 
-  .casesGrid {
-    margin-left: 6rem;
-  }
+    .casesGrid {
+        margin-left: 6rem;
+    }
 }
 
 @media (width <= 800px) and (orientation: portrait) {
-  .titleSection {
-    top: 25%;
-    left: -2.5%;
-    font-size: var(--font-size-sm);
-  }
+    .titleSection {
+        top: 25%;
+        left: -2.5%;
+        font-size: var(--font-size-sm);
+    }
 }
 
 @media (width <= 600px) and (orientation: portrait) {
-  .titleSection {
-    top: 25%;
-    left: -5.5%;
-    font-size: var(--font-size-xs);
-  }
+    .titleSection {
+        top: 25%;
+        left: -5.5%;
+        font-size: var(--font-size-xs);
+    }
 
-  .casesGrid {
-    margin-left: 5rem;
-  }
+    .casesGrid {
+        margin-left: 5rem;
+    }
 }
 
 @media (width <= 500px) and (orientation: portrait) {
-  .titleSection {
-    top: 20%;
-    left: -8%;
-    font-size: var(--font-size-base);
-  }
+    .titleSection {
+        top: 20%;
+        left: -8%;
+        font-size: var(--font-size-base);
+    }
 }
