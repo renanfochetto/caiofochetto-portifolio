@@ -7,7 +7,7 @@ interface Link {
   label: string;
 }
 
-const Header = () => {
+export const Header = () => {
   const content = useLocalizedContent();
 
   if(!content) return null;
@@ -34,4 +34,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+

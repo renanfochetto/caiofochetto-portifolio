@@ -117,17 +117,13 @@ li:active {
     }
 }
 
-@media (width <= 1000px) {
-    header {
-        padding: 1rem 6rem 0.5rem;
-    }
-
+@media (width <= 1100px) {
     .logo {
         font-size: var(--font-size-md-plus);
     }
 
     ul {
-        font-size: var(--font-size-xs);
+        font-size: var(--font-size-base);
     }
 
     nav li:nth-child(2) {
@@ -139,6 +135,14 @@ li:active {
         text-decoration-thickness: 0.1rem;
         text-underline-offset: 0.3rem;
     }
+
+}
+
+@media (width <= 1000px) {
+    header {
+        padding: 0.7rem 6rem;
+    }
+
 }
 
 @media (width <= 900px) {

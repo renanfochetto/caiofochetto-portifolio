@@ -9,12 +9,13 @@
 
 .titleSection {
     position: absolute;
-    top: 32%;
-    left: 1%;
-    padding: 0.8rem;
+    top: 40%;
+    left: 0;
+    padding: 0.3rem;
     font-size: var(--font-size-sm);
     background: #a8eb0f;
     border-radius: var(--border-radius-small);
+    font-family: var(--font-mono), monospace;
     transform: rotate(-90deg);
 }
 
@@ -106,7 +107,14 @@
     object-fit: contain;
 }
 
+
 /* !*Media Queries - Landscape*! */
+@media (width <= 1100px) {
+    .titleSection {
+        font-size: var(--font-size-xs);
+    }
+}
+
 @media(width <= 1000px) {
     .titleSection {
         left: -1%;
@@ -119,6 +127,10 @@
 }
 
 @media(width <= 900px) {
+    .titleSection {
+        font-size: var(--font-size-base);
+    }
+
     .socialsGrid {
         gap: 3rem;
     }
@@ -149,13 +161,19 @@
 
 @media(width <= 800px) {
     .titleSection {
-        top: 35%;
-        left: -3%;
-        font-size: var(--font-size-base);
+        left: -1%;
     }
 
     .socialsGrid {
         gap: 2rem;
+    }
+
+    .linkSocial {
+        gap: 0;
+    }
+
+    .card span {
+        font-size: var(--font-size-xxl);
     }
 
     .linkedinDesktop {
@@ -177,20 +195,12 @@
 
 @media (width <= 600px) {
     .titleSection {
-        top: 35%;
+        left: -3%;
         font-size: var(--font-size-xxs);
-    }
-
-    .card span {
-        font-size: var(--font-size-xxl);
     }
 
     .card {
         gap: 0.6rem;
-    }
-
-    .linkSocial {
-        gap: 0;
     }
 
     .header a {
@@ -203,8 +213,6 @@
 
 @media (width <= 500px) {
     .titleSection {
-        top: 40%;
-        left: -5%;
         font-size: var(--font-size-xxxs);
     }
 

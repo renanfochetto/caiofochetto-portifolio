@@ -94,6 +94,7 @@
 :root {
     --font-sans: 'IBM Plex Sans', sans-serif;
     --font-mono: 'IBM Plex Mono', monospace;
+
     --font-size-xxxl: 0.5rem;
     --font-size-xxl: 0.6rem;
     --font-size-xxxs: 0.7rem;
@@ -105,10 +106,12 @@
     --font-size-md-plus: 2rem;
     --font-size-lg: 2.4rem;
     --font-size-xl: 3.2rem;
+
     --font-weight-regular: 400;
     --font-weight-medium: 500;
     --font-weight-semibold: 600;
     --font-weight-bold: 700;
+
     --line-height-regular: 1.5rem;
     --line-height-medium: 1.875rem;
     --line-height-large: 3.125rem;
