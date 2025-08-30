@@ -6,15 +6,15 @@ import Tag from '../Tag/Tag.tsx';
 
 type TagData = {
   label: string;
-}
+};
 
 type TagsMap = {
   [key: string]: TagData;
-}
+};
 
 type TagFilterProps = {
   onFilterChange: (selectedTags: string[]) => void;
-}
+};
 
 const TagFilter = ({ onFilterChange }: TagFilterProps) => {
   const content = useLocalizedContent();
@@ -26,7 +26,7 @@ const TagFilter = ({ onFilterChange }: TagFilterProps) => {
 
   const handleTagClick = (tagKey: string) => {
     const updatedTags = selectedTags.includes(tagKey)
-    ? selectedTags.filter(t => t !== tagKey)
+      ? selectedTags.filter((t) => t !== tagKey)
       : [...selectedTags, tagKey];
 
     setSelectedTags(updatedTags);
@@ -38,8 +38,8 @@ const TagFilter = ({ onFilterChange }: TagFilterProps) => {
       {Object.entries(tags).map(([key, { label }]) => (
         <div
           key={key}
-        onClick={() => handleTagClick(key)}
-        className={styles.tagWrapper}
+          onClick={() => handleTagClick(key)}
+          className={styles.tagWrapper}
         >
           <Tag
             label={label}
@@ -48,7 +48,6 @@ const TagFilter = ({ onFilterChange }: TagFilterProps) => {
         </div>
       ))}
     </div>
-
   );
 };
 

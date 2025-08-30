@@ -42,7 +42,8 @@ const Cases = () => {
             id: 'cases-horizontal',
             trigger: wrapper,
             start: 'top top',
-            end: () => `+=${Math.max(0, container.scrollWidth - window.innerWidth)}`,
+            end: () =>
+              `+=${Math.max(0, container.scrollWidth - window.innerWidth)}`,
             scrub: true,
             pin: true,
             anticipatePin: 1,
@@ -111,8 +112,15 @@ const Cases = () => {
   const { pagina } = content.cases;
 
   return (
-    <section id="cases" className={styles.scrollWrapper} ref={wrapperRef}>
-      <div className={styles.container} ref={containerRef}>
+    <section
+      id="cases"
+      className={styles.scrollWrapper}
+      ref={wrapperRef}
+    >
+      <div
+        className={styles.container}
+        ref={containerRef}
+      >
         <div className={styles.titleSection}>
           <h3>{pagina}</h3>
         </div>

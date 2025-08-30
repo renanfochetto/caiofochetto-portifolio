@@ -1,12 +1,11 @@
 import styles from './CaseGrid.module.css';
 import CaseCard from '../CaseCard/CaseCard.tsx';
 import TagFilter from '../TagFilter/TagFilter.tsx';
-import {useState, useMemo} from 'react';
-import {CaseModal} from '../CaseModal/CaseModal.tsx';
+import { useState, useMemo } from 'react';
+import { CaseModal } from '../CaseModal/CaseModal.tsx';
 import { buildAssetPath } from '../../utils/path';
-import type {CaseData} from '../../types';
+import type { CaseData } from '../../types';
 import { useLocalizedContent } from '../../hooks/useLocalizedContent.ts';
-
 
 const CaseGrid = () => {
   const content = useLocalizedContent();
@@ -31,9 +30,10 @@ const CaseGrid = () => {
     }
   };
 
-  const filteredCases = activeTags.length === 0
-    ? cases
-    : cases.filter(c => c.tags.some(tag => activeTags.includes(tag)));
+  const filteredCases =
+    activeTags.length === 0
+      ? cases
+      : cases.filter((c) => c.tags.some((tag) => activeTags.includes(tag)));
 
   const numColumns = useMemo(() => {
     const divisor = getColumnDivisor();
@@ -45,13 +45,15 @@ const CaseGrid = () => {
   return (
     <>
       <div className={styles.tagFilterContainer}>
-        <TagFilter onFilterChange={setActiveTags}/>
+        <TagFilter onFilterChange={setActiveTags} />
       </div>
       <div
         className={styles.caseGrid}
-        style={{ gridTemplateColumns: `repeat(${numColumns}, var(--column-width))` }}
+        style={{
+          gridTemplateColumns: `repeat(${numColumns}, var(--column-width))`,
+        }}
       >
-        {filteredCases.map(c => (
+        {filteredCases.map((c) => (
           <CaseCard
             image={buildAssetPath(c.folder, c.capa)}
             key={c.id}

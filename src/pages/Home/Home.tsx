@@ -1,7 +1,7 @@
 import styles from './Home.module.css';
 import LinkContainer from '../../components/LinkContainer/LinkContainer.tsx';
-import {useLocalizedContent} from '../../hooks/useLocalizedContent.ts';
-import {useEffect} from 'react';
+import { useLocalizedContent } from '../../hooks/useLocalizedContent.ts';
+import { useEffect } from 'react';
 
 const Home = () => {
   const content = useLocalizedContent();
@@ -14,16 +14,22 @@ const Home = () => {
 
   if (!content) return null;
 
-  const {pagina, titulo, subtitulo} = content.inicial;
+  const { pagina, titulo, subtitulo } = content.inicial;
 
   return (
-    <section id="home" className={styles.container}>
+    <section
+      id="home"
+      className={styles.container}
+    >
       <div className={styles.titleSection}>
         <h3>{pagina}</h3>
       </div>
       <div className={styles.intro}>
         {titulo.map((line: string, index: number) => (
-          <div key={index} className={styles.introTitle}>
+          <div
+            key={index}
+            className={styles.introTitle}
+          >
             <h2>{line}</h2>
           </div>
         ))}
@@ -36,7 +42,7 @@ const Home = () => {
       <div className={styles.socials}>
         <div className={styles.lineBig}></div>
         <div className={styles.icons}>
-          <LinkContainer/>
+          <LinkContainer />
         </div>
         <div className={styles.lineSmall}></div>
       </div>

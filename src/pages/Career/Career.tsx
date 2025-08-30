@@ -19,8 +19,6 @@ interface Experiencia {
   competencias: string;
 }
 
-
-
 const Career = () => {
   const content = useLocalizedContent();
   const wrapperRef = useRef<HTMLElement | null>(null);
@@ -40,7 +38,10 @@ const Career = () => {
       }
       gsap.set(container, { x: 0 });
 
-      const totalScroll = Math.max(0, container.scrollWidth - window.innerWidth);
+      const totalScroll = Math.max(
+        0,
+        container.scrollWidth - window.innerWidth,
+      );
 
       if (totalScroll > 0) {
         const tween = gsap.to(container, {
@@ -78,18 +79,44 @@ const Career = () => {
   const { pagina, experiencias, badge } = content.carreira;
 
   return (
-    <section id="carreira" className={styles.scrollWrapper} ref={wrapperRef}>
-      <div className={styles.container} ref={containerRef}>
+    <section
+      id="carreira"
+      className={styles.scrollWrapper}
+      ref={wrapperRef}
+    >
+      <div
+        className={styles.container}
+        ref={containerRef}
+      >
         <div className={styles.titleSection}>
           <h3>{pagina}</h3>
         </div>
         <div className={styles.badgeGrid}>
           {experiencias.map((exp: Experiencia, index: number) => (
-            <Badge key={index} experiencia={exp} labels={badge} />
+            <Badge
+              key={index}
+              experiencia={exp}
+              labels={badge}
+            />
           ))}
           <div className={styles.timeline}></div>
-          {['2023', '2021', '2020', '2015', '2010', '2009', '2009', '2005', '2002'].map((year, i) => (
-            <div key={i} className={styles.timelineYear}>{year}</div>
+          {[
+            '2023',
+            '2021',
+            '2020',
+            '2015',
+            '2010',
+            '2009',
+            '2009',
+            '2005',
+            '2002',
+          ].map((year, i) => (
+            <div
+              key={i}
+              className={styles.timelineYear}
+            >
+              {year}
+            </div>
           ))}
         </div>
       </div>

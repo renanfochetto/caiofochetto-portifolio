@@ -1,308 +1,303 @@
 .modal {
-    z-index: 1000;
-    width: 80%;
-    max-height: 80vh;
-    padding: 2rem;
-    overflow-y: auto;
-    background-color: var(--white);
-    border-radius: 8px;
-    box-shadow: 0 0 20px rgb(0 0 0 / 30%);
+  z-index: 1000;
+  width: 80%;
+  max-height: 80vh;
+  padding: 2rem;
+  overflow-y: auto;
+  background-color: var(--white);
+  border-radius: 8px;
+  box-shadow: 0 0 20px rgb(0 0 0 / 30%);
 }
 
-
 .modal img {
-    max-width: 100%;
-    height: auto;
-    margin-top: 1rem;
+  max-width: 100%;
+  height: auto;
+  margin-top: 1rem;
 }
 
 .closeButton {
-    position: absolute;
-    top: 1rem;
-    right: 1rem;
-    z-index: 1001;
-    background: none;
-    border: none;
-    cursor: pointer;
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  z-index: 1001;
+  background: none;
+  border: none;
+  cursor: pointer;
 }
 
 .closeButton:hover {
-    transform: scale(1.1);
-    transition: transform 0.1s;
+  transform: scale(1.1);
+  transition: transform 0.1s;
 }
 
 .closeButton:active {
-    transform: scale(0.9);
-    transition: transform 0.1s;
+  transform: scale(0.9);
+  transition: transform 0.1s;
 }
 
 .closeButton svg {
-    width: 3rem;
-    height: 3rem;
-    fill: var(--white);
+  width: 3rem;
+  height: 3rem;
+  fill: var(--white);
 }
 
 .closeButton svg:hover {
-    fill: var(--pink);
+  fill: var(--pink);
 }
 
 .modalHeader {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
-    margin-bottom: 1rem;
-    padding-bottom: 2rem;
-    border-bottom: 2px solid var(--black);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+  padding-bottom: 2rem;
+  border-bottom: 2px solid var(--black);
 }
 
 .modalHeader img {
-    width: 8rem;
-    height: auto;
+  width: 8rem;
+  height: auto;
 }
 
 .infoSection {
-    display: flex;
-    flex-direction: column;
-    gap: 0.5rem;
-    text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  text-align: left;
 }
 
 .titleSection h5 {
-    display: inline-block;
-    margin: 0;
-    padding: 0.1rem 0.6rem;
-    font-weight: var(--font-weight-semibold);
-    font-size: var(--font-size-md);
-    font-family: var(--font-mono), monospace;
-    background-color: var(--lime-green);
-    border-radius: var(--border-radius-base);
+  display: inline-block;
+  margin: 0;
+  padding: 0.1rem 0.6rem;
+  font-weight: var(--font-weight-semibold);
+  font-size: var(--font-size-md);
+  font-family: var(--font-mono), monospace;
+  background-color: var(--lime-green);
+  border-radius: var(--border-radius-base);
 }
 
 .tagsSection {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
 }
 
 .logoSection {
-    display: flex;
-    gap: 1rem;
-    align-items: center;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
 }
 
 .logo {
-    height: 40px;
-    object-fit: contain;
+  height: 40px;
+  object-fit: contain;
 }
 
 .techSheet {
-    display: flex;
-    flex-direction: column;
-    width: 27rem;
-    margin-top: 6rem;
-    background-color: var(--lime-green);
-    border: 1px solid var(--black);
+  display: flex;
+  flex-direction: column;
+  width: 27rem;
+  margin-top: 6rem;
+  background-color: var(--lime-green);
+  border: 1px solid var(--black);
 }
 
 .techSheet span {
-    display: block;
-    width: 100%;
-    margin: 0;
-    padding: 0.5rem 1rem;
-    font-weight: var(--font-weight-regular);
-    font-size: var(--font-size-base);
-    font-family: var(--font-mono), monospace;
-    border: 1px solid var(--black);
-    border-radius: 0;
-    box-shadow: none;
-    padding-block: 0.2rem;
+  display: block;
+  width: 100%;
+  margin: 0;
+  padding: 0.5rem 1rem;
+  font-weight: var(--font-weight-regular);
+  font-size: var(--font-size-base);
+  font-family: var(--font-mono), monospace;
+  border: 1px solid var(--black);
+  border-radius: 0;
+  box-shadow: none;
+  padding-block: 0.2rem;
 }
 
 .modalOverlay {
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 999;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100vw;
-    height: 100vh;
-    background: rgb(0 0 0 / 60%);
-    inset: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  background: rgb(0 0 0 / 60%);
+  inset: 0;
 }
 
 /* Media Queries - Landscape */
-@media(width <= 1000px) {
-    .modalHeader {
-        padding-bottom: 0.5rem;
-    }
+@media (width <= 1000px) {
+  .modalHeader {
+    padding-bottom: 0.5rem;
+  }
 
-    .modalHeader img {
-        width: 6rem;
-        padding-bottom: 2rem;
-    }
+  .modalHeader img {
+    width: 6rem;
+    padding-bottom: 2rem;
+  }
 
-    .techSheet {
-        width: 21rem;
-    }
+  .techSheet {
+    width: 21rem;
+  }
 
-    .techSheet span {
-        font-size: var(--font-size-xxs);
-    }
+  .techSheet span {
+    font-size: var(--font-size-xxs);
+  }
 }
 
-@media(width <= 900px) {
-    .closeButton svg {
-        width: 2rem;
-        height: 2rem;
-    }
+@media (width <= 900px) {
+  .closeButton svg {
+    width: 2rem;
+    height: 2rem;
+  }
 }
 
+@media (width <= 800px) {
+  .titleSection h5 {
+    padding-block: 0;
+  }
 
-@media(width <= 800px) {
-    .titleSection h5 {
-        padding-block: 0;
-    }
+  .modalHeader {
+    margin-bottom: 1rem;
+    padding-bottom: 0;
+  }
 
-    .modalHeader {
-        margin-bottom: 1rem;
-        padding-bottom: 0;
-    }
-
-    .modalHeader img:nth-child(2) {
-        display: none;
-    }
-
+  .modalHeader img:nth-child(2) {
+    display: none;
+  }
 }
 
 @media (width <= 700px) {
-    .modal {
-        width: 90%;
-        height: 90vh;
-    }
+  .modal {
+    width: 90%;
+    height: 90vh;
+  }
 
-    .closeButton {
-        top: 0.2rem;
-        right: 0.1rem;
-    }
+  .closeButton {
+    top: 0.2rem;
+    right: 0.1rem;
+  }
 
-    .titleSection h5 {
-        font-size: var(--font-size-sm);
-    }
+  .titleSection h5 {
+    font-size: var(--font-size-sm);
+  }
 
-    .tagsSection {
-        gap: 0.4rem;
-        padding-bottom: 0.5rem;
-    }
+  .tagsSection {
+    gap: 0.4rem;
+    padding-bottom: 0.5rem;
+  }
 
-    .logoSection {
-        gap: 0;
-    }
+  .logoSection {
+    gap: 0;
+  }
 
-    .modalHeader img {
-        width: 4.8rem;
-
-    }
+  .modalHeader img {
+    width: 4.8rem;
+  }
 }
 
 @media (width <= 600px) {
-    .modalHeader {
-        margin-bottom: 0.1rem;
-    }
+  .modalHeader {
+    margin-bottom: 0.1rem;
+  }
 
-    .closeButton {
-        top: 0.3rem;
-        right: 0.3rem;
-    }
+  .closeButton {
+    top: 0.3rem;
+    right: 0.3rem;
+  }
 
-    .closeButton svg {
-        width: 1.5rem;
-        height: 1.5rem;
-    }
+  .closeButton svg {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
 
-    .modalHeader img {
-        width: 4rem;
-    }
+  .modalHeader img {
+    width: 4rem;
+  }
 
-    .titleSection h5 {
-        font-size: var(--font-size-xs);
-    }
+  .titleSection h5 {
+    font-size: var(--font-size-xs);
+  }
 
-    .techSheet span {
-        font-size: var(--font-size-xxxs);
-    }
+  .techSheet span {
+    font-size: var(--font-size-xxxs);
+  }
 
-    .techSheet {
-        width: 18rem;
-    }
+  .techSheet {
+    width: 18rem;
+  }
 }
 
 @media (width <= 500px) {
-    .titleSection h5 {
-        font-size: var(--font-size-base);
-    }
+  .titleSection h5 {
+    font-size: var(--font-size-base);
+  }
 
-    .modalHeader img {
-        display: none;
-    }
+  .modalHeader img {
+    display: none;
+  }
 
-    .closeButton {
-        top: 0.1rem;
-        right: 0.1rem;
-    }
+  .closeButton {
+    top: 0.1rem;
+    right: 0.1rem;
+  }
 
-    .tagsSection {
-        gap: 0.2rem;
-        margin-bottom: 0.8rem;
-    }
+  .tagsSection {
+    gap: 0.2rem;
+    margin-bottom: 0.8rem;
+  }
 
-    .techSheet {
-        width: 17rem;
-    }
-
+  .techSheet {
+    width: 17rem;
+  }
 }
 
 /* Media Queries - Portrait */
 @media (width <= 1100px) and (orientation: portrait) {
-    .closeButton {
-        top: 2rem;
-        right: 1rem;
-    }
+  .closeButton {
+    top: 2rem;
+    right: 1rem;
+  }
 
-    .closeButton svg {
-        width: 3rem;
-        height: 3rem;
-    }
+  .closeButton svg {
+    width: 3rem;
+    height: 3rem;
+  }
 }
 
 @media (width <= 900px) and (orientation: portrait) {
-    .closeButton {
-        top: 1.4rem;
-        right: 1rem;
-    }
+  .closeButton {
+    top: 1.4rem;
+    right: 1rem;
+  }
 }
 
 @media (width <= 800px) and (orientation: portrait) {
-    .modalHeader img:nth-child(2) {
-        display: none;
-    }
+  .modalHeader img:nth-child(2) {
+    display: none;
+  }
 }
 
 @media (width <= 700px) and (orientation: portrait) {
-    .modalHeader {
-        padding-bottom: 1rem;
-    }
+  .modalHeader {
+    padding-bottom: 1rem;
+  }
 
-    .modalHeader img {
-        display: none;
-    }
+  .modalHeader img {
+    display: none;
+  }
 }
 
 @media (width <= 400px) and (orientation: portrait) {
-    .closeButton {
-        top: 0.5rem;
-        right: 0.5rem;
-    }
+  .closeButton {
+    top: 0.5rem;
+    right: 0.5rem;
+  }
 }

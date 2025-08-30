@@ -12,16 +12,22 @@ export const Footer = () => {
   return (
     <section>
       <footer>
-        <h4>CAIO <br />FOCHETTO</h4>
+        <h4>
+          CAIO <br />
+          FOCHETTO
+        </h4>
         <p>
-          <a className={styles.author} href="https://www.renanfochetto.dev" target="_blank" rel="noopener noreferrer">
+          <a
+            className={styles.author}
+            href="https://www.renanfochetto.dev"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             {autor}
           </a>
         </p>
-        <LinkContainer className={styles.footerLinks}/>
+        <LinkContainer className={styles.footerLinks} />
       </footer>
     </section>
   );
 };
-
-

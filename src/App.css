@@ -1,47 +1,47 @@
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    max-width: 1800px;
-    min-height: 100vh;
-    margin: 0 auto;
-    overflow-x: hidden;
-    color: var(--black);
-    font-weight: var(--font-weight-bold);
-    font-family: var(--font-sans), sans-serif;
-    background-color: var(--background);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 1800px;
+  min-height: 100vh;
+  margin: 0 auto;
+  overflow-x: hidden;
+  color: var(--black);
+  font-weight: var(--font-weight-bold);
+  font-family: var(--font-sans), sans-serif;
+  background-color: var(--background);
 }
 
 *::-webkit-scrollbar {
-    width: 0.75rem;
-    height: 0.75rem;
+  width: 0.75rem;
+  height: 0.75rem;
 }
 
 *::-webkit-scrollbar-track {
-    background: var(--lime-green);
+  background: var(--lime-green);
 }
 
 *::-webkit-scrollbar-thumb {
-    background-color: var(--dark-magenta);
-    background-clip: content-box;
+  background-color: var(--dark-magenta);
+  background-clip: content-box;
 }
 
 .background-layer {
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: -1;
-    width: 100vw;
-    height: 100vh;
-    background-image: url('/background/background.avif');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    pointer-events: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100vw;
+  height: 100vh;
+  background-image: url('/background/background.avif');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  pointer-events: none;
 }

@@ -19,22 +19,22 @@ export type CaseData = {
 
 export type CaseBlock =
   | {
-  type: 'text' | 'quote';
-  title: string;
-  paragraph: string[];
-}
+      type: 'text' | 'quote';
+      title: string;
+      paragraph: string[];
+    }
   | {
-  type: 'photoGallery';
-  layout: string;
-  files: string[];
-  description?: string;
-}
+      type: 'photoGallery';
+      layout: string;
+      files: string[];
+      description?: string;
+    }
   | {
-  type: 'videoGallery';
-  layout: string;
-  links: string[];
-  description?: string;
-}
+      type: 'videoGallery';
+      layout: string;
+      links: string[];
+      description?: string;
+    };
 
 export interface Inicial {
   pagina: string;

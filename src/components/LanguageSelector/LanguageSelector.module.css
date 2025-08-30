@@ -1,113 +1,114 @@
 .selector {
-    position: relative;
-    align-self: start;
-    width: 7rem;
-    font-size: var(--font-size-base);
+  position: relative;
+  align-self: start;
+  width: 7rem;
+  font-size: var(--font-size-base);
 }
 
-.selected:hover, .option:hover {
-    text-decoration: underline;
-    cursor: pointer;
-    text-underline-offset: 0.25rem;
-    text-decoration-thickness: 0.15rem;
+.selected:hover,
+.option:hover {
+  text-decoration: underline;
+  cursor: pointer;
+  text-underline-offset: 0.25rem;
+  text-decoration-thickness: 0.15rem;
 }
 
 .option:hover {
-    background-color: var(--lime-green);
+  background-color: var(--lime-green);
 }
 
 .option:active {
-    transform: scale(0.9);
-    transition: transform 0.1s;
+  transform: scale(0.9);
+  transition: transform 0.1s;
 }
 
 .selected {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    color: var(--black);
-    background-color: transparent;
-    cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: var(--black);
+  background-color: transparent;
+  cursor: pointer;
 }
 
 .selected img {
-    width: 1.5rem;
-    height: 1.5rem;
+  width: 1.5rem;
+  height: 1.5rem;
 }
 
-
 .options {
-    position: absolute;
-    top: 1.8rem;
-    left:0;
-    z-index: 10;
-    font-size: var(--font-size-base);
-    list-style: none;
+  position: absolute;
+  top: 1.8rem;
+  left: 0;
+  z-index: 10;
+  font-size: var(--font-size-base);
+  list-style: none;
 }
 
 .option {
-    text-align: left;
-    cursor: pointer;
-    padding: 0.12rem 0.2rem;
-    transition: background 0.2s ease;
-    border-radius: var(--border-radius-small);
+  text-align: left;
+  cursor: pointer;
+  padding: 0.12rem 0.2rem;
+  transition: background 0.2s ease;
+  border-radius: var(--border-radius-small);
 }
 
 @media (width <= 1000px) {
-    .selector {
-        width: 6rem;
-        font-size: var(--font-size-xxs);
-    }
+  .selector {
+    width: 6rem;
+    font-size: var(--font-size-xxs);
+  }
 
-    .option {
-        padding-block: 0.2rem;
-        font-size: var(--font-size-xxs);
-    }
+  .option {
+    padding-block: 0.2rem;
+    font-size: var(--font-size-xxs);
+  }
 
-    .selected img {
-        width: 1.3rem;
-        height: 1.3rem;
-    }
+  .selected img {
+    width: 1.3rem;
+    height: 1.3rem;
+  }
 }
 
 @media (width <= 800px) {
-    .selector {
-        width: 5rem;
-        font-size: var(--font-size-xxxs);
-    }
+  .selector {
+    width: 5rem;
+    font-size: var(--font-size-xxxs);
+  }
 
-    .selected img {
-        width: 1.2rem;
-        height: 1.2rem;
-    }
+  .selected img {
+    width: 1.2rem;
+    height: 1.2rem;
+  }
 
-    .options {
-        top: 1.2rem;
-    }
+  .options {
+    top: 1.2rem;
+  }
 
-    .option {
-        padding-block: 0.1rem;
-        font-size: var(--font-size-xxxs);
-    }
+  .option {
+    padding-block: 0.1rem;
+    font-size: var(--font-size-xxxs);
+  }
 
-    .selected:hover, .option:hover {
-        text-underline-offset: 0.2rem;
-        text-decoration-thickness: 0.1rem;
-    }
+  .selected:hover,
+  .option:hover {
+    text-underline-offset: 0.2rem;
+    text-decoration-thickness: 0.1rem;
+  }
 }
 
 @media (width <= 600px) {
-    .selector {
-        width: 4.5rem;
-        font-size: var(--font-size-xxl);
-    }
+  .selector {
+    width: 4.5rem;
+    font-size: var(--font-size-xxl);
+  }
 
-    .option {
-        padding-block: 0;
-        font-size: var(--font-size-xxl);
-    }
+  .option {
+    padding-block: 0;
+    font-size: var(--font-size-xxl);
+  }
 
-    .options {
-        top: 1rem;
-    }
+  .options {
+    top: 1rem;
+  }
 }

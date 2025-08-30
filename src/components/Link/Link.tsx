@@ -7,7 +7,7 @@ type PropsLink = {
   alt?: string;
   children?: React.ReactNode;
   className?: string;
-}
+};
 
 const Link = ({ href, icon, alt, children, className }: PropsLink) => {
   return (
@@ -17,7 +17,14 @@ const Link = ({ href, icon, alt, children, className }: PropsLink) => {
       target="_blank"
       rel="noopener noreferrer"
     >
-      {icon && <img className={alt} src={icon} alt={alt || 'Ícone de link'} style={{ marginRight: '8px' }} />}
+      {icon && (
+        <img
+          className={alt}
+          src={icon}
+          alt={alt || 'Ícone de link'}
+          style={{ marginRight: '8px' }}
+        />
+      )}
       {children}
     </a>
   );

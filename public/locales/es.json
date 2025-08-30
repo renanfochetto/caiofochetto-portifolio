@@ -2,10 +2,7 @@
   "pageTitle": "Caio Fochetto - Portafolio",
   "inicial": {
     "pagina": "PORTAFOLIO",
-    "titulo": [
-      "Hola,",
-      "me llamo Caio Fochetto."
-    ],
+    "titulo": ["Hola,", "me llamo Caio Fochetto."],
     "subtitulo": [
       "Soy un profesional de la comunicación, con enfoque en contenido",
       "digital y marketing de influencia."
@@ -137,7 +134,7 @@
   },
   "cases": {
     "pagina": "CASES",
-    "projetos" : [
+    "projetos": [
       {
         "id": 1,
         "nome": "Passion 4 Jazz",
@@ -179,7 +176,25 @@
           {
             "type": "photoGallery",
             "layout": "flexFluid",
-            "files": ["p4jz1.avif", "p4jz2.avif", "p4jz3.avif", "p4jz4.avif", "p4jz5.avif", "p4jz6.avif", "p4jz7.avif", "p4jz8.avif", "p4jz9.avif", "p4jz10.avif", "p4jz11.avif", "p4jz12.avif", "p4jz13.avif", "p4jz14.avif", "p4jz15.avif", "p4jz16.avif", "p4jz17.avif"],
+            "files": [
+              "p4jz1.avif",
+              "p4jz2.avif",
+              "p4jz3.avif",
+              "p4jz4.avif",
+              "p4jz5.avif",
+              "p4jz6.avif",
+              "p4jz7.avif",
+              "p4jz8.avif",
+              "p4jz9.avif",
+              "p4jz10.avif",
+              "p4jz11.avif",
+              "p4jz12.avif",
+              "p4jz13.avif",
+              "p4jz14.avif",
+              "p4jz15.avif",
+              "p4jz16.avif",
+              "p4jz17.avif"
+            ],
             "description": "Paquete de Divulgación"
           },
           {
@@ -204,13 +219,73 @@
             "type": "photoGallery",
             "layout": "gridColumn-3",
             "files": [
-              "bastidor1.avif", "bastidor2.avif", "bastidor3.avif", "bastidor4.avif", "bastidor5.avif", "bastidor6.avif", "bastidor7.avif", "bastidor8.avif", "bastidor9.avif", "bastidor10.avif",
-              "bastidor11.avif", "bastidor12.avif", "bastidor13.avif", "bastidor14.avif", "bastidor15.avif", "bastidor16.avif", "bastidor17.avif", "bastidor18.avif", "bastidor19.avif", "bastidor20.avif",
-              "bastidor21.avif", "bastidor22.avif", "bastidor23.avif", "bastidor24.avif", "bastidor25.avif", "bastidor26.avif", "bastidor27.avif", "bastidor28.avif", "bastidor29.avif", "bastidor30.avif",
-              "bastidor31.avif", "bastidor32.avif", "bastidor33.avif", "bastidor34.avif", "bastidor35.avif", "bastidor36.avif", "bastidor37.avif", "bastidor38.avif", "bastidor39.avif", "bastidor40.avif",
-              "bastidor41.avif", "bastidor43.avif", "bastidor44.avif", "bastidor45.avif", "bastidor46.avif", "bastidor47.avif", "bastidor48.avif", "bastidor49.avif", "bastidor50.avif",
-              "bastidor51.avif", "bastidor52.avif", "bastidor53.avif", "bastidor54.avif", "bastidor55.avif", "bastidor56.avif", "bastidor57.avif", "bastidor58.avif", "bastidor59.avif", "bastidor60.avif",
-              "bastidor61.avif", "bastidor62.avif", "bastidor63.avif", "bastidor64.avif", "bastidor65.avif", "bastidor66.avif", "bastidor67.avif", "bastidor68.avif"
+              "bastidor1.avif",
+              "bastidor2.avif",
+              "bastidor3.avif",
+              "bastidor4.avif",
+              "bastidor5.avif",
+              "bastidor6.avif",
+              "bastidor7.avif",
+              "bastidor8.avif",
+              "bastidor9.avif",
+              "bastidor10.avif",
+              "bastidor11.avif",
+              "bastidor12.avif",
+              "bastidor13.avif",
+              "bastidor14.avif",
+              "bastidor15.avif",
+              "bastidor16.avif",
+              "bastidor17.avif",
+              "bastidor18.avif",
+              "bastidor19.avif",
+              "bastidor20.avif",
+              "bastidor21.avif",
+              "bastidor22.avif",
+              "bastidor23.avif",
+              "bastidor24.avif",
+              "bastidor25.avif",
+              "bastidor26.avif",
+              "bastidor27.avif",
+              "bastidor28.avif",
+              "bastidor29.avif",
+              "bastidor30.avif",
+              "bastidor31.avif",
+              "bastidor32.avif",
+              "bastidor33.avif",
+              "bastidor34.avif",
+              "bastidor35.avif",
+              "bastidor36.avif",
+              "bastidor37.avif",
+              "bastidor38.avif",
+              "bastidor39.avif",
+              "bastidor40.avif",
+              "bastidor41.avif",
+              "bastidor43.avif",
+              "bastidor44.avif",
+              "bastidor45.avif",
+              "bastidor46.avif",
+              "bastidor47.avif",
+              "bastidor48.avif",
+              "bastidor49.avif",
+              "bastidor50.avif",
+              "bastidor51.avif",
+              "bastidor52.avif",
+              "bastidor53.avif",
+              "bastidor54.avif",
+              "bastidor55.avif",
+              "bastidor56.avif",
+              "bastidor57.avif",
+              "bastidor58.avif",
+              "bastidor59.avif",
+              "bastidor60.avif",
+              "bastidor61.avif",
+              "bastidor62.avif",
+              "bastidor63.avif",
+              "bastidor64.avif",
+              "bastidor65.avif",
+              "bastidor66.avif",
+              "bastidor67.avif",
+              "bastidor68.avif"
             ]
           }
         ]
@@ -239,7 +314,12 @@
           {
             "type": "photoGallery",
             "layout": "flexRow",
-            "files": ["natura1.avif", "natura2.avif", "natura3.avif", "natura4.avif"]
+            "files": [
+              "natura1.avif",
+              "natura2.avif",
+              "natura3.avif",
+              "natura4.avif"
+            ]
           },
           {
             "type": "videoGallery",
@@ -301,10 +381,7 @@
         "nome": "Netflix + Havaianas",
         "marca": "Netflix + Havaianas",
         "folder": "havaianas",
-        "logos": [
-          "havaianaslogo.png",
-          "netflixlogo.png"
-        ],
+        "logos": ["havaianaslogo.png", "netflixlogo.png"],
         "capa": "havaianascover.avif",
         "empresa": "Playground",
         "cargo": "Gerente de Contenido y Producto",
@@ -337,10 +414,26 @@
             "type": "photoGallery",
             "layout": "gridFluid",
             "files": [
-              "havaianas1.avif", "havaianas2.avif", "havaianas3.avif", "havaianas4.avif", "havaianas5.avif",
-              "havaianas6.avif", "havaianas7.avif", "havaianas8.avif", "havaianas9.avif", "havaianas10.avif",
-              "havaianas11.avif", "havaianas12.avif", "havaianas13.avif", "havaianas14.avif", "havaianas15.avif",
-              "havaianas16.avif", "havaianas17.avif", "havaianas18.avif", "havaianas19.avif", "havaianas20.avif"
+              "havaianas1.avif",
+              "havaianas2.avif",
+              "havaianas3.avif",
+              "havaianas4.avif",
+              "havaianas5.avif",
+              "havaianas6.avif",
+              "havaianas7.avif",
+              "havaianas8.avif",
+              "havaianas9.avif",
+              "havaianas10.avif",
+              "havaianas11.avif",
+              "havaianas12.avif",
+              "havaianas13.avif",
+              "havaianas14.avif",
+              "havaianas15.avif",
+              "havaianas16.avif",
+              "havaianas17.avif",
+              "havaianas18.avif",
+              "havaianas19.avif",
+              "havaianas20.avif"
             ]
           }
         ]
@@ -377,19 +470,34 @@
           },
           {
             "type": "quote",
-            "paragraph": [
-              "Artes Gráficas:"
-            ]
+            "paragraph": ["Artes Gráficas:"]
           },
           {
             "type": "photoGallery",
             "layout": "gridFluid2",
             "files": [
-              "bohemia1.avif", "bohemia2.avif", "bohemia3.avif", "bohemia4.avif", "bohemia5.avif",
-              "bohemia6.avif", "bohemia7.avif", "bohemia8.avif", "bohemia9.avif", "bohemia10.avif",
-              "bohemia11.avif", "bohemia12.avif", "bohemia13.avif", "bohemia14.avif", "bohemia15.avif",
-              "bohemia16.avif", "bohemia17.avif", "bohemia18.avif", "bohemia19.avif", "bohemia20.avif",
-              "bohemia21.avif", "bohemia22.avif"
+              "bohemia1.avif",
+              "bohemia2.avif",
+              "bohemia3.avif",
+              "bohemia4.avif",
+              "bohemia5.avif",
+              "bohemia6.avif",
+              "bohemia7.avif",
+              "bohemia8.avif",
+              "bohemia9.avif",
+              "bohemia10.avif",
+              "bohemia11.avif",
+              "bohemia12.avif",
+              "bohemia13.avif",
+              "bohemia14.avif",
+              "bohemia15.avif",
+              "bohemia16.avif",
+              "bohemia17.avif",
+              "bohemia18.avif",
+              "bohemia19.avif",
+              "bohemia20.avif",
+              "bohemia21.avif",
+              "bohemia22.avif"
             ]
           }
         ]
@@ -472,7 +580,12 @@
           {
             "type": "photoGallery",
             "layout": "flexRow",
-            "files": ["intimus1.avif", "intimus2.avif", "intimus3.avif", "intimus4.avif"]
+            "files": [
+              "intimus1.avif",
+              "intimus2.avif",
+              "intimus3.avif",
+              "intimus4.avif"
+            ]
           }
         ]
       },
@@ -606,10 +719,24 @@
             "type": "photoGallery",
             "layout": "gridFluid3",
             "files": [
-              "playground1.avif", "playground2.avif", "playground3.avif", "playground4.avif", "playground5.avif",
-              "playground6.avif", "playground7.avif", "playground8.avif", "playground9.avif", "playground10.avif",
-              "playground11.avif", "playground12.avif", "playground13.avif", "playground14.avif", "playground15.avif",
-              "playground16.avif", "playground17.avif", "playground18.avif"
+              "playground1.avif",
+              "playground2.avif",
+              "playground3.avif",
+              "playground4.avif",
+              "playground5.avif",
+              "playground6.avif",
+              "playground7.avif",
+              "playground8.avif",
+              "playground9.avif",
+              "playground10.avif",
+              "playground11.avif",
+              "playground12.avif",
+              "playground13.avif",
+              "playground14.avif",
+              "playground15.avif",
+              "playground16.avif",
+              "playground17.avif",
+              "playground18.avif"
             ]
           }
         ]
@@ -629,7 +756,12 @@
           {
             "type": "photoGallery",
             "layout": "gridFluid4",
-            "files": ["pgentrevista1.avif", "pgentrevista2.avif", "pgentrevista3.avif", "pgentrevista4.avif"]
+            "files": [
+              "pgentrevista1.avif",
+              "pgentrevista2.avif",
+              "pgentrevista3.avif",
+              "pgentrevista4.avif"
+            ]
           },
           {
             "type": "text",
@@ -759,7 +891,9 @@
           },
           {
             "type": "quote",
-            "paragraph": ["Conocieron los secretos que llevaron a TOM SILVA al éxito:"]
+            "paragraph": [
+              "Conocieron los secretos que llevaron a TOM SILVA al éxito:"
+            ]
           },
           {
             "type": "videoGallery",
@@ -777,7 +911,9 @@
           },
           {
             "type": "quote",
-            "paragraph": ["También pudieron jugar con él y con el presentador del reality, el colombiano JUAN PABLO LLANO:"]
+            "paragraph": [
+              "También pudieron jugar con él y con el presentador del reality, el colombiano JUAN PABLO LLANO:"
+            ]
           },
           {
             "type": "videoGallery",
@@ -873,7 +1009,17 @@
           {
             "type": "photoGallery",
             "layout": "gridRow",
-            "files": ["tm1-1.avif", "tm1-2.avif", "tm1-3.avif", "tm1-4.avif", "tm1-5.avif", "tm1-6.avif", "tm1-7.avif", "tm1-8.avif", "tm1-9.avif"]
+            "files": [
+              "tm1-1.avif",
+              "tm1-2.avif",
+              "tm1-3.avif",
+              "tm1-4.avif",
+              "tm1-5.avif",
+              "tm1-6.avif",
+              "tm1-7.avif",
+              "tm1-8.avif",
+              "tm1-9.avif"
+            ]
           },
           {
             "type": "text",
@@ -887,7 +1033,19 @@
           {
             "type": "photoGallery",
             "layout": "gridRow2",
-            "files": ["tm2-1.avif", "tm2-2.avif", "tm2-3.avif", "tm2-4.avif", "tm2-5.avif", "tm2-6.avif", "tm2-7.avif", "tm2-8.avif", "tm2-9.avif", "tm2-10.avif", "tm2-11.avif"]
+            "files": [
+              "tm2-1.avif",
+              "tm2-2.avif",
+              "tm2-3.avif",
+              "tm2-4.avif",
+              "tm2-5.avif",
+              "tm2-6.avif",
+              "tm2-7.avif",
+              "tm2-8.avif",
+              "tm2-9.avif",
+              "tm2-10.avif",
+              "tm2-11.avif"
+            ]
           },
           {
             "type": "text",
@@ -903,7 +1061,15 @@
           {
             "type": "photoGallery",
             "layout": "gridRow3",
-            "files": ["tm3-1.avif", "tm3-2.avif", "tm3-3.avif", "tm3-4.avif", "tm3-5.avif", "tm3-6.avif", "tm3-7.avif"]
+            "files": [
+              "tm3-1.avif",
+              "tm3-2.avif",
+              "tm3-3.avif",
+              "tm3-4.avif",
+              "tm3-5.avif",
+              "tm3-6.avif",
+              "tm3-7.avif"
+            ]
           },
           {
             "type": "text",
@@ -916,7 +1082,14 @@
           {
             "type": "photoGallery",
             "layout": "gridFluid5",
-            "files": ["tm4-1.avif", "tm4-2.avif", "tm4-3.avif", "tm4-4.avif", "tm4-5.avif", "tm4-6.avif"]
+            "files": [
+              "tm4-1.avif",
+              "tm4-2.avif",
+              "tm4-3.avif",
+              "tm4-4.avif",
+              "tm4-5.avif",
+              "tm4-6.avif"
+            ]
           },
           {
             "type": "text",
@@ -957,7 +1130,9 @@
           },
           {
             "type": "quote",
-            "paragraph": ["Los picos ocurrieron en los días en que publicamos Twitter Moments."]
+            "paragraph": [
+              "Los picos ocurrieron en los días en que publicamos Twitter Moments."
+            ]
           }
         ]
       },
@@ -977,9 +1152,19 @@
             "type": "photoGallery",
             "layout": "gridFluid6",
             "files": [
-              "tvcultura1.avif", "tvcultura2.avif", "tvcultura3.avif", "tvcultura4.avif", "tvcultura5.avif",
-              "tvcultura6.avif", "tvcultura7.avif", "tvcultura8.avif", "tvcultura9.avif", "tvcultura10.avif",
-              "tvcultura11.avif", "tvcultura12.avif", "tvcultura13.avif"
+              "tvcultura1.avif",
+              "tvcultura2.avif",
+              "tvcultura3.avif",
+              "tvcultura4.avif",
+              "tvcultura5.avif",
+              "tvcultura6.avif",
+              "tvcultura7.avif",
+              "tvcultura8.avif",
+              "tvcultura9.avif",
+              "tvcultura10.avif",
+              "tvcultura11.avif",
+              "tvcultura12.avif",
+              "tvcultura13.avif"
             ]
           },
           {
@@ -1109,7 +1294,12 @@
           {
             "type": "photoGallery",
             "layout": "flexRow",
-            "files": ["sozinhos2.avif", "sozinhos3.avif", "sozinhos4.avif", "sozinhos5.avif"]
+            "files": [
+              "sozinhos2.avif",
+              "sozinhos3.avif",
+              "sozinhos4.avif",
+              "sozinhos5.avif"
+            ]
           }
         ]
       },
@@ -1135,7 +1325,19 @@
           {
             "type": "photoGallery",
             "layout": "gridColumn3",
-            "files": ["giorgio1.avif", "giorgio2.avif", "giorgio4.avif", "giorgio5.avif", "giorgio6.avif", "giorgio7.avif", "giorgio8.avif", "giorgio9.avif", "giorgio10.avif", "giorgio11.avif", "giorgio12.avif"]
+            "files": [
+              "giorgio1.avif",
+              "giorgio2.avif",
+              "giorgio4.avif",
+              "giorgio5.avif",
+              "giorgio6.avif",
+              "giorgio7.avif",
+              "giorgio8.avif",
+              "giorgio9.avif",
+              "giorgio10.avif",
+              "giorgio11.avif",
+              "giorgio12.avif"
+            ]
           },
           {
             "type": "quote",
@@ -1162,9 +1364,7 @@
           {
             "type": "text",
             "title": "Transmisiones vía Facebook y YouTube",
-            "paragraph": [
-              "Invitados vía Facebook Live y vía YouTube Live."
-            ]
+            "paragraph": ["Invitados vía Facebook Live y vía YouTube Live."]
           },
           {
             "type": "videoGallery",
@@ -1188,7 +1388,13 @@
           {
             "type": "photoGallery",
             "layout": "gridColumn3",
-            "files": ["alien1.avif", "alien2.avif", "alien3.avif", "alien4.avif", "alien6.avif"]
+            "files": [
+              "alien1.avif",
+              "alien2.avif",
+              "alien3.avif",
+              "alien4.avif",
+              "alien6.avif"
+            ]
           },
           {
             "type": "text",
@@ -1255,8 +1461,18 @@
             "type": "photoGallery",
             "layout": "gridColumn4",
             "files": [
-              "alien7.avif", "alien8.avif", "alien9.avif", "alien10.avif", "alien11.avif", "alien12.avif",
-              "alien13.avif", "alien14.avif", "alien15.avif", "alien16.avif", "alien17.avif", "alien18.avif"
+              "alien7.avif",
+              "alien8.avif",
+              "alien9.avif",
+              "alien10.avif",
+              "alien11.avif",
+              "alien12.avif",
+              "alien13.avif",
+              "alien14.avif",
+              "alien15.avif",
+              "alien16.avif",
+              "alien17.avif",
+              "alien18.avif"
             ]
           }
         ]

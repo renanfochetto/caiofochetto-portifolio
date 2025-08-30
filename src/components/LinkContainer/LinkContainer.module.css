@@ -1,72 +1,71 @@
 .linkContainer {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    column-gap: 1.5rem;
-    margin-inline: 1.5rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 1.5rem;
+  margin-inline: 1.5rem;
 }
 
 .linkContainer a:hover {
-    outline: 2px solid var(--black);
-    outline-offset: 0.4rem;
+  outline: 2px solid var(--black);
+  outline-offset: 0.4rem;
 }
-
 
 /* Media Queries - Landscape */
 @media (width <= 1000px) {
-    .linkContainer {
-        column-gap: 1rem;
-    }
+  .linkContainer {
+    column-gap: 1rem;
+  }
 }
 
 @media (width <= 800px) {
-    .linkContainer {
-        margin-inline: 1rem;
-    }
+  .linkContainer {
+    margin-inline: 1rem;
+  }
 }
 
 @media (width <= 700px) {
-    .linkContainer {
-        column-gap: 0.8rem;
-    }
+  .linkContainer {
+    column-gap: 0.8rem;
+  }
 }
 
 @media (width <= 600px) {
-    .linkContainer a:hover {
-        outline-offset: 0.2rem;
-    }
+  .linkContainer a:hover {
+    outline-offset: 0.2rem;
+  }
 }
 
 @media (width <= 500px) {
-    .linkContainer {
-        margin-inline: 0.5rem;
-        column-gap: 0.6rem;
-    }
+  .linkContainer {
+    margin-inline: 0.5rem;
+    column-gap: 0.6rem;
+  }
 }
 
 /* Media Queries - Portrait */
 @media (width <= 1100px) and (orientation: portrait) {
-    .linkContainer {
-        column-gap: 2.4rem;
-        margin-inline: 2rem;
-    }
+  .linkContainer {
+    column-gap: 2.4rem;
+    margin-inline: 2rem;
+  }
 }
 
 @media (width <= 900px) and (orientation: portrait) {
-    .linkContainer {
-        column-gap: 1rem;
-    }
+  .linkContainer {
+    column-gap: 1rem;
+  }
 }
 
 @media (width <= 700px) and (orientation: portrait) {
-    .linkContainer {
-        margin-inline: 1rem;
-        column-gap: 1.5rem;
-    }
+  .linkContainer {
+    margin-inline: 1rem;
+    column-gap: 1.5rem;
+  }
 }
 
 @media (width <= 600px) and (orientation: portrait) {
-    .linkContainer {
-        margin-inline: 0.5rem;
-        column-gap: 1rem;
-    }
+  .linkContainer {
+    margin-inline: 0.5rem;
+    column-gap: 1rem;
+  }
 }

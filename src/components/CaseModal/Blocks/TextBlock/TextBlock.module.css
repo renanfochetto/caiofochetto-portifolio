@@ -1,96 +1,95 @@
 .textBlock {
-    display: flex;
-    flex-direction: column;
-    margin: 4rem 0;
-    font-family: var(--font-sans), sans-serif;
-    box-shadow: none;
+  display: flex;
+  flex-direction: column;
+  margin: 4rem 0;
+  font-family: var(--font-sans), sans-serif;
+  box-shadow: none;
 }
 
 .textBlock h5 {
-    display: inline-block;
-    width: fit-content;
-    font-weight: var(--font-weight-bold);
-    font-size: var(--font-size-md-plus);
-    font-family: var(--font-mono), monospace;
-    text-align: center;
-    background-color: var(--lime-green);
-    border-radius: var(--border-radius-base);
-    padding-inline: 1rem;
-    place-self: center;
+  display: inline-block;
+  width: fit-content;
+  font-weight: var(--font-weight-bold);
+  font-size: var(--font-size-md-plus);
+  font-family: var(--font-mono), monospace;
+  text-align: center;
+  background-color: var(--lime-green);
+  border-radius: var(--border-radius-base);
+  padding-inline: 1rem;
+  place-self: center;
 }
 
 .textBlock p {
-    font-weight: var(--font-weight-regular);
-    font-size: var(--font-size-xs);
-    text-indent: 2rem;
-    background-color: var(--white);
-    box-shadow: none;
+  font-weight: var(--font-weight-regular);
+  font-size: var(--font-size-xs);
+  text-indent: 2rem;
+  background-color: var(--white);
+  box-shadow: none;
 }
 
 /* Media Queries - Landscape */
 @media (width <= 1200px) {
-    .textBlock {
-        margin: 3rem 0;
-    }
+  .textBlock {
+    margin: 3rem 0;
+  }
 }
 
 @media (width <= 1100px) {
-    .textBlock {
-        margin: 2rem 0;
-    }
-
+  .textBlock {
+    margin: 2rem 0;
+  }
 }
 
 @media (width <= 1000px) {
-    .textBlock h5 {
-        font-size: var(--font-size-md);
-    }
+  .textBlock h5 {
+    font-size: var(--font-size-md);
+  }
 
-    .textBlock p {
-        font-size: var(--font-size-base);
-    }
+  .textBlock p {
+    font-size: var(--font-size-base);
+  }
 }
 
 @media (width <= 800px) {
-    .textBlock {
-        margin: 0;
-    }
+  .textBlock {
+    margin: 0;
+  }
 
-    .textBlock h5 {
-        font-size: var(--font-size-sm);
-        padding-inline: 0.5rem;
-        margin-block: 1.5rem;
-    }
+  .textBlock h5 {
+    font-size: var(--font-size-sm);
+    padding-inline: 0.5rem;
+    margin-block: 1.5rem;
+  }
 
-    .textBlock p {
-        text-indent: 1.5rem;
-    }
+  .textBlock p {
+    text-indent: 1.5rem;
+  }
 }
 
 @media (width <= 600px) {
-    .textBlock {
-        gap: 2rem
-    }
+  .textBlock {
+    gap: 2rem;
+  }
 
-    .textBlock h5 {
-        font-size: var(--font-size-xs);
-    }
+  .textBlock h5 {
+    font-size: var(--font-size-xs);
+  }
 }
 
 @media (width <= 500px) {
-    .textBlock h5 {
-        font-size: var(--font-size-base);
-    }
+  .textBlock h5 {
+    font-size: var(--font-size-base);
+  }
 
-    .textBlock p {
-        font-size: var(--font-size-xxs);
-        text-indent: 1rem;
-    }
+  .textBlock p {
+    font-size: var(--font-size-xxs);
+    text-indent: 1rem;
+  }
 }
 
 /* Media Queries - Portrait */
 @media (width <= 1200px) and (orientation: portrait) {
-    .textBlock {
-        margin: 2rem 0;
-    }
+  .textBlock {
+    margin: 2rem 0;
+  }
 }

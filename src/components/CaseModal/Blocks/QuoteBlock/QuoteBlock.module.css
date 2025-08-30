@@ -1,38 +1,38 @@
 .quoteBlock {
-    display: flex;
-    flex-direction: column;
-    margin: 4rem 0;
-    box-shadow: none;
+  display: flex;
+  flex-direction: column;
+  margin: 4rem 0;
+  box-shadow: none;
 }
 
 .quoteBlock p {
-    font-weight: var(--font-weight-regular);
-    font-size: var(--font-size-xs);
-    text-indent: 2rem;
-    background-color: var(--white);
-    box-shadow: none;
+  font-weight: var(--font-weight-regular);
+  font-size: var(--font-size-xs);
+  text-indent: 2rem;
+  background-color: var(--white);
+  box-shadow: none;
 }
 
-@media(width <= 1000px) {
-    .quoteBlock p {
-        font-size: var(--font-size-base);
-    }
+@media (width <= 1000px) {
+  .quoteBlock p {
+    font-size: var(--font-size-base);
+  }
 }
 
-@media(width <= 800px) {
-    .quoteBlock p {
-        text-indent: 1.5rem;
-    }
+@media (width <= 800px) {
+  .quoteBlock p {
+    text-indent: 1.5rem;
+  }
 }
 
-@media(width <= 500px) {
-    .quoteBlock {
-        margin-block: 0.2rem;
-    }
+@media (width <= 500px) {
+  .quoteBlock {
+    margin-block: 0.2rem;
+  }
 
-    .quoteBlock p {
-        font-size: var(--font-size-xxs);
-        text-indent: 1rem;
-        margin-block: 0.8rem;
-    }
+  .quoteBlock p {
+    font-size: var(--font-size-xxs);
+    text-indent: 1rem;
+    margin-block: 0.8rem;
+  }
 }

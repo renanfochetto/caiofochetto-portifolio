@@ -4,9 +4,9 @@ type PhotoGalleryProps = {
   images: { src: string; alt?: string }[];
   layout: string;
   description?: string;
-}
+};
 
-const PhotoGallery = ({images, layout, description}: PhotoGalleryProps) => {
+const PhotoGallery = ({ images, layout, description }: PhotoGalleryProps) => {
   const layoutClass = styles[`layout--${layout}`] || '';
 
   return (

@@ -1,7 +1,7 @@
 import styles from './Socials.module.css';
 import { useLocalizedContent } from '../../hooks/useLocalizedContent.ts';
 import Link from '../../components/Link/Link.tsx';
-import {useEffect, useState} from 'react';
+import { useEffect, useState } from 'react';
 
 const links = [
   {
@@ -10,8 +10,8 @@ const links = [
     href: 'https://www.linkedin.com/in/caiofochetto/',
     preview: {
       desktop: '/socials/linkedin-desktop.avif',
-      mobile: '/socials/linkedin-mobile.avif'
-    }
+      mobile: '/socials/linkedin-mobile.avif',
+    },
   },
   {
     name: 'YOUTUBE',
@@ -19,12 +19,15 @@ const links = [
     href: 'https://www.youtube.com/@caiofochetto/playlists',
     preview: {
       desktop: '/socials/youtube-desktop.avif',
-      mobile: '/socials/youtube-mobile.avif'
-    }
-  }
+      mobile: '/socials/youtube-mobile.avif',
+    },
+  },
 ];
 
-const getPreviewSrc = (link: typeof links[number], type: 'mobile' | 'desktop' | 'mixed') => {
+const getPreviewSrc = (
+  link: (typeof links)[number],
+  type: 'mobile' | 'desktop' | 'mixed',
+) => {
   if (type === 'mobile') return link.preview.mobile;
   if (type === 'desktop') return link.preview.desktop;
 
@@ -32,7 +35,10 @@ const getPreviewSrc = (link: typeof links[number], type: 'mobile' | 'desktop' | 
   return link.name === 'YOUTUBE' ? link.preview.desktop : link.preview.mobile;
 };
 
-const getImageClass = (linkName: string, type: 'mobile' | 'desktop' | 'mixed') => {
+const getImageClass = (
+  linkName: string,
+  type: 'mobile' | 'desktop' | 'mixed',
+) => {
   if (type === 'mixed') {
     if (linkName === 'LINKEDIN') return styles.linkedinMobile;
     if (linkName === 'YOUTUBE') return styles.youtubeDesktop;
@@ -52,7 +58,9 @@ const getImageClass = (linkName: string, type: 'mobile' | 'desktop' | 'mixed') =
 };
 
 const usePreviewType = () => {
-  const [previewType, setPreviewType] = useState<'mobile' | 'desktop' | 'mixed' | null>(null);
+  const [previewType, setPreviewType] = useState<
+    'mobile' | 'desktop' | 'mixed' | null
+  >(null);
 
   useEffect(() => {
     const calcType = () => {
@@ -85,16 +93,22 @@ export const Socials = () => {
   const content = useLocalizedContent();
   const previewType = usePreviewType();
 
-  if(!content || !previewType) return null;
+  if (!content || !previewType) return null;
 
   return (
-    <section id="social" className={styles.container}>
+    <section
+      id="social"
+      className={styles.container}
+    >
       <div className={styles.titleSection}>
         <h3>{content?.socials?.pagina}</h3>
       </div>
       <div className={styles.socialsGrid}>
-        {links.map(link => (
-          <div key={link.name} className={styles.card}>
+        {links.map((link) => (
+          <div
+            key={link.name}
+            className={styles.card}
+          >
             <div className={styles.header}>
               <Link
                 className={styles.linkSocial}

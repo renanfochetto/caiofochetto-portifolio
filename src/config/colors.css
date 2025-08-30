@@ -1,11 +1,11 @@
 :root {
-    --background: #e9e3df;
-    --black: #000;
-    --white: #fff;
-    --pink: #e30169;
-    --lime-green: #a8eb0f;
-    --dark-magenta: #98007b;
-    --color-svg-20: rgb(70 92 136 / 20%);
-    --color-svg-30: rgb(70 92 136 / 30%);
-    --color-svg-40: rgb(70 92 136 / 40%);
+  --background: #e9e3df;
+  --black: #000;
+  --white: #fff;
+  --pink: #e30169;
+  --lime-green: #a8eb0f;
+  --dark-magenta: #98007b;
+  --color-svg-20: rgb(70 92 136 / 20%);
+  --color-svg-30: rgb(70 92 136 / 30%);
+  --color-svg-40: rgb(70 92 136 / 40%);
 }

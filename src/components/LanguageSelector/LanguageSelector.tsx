@@ -5,7 +5,7 @@ import styles from './LanguageSelector.module.css';
 type Language = {
   code: string;
   label: string;
-}
+};
 
 const languages: Language[] = [
   { code: 'pt', label: 'PT-BR' },
@@ -21,7 +21,10 @@ const LanguageSelector = () => {
 
   return (
     <div className={styles.selector}>
-      <div className={styles.selected} onClick={toggleDropdown}>
+      <div
+        className={styles.selected}
+        onClick={toggleDropdown}
+      >
         {languages.find((l) => l.code === language)?.label}
         <img
           src={isOpen ? '/icons/closeicon.svg' : '/icons/openicon.svg'}

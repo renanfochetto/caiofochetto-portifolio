@@ -2,10 +2,7 @@
   "pageTitle": "Caio Fochetto - Portfólio",
   "inicial": {
     "pagina": "PORTFÓLIO",
-    "titulo": [
-      "Olá,",
-      "me chamo Caio Fochetto."
-    ],
+    "titulo": ["Olá,", "me chamo Caio Fochetto."],
     "subtitulo": [
       "Sou um profissional de comunicação,  com foco em conteúdo digital e marketing de influência."
     ],
@@ -127,7 +124,7 @@
   },
   "cases": {
     "pagina": "CASES",
-    "projetos" : [
+    "projetos": [
       {
         "id": 1,
         "nome": "Passion 4 Jazz",
@@ -152,8 +149,8 @@
               "Passion 4 Jazz é uma plataforma digital para interessados em Jazz, seja aquele que já possui vasto conhecimento, ou quem está começando a se interessar pelo gênero.",
               "Através de uma equipe diversa, desenvolvemos uma temporada completa de oito episódios focados nos principais nomes e ícones do Jazz, desde sua origem até os dias de hoje, contemplando todas as suas instâncias.",
               "A produção contou com desenvolvimento de conceito, pesquisa e roteiro, casting, produção de arte, cenografia e adereços, iluminação, captação, produção sonora, edição de áudio e vídeo. Faz parte ainda a estratégia de conteúdo e o pacote de divulgação."
-          ]
-              },
+            ]
+          },
           {
             "type": "videoGallery",
             "layout": "single",
@@ -164,12 +161,30 @@
             "paragraph": [
               "Desenvolvemos todas as trilhas e assinatura sonora junto a um profissional da música com ampla experiência em Jazz, Gustavo Bugni.",
               "Apesar de ser um projeto fortemente focado em áudio, sabemos que as artes gráficas complementam o projeto e aguçam os sentidos ainda mais. Por tanto, elaboramos um pacote gráfico para traduzir o que é a plataforma Passion 4 Jazz."
-              ]
+            ]
           },
           {
             "type": "photoGallery",
             "layout": "flexFluid",
-            "files": ["p4jz1.avif", "p4jz2.avif", "p4jz3.avif", "p4jz4.avif", "p4jz5.avif", "p4jz6.avif", "p4jz7.avif", "p4jz8.avif", "p4jz9.avif", "p4jz10.avif", "p4jz11.avif", "p4jz12.avif", "p4jz13.avif", "p4jz14.avif", "p4jz15.avif", "p4jz16.avif", "p4jz17.avif"],
+            "files": [
+              "p4jz1.avif",
+              "p4jz2.avif",
+              "p4jz3.avif",
+              "p4jz4.avif",
+              "p4jz5.avif",
+              "p4jz6.avif",
+              "p4jz7.avif",
+              "p4jz8.avif",
+              "p4jz9.avif",
+              "p4jz10.avif",
+              "p4jz11.avif",
+              "p4jz12.avif",
+              "p4jz13.avif",
+              "p4jz14.avif",
+              "p4jz15.avif",
+              "p4jz16.avif",
+              "p4jz17.avif"
+            ],
             "description": "Pacote de Divulgação"
           },
           {
@@ -177,7 +192,7 @@
             "paragraph": [
               "Além das entregas do podcast em mp3 e de seu pacote gráfico, também contemplamos um pacote de entregas em vídeo e imagem para promover o projeto.",
               "Assim, cada episódio é apoiado por vídeos de saudação para redes sociais, além de vídeos com compilações de melhores momentos e trechos memoráveis, e álbuns com fotos dos bastidor."
-              ]
+            ]
           },
           {
             "type": "videoGallery",
@@ -194,13 +209,73 @@
             "type": "photoGallery",
             "layout": "gridColumn-3",
             "files": [
-              "bastidor1.avif", "bastidor2.avif", "bastidor3.avif", "bastidor4.avif", "bastidor5.avif", "bastidor6.avif", "bastidor7.avif", "bastidor8.avif", "bastidor9.avif", "bastidor10.avif",
-              "bastidor11.avif", "bastidor12.avif", "bastidor13.avif", "bastidor14.avif", "bastidor15.avif", "bastidor16.avif", "bastidor17.avif", "bastidor18.avif", "bastidor19.avif", "bastidor20.avif",
-              "bastidor21.avif", "bastidor22.avif", "bastidor23.avif", "bastidor24.avif", "bastidor25.avif", "bastidor26.avif", "bastidor27.avif", "bastidor28.avif", "bastidor29.avif", "bastidor30.avif",
-              "bastidor31.avif", "bastidor32.avif", "bastidor33.avif", "bastidor34.avif", "bastidor35.avif", "bastidor36.avif", "bastidor37.avif", "bastidor38.avif", "bastidor39.avif", "bastidor40.avif",
-              "bastidor41.avif", "bastidor43.avif", "bastidor44.avif", "bastidor45.avif", "bastidor46.avif", "bastidor47.avif", "bastidor48.avif", "bastidor49.avif", "bastidor50.avif",
-              "bastidor51.avif", "bastidor52.avif", "bastidor53.avif", "bastidor54.avif", "bastidor55.avif", "bastidor56.avif", "bastidor57.avif", "bastidor58.avif", "bastidor59.avif", "bastidor60.avif",
-              "bastidor61.avif", "bastidor62.avif", "bastidor63.avif", "bastidor64.avif", "bastidor65.avif", "bastidor66.avif", "bastidor67.avif", "bastidor68.avif"
+              "bastidor1.avif",
+              "bastidor2.avif",
+              "bastidor3.avif",
+              "bastidor4.avif",
+              "bastidor5.avif",
+              "bastidor6.avif",
+              "bastidor7.avif",
+              "bastidor8.avif",
+              "bastidor9.avif",
+              "bastidor10.avif",
+              "bastidor11.avif",
+              "bastidor12.avif",
+              "bastidor13.avif",
+              "bastidor14.avif",
+              "bastidor15.avif",
+              "bastidor16.avif",
+              "bastidor17.avif",
+              "bastidor18.avif",
+              "bastidor19.avif",
+              "bastidor20.avif",
+              "bastidor21.avif",
+              "bastidor22.avif",
+              "bastidor23.avif",
+              "bastidor24.avif",
+              "bastidor25.avif",
+              "bastidor26.avif",
+              "bastidor27.avif",
+              "bastidor28.avif",
+              "bastidor29.avif",
+              "bastidor30.avif",
+              "bastidor31.avif",
+              "bastidor32.avif",
+              "bastidor33.avif",
+              "bastidor34.avif",
+              "bastidor35.avif",
+              "bastidor36.avif",
+              "bastidor37.avif",
+              "bastidor38.avif",
+              "bastidor39.avif",
+              "bastidor40.avif",
+              "bastidor41.avif",
+              "bastidor43.avif",
+              "bastidor44.avif",
+              "bastidor45.avif",
+              "bastidor46.avif",
+              "bastidor47.avif",
+              "bastidor48.avif",
+              "bastidor49.avif",
+              "bastidor50.avif",
+              "bastidor51.avif",
+              "bastidor52.avif",
+              "bastidor53.avif",
+              "bastidor54.avif",
+              "bastidor55.avif",
+              "bastidor56.avif",
+              "bastidor57.avif",
+              "bastidor58.avif",
+              "bastidor59.avif",
+              "bastidor60.avif",
+              "bastidor61.avif",
+              "bastidor62.avif",
+              "bastidor63.avif",
+              "bastidor64.avif",
+              "bastidor65.avif",
+              "bastidor66.avif",
+              "bastidor67.avif",
+              "bastidor68.avif"
             ]
           }
         ]
@@ -224,12 +299,17 @@
               "Em 2021 iniciamos parceria com a Agência Africa para atender a Natura enquanto agência criativa, com foco em conteúdo para redes sociais.",
               "Mês a mês entregamos pacotes de conteúdo para a linha Tododia, destacando as principais características das fragrâncias preferidas pelas consumidoras. Muito destaque para textura, sensações e emoções.",
               "A produção de conteúdo contou com casting, elenco de três modelos, além de figurino, direção de arte e objetos. O pacote gráfico é um desdobramento do manual da marca."
-              ]
+            ]
           },
           {
             "type": "photoGallery",
             "layout": "flexRow",
-            "files": ["natura1.avif", "natura2.avif", "natura3.avif", "natura4.avif"]
+            "files": [
+              "natura1.avif",
+              "natura2.avif",
+              "natura3.avif",
+              "natura4.avif"
+            ]
           },
           {
             "type": "videoGallery",
@@ -261,7 +341,7 @@
               "Como gerente de produção e conteúdo, liderei o time criativo no desenvolvimento de formatos para as redes de Netflix.",
               "A produção incluiu o desenvolvimento de conteúdo digital desde seu conceito, até desenvolvimento de roteiro, pacote gráfico, edição de som e vídeo, a pacote de promoção.",
               "A estratégia de conteúdo foi baseada em análise de dados das plataformas da marca, considerando engajamento da audiência e retenção."
-              ]
+            ]
           },
           {
             "type": "text",
@@ -270,7 +350,7 @@
               "Uma série original de Youtube em seis episódios, com o objetivo de correlacionar séries e apresentar novos títulos para a audiência da marca.",
               "Desta forma, criamos uma narrativa recheada de teorias que cruzava títulos do catálogo, formando um universo cinematográfico da Netflix.",
               "O resultado foi alto engajamento dos fãs, que participavam nos comentários compartilhando pontos que expandiam as teorias, e ampliando a retenção do canal."
-              ]
+            ]
           },
           {
             "type": "videoGallery",
@@ -291,10 +371,7 @@
         "nome": "Netflix + Havaianas",
         "marca": "Netflix + Havaianas",
         "folder": "havaianas",
-        "logos": [
-          "havaianaslogo.png",
-          "netflixlogo.png"
-        ],
+        "logos": ["havaianaslogo.png", "netflixlogo.png"],
         "capa": "havaianascover.avif",
         "empresa": "Playground",
         "cargo": "Content and Product Manager",
@@ -309,7 +386,7 @@
               "Ambas as marcas se juntaram para lançar um produto inspirado no protagonismo feminino das séries Netflix. Mas havia um desafio: como iniciar esta conversa sem distanciar as pessoas reais dos super poderes de heroínas?",
               "Então criamos a campanha Siga minha voz, uma plataforma na qual mulheres reais compartilham seus relatos de vitórias e conquistas, poderes reais de pessoas extremamente fortes.",
               "E para iniciar esta conversa, reunimos quatro mulheres que têm tudo a ver com as protagonistas de Netflix."
-              ]
+            ]
           },
           {
             "type": "videoGallery",
@@ -327,10 +404,26 @@
             "type": "photoGallery",
             "layout": "gridFluid",
             "files": [
-              "havaianas1.avif", "havaianas2.avif", "havaianas3.avif", "havaianas4.avif", "havaianas5.avif",
-              "havaianas6.avif", "havaianas7.avif", "havaianas8.avif", "havaianas9.avif", "havaianas10.avif",
-              "havaianas11.avif", "havaianas12.avif", "havaianas13.avif", "havaianas14.avif", "havaianas15.avif",
-              "havaianas16.avif", "havaianas17.avif", "havaianas18.avif", "havaianas19.avif", "havaianas20.avif"
+              "havaianas1.avif",
+              "havaianas2.avif",
+              "havaianas3.avif",
+              "havaianas4.avif",
+              "havaianas5.avif",
+              "havaianas6.avif",
+              "havaianas7.avif",
+              "havaianas8.avif",
+              "havaianas9.avif",
+              "havaianas10.avif",
+              "havaianas11.avif",
+              "havaianas12.avif",
+              "havaianas13.avif",
+              "havaianas14.avif",
+              "havaianas15.avif",
+              "havaianas16.avif",
+              "havaianas17.avif",
+              "havaianas18.avif",
+              "havaianas19.avif",
+              "havaianas20.avif"
             ]
           }
         ]
@@ -355,7 +448,7 @@
               "Ainda durante a pandemia, juntamos diferentes personalidades destas tradições para compartilhar suas visões e expandir as conversas ao redor da marca.",
               "Como gerente de produção e conteúdo, meu papel foi liderar o time creativo e de produção no desenvolvimento da presença digital da marca, através de conteúdo localizado para diferentes plataformas.",
               "Esta produção incluiu roteirização, pré-produção e pós-produção, captação remota, preparação de elenco, desenvolvimento de pacote gráfico baseado em arte conceitual, motion e pacote de promoção."
-              ]
+            ]
           },
           {
             "type": "videoGallery",
@@ -367,19 +460,34 @@
           },
           {
             "type": "quote",
-            "paragraph": [
-              "Artes Gráficas:"
-              ]
+            "paragraph": ["Artes Gráficas:"]
           },
           {
             "type": "photoGallery",
             "layout": "gridFluid2",
             "files": [
-              "bohemia1.avif", "bohemia2.avif", "bohemia3.avif", "bohemia4.avif", "bohemia5.avif",
-              "bohemia6.avif", "bohemia7.avif", "bohemia8.avif", "bohemia9.avif", "bohemia10.avif",
-              "bohemia11.avif", "bohemia12.avif", "bohemia13.avif", "bohemia14.avif", "bohemia15.avif",
-              "bohemia16.avif", "bohemia17.avif", "bohemia18.avif", "bohemia19.avif", "bohemia20.avif",
-              "bohemia21.avif", "bohemia22.avif"
+              "bohemia1.avif",
+              "bohemia2.avif",
+              "bohemia3.avif",
+              "bohemia4.avif",
+              "bohemia5.avif",
+              "bohemia6.avif",
+              "bohemia7.avif",
+              "bohemia8.avif",
+              "bohemia9.avif",
+              "bohemia10.avif",
+              "bohemia11.avif",
+              "bohemia12.avif",
+              "bohemia13.avif",
+              "bohemia14.avif",
+              "bohemia15.avif",
+              "bohemia16.avif",
+              "bohemia17.avif",
+              "bohemia18.avif",
+              "bohemia19.avif",
+              "bohemia20.avif",
+              "bohemia21.avif",
+              "bohemia22.avif"
             ]
           }
         ]
@@ -404,7 +512,7 @@
               "Responsável por conteúdo editorial, mas também por conteúdo de marca (branded content), me envolvi com os desafios não apenas da nossa equipe criativa, mas também de nossos clientes.",
               "Como gerente de produção e projetos sou responsável por desenvolver propostas de conteúdo que sejam eficazes e eficientes para nossos clientes e suas marcas. E também para a PlayGround enquanto empresa, já que conteúdo de marca é um dos nossos principais modelos de negócio.",
               "Além de desenvolver propostas junto ao time comercial e editorial, também gerencio orçamentos de produção, desenvolvimento de contratos, cronogramas de produção etc."
-              ]
+            ]
           },
           {
             "type": "text",
@@ -414,7 +522,7 @@
               "O que fazer quando só se tem água na geladeira? Como se dar um afago enquanto mercúrio está retrógrado? Como cozinhar algo legal para um encontro de emergência?",
               "A campanha de conteúdo contava com 4 vídeos principais e completos, com 3 receitas cada. Mas para aumentar seu alcance, elaboramos peças menores com call to action, para provocar e convocar a audiência, levando-a ao vídeo principal.",
               "Este é um exemplo feito para Instagram Reels."
-              ]
+            ]
           },
           {
             "type": "videoGallery",
@@ -428,7 +536,7 @@
               "Para promover sua marca de café de alta qualidade, desenvolvemos junto a Nestlé um bate papo entre mestras no desenvolvimento de três bebidas muito queridas: o café, o vinho e a cerveja.",
               "Em plena pandemia criamos um switcher remoto para comandar uma captação de alta qualidade em três ambientes diferentes. Com isso, cada uma das mestras pode compartilhar suas experiências não apenas com as bebidas, mas também em áreas profissionais pouco ocupadas por mulheres.",
               "A campanha de conteúdo contava com 1 vídeo principal e pequenos teasers promocionais, todos adaptados para diferentes plataformas. Esta produção contou com: desenvolvimento de conceito editorial original, casting, pacote gráfico, desenvolvimento de roteiro, curadoria culinária, pré-produção e pós produção, captação remota, direção de arte e adereços, photoshoot, iluminação e motion."
-              ]
+            ]
           },
           {
             "type": "videoGallery",
@@ -457,12 +565,17 @@
               "Com um calendário de conteúdo extenso, exploramos diversos formatos de mídia e storytelling, começando com vídeos informativos, explorando ainda experimentos sociais nos quais mulheres desmistificam o assunto junto a homens presentes em suas vidas, incluindo ainda conteúdo criado pela própria audiência, que nos enviou seus casos mais controversos para serem transformados em animações.",
               "A produção foi realizada durante o início da pandemia, o que demandou ajustes de alguns formatos pré-aprovados com cliente, considerando a nova realidade.",
               "Esta produção incluiu: adaptação do conceito do cliente em formatos novos e já existentes, casting, casting de voz, desenvolvimento de roteiro, pacote de artes gráficas e motion, direção de arte, captação remota, animação, curadoria de conteúdo gerado pela audiência, pré-produção e pós-produção."
-              ]
+            ]
           },
           {
             "type": "photoGallery",
             "layout": "flexRow",
-            "files": ["intimus1.avif", "intimus2.avif", "intimus3.avif", "intimus4.avif"]
+            "files": [
+              "intimus1.avif",
+              "intimus2.avif",
+              "intimus3.avif",
+              "intimus4.avif"
+            ]
           }
         ]
       },
@@ -485,7 +598,7 @@
               "Como gerente de produção e projetos da PlayGround Brasil, fui responsável por desenvolver propostas de conteúdo estratégico para marcas cujos valores se alinham aos nossos, e que ressoam com a audiência.",
               "Nos juntamos à Kimberly Clark e seu produto Neve com a missão de contar ao Brasil o resultado da localização da campanha global Toilets Change Lives, aqui chamada de Banheiros Mudam Vidas.",
               "Após desenvolver iniciativas junto a ONGs que realizam trabalho de saneamento básico junto a populações de difícil acesso, a marca desejava comunicar a todo país, através de plataformas digitais, o resultado de seu esforço."
-              ]
+            ]
           },
           {
             "type": "videoGallery",
@@ -502,7 +615,7 @@
               "O documentário reunia imagens pré-captadas, entrevistas remotas e captações in-loco feitas a partir de um time reduzido, seguindo todos os protocolos de saúde e higiene em diversos locais do país (nordeste, sudeste e centro-oeste).",
               "Com a implementação das soluções postergadas, introduzimos animações que ajudaram a concretizar em vídeo o que foi adiado na vida real.",
               "Esta produção contou com: desenvolvimento de conteúdo estratégico baseado em iniciativas do cliente, desenvolvimento de pacote gráfico baseado na identidade do cliente, desenvolvimento de roteiro, captação remota e in loco, casting de personagens e especialistas, animações e motion design, pré-produção e pós produção."
-              ]
+            ]
           }
         ]
       },
@@ -525,7 +638,7 @@
               "A partir de janeiro de 2020 me tornei parte da equipe da PlayGround Brasil como Gerente de Produção.",
               "Em 2021 assumi a cadeira de conteúdo e gerência geral da empresa no Brasil. Nesta jornada, fui responsável por conteúdo de marca, mas também por conteúdo editorial.",
               "Tudo desenvolvido sob-medida para diferentes redes e plataformas."
-              ]
+            ]
           },
           {
             "type": "videoGallery",
@@ -538,7 +651,7 @@
             "paragraph": [
               "Série no formato \"explainer\", apresentada pela podcaster Laurinha Lero. Como Produtor e Diretor, atuei no gerenciamento de cronograma, na pré-produção, produção e pós-produção.",
               "Sou responsável pelo gerenciamento de orçamento, contrato com talento, agenda de equipe, produção de objetos e entrevistas, gerenciando talentos, incluindo o desenvolvimento de roteiro."
-              ]
+            ]
           }
         ]
       },
@@ -566,7 +679,7 @@
               "A série propõe debates palatáveis sobre temas às vezes controversos. É apresentada por Thiago Ora, criador de conteúdo que sabe balancear cultura pop com filosofia.",
               "Como Produtor e Diretor, atuei na organização de cronograma de pré-produção, produção e pós-produção, gerenciamento de talento e conteúdo.",
               "Além do gerenciamento de orçamento, contrato e produção de arte."
-              ]
+            ]
           }
         ]
       },
@@ -588,16 +701,30 @@
             "paragraph": [
               "Além de séries especiais, também fui responsável por produzir vídeos e outros conteúdos especiais para os feeds da PlayGround Brasil no Facebook, Instagram e TikTok.",
               "Estas tarefas incluem gerenciamento de orçamento, cronograma de pré-produção, produção e pós-produção, gerenciamento de talentos, equipe e equipamentos, além da aprovação de roteiros."
-              ]
+            ]
           },
           {
             "type": "photoGallery",
             "layout": "gridFluid3",
             "files": [
-              "playground1.avif", "playground2.avif", "playground3.avif", "playground4.avif", "playground5.avif",
-              "playground6.avif", "playground7.avif", "playground8.avif", "playground9.avif", "playground10.avif",
-              "playground11.avif", "playground12.avif", "playground13.avif", "playground14.avif", "playground15.avif",
-              "playground16.avif", "playground17.avif", "playground18.avif"
+              "playground1.avif",
+              "playground2.avif",
+              "playground3.avif",
+              "playground4.avif",
+              "playground5.avif",
+              "playground6.avif",
+              "playground7.avif",
+              "playground8.avif",
+              "playground9.avif",
+              "playground10.avif",
+              "playground11.avif",
+              "playground12.avif",
+              "playground13.avif",
+              "playground14.avif",
+              "playground15.avif",
+              "playground16.avif",
+              "playground17.avif",
+              "playground18.avif"
             ]
           }
         ]
@@ -617,7 +744,12 @@
           {
             "type": "photoGallery",
             "layout": "gridFluid4",
-            "files": ["pgentrevista1.avif", "pgentrevista2.avif", "pgentrevista3.avif", "pgentrevista4.avif"]
+            "files": [
+              "pgentrevista1.avif",
+              "pgentrevista2.avif",
+              "pgentrevista3.avif",
+              "pgentrevista4.avif"
+            ]
           },
           {
             "type": "text",
@@ -630,7 +762,7 @@
               "Com uma boa pauta, muita tecnologia e softwares de comunicação como Zoom ou Skype, nossa equipe super criativa passou a agendar entrevistas e contar histórias.",
               "Estreamos com Pabllo Vittar, mas também falamos com a Spice Girl Mel C, Laerte Coutinho, Mauricio de Sousa, além de Fernanda Takai, elenco e produção do filme Alice Junior, entre outros.",
               "Neste projeto, me envolvi desde a criação do formato, desenvolvimento de pacote gráfico, seleção de talentos e captação remota. Sou creditado como Produtor e Diretor. Em algumas edições fui responsável por pauta, condução de entrevista e roteiro."
-              ]
+            ]
           },
           {
             "type": "videoGallery",
@@ -670,7 +802,7 @@
               "A estratégia In Front Of The Wall para marcas A&E, History, History 2 e Lifetime consiste em compartilhar com o usuário comum uma amostra do poder das marcas enquanto produtores de conteúdo, sem a necessidade de realizar login em uma plataforma ou ser cliente de alguma operadora.",
               "Mensalmente novos títulos (episódios completos) são adicionados às plataformas VOD das marcas, com foco no ambiente proprietário (sites da marca), Youtube e Dailymotion.",
               "A estratégia tem impulsionado o crescimento em todas as plataformas, porém é no Youtube que encontra seu terreno mais fértil. É também onde a experiência começou."
-              ]
+            ]
           },
           {
             "type": "photoGallery",
@@ -699,7 +831,7 @@
               "Através da publicação de conteúdo com maior duração o canal ganha mais relevância na plataforma e passa a ter melhor performance no ranking de SEO.",
               "Isso se aplica não apenas ao motor de buscas do Google, mas do próprio Youtube e outras ferramentas internas, como indicação de vídeos relacionados (in video) ou menus nas páginas internas da plataforma.",
               "O resultado é extremamente positivo."
-              ]
+            ]
           }
         ]
       },
@@ -725,13 +857,11 @@
               "- Aumento de ATS médio do canal em 230%;",
               "- Aceleração no crescimento da base de fã e indicadores de monetização.",
               "Além da publicação de episódios completos, foram publicados semanalmente vídeos que ampliavam a experiência do usuário. Assim, conheceram o personagem que representava o Brasil na série."
-              ]
+            ]
           },
           {
             "type": "quote",
-            "paragraph": [
-              "Puderam fazer perguntas:"
-              ]
+            "paragraph": ["Puderam fazer perguntas:"]
           },
           {
             "type": "videoGallery",
@@ -740,9 +870,7 @@
           },
           {
             "type": "quote",
-            "paragraph": [
-              "Puderam conhecer a oficina do personagem:"
-              ]
+            "paragraph": ["Puderam conhecer a oficina do personagem:"]
           },
           {
             "type": "videoGallery",
@@ -753,7 +881,7 @@
             "type": "quote",
             "paragraph": [
               "Conheceram os segredos que levaram TOM SILVA ao sucesso:"
-              ]
+            ]
           },
           {
             "type": "videoGallery",
@@ -762,9 +890,7 @@
           },
           {
             "type": "quote",
-            "paragraph": [
-              "E se emocionaram com o lado humano:"
-              ]
+            "paragraph": ["E se emocionaram com o lado humano:"]
           },
           {
             "type": "videoGallery",
@@ -775,7 +901,7 @@
             "type": "quote",
             "paragraph": [
               "Também puderam brincar com ele e com o apresentador do reality, o colombiano JUAN PABLO LLANO:"
-              ]
+            ]
           },
           {
             "type": "videoGallery",
@@ -792,7 +918,7 @@
               "A geração de vídeos sobre universo da série atrelado à aplicação de estratégia de palavras-chave e periodicidade resultou no domínio do motor de busca nos principais termos do segmento, tanto no Google quanto no Youtube.",
               "A estratégia foi pareada à publicação de episódios completos.",
               "Resultados: 2,5 mi views/mês, aumento de audiência na TV, e da relevância do próprio canal na plataforma."
-              ]
+            ]
           }
         ]
       },
@@ -820,7 +946,7 @@
               "Entre 2010 e 2011, fui produtor de conteúdo do departamento de vídeos do portal R7, da Rede Record.",
               "Na ocasião, produzi conteúdo para as plataformas digitais das maiores atrações da emissora, como os reality-shows A Fazenda, O Aprendiz e Ídolos.",
               "A cobertura acontecia 24x7 nas redes sociais e principalmente no portal da Rede Record, o R7.com."
-              ]
+            ]
           },
           {
             "type": "videoGallery",
@@ -852,7 +978,7 @@
             "paragraph": [
               "Mediei e apresentei informações sobre a TV Social em painel de 45 minutos durante a Campus Party Brasil, em sua sexta edição (2013).",
               "Durante a ocasião, com participação de Nilson Xavier (Teledramaturgia), Lele Siedschlag (Te Dou Um Dado) e Alex Medeiros (TV Globo), discutimos a realidade da TV brasileira diante das novas tendências trazidas pelas redes sociais."
-              ]
+            ]
           }
         ]
       },
@@ -871,7 +997,17 @@
           {
             "type": "photoGallery",
             "layout": "gridRow",
-            "files": ["tm1-1.avif", "tm1-2.avif", "tm1-3.avif", "tm1-4.avif", "tm1-5.avif", "tm1-6.avif", "tm1-7.avif", "tm1-8.avif", "tm1-9.avif"]
+            "files": [
+              "tm1-1.avif",
+              "tm1-2.avif",
+              "tm1-3.avif",
+              "tm1-4.avif",
+              "tm1-5.avif",
+              "tm1-6.avif",
+              "tm1-7.avif",
+              "tm1-8.avif",
+              "tm1-9.avif"
+            ]
           },
           {
             "type": "text",
@@ -880,12 +1016,24 @@
               "Twitter Moments é uma das muitas ferramentas nativas do Twitter e foi usada estrategicamente para aumentar base de fãs e engajamento através de uma parceria com o escritório do Twitter em São Paulo.",
               "Twitter Moments abre a possibilidade de que os criadores iniciem ou façam parte de uma conversa online que esteja acontecendo no momento.",
               "Como criadores de conteúdo, History e A&E participam com uma diversidade de exemplos."
-              ]
+            ]
           },
           {
             "type": "photoGallery",
             "layout": "gridRow2",
-            "files": ["tm2-1.avif", "tm2-2.avif", "tm2-3.avif", "tm2-4.avif", "tm2-5.avif", "tm2-6.avif", "tm2-7.avif", "tm2-8.avif", "tm2-9.avif", "tm2-10.avif", "tm2-11.avif"]
+            "files": [
+              "tm2-1.avif",
+              "tm2-2.avif",
+              "tm2-3.avif",
+              "tm2-4.avif",
+              "tm2-5.avif",
+              "tm2-6.avif",
+              "tm2-7.avif",
+              "tm2-8.avif",
+              "tm2-9.avif",
+              "tm2-10.avif",
+              "tm2-11.avif"
+            ]
           },
           {
             "type": "text",
@@ -895,12 +1043,20 @@
               "Conforme o engajamento do formato cresceu, ele passou a ser adaptado para outras redes. Sempre respeitando a linguagem dessas redes.",
               "Twitter Moments se tornou a melhor maneira de adaptar o Hoje na História para o Twitter.",
               "E assim o fizemos, falando sobre coisas bizarras, sobre a cultura de internet, apresentando quizes sobre fatos que marcaram o dia, celebrando a cultura pop, relembrando figuras do passado, testando a inteligência de nossos fãs etc."
-              ]
+            ]
           },
           {
             "type": "photoGallery",
             "layout": "gridRow3",
-            "files": ["tm3-1.avif", "tm3-2.avif", "tm3-3.avif", "tm3-4.avif", "tm3-5.avif", "tm3-6.avif", "tm3-7.avif"]
+            "files": [
+              "tm3-1.avif",
+              "tm3-2.avif",
+              "tm3-3.avif",
+              "tm3-4.avif",
+              "tm3-5.avif",
+              "tm3-6.avif",
+              "tm3-7.avif"
+            ]
           },
           {
             "type": "text",
@@ -908,12 +1064,19 @@
             "paragraph": [
               "Também adaptamos notícias desenvolvidas originalmente para o site dos canais History e A&E.",
               "Através de listas de curiosidades, alguma coisa bizarra, uma descoberta, uma teoria, uma galeria com imagens intrigantes etc."
-              ]
+            ]
           },
           {
             "type": "photoGallery",
             "layout": "gridFluid5",
-            "files": ["tm4-1.avif", "tm4-2.avif", "tm4-3.avif", "tm4-4.avif", "tm4-5.avif", "tm4-6.avif"]
+            "files": [
+              "tm4-1.avif",
+              "tm4-2.avif",
+              "tm4-3.avif",
+              "tm4-4.avif",
+              "tm4-5.avif",
+              "tm4-6.avif"
+            ]
           },
           {
             "type": "text",
@@ -925,14 +1088,14 @@
               "Nós imaginamos tudo isso. E se todas essas hipóteses não são suficientes, ainda consideramos outras 6 maneiras do mundo acabar. Estas peças foram apresentadas como complementos dos episódios, lançadas dia a dia, de segunda a sexta.",
               "Durante um dos discursos do Presidente Michel Temer, após ser acusado pela Polícia Federal, o personagem principal da série Bull fez uma análise sobre as expressões faciais dele. E nossos fãs tiveram a oportunidade de adivinhar o que cada expressão queria dizer.",
               "Alinhando discussões populares aos principais temas de Bull, promovemos a série ao fazer parte das conversas que aconteciam online."
-              ]
+            ]
           },
           {
             "type": "text",
             "title": "Os Resultados",
             "paragraph": [
               "Crescimento de 240% da base de fãs em menos de 5 meses, três vezes mais alcance e engajamento sem qualquer compra de mídia."
-              ]
+            ]
           },
           {
             "type": "photoGallery",
@@ -953,7 +1116,7 @@
             "type": "quote",
             "paragraph": [
               "Os picos aconteceram nos dias em que publicamos Twitter Moments."
-              ]
+            ]
           }
         ]
       },
@@ -973,9 +1136,19 @@
             "type": "photoGallery",
             "layout": "gridFluid6",
             "files": [
-              "tvcultura1.avif", "tvcultura2.avif", "tvcultura3.avif", "tvcultura4.avif", "tvcultura5.avif",
-              "tvcultura6.avif", "tvcultura7.avif", "tvcultura8.avif", "tvcultura9.avif", "tvcultura10.avif",
-              "tvcultura11.avif", "tvcultura12.avif", "tvcultura13.avif"
+              "tvcultura1.avif",
+              "tvcultura2.avif",
+              "tvcultura3.avif",
+              "tvcultura4.avif",
+              "tvcultura5.avif",
+              "tvcultura6.avif",
+              "tvcultura7.avif",
+              "tvcultura8.avif",
+              "tvcultura9.avif",
+              "tvcultura10.avif",
+              "tvcultura11.avif",
+              "tvcultura12.avif",
+              "tvcultura13.avif"
             ]
           },
           {
@@ -984,7 +1157,7 @@
             "paragraph": [
               "Trabalhei na TV Cultura, no Departamento Digital, entre 2009 e 2010.",
               "Participei das produções PROGRAMA NOVO e LOGIN, sempre produzindo conteúdo conectado com os assuntos da internet, em especial as Redes Sociais."
-              ]
+            ]
           }
         ]
       },
@@ -1006,7 +1179,7 @@
             "paragraph": [
               "Na produção PROGRAMA NOVO participei como correspondente digital, ou melhor, como blogueiro que representava a atração nas redes sociais e também conectava o público com o que há de novo online, através de participações na TV.",
               "Minha função era compartilhar o que estava acontecendo de novo nas redes sociais, além de administrar e gerenciar os perfis oficiais do programa nas redes."
-              ]
+            ]
           }
         ]
       },
@@ -1028,7 +1201,7 @@
             "paragraph": [
               "Na produção LOGIN, voltada aos jovens da Geração Y, fui produtor de base.",
               "Produzi personagens para o quadro Perfil Y, que apresentava jovens desta geração, traduzindo e imprimindo no vídeo todos os seus sonhos, anseios e expectativas."
-              ]
+            ]
           }
         ]
       },
@@ -1051,7 +1224,7 @@
               "Além de produzir conteúdo digital das grandes séries da Rede Record, entre 2010 e 2011 também fui produtor de propriedades exclusivas do digital, como o programa de entrevista Tricô dos Bróder, que depois se transformou em Ex Tricô.",
               "O programa era apresentado por Lele Siedschlag (Te Dou um Dado) e Clara Averbuck.",
               "Esta atração diária do portal R7 apresentava entrevista com participantes do Reality Show Big Brother Brasil, assim como a opinião das apresentadoras sobre os fatos mais relevantes do reality. Quando Big Brother não estava no ar o programa pautava web-celebridades, sub-celebridades e pautas de internet."
-              ]
+            ]
           },
           {
             "type": "videoGallery",
@@ -1088,7 +1261,7 @@
               "Sozinhos é uma série de TV cuja performance é ligeiramente maior em território nacional brasileiro. Portanto, foi uma prioridade de nosso mercado.",
               "O objetivo principal da campanha foi gerar awareness e tune in.",
               "Identificamos grupos de audiência em potencial e trabalhamos com conteúdo exclusivo para redes sociais, chegando a esses grupos através de campanha de dark posts no Facebook."
-              ]
+            ]
           },
           {
             "type": "text",
@@ -1099,12 +1272,17 @@
               "- Primeira temporada com mulheres no elenco. Encaramos isso como uma oportunidade de comunicar com a audiência feminina e reforçar temas relacionados ao empoderamento feminino;",
               "- Criativos digitais totalmente alinhados aos criativos de campanha de mídia exterior;",
               "- A estratégia apresentou conteúdo exclusivo para cada rede. Destaque para conteúdo no Twitter, com Twitter Momets. Exemplos: Os Perigos da Patagônia e Dicas de Sobrevivência."
-              ]
+            ]
           },
           {
             "type": "photoGallery",
             "layout": "flexRow",
-            "files": ["sozinhos2.avif", "sozinhos3.avif", "sozinhos4.avif", "sozinhos5.avif"]
+            "files": [
+              "sozinhos2.avif",
+              "sozinhos3.avif",
+              "sozinhos4.avif",
+              "sozinhos5.avif"
+            ]
           }
         ]
       },
@@ -1125,18 +1303,30 @@
             "title": "Estratégia Digital para promoção e suporte ao evento Giorgio no Brasil",
             "paragraph": [
               "No dia 26 de agosto o HISTORY recebeu os fãs da série ALIENÍGENAS DO PASSADO para um evento especial no qual foi exibido um episódio inédito da nova temporada da série, seguido por um debate com o talento GIORGIO TSOUKALOS."
-              ]
+            ]
           },
           {
             "type": "photoGallery",
             "layout": "gridColumn3",
-            "files": ["giorgio1.avif", "giorgio2.avif", "giorgio4.avif", "giorgio5.avif", "giorgio6.avif", "giorgio7.avif", "giorgio8.avif", "giorgio9.avif", "giorgio10.avif", "giorgio11.avif", "giorgio12.avif"]
+            "files": [
+              "giorgio1.avif",
+              "giorgio2.avif",
+              "giorgio4.avif",
+              "giorgio5.avif",
+              "giorgio6.avif",
+              "giorgio7.avif",
+              "giorgio8.avif",
+              "giorgio9.avif",
+              "giorgio10.avif",
+              "giorgio11.avif",
+              "giorgio12.avif"
+            ]
           },
           {
             "type": "quote",
             "paragraph": [
               "O evento ainda contemplou um concurso Cosplay, Meet & Greet para VIPs e transmissões ao vivo via Facebook e YouTube Live, para todo o Brasil."
-              ]
+            ]
           },
           {
             "type": "text",
@@ -1152,14 +1342,12 @@
               "- 454 posts em Instagram com a hashtag #GiorgioNoBrasil.",
               "Os bons números em redes sociais refletem a estratégia digital bem amarrada. Uma das ações foi parceria com Flowics, na qual posts com a hashtag #GiorgioNoBrasil eram exibidos em telões durante todo o evento e também em GCs durante a transmissão do painel ao vivo via Facebook e YouTube Live.",
               "Outra ação relevante foi o convite a influenciadores digitais, que tiveram acesso a uma área especial e ao Meet & Greet exclusivo, no qual puderam conhecer Giorgio e tirar fotos com ele."
-              ]
+            ]
           },
           {
             "type": "text",
             "title": "Transmissões via Facebook e Youtube",
-            "paragraph": [
-              "Convidados via Facebook Live e via YouTube Live."
-              ]
+            "paragraph": ["Convidados via Facebook Live e via YouTube Live."]
           },
           {
             "type": "videoGallery",
@@ -1183,7 +1371,13 @@
           {
             "type": "photoGallery",
             "layout": "gridColumn3",
-            "files": ["alien1.avif", "alien2.avif", "alien3.avif", "alien4.avif", "alien6.avif"]
+            "files": [
+              "alien1.avif",
+              "alien2.avif",
+              "alien3.avif",
+              "alien4.avif",
+              "alien6.avif"
+            ]
           },
           {
             "type": "text",
@@ -1191,13 +1385,13 @@
             "paragraph": [
               "Evento de imprensa, cooperação com departamento de Relações Públicas, focado em influenciadores digitais.",
               "Com a estratégia de oferecermos captura de material audiovisual, garantimos presença total de imprensa e geração de conteúdo diverso em redes."
-              ]
+            ]
           },
           {
             "type": "text",
             "title": [
               "Conteúdo gerado por alguns dos influenciadores digital e imprensa"
-              ],
+            ],
             "paragraph": []
           },
           {
@@ -1215,7 +1409,7 @@
             "paragraph": [
               "Transmissão exclusiva com talento para promoção do evento #GiorgioNoBrasil e da nova temporada da série Alienígenas do Passado.",
               "A entrevista foi conduzida pelo talento Afonso Tresdê, influenciador digital especializado em ufologia, que possui grande afinidade com público do canal."
-              ]
+            ]
           },
           {
             "type": "videoGallery",
@@ -1230,7 +1424,7 @@
             "paragraph": [
               "Para gerar engajamento com a audiência em torno do talento em sua primeira vinda ao país, pedimos que os fãs enviassem perguntas sobre a especialidade de Giorgio, a Teoria dos Deuses Astronautas.",
               "A resposta da audiência foi gigante."
-              ]
+            ]
           },
           {
             "type": "videoGallery",
@@ -1246,14 +1440,24 @@
             "type": "quote",
             "paragraph": [
               "Também montamos um Twitter Moments exclusivo com talento. Esta peça reuniu uma linha sequencial de vídeos na qual Giorgio fala sobre sua vida."
-              ]
+            ]
           },
           {
             "type": "photoGallery",
             "layout": "gridColumn4",
             "files": [
-              "alien7.avif", "alien8.avif", "alien9.avif", "alien10.avif", "alien11.avif", "alien12.avif",
-              "alien13.avif", "alien14.avif", "alien15.avif", "alien16.avif", "alien17.avif", "alien18.avif"
+              "alien7.avif",
+              "alien8.avif",
+              "alien9.avif",
+              "alien10.avif",
+              "alien11.avif",
+              "alien12.avif",
+              "alien13.avif",
+              "alien14.avif",
+              "alien15.avif",
+              "alien16.avif",
+              "alien17.avif",
+              "alien18.avif"
             ]
           }
         ]

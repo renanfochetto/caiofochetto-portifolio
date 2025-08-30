@@ -1,335 +1,332 @@
 .badge {
-    z-index: 100;
-    border-radius: var(--border-radius-medium);
-    perspective: 2000px;
-    cursor: pointer;
+  z-index: 100;
+  border-radius: var(--border-radius-medium);
+  perspective: 2000px;
+  cursor: pointer;
 }
 
 .badgeInner {
-    position: relative;
-    width: 19rem;
-    height: 27rem;
-    border-radius: var(--border-radius-medium);
-    transform-style: preserve-3d;
-    transition: transform 0.6s;
+  position: relative;
+  width: 19rem;
+  height: 27rem;
+  border-radius: var(--border-radius-medium);
+  transform-style: preserve-3d;
+  transition: transform 0.6s;
 }
 
 .badgeInner p {
-    background-color: transparent;
-    box-shadow: none;
+  background-color: transparent;
+  box-shadow: none;
 }
-@media  (hover: hover) and (pointer: fine) {
-    .badge:hover .badgeInner {
-        transform: rotateY(180deg);
-    }
+@media (hover: hover) and (pointer: fine) {
+  .badge:hover .badgeInner {
+    transform: rotateY(180deg);
+  }
 }
 
 .badgeInner,
 .flipped {
-    transition: transform 0.6s;
+  transition: transform 0.6s;
 }
 
 .flipped {
-    transform: rotateY(180deg);
+  transform: rotateY(180deg);
 }
 
-.badgeFront, .badgeBack {
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    box-sizing: border-box;
-    width: 100%;
-    height: 100%;
-    padding: 4rem 0 1rem;
-    border-radius: var(--border-radius-medium);
-    box-shadow: var(--shadow-regular);
-    backface-visibility: hidden;
+.badgeFront,
+.badgeBack {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  padding: 4rem 0 1rem;
+  border-radius: var(--border-radius-medium);
+  box-shadow: var(--shadow-regular);
+  backface-visibility: hidden;
 }
 
 .badgeFront {
-    gap: 0.5rem;
-    align-items: center;
+  gap: 0.5rem;
+  align-items: center;
 }
 
 .badgeFront img {
-    width: 8rem;
-    height: auto;
-    margin-top: 1rem;
+  width: 8rem;
+  height: auto;
+  margin-top: 1rem;
 }
 
 .badgeFront h3 {
-    margin-top: 1.5rem;
-    font-size: var(--font-size-md);
+  margin-top: 1.5rem;
+  font-size: var(--font-size-md);
 }
 
 .badgeFront p {
-    font-weight: var(--font-weight-medium);
-    font-size: var(--font-size-sm);
-    text-align: center;
+  font-weight: var(--font-weight-medium);
+  font-size: var(--font-size-sm);
+  text-align: center;
 }
 
 .badgeBack {
-    align-items: flex-start;
-    justify-content: space-evenly;
-    text-align: left;
-    transform: rotateY(180deg);
+  align-items: flex-start;
+  justify-content: space-evenly;
+  text-align: left;
+  transform: rotateY(180deg);
 }
 
 .badgeBack p {
-    padding: 1rem;
-    font-weight: var(--font-weight-regular);
-    font-size: var(--font-size-base);
-    font-family: var(--font-mono), monospace;
-    line-height: 1.5;
+  padding: 1rem;
+  font-weight: var(--font-weight-regular);
+  font-size: var(--font-size-base);
+  font-family: var(--font-mono), monospace;
+  line-height: 1.5;
 }
 
 .badgeBack span {
-    font-weight: var(--font-weight-bold);
+  font-weight: var(--font-weight-bold);
 }
 
 .badgeHole {
-    position: absolute;
-    top: 8%;
-    left: 50%;
-    z-index: 5;
-    width: 3.6rem;
-    height: 1.2rem;
-    background-color: var(--background); /* ou transparente */
-    border-radius: 4px;
-    box-shadow: inset 8px 8px 10px rgb(0 0 0 / 35%);
-    transform: translate(-50%, -50%);
+  position: absolute;
+  top: 8%;
+  left: 50%;
+  z-index: 5;
+  width: 3.6rem;
+  height: 1.2rem;
+  background-color: var(--background); /* ou transparente */
+  border-radius: 4px;
+  box-shadow: inset 8px 8px 10px rgb(0 0 0 / 35%);
+  transform: translate(-50%, -50%);
 }
 
 /* Media Queries - Landscape */
 @media (width <= 1000px) {
-    .badgeInner {
-        width: 17rem;
-        height: 24rem;
-    }
+  .badgeInner {
+    width: 17rem;
+    height: 24rem;
+  }
 
-    .badgeFront img {
-        width: 6.5rem;
-        margin-top: 0.5rem;
-    }
+  .badgeFront img {
+    width: 6.5rem;
+    margin-top: 0.5rem;
+  }
 
-    .badgeFront h3 {
-        margin-top: 1rem;
-        font-size: var(--font-size-sm);
-    }
+  .badgeFront h3 {
+    margin-top: 1rem;
+    font-size: var(--font-size-sm);
+  }
 
-    .badgeFront p {
-        font-size: var(--font-size-xs);
-    }
+  .badgeFront p {
+    font-size: var(--font-size-xs);
+  }
 
-    .badgeBack p {
-        font-size: var(--font-size-xxs);
-    }
+  .badgeBack p {
+    font-size: var(--font-size-xxs);
+  }
 }
 
 @media (width <= 900px) {
-    .badgeInner {
-        width: 13rem;
-        height: 20rem;
-    }
+  .badgeInner {
+    width: 13rem;
+    height: 20rem;
+  }
 
-    .badgeFront img {
-        width: 5rem;
-        margin-top: 0.1rem;
-    }
+  .badgeFront img {
+    width: 5rem;
+    margin-top: 0.1rem;
+  }
 
-    .badgeFront h3 {
-        margin-top: 0.5rem;
-        font-size: var(--font-size-xs);
-    }
+  .badgeFront h3 {
+    margin-top: 0.5rem;
+    font-size: var(--font-size-xs);
+  }
 
-    .badgeFront p {
-        font-size: var(--font-size-base);
-    }
+  .badgeFront p {
+    font-size: var(--font-size-base);
+  }
 
-    .badgeBack {
-        padding-top: 2.5rem;
-    }
+  .badgeBack {
+    padding-top: 2.5rem;
+  }
 
-    .badgeBack p {
-        padding: 0.9rem 1rem;
-        font-size: var(--font-size-xxxs);
-    }
-
+  .badgeBack p {
+    padding: 0.9rem 1rem;
+    font-size: var(--font-size-xxxs);
+  }
 }
 
 @media (width <= 700px) {
-    .badgeInner {
-        width: 12.5rem;
-        height: 19rem;
-    }
+  .badgeInner {
+    width: 12.5rem;
+    height: 19rem;
+  }
 
-    .badgeFront {
-        padding: 3.5rem 0 0.5rem;
-    }
+  .badgeFront {
+    padding: 3.5rem 0 0.5rem;
+  }
 
-    .badgeBack p {
-        padding: 0.8rem 0.6rem;
-    }
+  .badgeBack p {
+    padding: 0.8rem 0.6rem;
+  }
 
-    .badgeHole {
-        width: 3rem;
-        height: 1rem;
-    }
+  .badgeHole {
+    width: 3rem;
+    height: 1rem;
+  }
 
-    .tempoTotal {
-        display: none;
-    }
+  .tempoTotal {
+    display: none;
+  }
 }
 
 @media (width <= 600px) {
-    .badgeInner {
-        width: 12rem;
-        height: 16rem;
-    }
+  .badgeInner {
+    width: 12rem;
+    height: 16rem;
+  }
 
-    .badgeHole {
-        width: 2.5rem;
-        height: 0.8rem;
-    }
+  .badgeHole {
+    width: 2.5rem;
+    height: 0.8rem;
+  }
 
-    .badgeFront {
-        gap: 0.3rem;
-        padding: 2.5rem 0 0.5rem
-    }
+  .badgeFront {
+    gap: 0.3rem;
+    padding: 2.5rem 0 0.5rem;
+  }
 
-    .badgeFront img {
-        width: 4rem;
-        margin-top: 0.1rem;
-    }
+  .badgeFront img {
+    width: 4rem;
+    margin-top: 0.1rem;
+  }
 
-    .badgeFront h3 {
-        margin-top: 1rem;
-        font-size: var(--font-size-base);
-    }
+  .badgeFront h3 {
+    margin-top: 1rem;
+    font-size: var(--font-size-base);
+  }
 
-    .badgeFront p {
-        margin-top: 1.2rem;
-        font-size: var(--font-size-xxs);
-    }
+  .badgeFront p {
+    margin-top: 1.2rem;
+    font-size: var(--font-size-xxs);
+  }
 
-    .badgeBack p {
-        font-size: var(--font-size-xxl);
-    }
-
+  .badgeBack p {
+    font-size: var(--font-size-xxl);
+  }
 }
 
 @media (width <= 500px) {
-    .badgeInner {
-        width: 9rem;
-        height: 11.5rem;
-    }
+  .badgeInner {
+    width: 9rem;
+    height: 11.5rem;
+  }
 
-    .badgeFront {
-        gap: 0.1rem;
-        padding: 2rem 0.2rem 0.5rem;
-    }
+  .badgeFront {
+    gap: 0.1rem;
+    padding: 2rem 0.2rem 0.5rem;
+  }
 
-    .badgeFront img {
-        width: 3rem;
-        margin-top: 0;
-    }
+  .badgeFront img {
+    width: 3rem;
+    margin-top: 0;
+  }
 
-    .badgeFront h3 {
-        margin-top: 0.5rem;
-    }
+  .badgeFront h3 {
+    margin-top: 0.5rem;
+  }
 
-    .badgeFront p {
-        margin-top: 0.15rem;
-        padding: 0.1rem;
-    }
+  .badgeFront p {
+    margin-top: 0.15rem;
+    padding: 0.1rem;
+  }
 
-    .atividades {
-        display: none;
-    }
+  .atividades {
+    display: none;
+  }
 
-    .badgeBack {
-        padding-top: 2rem;
-    }
+  .badgeBack {
+    padding-top: 2rem;
+  }
 
-    .badgeHole {
-        width: 2rem;
-        height: 0.6rem;
-    }
+  .badgeHole {
+    width: 2rem;
+    height: 0.6rem;
+  }
 }
 
 /* Media Queries - Portrait */
 @media (width <= 1100px) and (orientation: portrait) {
-    .badgeInner {
-        width: 20rem;
-        height: 29rem;
-    }
+  .badgeInner {
+    width: 20rem;
+    height: 29rem;
+  }
 
-    .badgeFront {
-        padding: 5rem 0 1rem;
-    }
+  .badgeFront {
+    padding: 5rem 0 1rem;
+  }
 
-    .badgeFront img {
-        width: 9rem;
-        height: auto;
-        margin-top: 0;
-    }
+  .badgeFront img {
+    width: 9rem;
+    height: auto;
+    margin-top: 0;
+  }
 
-    .badgeFront h3 {
-        margin-top: 1.5rem;
-        font-size: var(--font-size-md-plus);
-    }
+  .badgeFront h3 {
+    margin-top: 1.5rem;
+    font-size: var(--font-size-md-plus);
+  }
 
-    .badgeFront p {
-        font-size: var(--font-size-md);
-    }
+  .badgeFront p {
+    font-size: var(--font-size-md);
+  }
 
-    .badgeBack {
-        padding-top: 2.5rem;
-    }
+  .badgeBack {
+    padding-top: 2.5rem;
+  }
 
-    .badgeBack p {
-        font-size: var(--font-size-base);
-    }
-
+  .badgeBack p {
+    font-size: var(--font-size-base);
+  }
 }
 
 @media (width <= 500px) and (orientation: portrait) {
-    .container {
-        padding-top: 10rem;
-    }
+  .container {
+    padding-top: 10rem;
+  }
 
-    .badgeInner {
-        width: 15rem;
-        height: 22rem;
-    }
+  .badgeInner {
+    width: 15rem;
+    height: 22rem;
+  }
 
-    .badgeFront {
-        padding: 3.2rem 0 1rem;
-    }
+  .badgeFront {
+    padding: 3.2rem 0 1rem;
+  }
 
-    .badgeFront img {
-        width: 7rem;
-        margin-top: 0.3rem;
-    }
+  .badgeFront img {
+    width: 7rem;
+    margin-top: 0.3rem;
+  }
 
-    .badgeFront h3 {
-        margin-top: 1.2rem;
-        font-size: var(--font-size-sm);
-    }
+  .badgeFront h3 {
+    margin-top: 1.2rem;
+    font-size: var(--font-size-sm);
+  }
 
-    .badgeFront p {
-        margin-top: 0.6rem;
-        font-size: var(--font-size-xs);
-    }
+  .badgeFront p {
+    margin-top: 0.6rem;
+    font-size: var(--font-size-xs);
+  }
 
-    .badgeBack p {
-        font-size: var(--font-size-xxs);
-    }
-
+  .badgeBack p {
+    font-size: var(--font-size-xxs);
+  }
 }
 
 @media (width <= 400px) and (orientation: portrait) {
-    .atividades {
-        display: block;
-    }
+  .atividades {
+    display: block;
+  }
 }

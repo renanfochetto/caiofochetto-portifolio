@@ -3,7 +3,6 @@ import { useEffect, useState } from 'react';
 import { useLanguage } from '../context/useLanguage.ts';
 import type { LocalizedContent } from '../types';
 
-
 export const useLocalizedContent = () => {
   const { language } = useLanguage();
   const [content, setContent] = useState<LocalizedContent | null>(null);

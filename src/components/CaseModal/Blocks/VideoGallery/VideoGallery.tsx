@@ -4,9 +4,9 @@ type VideoGalleryProps = {
   videos: string[];
   layout: string;
   description?: string;
-}
+};
 
-const VideoGallery = ({videos, layout, description}: VideoGalleryProps) => {
+const VideoGallery = ({ videos, layout, description }: VideoGalleryProps) => {
   const layoutClass = layout ? styles[`layout--${layout}`] : styles.videoGrid;
 
   return (

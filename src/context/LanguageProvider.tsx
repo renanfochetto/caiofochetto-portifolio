@@ -4,7 +4,11 @@ import * as React from 'react';
 
 export type LanguageCode = 'pt' | 'en' | 'es';
 
-export const LanguageProvider = ({ children }: { children: React.ReactNode }) => {
+export const LanguageProvider = ({
+  children,
+}: {
+  children: React.ReactNode;
+}) => {
   const [language, setLanguage] = useState<LanguageCode>('pt');
 
   return (

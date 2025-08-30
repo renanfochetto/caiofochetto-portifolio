@@ -6,4 +6,6 @@ export interface LanguageContextType {
   setLanguage: (lang: LanguageCode) => void;
 }
 
-export const LanguageContext = createContext<LanguageContextType | undefined>(undefined);
+export const LanguageContext = createContext<LanguageContextType | undefined>(
+  undefined,
+);
