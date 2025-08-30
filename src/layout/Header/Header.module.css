@@ -209,13 +209,13 @@ li:active {
     header {
         gap: 1rem;
         width: 100vw;
-        padding: 2rem 6rem;
+        padding: 1rem 6rem;
     }
 }
 
 @media (width <= 900px) and (orientation: portrait) {
     header {
-        padding: 2rem 4rem;
+        padding: 1rem 4rem;
     }
 }
 

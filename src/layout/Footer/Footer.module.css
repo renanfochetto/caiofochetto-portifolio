@@ -154,8 +154,14 @@ footer p:active {
     }
 }
 
+@media (width <= 1100px) and (orientation: portrait) {
+    footer {
+        padding : 1rem 6rem;
+    }
+}
+
 /* Media Queries - Portrait */
-@media (width <= 900px) {
+@media (width <= 900px) and (orientation: portrait) {
     footer {
         padding: 1rem 4rem;
     }

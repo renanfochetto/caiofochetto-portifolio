@@ -196,8 +196,7 @@
     }
 
     .titleSection {
-        top: 25%;
-        left: -1.5%;
+        left: -2%;
         font-size: var(--font-size-md);
     }
 
@@ -227,11 +226,10 @@
 
 @media (width <= 800px) and (orientation: portrait) {
     .container {
-        padding-top: 12rem;
+        margin-top: 4rem;
     }
 
     .titleSection {
-        top: 25%;
         left: -2.5%;
         font-size: var(--font-size-sm);
     }
@@ -242,27 +240,30 @@
     }
 }
 
+@media (width <= 700px) and (orientation: portrait) {
+    .titleSection {
+        left: -4%;
+    }
+}
+
 @media (width <= 600px) and (orientation: portrait) {
     .container {
-        padding-top: 7rem;
+        padding-top: 2rem;
     }
 
     .titleSection {
-        top: 25%;
         left: -5.5%;
         font-size: var(--font-size-xs);
     }
 
     .badgeGrid {
         column-gap: 9rem;
-        padding: 6rem 8rem 2rem 10rem;
+        padding: 1rem 8rem 1rem 10rem;
     }
 }
 
 @media (width <= 500px) and (orientation: portrait) {
     .titleSection {
-        top: 20%;
-        left: -8%;
         font-size: var(--font-size-base);
     }
 

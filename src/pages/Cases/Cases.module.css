@@ -97,16 +97,12 @@
     }
 
     .titleSection {
-        top: 25%;
-        left: -1.5%;
+        left: -2%;
         font-size: var(--font-size-md);
     }
 }
 
 @media (width <= 900px) and (orientation: portrait) {
-    .container {
-    }
-
     .casesGrid {
         margin-left: 6rem;
     }
@@ -114,7 +110,6 @@
 
 @media (width <= 800px) and (orientation: portrait) {
     .titleSection {
-        top: 25%;
         left: -2.5%;
         font-size: var(--font-size-sm);
     }
@@ -122,8 +117,6 @@
 
 @media (width <= 600px) and (orientation: portrait) {
     .titleSection {
-        top: 25%;
-        left: -5.5%;
         font-size: var(--font-size-xs);
     }
 
@@ -134,8 +127,6 @@
 
 @media (width <= 500px) and (orientation: portrait) {
     .titleSection {
-        top: 20%;
-        left: -8%;
         font-size: var(--font-size-base);
     }
 }
