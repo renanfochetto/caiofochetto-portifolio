@@ -11,7 +11,11 @@ const VideoGallery = ({ videos, layout, description }: VideoGalleryProps) => {
 
     return (
         <>
-            <div className={layoutClass}>
+            <div
+              className={layoutClass}
+              role="region"
+              aria-label={videos.length > 1 ? 'Galeria de Vídeos' : 'Galeria de Vídeo'}
+            >
                 {videos.map((url, i) => (
                     <div
                         key={i}

@@ -11,7 +11,11 @@ const PhotoGallery = ({ images, layout, description }: PhotoGalleryProps) => {
 
     return (
         <>
-            <div className={layoutClass}>
+            <div
+              className={layoutClass}
+              role="region"
+              aria-label={images.length > 1 ? 'Galeria de Imagens' : 'Galeria de Imagem'}
+            >
                 {images.map((img, i) => (
                     <img
                         key={i}

@@ -7,7 +7,11 @@ export type TextBlockProps = {
 
 const TextBlock = ({ title, paragraph }: TextBlockProps) => {
     return (
-        <div className={styles.textBlock}>
+        <div
+          className={styles.textBlock}
+          role="region"
+          aria-label={title}
+        >
             <h5>{title}</h5>
             {paragraph.map((p, i) => (
                 <p key={i}>{p}</p>

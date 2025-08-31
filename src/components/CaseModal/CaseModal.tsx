@@ -103,6 +103,7 @@ export const CaseModal = ({ caseData, tagData, onClose }: CaseModalProps) => {
                 <div
                     role="dialog"
                     aria-modal="true"
+                    aria-labelledby={`modal-title-${nome}`}
                     ref={modalRef}
                     className={styles.modal}
                     tabIndex={-1}
@@ -113,6 +114,7 @@ export const CaseModal = ({ caseData, tagData, onClose }: CaseModalProps) => {
                         type="button"
                         className={styles.closeButton}
                         onClick={onClose}
+                        aria-label="Fechar modal"
                     >
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
@@ -128,7 +130,7 @@ export const CaseModal = ({ caseData, tagData, onClose }: CaseModalProps) => {
                     <div className={styles.modalHeader}>
                         <div className={styles.infoSection}>
                             <div className={styles.titleSection}>
-                                <h5>{nome}</h5>
+                                <h5 id={`modal-title-${nome}`}>{nome}</h5>
                             </div>
                             <div className={styles.tagsSection}>
                                 {tags.map((key, i) => {
@@ -149,7 +151,8 @@ export const CaseModal = ({ caseData, tagData, onClose }: CaseModalProps) => {
                                 <img
                                     key={i}
                                     src={buildAssetPath(folder, logo)}
-                                    alt={`Logo ${i}`}
+                                    alt=""
+                                    aria-hidden="true"
                                     className={styles.logo}
                                 />
                             ))}
