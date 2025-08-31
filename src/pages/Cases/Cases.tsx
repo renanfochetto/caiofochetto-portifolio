@@ -119,6 +119,7 @@ const Cases = () => {
             id="cases"
             className={styles.scrollWrapper}
             ref={wrapperRef}
+            aria-label="Seção de projetos e cases profissionais"
         >
             <div
                 className={styles.container}
