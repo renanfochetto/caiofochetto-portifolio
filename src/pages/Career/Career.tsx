@@ -83,6 +83,7 @@ const Career = () => {
             id="carreira"
             className={styles.scrollWrapper}
             ref={wrapperRef}
+            aria-label="Seção de experiências profissionais"
         >
             <div
                 className={styles.container}
@@ -114,6 +115,7 @@ const Career = () => {
                         <div
                             key={i}
                             className={styles.timelineYear}
+                            role="presentation"
                         >
                             {year}
                         </div>
