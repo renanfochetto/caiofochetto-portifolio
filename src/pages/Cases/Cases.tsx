@@ -1,6 +1,6 @@
 import styles from './Cases.module.css';
 import { useLocalizedContent } from '../../hooks/useLocalizedContent.ts';
-import CaseGrid from '../../components/CaseGrid/CaseGrid.tsx';
+import {CaseGrid} from '../../components/CaseGrid/CaseGrid.tsx';
 import { useEffect, useRef } from 'react';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';

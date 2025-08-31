@@ -7,7 +7,7 @@ import { buildAssetPath } from '../../utils/path';
 import type { CaseData } from '../../types';
 import { useLocalizedContent } from '../../hooks/useLocalizedContent.ts';
 
-const CaseGrid = () => {
+export const CaseGrid = () => {
     const content = useLocalizedContent();
     const [activeTags, setActiveTags] = useState<string[]>([]);
     const [selectedCase, setSelectedCase] = useState<CaseData | null>(null);
@@ -51,6 +51,8 @@ const CaseGrid = () => {
             </div>
             <div
                 className={styles.caseGrid}
+                aria-label="Lista de projetos filtráveis"
+                role="list"
                 style={{
                     gridTemplateColumns: `repeat(${numColumns}, var(--column-width))`,
                 }}
@@ -76,5 +78,3 @@ const CaseGrid = () => {
         </>
     );
 };
-
-export default CaseGrid;
