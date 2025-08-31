@@ -15,10 +15,21 @@ const CaseCard = ({ image, alt, projeto, tagKeys, onClick }: CaseCardProps) => {
     const content = useLocalizedContent();
     const tagData = content?.cases?.tags;
 
+
+
     return (
         <div
             className={styles.caseCard}
             onClick={onClick}
+            onKeyDown={(e) => {
+              if (e.key === 'Enter' || e.key === ' ') {
+                e.preventDefault();
+                onClick();
+              }
+            }}
+            tabIndex={0}
+            role="button"
+            aria-label={`Abrir Case ${projeto}`}
         >
             <img
                 src={image}
