@@ -19,12 +19,15 @@ export const Header = () => {
             <a
                 href="#home"
                 className={styles.logoLink}
+                aria-label="Ir para o início"
             >
-                <h1 className={styles.logo}>CAIO</h1>
-                <h1 className={styles.logo}>FOCHETTO</h1>
+                <h1 className={styles.logo}>
+                  <span>CAIO</span>
+                  <span>FOCHETTO</span>
+                </h1>
             </a>
             <LanguageSelector />
-            <nav>
+            <nav aria-label="Navegação Principal">
                 <ul>
                     {links.map((link: Link) => (
                         <li key={link.id}>

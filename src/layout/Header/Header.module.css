@@ -19,22 +19,33 @@ header {
     backdrop-filter: blur(8px);
 }
 
-.logoLink {
+.logoLink h1 {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
 }
 
-.logoLink h1:first-child {
+.logoLink h1 span:first-child {
+    display: inline-block;
     padding: 0.2rem 0.8rem 0;
-    border-radius: var(--border-radius-small) var(--border-radius-small) 0 0;
+    border-radius:
+            var(--border-radius-small)
+            var(--border-radius-small)
+            0
+            0;
+    background: #a8eb0f;
+
 }
 
-.logoLink h1:last-child {
-    margin-top: -0.1rem;
-    padding: 0 0.8rem 0.2rem;
-    border-radius: 0 var(--border-radius-small) var(--border-radius-small)
-        var(--border-radius-small);
+.logoLink h1 span:last-child {
+    margin-top: -0.4rem;
+    padding: 0.2rem 0.8rem;
+    border-radius:
+            0
+            var(--border-radius-small)
+            var(--border-radius-small)
+            var(--border-radius-small);
+    background: #a8eb0f;
 }
 
 .logo {
@@ -43,7 +54,6 @@ header {
     grid-column: 1 / 1;
     font-size: var(--font-size-lg);
     text-align: left;
-    background: #a8eb0f;
     border-radius: var(--border-radius-base);
 }
 
@@ -81,6 +91,11 @@ a {
     text-underline-offset: 0.2rem;
 }
 
+.linksNav:focus-visible {
+    outline: 2px solid var(--lime-green);
+    outline-offset: 2px;
+}
+
 li {
     display: block;
 }
@@ -100,15 +115,16 @@ li:active {
 }
 
 .logoLink:hover {
-    text-decoration: underline;
-    text-underline-offset: 0.2rem;
-    transform: scale(1.02);
+    transform: scale(1.03);
     transition: transform 0.3s;
+    will-change: transform;
+    text-rendering: optimizeLegibility;
 }
 
 .logoLink:active {
     transform: scale(0.95);
     transition: transform 0.2s;
+
 }
 
 /* Media Queries - Landscape */

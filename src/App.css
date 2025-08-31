@@ -1,5 +1,12 @@
+*:focus-visible {
+    outline: 2px solid var(--lime-green);
+    outline-offset: 2px;
+}
+
 html {
     scroll-behavior: smooth;
+    scrollbar-width: thin;
+    scrollbar-color: var(--dark-magenta) var(--lime-green);
 }
 
 body {
