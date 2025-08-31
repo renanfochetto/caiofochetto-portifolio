@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import {useEffect, useState} from 'react';
 import { useLanguage } from '../../context/useLanguage.ts';
 import styles from './LanguageSelector.module.css';
 
@@ -13,17 +13,39 @@ const languages: Language[] = [
     { code: 'es', label: 'ESPAÑOL' },
 ];
 
-const LanguageSelector = () => {
+export const LanguageSelector = () => {
     const [isOpen, setIsOpen] = useState(false);
     const { language, setLanguage } = useLanguage();
 
     const toggleDropdown = () => setIsOpen(!isOpen);
 
-    return (
+  useEffect(() => {
+    const handleKeyDown = (e: KeyboardEvent) => {
+      if (e.key === 'Escape') setIsOpen(false);
+    };
+    window.addEventListener('keydown', handleKeyDown);
+    return () => window.removeEventListener('keydown', handleKeyDown);
+  }, []);
+
+  useEffect(() => {
+    const handleClickOutside = (e: MouseEvent) => {
+      const target = e.target as HTMLElement;
+      if (!target.closest(`.${styles.selector}`)) {
+        setIsOpen(false);
+      }
+    };
+    document.addEventListener('click', handleClickOutside);
+    return () => document.removeEventListener('click', handleClickOutside);
+  }, []);
+
+  return (
         <div className={styles.selector}>
-            <div
+            <button
                 className={styles.selected}
                 onClick={toggleDropdown}
+                type="button"
+                aria-expanded={isOpen}
+                aria-haspopup="listbox"
             >
                 {languages.find((l) => l.code === language)?.label}
                 <img
@@ -32,12 +54,14 @@ const LanguageSelector = () => {
                     }
                     alt="Toggle menu"
                 />
-            </div>
+            </button>
             {isOpen && (
-                <ul className={styles.options}>
+                <ul className={styles.options} role="listbox">
                     {languages.map((lang) => (
                         <li
                             key={lang.code}
+                            role="option"
+                            aria-selected={language === lang.code}
                             className={styles.option}
                             onClick={() => {
                                 setLanguage(lang.code as 'pt' | 'en' | 'es');
@@ -53,4 +77,3 @@ const LanguageSelector = () => {
     );
 };
 
-export default LanguageSelector;

@@ -1,5 +1,5 @@
 import styles from './Header.module.css';
-import LanguageSelector from '../../components/LanguageSelector/LanguageSelector.tsx';
+import {LanguageSelector} from '../../components/LanguageSelector/LanguageSelector.tsx';
 import { useLocalizedContent } from '../../hooks/useLocalizedContent.ts';
 
 interface Link {

@@ -124,7 +124,6 @@ li:active {
 .logoLink:active {
     transform: scale(0.95);
     transition: transform 0.2s;
-
 }
 
 /* Media Queries - Landscape */

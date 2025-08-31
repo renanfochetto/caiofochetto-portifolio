@@ -27,8 +27,10 @@
     align-items: center;
     justify-content: space-between;
     color: var(--black);
+    border: none;
     background-color: transparent;
     cursor: pointer;
+    gap: 1rem;
 }
 
 .selected img {
@@ -38,8 +40,8 @@
 
 .options {
     position: absolute;
-    top: 1.8rem;
-    left: 0;
+    top: 1.2rem;
+    left: 4px;
     z-index: 10;
     font-size: var(--font-size-base);
     list-style: none;
