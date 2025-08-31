@@ -41,7 +41,7 @@
 }
 
 .intro h2,
-.intro p {
+p {
     display: inline-block;
     margin: -0.8rem 0;
     padding: 1.4rem;

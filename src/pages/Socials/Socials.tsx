@@ -104,6 +104,7 @@ export const Socials = () => {
         <section
             id="social"
             className={styles.container}
+            aria-label="Seção de redes sociais de Caio Fochetto"
         >
             <div className={styles.titleSection}>
                 <h3>{content?.socials?.pagina}</h3>
@@ -124,13 +125,18 @@ export const Socials = () => {
                                 <span>{link.name}</span>
                             </Link>
                         </div>
+                      <a
+                        href={link.href}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className={styles.previewLink}
+                      >
                         <img
                             src={getPreviewSrc(link, previewType)}
                             className={`${styles.previewImage} ${getImageClass(link.name, previewType)}`}
                             alt={`Preview do perfil de Caio Fochetto no ${link.name}`}
-                            onClick={() => window.open(link.href, '_blank')}
-                            style={{ cursor: 'pointer' }}
                         />
+                      </a>
                     </div>
                 ))}
             </div>
