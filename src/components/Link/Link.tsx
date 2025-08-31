@@ -19,10 +19,9 @@ const Link = ({ href, icon, alt, children, className }: PropsLink) => {
         >
             {icon && (
                 <img
-                    className={alt}
+                    className={styles.icon}
                     src={icon}
-                    alt={alt || 'Ícone de link'}
-                    style={{ marginRight: '8px' }}
+                    alt={alt}
                 />
             )}
             {children}
