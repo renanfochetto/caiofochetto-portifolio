@@ -1,7 +1,6 @@
 .tag {
     display: inline-block;
     width: auto;
-    max-width: max-content;
     padding: 0.08rem 0.3rem;
     color: var(--white);
     font-weight: var(--font-weight-semibold);
@@ -12,11 +11,11 @@
     border: 2px solid var(--lime-green);
     border-radius: var(--border-radius-base);
     box-shadow: var(--shadow-base);
+    transition: transform 0.2s ease-in-out, border 0.2s ease-in-out;
 }
 
 .tag:hover {
     border: 2px solid var(--white);
-    cursor: pointer;
     transition: transform 0.2s ease-in-out;
 }
 
@@ -47,7 +46,7 @@
 }
 
 /* Media Queries - Portrait */
-@media (width <= 1100) and (orientation: portrait) {
+@media (width <= 1100px) and (orientation: portrait) {
     .tag {
         padding: 0.08rem 0.3rem;
         font-size: var(--font-size-base);

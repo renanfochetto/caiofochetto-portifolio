@@ -6,7 +6,14 @@
 }
 
 .tagWrapper {
+    all: unset;
     display: flex;
+    cursor: pointer;
+}
+
+.tagWrapper:focus-visible {
+    outline: 2px solid var(--lime-green);
+    outline-offset: 0.2rem;
 }
 
 /* Media Queries - Landscape */

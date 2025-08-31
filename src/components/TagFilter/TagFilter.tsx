@@ -36,10 +36,12 @@ const TagFilter = ({ onFilterChange }: TagFilterProps) => {
     return (
         <div className={styles.tagFilter}>
             {Object.entries(tags).map(([key, { label }]) => (
-                <div
+                <button
                     key={key}
                     onClick={() => handleTagClick(key)}
                     className={styles.tagWrapper}
+                    type="button"
+                    aria-pressed={selectedTags.includes(key)}
                 >
                     <Tag
                         label={label}
@@ -47,7 +49,7 @@ const TagFilter = ({ onFilterChange }: TagFilterProps) => {
                             selectedTags.includes(key) ? tagStyles.active : ''
                         }
                     />
-                </div>
+                </button>
             ))}
         </div>
     );
