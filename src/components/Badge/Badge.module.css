@@ -5,6 +5,14 @@
     cursor: pointer;
 }
 
+.accessibleBack {
+    position: absolute;
+    left: -9999px;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+}
+
 .badgeInner {
     position: relative;
     width: 19rem;
@@ -17,11 +25,6 @@
 .badgeInner p {
     background-color: transparent;
     box-shadow: none;
-}
-@media (hover: hover) and (pointer: fine) {
-    .badge:hover .badgeInner {
-        transform: rotateY(180deg);
-    }
 }
 
 .badgeInner,
@@ -95,11 +98,19 @@
     z-index: 5;
     width: 3.6rem;
     height: 1.2rem;
-    background-color: var(--pink); /* ou transparente */
+    background-color: var(--pink);
     border-radius: 4px;
     box-shadow: inset 8px 8px 10px rgb(0 0 0 / 35%);
     transform: translate(-50%, -50%);
 }
+
+/*Media Query para Tablets e Celulares*/
+@media (hover: hover) and (pointer: fine) {
+    .badge:hover .badgeInner {
+        transform: rotateY(180deg);
+    }
+}
+
 
 /* Media Queries - Landscape */
 @media (width <= 1000px) {

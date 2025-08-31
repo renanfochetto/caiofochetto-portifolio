@@ -98,6 +98,7 @@ const Career = () => {
                             key={index}
                             experiencia={exp}
                             labels={badge}
+                            index={index}
                         />
                     ))}
                     <div className={styles.timeline}></div>
