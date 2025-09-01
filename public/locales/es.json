@@ -1807,5 +1807,14 @@
     "videoPlural": "Galerías de Videos",
     "imagenSingular": "Galería de Imagen",
     "imagemPlural": "Galerías de Imágenes"
+  },
+  "metatags": {
+    "description": "Portafolio de Caio Fochetto, especialista en contenido digital y marketing de influencia. Conoce su carrera y proyectos.",
+    "keywords": "Caio Fochetto, portafolio, marketing de influencia, contenido digital, comunicación, redes sociales, proyectos, carrera, estrategia digital, estrategia de contenido",
+    "social": {
+      "title": "Portafolio de Caio Fochetto",
+      "description": "Especialista en contenido digital y marketing de influencia. Conoce su carrera y proyectos.",
+      "siteName": "Caio Fochetto – Portafolio"
+    }
   }
 }

@@ -1807,5 +1807,14 @@
     "videoPlural": "Video Galleries",
     "imagenSingular": "Image Gallery",
     "imagemPlural": "Image Galleries"
+  },
+  "metatags": {
+    "description": "Caio Fochetto's portfolio, a specialist in digital content and influencer marketing. Discover his career and projects.",
+    "keywords": "Caio Fochetto, portfolio, influencer marketing, digital content, communication, social media, projects, career, digital strategy, content strategy",
+    "social": {
+      "title": "Caio Fochetto's Portfolio",
+      "description": "Specialist in digital content and influencer marketing. Discover his career and projects.",
+      "siteName": "Caio Fochetto – Portfolio"
+    }
   }
 }

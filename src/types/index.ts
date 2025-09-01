@@ -116,6 +116,7 @@ export interface LocalizedContent {
     socials: Socials;
     footer: Footer;
     accessibility: Accessibility;
+    metatags: Metatags;
 }
 
 export interface Accessibility {
@@ -135,4 +136,14 @@ export interface Accessibility {
   videoPlural: string;
   imagenSingular: string;
   imagemPlural: string;
+}
+
+export interface Metatags {
+  description: string;
+  keywords: string;
+  social: {
+    title: string;
+    description: string;
+    siteName: string;
+  }
 }
