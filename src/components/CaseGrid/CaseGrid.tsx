@@ -62,7 +62,7 @@ export const CaseGrid = () => {
                         image={buildAssetPath(c.folder, c.capa)}
                         key={c.id}
                         onClick={() => setSelectedCase(c)}
-                        alt={`Imagem do Case ${c.nome}`}
+                        alt={c.alt}
                         projeto={c.nome}
                         tagKeys={c.tags}
                     />

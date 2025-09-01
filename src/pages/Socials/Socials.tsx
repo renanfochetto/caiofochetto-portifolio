@@ -3,59 +3,41 @@ import { useLocalizedContent } from '../../hooks/useLocalizedContent.ts';
 import Link from '../../components/Link/Link.tsx';
 import { useEffect, useState } from 'react';
 
-const links = [
-    {
-        name: 'LINKEDIN',
-        icon: '/icons/linkedin.svg',
-        href: 'https://www.linkedin.com/in/caiofochetto/',
-        preview: {
-            desktop: '/socials/linkedin-desktop.avif',
-            mobile: '/socials/linkedin-mobile.avif',
-        },
-    },
-    {
-        name: 'YOUTUBE',
-        icon: '/icons/youtube.svg',
-        href: 'https://www.youtube.com/@caiofochetto/playlists',
-        preview: {
-            desktop: '/socials/youtube-desktop.avif',
-            mobile: '/socials/youtube-mobile.avif',
-        },
-    },
-];
 
 const getPreviewSrc = (
-    link: (typeof links)[number],
-    type: 'mobile' | 'desktop' | 'mixed',
+  item: {
+    preview: { desktop: string; mobile: string };
+    id: string;
+  },
+  type: 'mobile' | 'desktop' | 'mixed',
 ) => {
-    if (type === 'mobile') return link.preview.mobile;
-    if (type === 'desktop') return link.preview.desktop;
-
-    // mixed
-    return link.name === 'YOUTUBE' ? link.preview.desktop : link.preview.mobile;
+  if (type === 'mobile') return item.preview.mobile;
+  if (type === 'desktop') return item.preview.desktop;
+  return item.id === 'youtube' ? item.preview.desktop : item.preview.mobile;
 };
 
 const getImageClass = (
-    linkName: string,
-    type: 'mobile' | 'desktop' | 'mixed',
+  id: string,
+  type: 'mobile' | 'desktop' | 'mixed',
 ) => {
-    if (type === 'mixed') {
-        if (linkName === 'LINKEDIN') return styles.linkedinMobile;
-        if (linkName === 'YOUTUBE') return styles.youtubeDesktop;
-    }
+  if (type === 'mixed') {
+    if (id === 'linkedin') return styles.linkedinMobile;
+    if (id === 'youtube') return styles.youtubeDesktop;
+  }
 
-    if (type === 'mobile') {
-        if (linkName === 'LINKEDIN') return styles.linkedinMobile;
-        if (linkName === 'YOUTUBE') return styles.youtubeMobile;
-    }
+  if (type === 'mobile') {
+    if (id === 'linkedin') return styles.linkedinMobile;
+    if (id === 'youtube') return styles.youtubeMobile;
+  }
 
-    if (type === 'desktop') {
-        if (linkName === 'LINKEDIN') return styles.linkedinDesktop;
-        if (linkName === 'YOUTUBE') return styles.youtubeDesktop;
-    }
+  if (type === 'desktop') {
+    if (id === 'linkedin') return styles.linkedinDesktop;
+    if (id === 'youtube') return styles.youtubeDesktop;
+  }
 
-    return '';
+  return '';
 };
+
 
 const usePreviewType = () => {
     const [previewType, setPreviewType] = useState<
@@ -110,35 +92,32 @@ export const Socials = () => {
                 <h3>{content?.socials?.pagina}</h3>
             </div>
             <div className={styles.socialsGrid}>
-                {links.map((link) => (
-                    <div
-                        key={link.name}
-                        className={styles.card}
+              {content.socials.items.map((item) => (
+                <div key={item.id} className={styles.card}>
+                  <div className={styles.header}>
+                    <Link
+                      className={styles.linkSocial}
+                      href={item.href}
+                      icon={item.icon}
+                      alt={`Ícone de ${item.name}`}
                     >
-                        <div className={styles.header}>
-                            <Link
-                                className={styles.linkSocial}
-                                href={link.href}
-                                icon={link.icon}
-                                alt={`Ícone de ${link.name}`}
-                            >
-                                <span>{link.name}</span>
-                            </Link>
-                        </div>
-                      <a
-                        href={link.href}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className={styles.previewLink}
-                      >
-                        <img
-                            src={getPreviewSrc(link, previewType)}
-                            className={`${styles.previewImage} ${getImageClass(link.name, previewType)}`}
-                            alt={`Preview do perfil de Caio Fochetto no ${link.name}`}
-                        />
-                      </a>
-                    </div>
-                ))}
+                      <span>{item.name}</span>
+                    </Link>
+                  </div>
+                  <a
+                    href={item.href}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className={styles.previewLink}
+                  >
+                    <img
+                      src={getPreviewSrc(item, previewType)}
+                      className={`${styles.previewImage} ${getImageClass(item.id, previewType)}`}
+                      alt={item.alt}
+                    />
+                  </a>
+                </div>
+              ))}
             </div>
         </section>
     );

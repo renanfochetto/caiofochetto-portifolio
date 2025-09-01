@@ -77,7 +77,7 @@ const Badge = ({
           <div className={styles.badgeFront}>
             <img
               src={experiencia.logo}
-              alt={experiencia.empresa}
+              alt={`${experiencia.empresa} Logo`}
               style={{border: `2px solid ${experiencia.corTexto}`}}
             />
             <h3>{experiencia.empresa}</h3>

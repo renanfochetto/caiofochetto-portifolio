@@ -9,18 +9,6 @@
     margin-top: 8rem;
 }
 
-.titleSection {
-    position: absolute;
-    top: 35%;
-    left: 0;
-    padding: 0.3rem;
-    font-size: var(--font-size-sm);
-    background: #a8eb0f;
-    border-radius: var(--border-radius-small);
-    font-family: var(--font-mono), monospace;
-    transform: rotate(-90deg);
-}
-
 .intro {
     width: 60%;
     max-width: 100rem;
@@ -93,10 +81,6 @@ p {
         margin-top: 6rem;
     }
 
-    .titleSection {
-        font-size: var(--font-size-xs);
-    }
-
     .intro h2 {
         font-size: var(--font-size-lg);
     }
@@ -121,10 +105,6 @@ p {
         margin-top: 5rem;
     }
 
-    .titleSection {
-        font-size: var(--font-size-base);
-    }
-
     .intro {
         width: 70%;
     }
@@ -137,10 +117,6 @@ p {
 @media (width <= 800px) {
     .container {
         margin-top: 4.5rem;
-    }
-
-    .titleSection {
-        left: -1%;
     }
 
     .intro h2 {
@@ -165,11 +141,6 @@ p {
 @media (width <= 600px) {
     .container {
         margin-top: 3.5rem;
-    }
-
-    .titleSection {
-        left: -3%;
-        font-size: var(--font-size-xxs);
     }
 
     .intro h2 {
@@ -197,10 +168,6 @@ p {
         margin-top: 3rem;
     }
 
-    .titleSection {
-        font-size: var(--font-size-xxxs);
-    }
-
     .intro h2 {
         padding: 0.8rem;
         font-size: var(--font-size-sm);
@@ -224,11 +191,6 @@ p {
         width: 100vw;
         height: 100vh;
         margin-top: 10rem;
-    }
-
-    .titleSection {
-        left: -2%;
-        font-size: var(--font-size-md);
     }
 
     .intro h2 {
@@ -261,18 +223,7 @@ p {
     }
 }
 
-@media (width <= 800px) and (orientation: portrait) {
-    .titleSection {
-        left: -2.5%;
-        font-size: var(--font-size-sm);
-    }
-}
-
 @media (width <= 700px) and (orientation: portrait) {
-    .titleSection {
-        left: -4%;
-    }
-
     .intro h2 {
         font-size: var(--font-size-lg);
     }
@@ -291,18 +242,9 @@ p {
     .container {
         margin-top: 6rem;
     }
-
-    .titleSection {
-        left: -5.5%;
-        font-size: var(--font-size-xs);
-    }
 }
 
 @media (width <= 500px) and (orientation: portrait) {
-    .titleSection {
-        font-size: var(--font-size-base);
-    }
-
     .intro p {
         margin-top: 0;
         font-size: var(--font-size-sm);

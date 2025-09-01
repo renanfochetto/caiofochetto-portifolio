@@ -7,6 +7,7 @@ export type CaseData = {
     id: number;
     nome: string;
     marca: string;
+    alt: string;
     folder: string;
     logos: string[];
     capa: string;
@@ -26,6 +27,7 @@ export type CaseBlock =
     | {
           type: 'photoGallery';
           layout: string;
+          alt: string;
           files: string[];
           description?: string;
       }
@@ -87,8 +89,19 @@ export interface Cases {
 
 export interface Socials {
     pagina: string;
-    linkedin: string;
-    youtube: string;
+    items: SocialItem[]
+}
+
+export interface SocialItem {
+  id: string;
+  name: string;
+  href: string;
+  icon: string;
+  alt: string;
+  preview: {
+    desktop: string;
+    mobile: string;
+  };
 }
 
 export interface Footer {

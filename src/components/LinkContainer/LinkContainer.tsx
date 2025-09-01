@@ -7,6 +7,12 @@ type LinkContainerProps = {
 
 const links = [
   {
+    name: 'linkedin',
+    icon: '/icons/linkedin.svg',
+    alt: 'Linkedin Profile',
+    href: 'https://www.linkedin.com/in/caiofochetto/',
+  },
+  {
     name: 'youtube',
     icon: '/icons/youtube.svg',
     alt: 'Youtube Channel',
@@ -17,12 +23,6 @@ const links = [
     icon: '/icons/email.svg',
     alt: 'Email Caio Fochetto',
     href: 'mailto:caiofochetto@gmail.com',
-  },
-  {
-    name: 'linkedin',
-    icon: '/icons/linkedin.svg',
-    alt: 'Linkedin Profile',
-    href: 'https://www.linkedin.com/in/caiofochetto/',
   },
 ];
 

@@ -65,7 +65,7 @@ export const CaseModal = ({ caseData, tagData, onClose }: CaseModalProps) => {
                         key={index}
                         images={block.files.map((file, i) => ({
                             src: buildAssetPath(folder, file),
-                            alt: `Imagem ${i + 1}`,
+                            alt: block.alt?.replace('{{index}}', String(i + 1)) || `Imagem ${i + 1}`
                         }))}
                         layout={block.layout}
                         description={block.description}

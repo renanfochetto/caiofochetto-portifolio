@@ -1,3 +1,10 @@
+.scrollWrapper {
+    position: relative;
+    z-index: 1;
+    width: 100vw;
+    height: 100vh;
+}
+
 .container {
     display: flex;
     flex-direction: column;
@@ -19,12 +26,6 @@
     transform: rotate(-90deg);
 }
 
-.scrollWrapper {
-    position: relative;
-    z-index: 1;
-    width: 100vw;
-    height: 100vh;
-}
 
 .badgeGrid {
     display: grid;

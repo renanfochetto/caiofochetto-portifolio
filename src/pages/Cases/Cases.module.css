@@ -115,8 +115,15 @@
     }
 }
 
+@media (width <= 700px) and (orientation: portrait) {
+    .titleSection {
+        left: -4%;
+    }
+}
+
 @media (width <= 600px) and (orientation: portrait) {
     .titleSection {
+        left: -5.5%;
         font-size: var(--font-size-xs);
     }
 
