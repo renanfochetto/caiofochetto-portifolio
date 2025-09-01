@@ -1,5 +1,6 @@
 import Link from '../Link/Link.tsx';
 import styles from './LinkContainer.module.css';
+import { useLocalizedContent } from '../../hooks/useLocalizedContent.ts';
 
 type LinkContainerProps = {
   className?: string;
@@ -27,10 +28,14 @@ const links = [
 ];
 
 const LinkContainer = ({className}: LinkContainerProps) => {
+  const content = useLocalizedContent();
+
+  if (!content) return null;
+
   return (
     <nav
       className={`${styles.linkContainer} ${className || ''}`}
-      aria-label="Links sociais"
+      aria-label={content.accessibility.socialsLink}
     >
       {links.map((link) => (
         <Link

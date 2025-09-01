@@ -1789,5 +1789,23 @@
   },
   "footer": {
     "autor": "Developed by Renan Fochetto"
+  },
+  "accessibility": {
+    "root": "Main Application",
+    "botaoFechar": "Close Modal",
+    "experiencia": "Professional experience at {{empresa}}, in the role of {{cargo}}",
+    "abrirCase": "Open the case for the project {{projeto}}",
+    "socialsLink": "Links to social media",
+    "inicio": "Go to the homepage",
+    "carreira": "Professional experience section",
+    "cases": "Projects and professional cases section",
+    "filter": "Filterable project list",
+    "author": "Website by developer Renan Fochetto",
+    "nav": "Main navigation",
+    "socials": "Caio Fochetto’s social media section",
+    "videoSingular": "Video Gallery",
+    "videoPlural": "Video Galleries",
+    "imagenSingular": "Image Gallery",
+    "imagemPlural": "Image Galleries"
   }
 }

@@ -83,7 +83,7 @@ const Career = () => {
             id="carreira"
             className={styles.scrollWrapper}
             ref={wrapperRef}
-            aria-label="Seção de experiências profissionais"
+            aria-label={content.accessibility.carreira}
         >
             <div
                 className={styles.container}

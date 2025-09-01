@@ -15,7 +15,10 @@ const CaseCard = ({ image, alt, projeto, tagKeys, onClick }: CaseCardProps) => {
     const content = useLocalizedContent();
     const tagData = content?.cases?.tags;
 
+    if (!content) return null;
 
+    const ariaLabel = content?.accessibility.abrirCase
+      .replace('{{projeto}}', projeto );
 
     return (
         <div
@@ -29,7 +32,7 @@ const CaseCard = ({ image, alt, projeto, tagKeys, onClick }: CaseCardProps) => {
             }}
             tabIndex={0}
             role="button"
-            aria-label={`Abrir Case ${projeto}`}
+            aria-label={ariaLabel}
         >
             <img
                 src={image}
@@ -46,7 +49,6 @@ const CaseCard = ({ image, alt, projeto, tagKeys, onClick }: CaseCardProps) => {
                         />
                     );
                 })}
-                ;
             </div>
             <div className={styles.labelCard}>
                 <div className={styles.labelProject}>

@@ -1,4 +1,5 @@
 import styles from './VideoGallery.module.css';
+import { useLocalizedContent } from '../../../../hooks/useLocalizedContent.ts';
 
 type VideoGalleryProps = {
     videos: string[];
@@ -7,14 +8,17 @@ type VideoGalleryProps = {
 };
 
 const VideoGallery = ({ videos, layout, description }: VideoGalleryProps) => {
-    const layoutClass = layout ? styles[`layout--${layout}`] : styles.videoGrid;
+  const content = useLocalizedContent();
+  const layoutClass = layout ? styles[`layout--${layout}`] : styles.videoGrid;
+
+  if (!content) return null;
 
     return (
         <>
             <div
               className={layoutClass}
               role="region"
-              aria-label={videos.length > 1 ? 'Galeria de Vídeos' : 'Galeria de Vídeo'}
+              aria-label={videos.length > 1 ? content.accessibility.videoPlural : content.accessibility.videoSingular}
             >
                 {videos.map((url, i) => (
                     <div

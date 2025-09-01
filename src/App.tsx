@@ -1,27 +1,13 @@
 import './App.css';
-import {Header} from './layout/Header/Header.tsx';
-import Home from './pages/Home/Home.tsx';
 import {LanguageProvider} from './context/LanguageProvider.tsx';
-import Career from './pages/Career/Career.tsx';
-import Cases from './pages/Cases/Cases.tsx';
-import {Socials} from './pages/Socials/Socials.tsx';
-import {Footer} from './layout/Footer/Footer.tsx';
+import AppContent from './layout/AppContent/AppContent.tsx';
 
 export function App() {
   return (
     <LanguageProvider>
-      <div
-        aria-hidden="true"
-        className="background-layer"
-      />
-      <Header/>
-      <main>
-        <Home/>
-        <Career/>
-        <Cases/>
-        <Socials/>
-      </main>
-      <Footer/>
+      <AppContent/>
     </LanguageProvider>
   );
-};
+}
+
+export default App;

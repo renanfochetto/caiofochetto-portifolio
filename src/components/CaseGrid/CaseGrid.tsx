@@ -51,7 +51,7 @@ export const CaseGrid = () => {
             </div>
             <div
                 className={styles.caseGrid}
-                aria-label="Lista de projetos filtráveis"
+                aria-label={content.accessibility.filter}
                 role="list"
                 style={{
                     gridTemplateColumns: `repeat(${numColumns}, var(--column-width))`,

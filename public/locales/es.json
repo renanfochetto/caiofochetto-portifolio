@@ -1789,5 +1789,23 @@
   },
   "footer": {
     "autor": "Desarrollado por Renan Fochetto"
+  },
+  "accessibility": {
+    "root": "Aplicación Principal",
+    "botaoFechar": "Cerrar Modal",
+    "experiencia": "Experiencia profesional en la empresa {{empresa}}, en el cargo de {{cargo}}",
+    "abrirCase": "Abrir el caso del proyecto {{projeto}}",
+    "socialsLink": "Enlaces a redes sociales",
+    "inicio": "Ir a la página de inicio",
+    "carreira": "Sección de experiencias profesionales",
+    "cases": "Sección de proyectos y casos profesionales",
+    "filter": "Lista de proyectos filtrables",
+    "author": "Sitio web del desarrollador Renan Fochetto",
+    "nav": "Navegación principal",
+    "socials": "Sección de redes sociales de Caio Fochetto",
+    "videoSingular": "Galería de Video",
+    "videoPlural": "Galerías de Videos",
+    "imagenSingular": "Galería de Imagen",
+    "imagemPlural": "Galerías de Imágenes"
   }
 }

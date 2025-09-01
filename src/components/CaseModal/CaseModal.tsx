@@ -114,7 +114,7 @@ export const CaseModal = ({ caseData, tagData, onClose }: CaseModalProps) => {
                         type="button"
                         className={styles.closeButton}
                         onClick={onClose}
-                        aria-label="Fechar modal"
+                        aria-label={content.accessibility.botaoFechar}
                     >
                         <svg
                             xmlns="http://www.w3.org/2000/svg"

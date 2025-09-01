@@ -19,7 +19,7 @@ export const Header = () => {
             <a
                 href="#home"
                 className={styles.logoLink}
-                aria-label="Ir para o início"
+                aria-label={content.accessibility.inicio}
             >
                 <h1 className={styles.logo}>
                   <span>CAIO</span>
@@ -27,7 +27,9 @@ export const Header = () => {
                 </h1>
             </a>
             <LanguageSelector />
-            <nav aria-label="Navegação Principal">
+            <nav
+              aria-label={content.accessibility.nav}
+            >
                 <ul>
                     {links.map((link: Link) => (
                         <li key={link.id}>

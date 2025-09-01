@@ -115,4 +115,24 @@ export interface LocalizedContent {
     cases: Cases;
     socials: Socials;
     footer: Footer;
+    accessibility: Accessibility;
+}
+
+export interface Accessibility {
+  root: string;
+  botaoFechar: string;
+  experiencia: string;
+  abrirCase: string;
+  socialsLink: string;
+  inicio: string;
+  carreira: string;
+  cases: string;
+  filter: string;
+  author: string;
+  nav: string;
+  socials: string;
+  videoSingular: string;
+  videoPlural: string;
+  imagenSingular: string;
+  imagemPlural: string;
 }

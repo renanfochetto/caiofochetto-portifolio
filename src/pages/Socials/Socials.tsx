@@ -86,7 +86,7 @@ export const Socials = () => {
         <section
             id="social"
             className={styles.container}
-            aria-label="Seção de redes sociais de Caio Fochetto"
+            aria-label={content.accessibility.socials}
         >
             <div className={styles.titleSection}>
                 <h3>{content?.socials?.pagina}</h3>

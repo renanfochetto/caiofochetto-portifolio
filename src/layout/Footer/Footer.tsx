@@ -21,7 +21,7 @@ export const Footer = () => {
           href="https://www.renanfochetto.dev"
           target="_blank"
           rel="noopener noreferrer"
-          aria-label="Site do desenvolvedor Renan Fochetto"
+          aria-label={content.accessibility.author}
         >
           {autor}
         </a>

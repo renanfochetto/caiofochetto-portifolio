@@ -1,5 +1,6 @@
 import styles from './Badge.module.css';
 import {useEffect, useState} from 'react';
+import {useLocalizedContent} from '../../hooks/useLocalizedContent.ts';
 
 interface Experiencia {
   empresa: string;
@@ -29,6 +30,7 @@ const isTouchDevice = (): boolean => {
 };
 
 const Badge = ({
+
                  experiencia,
                  labels,
                  index,
@@ -37,10 +39,15 @@ const Badge = ({
   labels: BadgeLabels;
   index: number;
 }) => {
+  const content = useLocalizedContent();
   const [flipped, setFlipped] = useState(false);
   const [isTouch, setIsTouch] = useState(false);
 
   const id = `badgeBack-${index}`;
+
+  const ariaLabel = content?.accessibility.experiencia
+    .replace('{{empresa}}', experiencia.empresa)
+    .replace('{{cargo}}', experiencia.cargo);
 
   useEffect(() => {
     setIsTouch(isTouchDevice());
@@ -60,7 +67,7 @@ const Badge = ({
         role="group"
         onClick={isTouch ? handleToggle : undefined}
         aria-describedby={id}
-        aria-label={`Experiência em ${experiencia.empresa}, cargo: ${experiencia.cargo}`}
+        aria-label={ariaLabel}
       >
         <div
           className={`${styles.badgeInner} ${flipped ? styles.flipped : ''}`}
