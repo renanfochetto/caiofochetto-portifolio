@@ -50,7 +50,7 @@ footer p:active {
     transition: transform 0.2s;
 }
 
-.footerLinks a:focus-visible {
+.footerLinks a:focus-visible, footer p a:focus-visible {
     outline: 2px solid var(--white);
     outline-offset: 0.4rem;
 }

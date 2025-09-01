@@ -1,6 +1,7 @@
 *:focus-visible {
-    outline: 2px solid var(--lime-green);
+    outline: 2px solid var(--black);
     outline-offset: 2px;
+    border-radius: var(--border-radius-base);
 }
 
 html {

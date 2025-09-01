@@ -63,9 +63,17 @@ export const LanguageSelector = () => {
                             role="option"
                             aria-selected={language === lang.code}
                             className={styles.option}
+                            tabIndex={0}
                             onClick={() => {
                                 setLanguage(lang.code as 'pt' | 'en' | 'es');
                                 setIsOpen(false);
+                            }}
+                            onKeyDown={(e) => {
+                              if (e.key === 'Enter' || e.key === ' ') {
+                                e.preventDefault();
+                                setLanguage(lang.code as 'pt' | 'en' | 'es');
+                                setIsOpen(false);
+                              }
                             }}
                         >
                             {lang.label}

@@ -21,7 +21,7 @@ export const Header = () => {
                 className={styles.logoLink}
                 aria-label={content.accessibility.inicio}
             >
-                <h1 className={styles.logo}>
+              <h1 className={styles.logo}>
                   <span>CAIO</span>
                   <span>FOCHETTO</span>
                 </h1>

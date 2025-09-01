@@ -9,10 +9,11 @@
     all: unset;
     display: flex;
     cursor: pointer;
+    border-radius: var(--border-radius-base);
 }
 
 .tagWrapper:focus-visible {
-    outline: 2px solid var(--lime-green);
+    outline: 2px solid var(--black);
     outline-offset: 0.2rem;
 }
 
