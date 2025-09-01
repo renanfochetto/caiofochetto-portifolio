@@ -69,6 +69,14 @@ p {
     margin-bottom: 0.5rem;
 }
 
+.icons a {
+    box-shadow: var(--shadow-regular);
+}
+
+.icons a:hover {
+    box-shadow: var(--shadow-regular-hover);
+}
+
 /* Media Queries Landscape */
 @media (width <= 1300px) {
     .socials {

@@ -23,7 +23,43 @@ header {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    width: fit-content;
 }
+
+.logoWrapper {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border-radius: var(--border-radius-base);
+    transition: transform 0.3s;
+}
+
+.logoWrapper span:first-child {
+    padding: 0.2rem 0.8rem 0;
+    border-radius: var(--border-radius-small) var(--border-radius-small) 0 0;
+    background: var(--lime-green);
+}
+
+.logoWrapper span:last-child {
+    margin-top: -0.4rem;
+    padding: 0.2rem 0.8rem;
+    border-radius: 0 var(--border-radius-small) var(--border-radius-small) var(--border-radius-small);
+    background: var(--lime-green);
+}
+
+.logoWrapper:hover {
+    outline: 2px solid var(--black);
+    outline-offset: 0.2rem;
+    transform: scale(1.03);
+    will-change: transform;
+    text-rendering: optimizeLegibility;
+}
+
+.logoWrapper:active {
+    transform: scale(0.95);
+    transition: transform 0.2s;
+}
+
 
 .logoLink h1 span:first-child {
     display: inline-block;
@@ -68,14 +104,15 @@ ul {
     font-size: var(--font-size-sm);
     text-align: right;
     list-style: none;
+
 }
 
 nav li:nth-child(2) {
-    padding: 0.2rem 0;
+    padding-block: 0.3rem;
 }
 
 nav ul li a {
-    padding: 0.15rem 0.3rem;
+    padding: 0 0.3rem;
     background: var(--lime-green);
     border-radius: var(--border-radius-small);
 }
@@ -86,9 +123,8 @@ a {
 }
 
 .linksNav:hover {
-    text-decoration: underline;
-    text-decoration-thickness: 0.2rem;
-    text-underline-offset: 0.2rem;
+    outline: 2px solid var(--black);
+    outline-offset: 0.2rem;
 }
 
 .linksNav:focus-visible {
@@ -114,7 +150,7 @@ li:active {
     cursor: pointer;
 }
 
-.logoLink:hover {
+.logoLink h1:hover {
     transform: scale(1.03);
     transition: transform 0.3s;
     will-change: transform;
@@ -142,26 +178,11 @@ li:active {
         font-size: var(--font-size-base);
     }
 
-    nav li:nth-child(2) {
-        padding: 0.4rem 0;
-    }
-
-    .linksNav:hover {
-        text-decoration: underline;
-        text-decoration-thickness: 0.1rem;
-        text-underline-offset: 0.3rem;
-    }
 }
 
 @media (width <= 1000px) {
     header {
         padding: 0.7rem 6rem;
-    }
-}
-
-@media (width <= 900px) {
-    nav li:nth-child(2) {
-        padding: 0;
     }
 }
 
@@ -212,11 +233,6 @@ li:active {
         font-size: var(--font-size-xxs);
     }
 
-    .linksNav:hover {
-        text-decoration: underline;
-        text-decoration-thickness: 0.1rem;
-        text-underline-offset: 0.1rem;
-    }
 }
 
 /* Media Queries - Portrait */

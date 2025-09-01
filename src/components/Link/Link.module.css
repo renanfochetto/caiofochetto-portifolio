@@ -5,11 +5,9 @@
     padding: 0.15rem;
     background-color: var(--lime-green);
     border-radius: var(--border-radius-base);
-    box-shadow: var(--shadow-regular);
 }
 
 .links:hover {
-    box-shadow: var(--shadow-regular-hover);
     transform: scale(1.03);
     transition: transform 0.2s;
 }
