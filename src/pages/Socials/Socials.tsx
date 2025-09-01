@@ -82,17 +82,19 @@ export const Socials = () => {
 
     if (!content || !previewType) return null;
 
+    const { socials, accessibility } = content;
+
     return (
         <section
             id="social"
             className={styles.container}
-            aria-label={content.accessibility.socials}
+            aria-label={accessibility.socials}
         >
             <div className={styles.titleSection}>
-                <h3>{content?.socials?.pagina}</h3>
+                <h3>{socials.pagina}</h3>
             </div>
             <div className={styles.socialsGrid}>
-              {content.socials.items.map((item) => (
+              {socials.items.map((item) => (
                 <div key={item.id} className={styles.card}>
                   <div className={styles.header}>
                     <Link
