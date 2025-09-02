@@ -171,11 +171,21 @@ nav ul li a:active {
     header {
         padding: 0.5rem 4rem;
     }
+
+    .logoLink h1 span:last-child {
+        margin-top: -0.1rem;
+    }
+
+
+    nav li:nth-child(2) {
+        padding-block: 0.3rem;
+    }
+
 }
 
 @media (width <= 600px) {
     header {
-        padding: 0.5rem 2rem;
+        padding: 0.3rem 2rem;
     }
 
     ul {
@@ -189,17 +199,12 @@ nav ul li a:active {
 
 @media (width <= 500px) {
     header {
-        padding: 0.5rem 1.5rem;
+        padding: 0.3rem 1.5rem;
     }
 
     .logo {
         font-size: var(--font-size-xs);
     }
-
-    ul {
-        font-size: var(--font-size-xxs);
-    }
-
 }
 
 /* Media Queries - Portrait */

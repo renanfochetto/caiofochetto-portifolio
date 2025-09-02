@@ -90,6 +90,7 @@
     }
 
     .titleSection {
+        left: 1.5%;
         font-size: var(--font-size-xs);
     }
 
@@ -100,7 +101,6 @@
 
 @media (width <= 1000px) {
     .titleSection {
-        left: -1%;
         font-size: var(--font-size-xs);
     }
 
@@ -158,7 +158,7 @@
     }
 
     .titleSection {
-        left: -3%;
+        left: 0;
         font-size: var(--font-size-xxs);
     }
 
