@@ -2,6 +2,7 @@
     display: grid;
     gap: 1rem;
     height: auto;
+    min-width: 100vw;
     padding: 1rem 12.5rem 0;
 
     --column-width: 24rem;

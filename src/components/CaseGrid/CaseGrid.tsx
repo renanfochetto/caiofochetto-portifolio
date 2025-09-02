@@ -39,7 +39,7 @@ export const CaseGrid = () => {
 
     const numColumns = useMemo(() => {
         const divisor = getColumnDivisor();
-        return Math.max(2, Math.ceil(filteredCases.length / divisor));
+        return Math.ceil(filteredCases.length / divisor);
     }, [filteredCases]);
 
     if (!content?.cases) return null;
