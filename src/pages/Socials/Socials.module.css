@@ -38,14 +38,18 @@
     font-weight: var(--font-weight-bold);
     font-size: var(--font-size-base);
     transition: text-decoration-thickness 0.2s ease;
+    padding: 0 0.3rem;
+    border-radius: var(--border-radius-small);
 }
 
 .card span:hover {
-    text-decoration: underline;
-    text-underline-offset: 0.3rem;
-    text-decoration-thickness: 0.15rem;
+    background: var(--lime-green);
 }
 
+.header a:hover {
+    outline: 2px solid var(--black);
+    outline-offset: 0.2rem;
+}
 
 .linkSocial {
     display: flex;
