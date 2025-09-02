@@ -109,3 +109,24 @@
         top: 1rem;
     }
 }
+
+/*Media Queries - Portrait*/
+@media (width <= 600px) and (orientation: portrait) {
+    .options {
+        top: 1.5rem;
+    }
+}
+
+@media (width <= 400px) and (orientation: portrait) {
+    .selector {
+        font-size: var(--font-size-xxxl);
+    }
+
+    .option {
+        font-size: var(--font-size-xxxl);
+    }
+
+    .options {
+        top: 1.2rem;
+    }
+}

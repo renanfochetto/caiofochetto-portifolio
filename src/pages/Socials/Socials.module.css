@@ -247,7 +247,7 @@
     }
 
     .titleSection {
-        left: -3%;
+        left: -5.5%;
         font-size: var(--font-size-md);
     }
 
@@ -322,7 +322,7 @@
 
 @media (width <= 700px) and (orientation: portrait) {
     .titleSection {
-        left: -5%;
+        left: -9%;
     }
 
     .linkedinDesktop {
@@ -344,7 +344,7 @@
 
 @media (width <= 600px) and (orientation: portrait) {
     .titleSection {
-        left: -6.5%;
+        left: -10%;
         font-size: var(--font-size-xs);
     }
 
@@ -373,12 +373,15 @@
 
 @media (width <= 500px) and (orientation: portrait) {
     .titleSection {
-
         font-size: var(--font-size-base);
     }
 }
 
 @media (width <= 400px) and (orientation: portrait) {
+    .titleSection {
+        left: -12%;
+    }
+
     .socialsGrid {
         gap: 1rem;
         margin-bottom: 10rem;

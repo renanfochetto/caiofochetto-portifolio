@@ -222,6 +222,13 @@ nav ul li a:active {
     }
 }
 
+@media (width <= 800px) and (orientation: portrait) {
+    .logoLink h1 span:last-child {
+        margin-top: 0;
+    }
+
+}
+
 @media (width <= 600px) and (orientation: portrait) {
     header {
         padding: 1rem 3rem;
@@ -236,6 +243,12 @@ nav ul li a:active {
 
 @media (width <= 400px) and (orientation: portrait) {
     header {
+        gap: 0.8rem;
         padding: 1rem;
     }
+
+    ul {
+        font-size: var(--font-size-xxl);
+    }
+
 }

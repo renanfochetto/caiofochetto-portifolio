@@ -280,7 +280,7 @@
 }
 
 @media (width <= 800px) and (orientation: portrait) {
-    .modalHeader img:nth-child(2) {
+    .modalHeader img {
         display: none;
     }
 }
@@ -288,10 +288,6 @@
 @media (width <= 700px) and (orientation: portrait) {
     .modalHeader {
         padding-bottom: 1rem;
-    }
-
-    .modalHeader img {
-        display: none;
     }
 }
 

@@ -231,7 +231,7 @@
     }
 
     .titleSection {
-        left: -2.5%;
+        left: 1%;
         font-size: var(--font-size-sm);
     }
 
@@ -282,6 +282,10 @@
 }
 
 @media (width <= 400px) and (orientation: portrait) {
+    .titleSection {
+        left: -2.5%;
+    }
+
     .badgeGrid {
         padding: 1rem 4rem 1rem 8rem;
         gap: 4rem 7rem;

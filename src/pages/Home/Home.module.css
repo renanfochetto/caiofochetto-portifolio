@@ -260,10 +260,6 @@ p {
 }
 
 @media (width <= 400px) and (orientation: portrait) {
-    .intro {
-        margin-left: 2rem;
-    }
-
     .intro h2 {
         font-size: var(--font-size-md-plus);
     }
