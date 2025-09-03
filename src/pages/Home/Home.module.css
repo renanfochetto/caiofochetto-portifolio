@@ -60,9 +60,18 @@ p {
     width: 100%;
 }
 
+.lineBig {
+    transform-origin: left;
+}
+
+.lineSmall {
+    transform-origin: right;
+}
+
 .lineBig,
 .lineSmall {
     border-bottom: 1px solid var(--black);
+    transform: scaleX(0);
 }
 
 .icons {

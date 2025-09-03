@@ -14,9 +14,11 @@ header {
         rgb(255 255 255 / 40%),
         rgb(255 255 255 / 0%)
     );
-    border-bottom: 1px solid var(--black);
-    box-shadow: 0 10px 20px -10px rgb(0 0 0 / 30%);
-    backdrop-filter: blur(8px);
+    border-bottom-width: 0;
+    border-bottom-style: solid;
+    border-bottom-color: var(--black);
+    box-shadow: 0 0 0 rgb(0, 0, 0, 0);
+    backdrop-filter: blur(0px);
 }
 
 .logoLink h1 {
