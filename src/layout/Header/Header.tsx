@@ -31,16 +31,13 @@ export const Header = () => {
     if (nav) tl.from(nav, { x: 200, autoAlpha: 0, duration: 0.5 }, 'navStart');
     if (selector) tl.from(selector, { y: -50, autoAlpha: 0, scale: 0.95, duration: 0.5 }, 'navStart');
 
-    tl.fromTo(logo, {
-      filter: 'blur(10px)',
-      scale: 1.5,
-      autoAlpha: 0
-    }, {
-      filter: 'blur(0px)',
-      scale: 1,
-      autoAlpha: 1,
-      duration: 0.5,
-      ease: 'power3.out'
+    tl.from(logo, {
+      scale: 0.8,
+      rotation: -10,
+      autoAlpha: 0,
+      x: -200,
+      duration: 1.2,
+      ease: 'back.out(2)'
     });
 
     hasAnimated.current = true;

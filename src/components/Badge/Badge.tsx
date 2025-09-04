@@ -33,10 +33,12 @@ const Badge = ({
 
                  experiencia,
                  labels,
+                 className,
                  index,
                }: {
   experiencia: Experiencia;
   labels: BadgeLabels;
+  className?: string;
   index: number;
 }) => {
   const content = useLocalizedContent();
@@ -62,7 +64,7 @@ const Badge = ({
   return (
     <>
       <div
-        className={styles.badge}
+        className={`${styles.badge} ${className ?? ''}`}
         tabIndex={0}
         role="group"
         onClick={isTouch ? handleToggle : undefined}

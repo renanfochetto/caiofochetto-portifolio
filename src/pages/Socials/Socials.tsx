@@ -1,7 +1,8 @@
 import styles from './Socials.module.css';
-import { useLocalizedContent } from '../../hooks/useLocalizedContent.ts';
+import {useLocalizedContent} from '../../hooks/useLocalizedContent.ts';
 import Link from '../../components/Link/Link.tsx';
-import { useEffect, useState } from 'react';
+import {useEffect, useState, useCallback, useRef} from 'react';
+import gsap from 'gsap';
 
 
 const getPreviewSrc = (
@@ -40,87 +41,128 @@ const getImageClass = (
 
 
 const usePreviewType = () => {
-    const [previewType, setPreviewType] = useState<
-        'mobile' | 'desktop' | 'mixed' | null
-    >(null);
+  const [previewType, setPreviewType] = useState<
+    'mobile' | 'desktop' | 'mixed' | null
+  >(null);
 
-    useEffect(() => {
-        const calcType = () => {
-            const isPortrait = window.matchMedia(
-                '(orientation: portrait)',
-            ).matches;
-            const isSmallScreen =
-                window.matchMedia('(max-width: 500px)').matches;
-            const isLargeScreen = window.matchMedia(
-                '(min-width: 1800px)',
-            ).matches;
+  useEffect(() => {
+    const calcType = () => {
+      const isPortrait = window.matchMedia(
+        '(orientation: portrait)',
+      ).matches;
+      const isSmallScreen =
+        window.matchMedia('(max-width: 500px)').matches;
+      const isLargeScreen = window.matchMedia(
+        '(min-width: 1800px)',
+      ).matches;
 
-            if (isPortrait || isSmallScreen) return 'mobile';
-            if (isLargeScreen) return 'desktop';
-            return 'mixed';
-        };
+      if (isPortrait || isSmallScreen) return 'mobile';
+      if (isLargeScreen) return 'desktop';
+      return 'mixed';
+    };
 
-        setPreviewType(calcType());
+    setPreviewType(calcType());
 
-        // opcional: reagir a resize
-        const onResize = () => setPreviewType(calcType());
-        window.addEventListener('resize', onResize);
-        window.addEventListener('orientationchange', onResize);
+    // opcional: reagir a resize
+    const onResize = () => setPreviewType(calcType());
+    window.addEventListener('resize', onResize);
+    window.addEventListener('orientationchange', onResize);
 
-        return () => {
-            window.removeEventListener('resize', onResize);
-            window.removeEventListener('orientationchange', onResize);
-        };
-    }, []);
+    return () => {
+      window.removeEventListener('resize', onResize);
+      window.removeEventListener('orientationchange', onResize);
+    };
+  }, []);
 
-    return previewType;
+  return previewType;
 };
 
 export const Socials = () => {
-    const content = useLocalizedContent();
-    const previewType = usePreviewType();
+  const content = useLocalizedContent();
+  const previewType = usePreviewType();
 
-    if (!content || !previewType) return null;
+  const hasAnimatedTitle = useRef(false);
 
-    const { socials, accessibility } = content;
+  const setSocialsRef = useCallback((node: HTMLElement | null) => {
+    if (!node || hasAnimatedTitle.current) return;
 
-    return (
-        <section
-            id="social"
-            className={styles.container}
-            aria-label={accessibility.socials}
-        >
-            <div className={styles.titleSection}>
-                <h3>{socials.pagina}</h3>
+    const title = node.querySelector(`.${styles.titleSection}`) as HTMLElement;
+    const cards = node.querySelectorAll(`.${styles.card}`) as NodeListOf<HTMLElement>;
+
+    if (!title || cards.length === 0) return;
+
+    gsap.set(title, {x: -100, opacity: 0});
+    gsap.set(cards, {x: 100, autoAlpha: 0});
+
+    const observer = new IntersectionObserver(([entry]) => {
+
+      if (!entry.isIntersecting) return;
+
+      const tl = gsap.timeline({defaults: {ease: 'power3.out'}});
+
+      tl.to(title, {
+        x: 0,
+        opacity: 1,
+        duration: 1.2,
+      });
+
+      tl.to(cards, {
+        x: 0,
+        autoAlpha: 1,
+        duration: 1,
+        stagger: 0.3
+      }, '<0.3');
+
+      hasAnimatedTitle.current = true;
+      observer.disconnect();
+    }, {threshold: 0.3});
+
+    observer.observe(node);
+  }, []);
+
+
+  if (!content || !previewType) return null;
+
+  const {socials, accessibility} = content;
+
+  return (
+    <section
+      id="social"
+      className={styles.container}
+      aria-label={accessibility.socials}
+      ref={setSocialsRef}
+    >
+      <div className={styles.titleSection}>
+        <h3>{socials.pagina}</h3>
+      </div>
+      <div className={styles.socialsGrid}>
+        {socials.items.map((item) => (
+          <div key={item.id} className={styles.card}>
+            <div className={styles.header}>
+              <Link
+                className={styles.linkSocial}
+                href={item.href}
+                icon={item.icon}
+                alt={`Ícone de ${item.name}`}
+              >
+                <span>{item.name}</span>
+              </Link>
             </div>
-            <div className={styles.socialsGrid}>
-              {socials.items.map((item) => (
-                <div key={item.id} className={styles.card}>
-                  <div className={styles.header}>
-                    <Link
-                      className={styles.linkSocial}
-                      href={item.href}
-                      icon={item.icon}
-                      alt={`Ícone de ${item.name}`}
-                    >
-                      <span>{item.name}</span>
-                    </Link>
-                  </div>
-                  <a
-                    href={item.href}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className={styles.previewLink}
-                  >
-                    <img
-                      src={getPreviewSrc(item, previewType)}
-                      className={`${styles.previewImage} ${getImageClass(item.id, previewType)}`}
-                      alt={item.alt}
-                    />
-                  </a>
-                </div>
-              ))}
-            </div>
-        </section>
-    );
+            <a
+              href={item.href}
+              target="_blank"
+              rel="noopener noreferrer"
+              className={styles.previewLink}
+            >
+              <img
+                src={getPreviewSrc(item, previewType)}
+                className={`${styles.previewImage} ${getImageClass(item.id, previewType)}`}
+                alt={item.alt}
+              />
+            </a>
+          </div>
+        ))}
+      </div>
+    </section>
+  );
 };

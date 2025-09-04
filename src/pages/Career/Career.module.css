@@ -14,6 +14,8 @@
     margin-top: 5rem;
 }
 
+.badge {}
+
 .titleSection {
     position: absolute;
     top: 40%;
@@ -36,20 +38,33 @@
 }
 
 .timeline {
-    position: relative;
     display: grid;
     grid-column: 1 / -1;
     grid-template-columns: inherit;
+    position: relative;
 }
 
-.timeline::before {
+.verticalLine {
+    position: absolute;
+    top: -6.5rem;
+    left: 50%;
+    width: 2px;
+    height: 6.5rem;
+    background: var(--black);
+    transform: translateX(-50%);
+    z-index: 1;
+}
+
+.timelineLine {
+    grid-column: 1 / -1;
     position: absolute;
     top: 0;
-    right: 0;
-    left: 0;
+    right: 9.5rem;
+    left: 9.5rem;
     height: 2px;
     background: var(--black);
-    content: '';
+    transform-origin: right;
+    transform: scaleX(0);
 }
 
 .timelineYear {
@@ -62,19 +77,10 @@
     background-color: var(--lime-green);
     border-radius: var(--border-radius-base);
     place-self: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
 }
 
-.timelineYear::before {
-    position: absolute;
-    top: -6.5rem; /* deve bater com o padding-top do wrapper */
-    left: 50%;
-    z-index: 1; /* idem: mesmo valor do padding-top */
-    width: 2px;
-    height: 6.2rem;
-    background: var(--black);
-    transform: translateX(-50%);
-    content: '';
-}
 
 /* Media Queries - Landscape */
 @media (width <= 1300px) {
@@ -111,6 +117,12 @@
     .timelineYear {
         font-size: var(--font-size-xs);
     }
+
+    .timeline::before {
+        right: 8.5rem;
+        left: 8.5rem;
+    }
+
 }
 
 @media (width <= 900px) {
@@ -129,6 +141,11 @@
     .timelineYear::before {
         top: -10.5rem;
         height: 10rem;
+    }
+
+    .timeline::before {
+        right: 6.5rem;
+        left: 6.5rem;
     }
 }
 
@@ -150,6 +167,11 @@
     .badgeGrid {
         gap: 1rem 6rem;
     }
+
+    .timeline::before {
+        right: 6.25rem;
+        left: 6.25rem;
+    }
 }
 
 @media (width <= 600px) {
@@ -165,6 +187,12 @@
     .badgeGrid {
         padding: 2rem 12rem;
     }
+
+    .timeline::before {
+        right: 6rem;
+        left: 6rem;
+    }
+
 }
 
 @media (width <= 500px) {
@@ -186,6 +214,11 @@
 
     .timelineYear::before {
         top: -10.2rem;
+    }
+
+    .timeline::before {
+        right: 4.5rem;
+        left: 4.5rem;
     }
 }
 
@@ -216,6 +249,11 @@
     .timelineYear::before {
         top: -16rem;
         height: 15rem;
+    }
+
+    .timeline::before {
+        right: 10rem;
+        left: 10rem;
     }
 }
 
@@ -278,6 +316,11 @@
 
     .timelineYear::before {
         height: 15.5rem;
+    }
+
+    .timeline::before {
+        right: 7.5rem;
+        left: 7.5rem;
     }
 }
 
