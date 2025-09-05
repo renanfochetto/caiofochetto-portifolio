@@ -1,9 +1,9 @@
 import styles from './Cases.module.css';
-import { useLocalizedContent } from '../../hooks/useLocalizedContent.ts';
-import { CaseGrid } from '../../components/CaseGrid/CaseGrid.tsx';
-import { useRef, useCallback, useEffect } from 'react';
-import { gsap } from 'gsap';
-import { ScrollTrigger } from 'gsap/ScrollTrigger';
+import {useLocalizedContent} from '../../hooks/useLocalizedContent.ts';
+import {CaseGrid} from '../../components/CaseGrid/CaseGrid.tsx';
+import {useRef, useCallback, useEffect} from 'react';
+import {gsap} from 'gsap';
+import {ScrollTrigger} from 'gsap/ScrollTrigger';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -25,7 +25,7 @@ const Cases = () => {
         triggerRef.current.kill(true);
         triggerRef.current = null;
       }
-      gsap.set(grid, { x: 0 });
+      gsap.set(grid, {x: 0});
 
       const totalScroll = Math.max(0, grid.scrollWidth - window.innerWidth);
       if (totalScroll > 0) {
@@ -71,7 +71,7 @@ const Cases = () => {
     const title = node.querySelector(`.${styles.titleSection}`) as HTMLElement;
     if (!title) return;
 
-    gsap.set(title, { x: -100, opacity: 0 });
+    gsap.set(title, {x: -100, opacity: 0});
 
     const observer = new IntersectionObserver(([entry]) => {
       if (!entry.isIntersecting) return;
@@ -86,13 +86,13 @@ const Cases = () => {
           observer.disconnect();
         }
       });
-    }, { threshold: 0.3 });
+    }, {threshold: 0.3});
 
     observer.observe(node);
   }, []);
 
   if (!content) return null;
-  const { pagina } = content.cases;
+  const {pagina} = content.cases;
 
   return (
     <section
@@ -105,11 +105,11 @@ const Cases = () => {
       aria-label={content.accessibility.cases}
     >
       <div className={styles.container} ref={containerRef}>
-        <div className={styles.titleSection}>
-          <h3>{pagina}</h3>
-        </div>
         <div className={styles.casesGrid} ref={gridRef}>
-          <CaseGrid />
+          <div className={styles.titleSection}>
+            <h3>{pagina}</h3>
+          </div>
+          <CaseGrid/>
         </div>
       </div>
     </section>

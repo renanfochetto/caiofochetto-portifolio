@@ -9,9 +9,10 @@ type CaseCardProps = {
     projeto: string;
     tagKeys: string[];
     onClick: () => void;
+    className?: string;
 };
 
-const CaseCard = ({ image, alt, projeto, tagKeys, onClick }: CaseCardProps) => {
+const CaseCard = ({ image, alt, projeto, tagKeys, onClick, className }: CaseCardProps) => {
     const content = useLocalizedContent();
     const tagData = content?.cases?.tags;
 
@@ -22,7 +23,7 @@ const CaseCard = ({ image, alt, projeto, tagKeys, onClick }: CaseCardProps) => {
 
     return (
         <div
-          className={styles.caseCard}
+          className={`${styles.caseCard} ${className ?? ''}`}
             onClick={onClick}
             onKeyDown={(e) => {
               if (e.key === 'Enter' || e.key === ' ') {
@@ -33,6 +34,7 @@ const CaseCard = ({ image, alt, projeto, tagKeys, onClick }: CaseCardProps) => {
             tabIndex={0}
             role="button"
             aria-label={ariaLabel}
+
         >
             <img
                 src={image}
