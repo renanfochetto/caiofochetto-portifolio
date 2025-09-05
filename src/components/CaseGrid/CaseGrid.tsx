@@ -1,11 +1,14 @@
 import styles from './CaseGrid.module.css';
 import CaseCard from '../CaseCard/CaseCard.tsx';
 import TagFilter from '../TagFilter/TagFilter.tsx';
-import { useState, useMemo } from 'react';
+import { useState, useMemo, useCallback, useRef } from 'react';
 import { CaseModal } from '../CaseModal/CaseModal.tsx';
 import { buildAssetPath } from '../../utils/path';
 import type { CaseData } from '../../types';
 import { useLocalizedContent } from '../../hooks/useLocalizedContent.ts';
+import gsap from 'gsap';
+import tagStyles from '../Tag/Tag.module.css';
+
 
 export const CaseGrid = () => {
     const content = useLocalizedContent();
@@ -13,6 +16,8 @@ export const CaseGrid = () => {
     const [selectedCase, setSelectedCase] = useState<CaseData | null>(null);
 
     const cases = content?.cases?.projetos || [];
+
+    const hasAnimatedTags = useRef(false);
 
     const getColumnDivisor = () => {
         const width = window.innerWidth;
@@ -42,12 +47,41 @@ export const CaseGrid = () => {
         return Math.ceil(filteredCases.length / divisor);
     }, [filteredCases]);
 
-    if (!content?.cases) return null;
+  const setTagFilterRef = useCallback((node: HTMLElement | null) => {
+    if (!node || hasAnimatedTags.current) return;
+
+    const tags = node.querySelectorAll(`.${tagStyles.tag}`) as NodeListOf<HTMLElement>;
+    if (tags.length === 0) return;
+
+    gsap.set(tags, { x: 100, opacity: 0 });
+
+    const observer = new IntersectionObserver(([entry]) => {
+      if (!entry.isIntersecting) return;
+
+      gsap.to(tags, {
+        x: 0,
+        opacity: 1,
+        duration: 1.2,
+        ease: 'power3.out',
+        stagger: 0.15,
+      });
+
+      hasAnimatedTags.current = true;
+      observer.disconnect();
+    }, { threshold: 0.1 });
+
+    observer.observe(node);
+  }, []);
+
+  if (!content?.cases) return null;
 
     return (
         <>
             <div className={styles.tagFilterContainer}>
-                <TagFilter onFilterChange={setActiveTags} />
+                <TagFilter
+                  onFilterChange={setActiveTags}
+                  containerRef={setTagFilterRef}
+                />
             </div>
             <div
                 className={styles.caseGrid}

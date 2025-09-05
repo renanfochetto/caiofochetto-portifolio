@@ -22,7 +22,7 @@ const CaseCard = ({ image, alt, projeto, tagKeys, onClick }: CaseCardProps) => {
 
     return (
         <div
-            className={styles.caseCard}
+          className={styles.caseCard}
             onClick={onClick}
             onKeyDown={(e) => {
               if (e.key === 'Enter' || e.key === ' ') {

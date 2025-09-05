@@ -14,9 +14,10 @@ type TagsMap = {
 
 type TagFilterProps = {
     onFilterChange: (selectedTags: string[]) => void;
+    containerRef?: (node: HTMLElement | null) => void;
 };
 
-const TagFilter = ({ onFilterChange }: TagFilterProps) => {
+const TagFilter = ({ onFilterChange, containerRef }: TagFilterProps) => {
     const content = useLocalizedContent();
     const [selectedTags, setSelectedTags] = useState<string[]>([]);
 
@@ -34,7 +35,7 @@ const TagFilter = ({ onFilterChange }: TagFilterProps) => {
     };
 
     return (
-        <div className={styles.tagFilter}>
+        <div className={styles.tagFilter} ref={containerRef}>
             {Object.entries(tags).map(([key, { label }]) => (
                 <button
                     key={key}

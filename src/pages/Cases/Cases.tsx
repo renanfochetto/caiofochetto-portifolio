@@ -1,7 +1,7 @@
 import styles from './Cases.module.css';
 import { useLocalizedContent } from '../../hooks/useLocalizedContent.ts';
 import {CaseGrid} from '../../components/CaseGrid/CaseGrid.tsx';
-import { useEffect, useRef } from 'react';
+import { useEffect, useRef, useCallback } from 'react';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
@@ -13,6 +13,10 @@ const Cases = () => {
     const wrapperRef = useRef<HTMLElement | null>(null);
     const containerRef = useRef<HTMLDivElement | null>(null);
     const triggerRef = useRef<ScrollTrigger | null>(null);
+
+    const hasAnimatedTitle = useRef(false);
+
+  const hasAnimatedCards = useRef(false);
 
     useEffect(() => {
         const wrapper = wrapperRef.current;
@@ -110,6 +114,58 @@ const Cases = () => {
         };
     }, [content]);
 
+  const setCasesRef = useCallback((node: HTMLElement | null) => {
+    if (!node || hasAnimatedTitle.current) return;
+
+    const title = node.querySelector(`.${styles.titleSection}`) as HTMLElement;
+    if (title) {
+      gsap.set(title, { x: -100, opacity: 0 });
+
+      const observer = new IntersectionObserver(([entry]) => {
+        if (!entry.isIntersecting) return;
+
+        gsap.to(title, {
+          x: 0,
+          opacity: 1,
+          duration: 1.2,
+          ease: 'power3.out',
+          onComplete: () => {
+            hasAnimatedTitle.current = true;
+            observer.disconnect();
+          }
+        });
+      }, { threshold: 0.3 });
+
+      observer.observe(node);
+    }
+
+    // Animação dos cards
+    requestAnimationFrame(() => {
+      const cards = document.querySelectorAll('.case-card-animation') as NodeListOf<HTMLElement>;
+      if (cards.length === 0) return;
+
+      gsap.set(cards, { scale: 0.8, y: 50, opacity: 0 });
+
+      const observer = new IntersectionObserver(([entry]) => {
+        if (!entry.isIntersecting) return;
+
+        gsap.to(cards, {
+          scale: 1,
+          y: 0,
+          opacity: 1,
+          duration: 1,
+          ease: 'back.out(1.7)',
+          stagger: 0.15,
+        });
+
+        hasAnimatedCards.current = true;
+        observer.disconnect();
+      }, { threshold: 0.3 });
+
+      observer.observe(cards[0]);
+    });
+  }, []);
+
     if (!content) return null;
 
     const { pagina } = content.cases;
@@ -118,7 +174,10 @@ const Cases = () => {
         <section
             id="cases"
             className={styles.scrollWrapper}
-            ref={wrapperRef}
+            ref={(el) => {
+              wrapperRef.current = el;
+              setCasesRef(el);
+            }}
             aria-label={content.accessibility.cases}
         >
             <div
@@ -129,7 +188,9 @@ const Cases = () => {
                     <h3>{pagina}</h3>
                 </div>
                 <div className={styles.casesGrid}>
-                    <CaseGrid />
+                    <CaseGrid
+                      cardClassName="case-card-animation"
+                    />
                 </div>
             </div>
         </section>
