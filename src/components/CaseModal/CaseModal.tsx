@@ -9,7 +9,7 @@ import PhotoGallery from './Blocks/PhotoGallery/PhotoGallery.tsx';
 import Tag from '../Tag/Tag.tsx';
 import {createPortal} from 'react-dom';
 import {useLocalizedContent} from '../../hooks/useLocalizedContent.ts';
-import FocusTrap from 'focus-trap-react';
+import { FocusTrap } from 'focus-trap-react';
 import gsap from 'gsap';
 
 export type CaseModalProps = {
@@ -46,10 +46,9 @@ export const CaseModal = ({caseData, tagData, onClose}: CaseModalProps) => {
   useEffect(() => {
     const waitForRef = () => {
       if (modalRef.current && !isClosing) {
-        console.log('[Modal] Iniciando animação de entrada');
         gsap.fromTo(modalRef.current,
           { opacity: 0, y: 50 },
-          { opacity: 1, y: 0, duration: 2, ease: 'power3.out' }
+          { opacity: 1, y: 0, duration: 0.8, ease: 'power3.out' }
         );
       } else {
         requestAnimationFrame(waitForRef);
@@ -60,21 +59,17 @@ export const CaseModal = ({caseData, tagData, onClose}: CaseModalProps) => {
   }, [isClosing]);
 
   const handleClose = () => {
-    console.log('[Modal] handleClose chamado');
     if (!modalRef.current) {
-      console.warn('[Modal] modalRef está null no fechamento');
       return;
     }
 
     setIsClosing(true);
-    console.log('[Modal] Iniciando animação de saída');
     gsap.to(modalRef.current, {
       opacity: 0,
       y: 50,
       duration: 0.5,
       ease: 'power3.in',
       onComplete: () => {
-        console.log('[Modal] Animação de saída concluída');
         onClose();
       },
     });
@@ -139,8 +134,6 @@ export const CaseModal = ({caseData, tagData, onClose}: CaseModalProps) => {
           escapeDeactivates: true,
           allowOutsideClick: true,
           returnFocusOnDeactivate: true,
-          initialFocus: () => closeButtonRef.current || modalRef.current!,
-          fallbackFocus: () => modalRef.current!,
         }}
       >
         <div>
@@ -168,10 +161,7 @@ export const CaseModal = ({caseData, tagData, onClose}: CaseModalProps) => {
           role="dialog"
           aria-modal="true"
           aria-labelledby={`modal-title-${nome}`}
-          ref={(el) => {
-            modalRef.current = el;
-            console.log('[Modal] modalRef atribuído:', el);
-          }}
+          ref={(el) => {modalRef.current = el;}}
           className={styles.modal}
           tabIndex={-1}
           onKeyDown={(e) => { if (e.key === 'Escape') { e.stopPropagation(); handleClose(); } }}
