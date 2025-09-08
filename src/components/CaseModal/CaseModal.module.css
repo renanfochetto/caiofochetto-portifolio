@@ -45,8 +45,8 @@
 }
 
 .closeButton svg {
-    width: 2rem;
-    height: 2rem;
+    width: 3rem;
+    height: 3rem;
     fill: var(--pink);
 }
 
@@ -139,6 +139,7 @@
     height: 100vh;
     background: rgb(0 0 0 / 60%);
     inset: 0;
+    transition: opacity 0.4s ease;
 }
 
 /* Media Queries - Landscape */

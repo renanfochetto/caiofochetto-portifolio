@@ -32,12 +32,10 @@ export const Header = () => {
     if (selector) tl.from(selector, { y: -50, autoAlpha: 0, scale: 0.95, duration: 0.5 }, 'navStart');
 
     tl.from(logo, {
-      scale: 0.8,
-      rotation: -10,
-      autoAlpha: 0,
-      x: -200,
+      y: -150,
+      opacity: 0,
       duration: 1.2,
-      ease: 'back.out(2)'
+      ease: 'bounce.out'
     });
 
     hasAnimated.current = true;

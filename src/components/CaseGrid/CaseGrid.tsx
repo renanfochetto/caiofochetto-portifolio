@@ -78,9 +78,9 @@ export const CaseGrid = () => {
       gsap.to(tags, {
         x: 0,
         opacity: 1,
-        duration: 1.2,
+        duration: 0.5,
         ease: 'power3.out',
-        stagger: 0.15,
+        stagger: 0.1,
       });
 
       hasAnimatedTags.current = true;

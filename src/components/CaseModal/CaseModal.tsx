@@ -26,6 +26,8 @@ export const CaseModal = ({caseData, tagData, onClose}: CaseModalProps) => {
 
   const closeButtonRef = useRef<HTMLButtonElement>(null);
 
+  const overlayRef = useRef<HTMLDivElement>(null);
+
   // ESC para fechar
   useEffect(() => {
     const handleEsc = (e: KeyboardEvent) => {
@@ -48,7 +50,7 @@ export const CaseModal = ({caseData, tagData, onClose}: CaseModalProps) => {
       if (modalRef.current && !isClosing) {
         gsap.fromTo(modalRef.current,
           { opacity: 0, y: 50 },
-          { opacity: 1, y: 0, duration: 0.8, ease: 'power3.out' }
+          { opacity: 1, y: 0, duration: 0.6, ease: 'power3.out' }
         );
       } else {
         requestAnimationFrame(waitForRef);
@@ -59,20 +61,28 @@ export const CaseModal = ({caseData, tagData, onClose}: CaseModalProps) => {
   }, [isClosing]);
 
   const handleClose = () => {
-    if (!modalRef.current) {
-      return;
-    }
+    if (!modalRef.current || !overlayRef.current) return;
 
     setIsClosing(true);
-    gsap.to(modalRef.current, {
-      opacity: 0,
-      y: 50,
-      duration: 0.5,
-      ease: 'power3.in',
+
+    const tl = gsap.timeline({
       onComplete: () => {
         onClose();
       },
     });
+
+    tl.to(modalRef.current, {
+      opacity: 0,
+      y: 50,
+      duration: 0.6,
+      ease: 'power3.in',
+    });
+
+    tl.to(overlayRef.current, {
+      opacity: 0,
+      duration: 0.4,
+      ease: 'power1.out',
+    }, '-=0.3'); // sobrepõe um pouco com a animação do modal
   };
 
   if (!caseData || !content?.cases?.modalFooter) return null;
@@ -127,6 +137,7 @@ export const CaseModal = ({caseData, tagData, onClose}: CaseModalProps) => {
       className={styles.modalOverlay}
       role="presentation"
       onClick={handleClose}
+      ref={overlayRef}
     >
       <FocusTrap
         focusTrapOptions={{

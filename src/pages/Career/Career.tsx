@@ -114,7 +114,7 @@ const Career = () => {
 
     if (badges.length === 0 || lines.length === 0 || years.length === 0 || !timelineLine) return;
 
-    gsap.set(badges, { x: 200, rotate: -15 });
+    gsap.set(badges, { x: 200, opacity: 0 });
     gsap.set(lines, { height: 0 });
     gsap.set(years, { opacity: 0 });
     gsap.set(timelineLine, { scaleX: 0 });
@@ -131,10 +131,10 @@ const Career = () => {
 
       tl.to(badges, {
         x: 0,
-        rotate: 0,
-        duration: 0.7,
-        ease: 'elastic.out(0.9)',
-        stagger: 0.1
+        opacity: 1,
+        duration: 0.8,
+        ease: 'elastic.out(0.5)',
+        stagger: 0.2
       });
 
       tl.to(years, {

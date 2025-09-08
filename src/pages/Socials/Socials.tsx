@@ -92,7 +92,7 @@ export const Socials = () => {
     if (!title || cards.length === 0) return;
 
     gsap.set(title, {x: -100, opacity: 0});
-    gsap.set(cards, {x: 100, autoAlpha: 0});
+    gsap.set(cards, {x: 50, autoAlpha: 0});
 
     const observer = new IntersectionObserver(([entry]) => {
 
@@ -109,8 +109,8 @@ export const Socials = () => {
       tl.to(cards, {
         x: 0,
         autoAlpha: 1,
-        duration: 1,
-        stagger: 0.3
+        duration: 0.8,
+        stagger: 0.2
       }, '<0.3');
 
       hasAnimatedTitle.current = true;
