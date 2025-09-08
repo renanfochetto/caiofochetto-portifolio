@@ -30,6 +30,11 @@
     transition: transform 0.1s;
 }
 
+.closeButton:focus-visible {
+    outline: 2px solid var(--pink);
+    outline-offset: 2px;
+}
+
 .closeButton:active {
     transform: scale(0.9);
     transition: transform 0.1s;
