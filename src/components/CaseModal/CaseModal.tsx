@@ -1,6 +1,6 @@
 import styles from './CaseModal.module.css';
 import type {CaseData, CaseBlock} from '../../types';
-import {useRef, useEffect} from 'react';
+import {useRef, useEffect, useState} from 'react';
 import {buildAssetPath} from '../../utils/path.ts';
 import QuoteBlock from './Blocks/QuoteBlock/QuoteBlock.tsx';
 import TextBlock from './Blocks/TextBlock/TextBlock.tsx';
@@ -9,7 +9,8 @@ import PhotoGallery from './Blocks/PhotoGallery/PhotoGallery.tsx';
 import Tag from '../Tag/Tag.tsx';
 import {createPortal} from 'react-dom';
 import {useLocalizedContent} from '../../hooks/useLocalizedContent.ts';
-import { FocusTrap } from 'focus-trap-react';
+import FocusTrap from 'focus-trap-react';
+import gsap from 'gsap';
 
 export type CaseModalProps = {
   caseData: CaseData | null;
@@ -21,12 +22,14 @@ export const CaseModal = ({caseData, tagData, onClose}: CaseModalProps) => {
   const content = useLocalizedContent();
   const modalRef = useRef<HTMLDivElement>(null);
 
+  const [isClosing, setIsClosing] = useState(false);
+
   const closeButtonRef = useRef<HTMLButtonElement>(null);
 
   // ESC para fechar
   useEffect(() => {
     const handleEsc = (e: KeyboardEvent) => {
-      if (e.key === 'Escape') onClose();
+      if (e.key === 'Escape') handleClose();
     };
     window.addEventListener('keydown', handleEsc);
     return () => window.removeEventListener('keydown', handleEsc);
@@ -39,6 +42,43 @@ export const CaseModal = ({caseData, tagData, onClose}: CaseModalProps) => {
       document.body.style.overflow = '';
     };
   }, []);
+
+  useEffect(() => {
+    const waitForRef = () => {
+      if (modalRef.current && !isClosing) {
+        console.log('[Modal] Iniciando animação de entrada');
+        gsap.fromTo(modalRef.current,
+          { opacity: 0, y: 50 },
+          { opacity: 1, y: 0, duration: 2, ease: 'power3.out' }
+        );
+      } else {
+        requestAnimationFrame(waitForRef);
+      }
+    };
+
+    waitForRef();
+  }, [isClosing]);
+
+  const handleClose = () => {
+    console.log('[Modal] handleClose chamado');
+    if (!modalRef.current) {
+      console.warn('[Modal] modalRef está null no fechamento');
+      return;
+    }
+
+    setIsClosing(true);
+    console.log('[Modal] Iniciando animação de saída');
+    gsap.to(modalRef.current, {
+      opacity: 0,
+      y: 50,
+      duration: 0.5,
+      ease: 'power3.in',
+      onComplete: () => {
+        console.log('[Modal] Animação de saída concluída');
+        onClose();
+      },
+    });
+  };
 
   if (!caseData || !content?.cases?.modalFooter) return null;
   const modalFooter = content.cases.modalFooter;
@@ -91,7 +131,7 @@ export const CaseModal = ({caseData, tagData, onClose}: CaseModalProps) => {
     <div
       className={styles.modalOverlay}
       role="presentation"
-      onClick={onClose}
+      onClick={handleClose}
     >
       <FocusTrap
         focusTrapOptions={{
@@ -99,38 +139,44 @@ export const CaseModal = ({caseData, tagData, onClose}: CaseModalProps) => {
           escapeDeactivates: true,
           allowOutsideClick: true,
           returnFocusOnDeactivate: true,
+          initialFocus: () => closeButtonRef.current || modalRef.current!,
+          fallbackFocus: () => modalRef.current!,
         }}
       >
+        <div>
+        {/* Botão de fechar no overlay (fora do conteúdo do modal) */}
+        <button
+          tabIndex={0}
+          ref={closeButtonRef}
+          autoFocus
+          type="button"
+          className={styles.closeButton}
+          onClick={(e) => { e.stopPropagation(); handleClose(); }}
+          aria-label={content.accessibility.botaoFechar}
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 72 72"
+            width="64px"
+            height="64px"
+          >
+            <path
+              d="M19 15C17.977 15 16.951875 15.390875 16.171875 16.171875C14.609875 17.733875 14.609875 20.266125 16.171875 21.828125L30.34375 36L16.171875 50.171875C14.609875 51.733875 14.609875 54.266125 16.171875 55.828125C16.951875 56.608125 17.977 57 19 57C20.023 57 21.048125 56.609125 21.828125 55.828125L36 41.65625L50.171875 55.828125C51.731875 57.390125 54.267125 57.390125 55.828125 55.828125C57.391125 54.265125 57.391125 51.734875 55.828125 50.171875L41.65625 36L55.828125 21.828125C57.390125 20.266125 57.390125 17.733875 55.828125 16.171875C54.268125 14.610875 51.731875 14.609875 50.171875 16.171875L36 30.34375L21.828125 16.171875C21.048125 15.391875 20.023 15 19 15z"/>
+          </svg>
+        </button>
         <div
           role="dialog"
           aria-modal="true"
           aria-labelledby={`modal-title-${nome}`}
-          ref={modalRef}
+          ref={(el) => {
+            modalRef.current = el;
+            console.log('[Modal] modalRef atribuído:', el);
+          }}
           className={styles.modal}
           tabIndex={-1}
-          onKeyDown={(e) => { if (e.key === 'Escape') { e.stopPropagation(); onClose(); } }}
+          onKeyDown={(e) => { if (e.key === 'Escape') { e.stopPropagation(); handleClose(); } }}
           onClick={(e) => e.stopPropagation()} // impede fechar ao clicar dentro
         >
-          {/* Botão de fechar */}
-          <button
-            tabIndex={0}
-            ref={closeButtonRef}
-            autoFocus
-            type="button"
-            className={styles.closeButton}
-            onClick={onClose}
-            aria-label={content.accessibility.botaoFechar}
-          >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 72 72"
-              width="64px"
-              height="64px"
-            >
-              <path
-                d="M19 15C17.977 15 16.951875 15.390875 16.171875 16.171875C14.609875 17.733875 14.609875 20.266125 16.171875 21.828125L30.34375 36L16.171875 50.171875C14.609875 51.733875 14.609875 54.266125 16.171875 55.828125C16.951875 56.608125 17.977 57 19 57C20.023 57 21.048125 56.609125 21.828125 55.828125L36 41.65625L50.171875 55.828125C51.731875 57.390125 54.267125 57.390125 55.828125 55.828125C57.391125 54.265125 57.391125 51.734875 55.828125 50.171875L41.65625 36L55.828125 21.828125C57.390125 20.266125 57.390125 17.733875 55.828125 16.171875C54.268125 14.610875 51.731875 14.609875 50.171875 16.171875L36 30.34375L21.828125 16.171875C21.048125 15.391875 20.023 15 19 15z"/>
-            </svg>
-          </button>
 
           {/* Header */}
           <div className={styles.modalHeader}>
@@ -193,6 +239,7 @@ export const CaseModal = ({caseData, tagData, onClose}: CaseModalProps) => {
                             </span>
             </div>
           </div>
+        </div>
         </div>
       </FocusTrap>
     </div>,

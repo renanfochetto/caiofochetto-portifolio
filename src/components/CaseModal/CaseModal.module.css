@@ -1,12 +1,16 @@
 .modal {
     z-index: 1000;
+    position: relative;
     width: 80%;
     max-height: 80vh;
-    padding: 2rem;
+    padding: 3rem 2rem 2rem;
     overflow-y: auto;
     background-color: var(--white);
     border-radius: 8px;
     box-shadow: 0 0 20px rgb(0 0 0 / 30%);
+    opacity: 0;
+    transform: translateY(50px);
+    margin: 0 auto;
 }
 
 .modal img {
@@ -16,9 +20,9 @@
 }
 
 .closeButton {
-    position: absolute;
-    top: 1rem;
-    right: 1rem;
+    position: fixed;
+    top: 0.2rem;
+    right: 0.2rem;
     z-index: 1001;
     background: none;
     border: none;
@@ -41,9 +45,9 @@
 }
 
 .closeButton svg {
-    width: 3rem;
-    height: 3rem;
-    fill: var(--white);
+    width: 2rem;
+    height: 2rem;
+    fill: var(--pink);
 }
 
 .closeButton svg:hover {
