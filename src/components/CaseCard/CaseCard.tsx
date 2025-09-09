@@ -39,6 +39,7 @@ const CaseCard = ({ image, alt, projeto, tagKeys, onClick, className }: CaseCard
             <img
                 src={image}
                 alt={alt}
+                loading="lazy"
             />
             <div className={styles.tagList}>
                 {tagKeys.map((key, index) => {

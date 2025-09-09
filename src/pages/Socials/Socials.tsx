@@ -158,6 +158,7 @@ export const Socials = () => {
                 src={getPreviewSrc(item, previewType)}
                 className={`${styles.previewImage} ${getImageClass(item.id, previewType)}`}
                 alt={item.alt}
+                loading="lazy"
               />
             </a>
           </div>

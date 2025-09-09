@@ -207,6 +207,7 @@ export const CaseModal = ({caseData, tagData, onClose}: CaseModalProps) => {
                   alt=""
                   aria-hidden="true"
                   className={styles.logo}
+                  loading="lazy"
                 />
               ))}
             </div>

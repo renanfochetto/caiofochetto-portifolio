@@ -88,6 +88,7 @@ const Badge = ({
               src={experiencia.logo}
               alt={`${experiencia.empresa} Logo`}
               style={{border: `2px solid ${experiencia.corTexto}`}}
+              loading="lazy"
             />
             <h3>{experiencia.empresa}</h3>
             <p>{experiencia.cargo}</p>
