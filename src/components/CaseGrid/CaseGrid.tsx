@@ -157,7 +157,6 @@ export const CaseGrid = () => {
       <div
         className={styles.caseGrid}
         aria-label={content.accessibility.filter}
-        role="list"
         style={{
           gridTemplateColumns: `repeat(${numColumns}, var(--column-width))`,
         }}
