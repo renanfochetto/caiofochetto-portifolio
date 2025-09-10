@@ -26,8 +26,7 @@ const VideoGallery = ({ videos, layout, description }: VideoGalleryProps) => {
                         className={styles.videoWrapper}
                     >
                         <iframe
-                            src={url.replace('watch?v=', 'embed/')}
-                            title={`Vídeo ${i + 1}`}
+                          src={url.replace('watch?v=', 'embed/').replace('youtube.com', 'youtube-nocookie.com')}                            title={`Vídeo ${i + 1}`}
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                             allowFullScreen
                             className={styles.video}
